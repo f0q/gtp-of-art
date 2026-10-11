@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "6B1F7C2E-2D0A-4E7B-9C51-0A1B2C3D4E02",
+      "name" : "Default",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "language" : "en",
+    "region" : "US",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ArtPrice.xcodeproj",
+      "identifier" : "CED6F5B37799503BE541E8E7",
+      "name" : "ArtPrice"
+    },
+    "testTimeoutsEnabled" : true,
+    "defaultTestExecutionTimeAllowance" : 300
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:ArtPrice.xcodeproj",
+        "identifier" : "BCF578C361BF09DAD64F8D70",
+        "name" : "ArtPriceUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

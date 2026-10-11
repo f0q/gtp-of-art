@@ -1,0 +1,146 @@
+# XcodeGen spec (plan Part D1). `make project` regenerates ArtPrice.xcodeproj (gitignored).
+name: ArtPrice
+
+options:
+  bundleIdPrefix: com.artprice
+  deploymentTarget:
+    iOS: "18.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "18.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    SUPPORTS_MACCATALYST: NO
+    SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+    SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    SWIFT_APPROACHABLE_CONCURRENCY: YES
+    SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY: YES
+    DEAD_CODE_STRIPPING: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+
+packages:
+  ArtCore:
+    path: Packages/ArtCore
+  ArtData:
+    path: Packages/ArtData
+  ArtDesign:
+    path: Packages/ArtDesign
+  SnapshotTesting:
+    url: https://github.com/pointfreeco/swift-snapshot-testing
+    from: "1.19.0"
+
+targets:
+  ArtPrice:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes:
+          - "**/*.md"
+          - "Support/Info.plist"
+      - path: Resources/dataset.json
+        buildPhase: resources
+      - path: Resources/taxonomy.json
+        buildPhase: resources
+      - path: Resources/taste_baseline.json
+        buildPhase: resources
+      - path: Resources/credits.json
+        buildPhase: resources
+      - path: Resources/onboarding.json
+        buildPhase: resources
+      # Folder reference: copied as Artworks/ so ImageLocator can address it.
+      - path: Resources/Artworks
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - package: ArtCore
+      - package: ArtData
+      - package: ArtDesign
+    info:
+      path: App/Support/Info.plist
+      properties:
+        CFBundleDisplayName: GTP of Art
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSRequiresIPhoneOS: true
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        CADisableMinimumFrameDurationOnPhone: true
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.artprice.app
+        PRODUCT_NAME: ArtPrice
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+        SWIFT_TREAT_WARNINGS_AS_ERRORS: NO
+
+  ArtPriceTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/ArtPriceTests
+        excludes:
+          - "**/__Snapshots__/**"
+    dependencies:
+      - target: ArtPrice
+      - package: ArtCore
+      - package: ArtData
+      - package: ArtDesign
+      - package: SnapshotTesting
+        product: SnapshotTesting
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.artprice.app.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/ArtPrice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtPrice
+        BUNDLE_LOADER: $(TEST_HOST)
+
+  ArtPriceUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: Tests/ArtPriceUITests
+    dependencies:
+      - target: ArtPrice
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.artprice.app.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: ArtPrice
+        SWIFT_DEFAULT_ACTOR_ISOLATION: nonisolated
+
+schemes:
+  ArtPrice:
+    build:
+      targets:
+        ArtPrice: all
+        ArtPriceTests: [test]
+        ArtPriceUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: false
+      testPlans:
+        - path: TestPlans/Unit.xctestplan
+          defaultPlan: true
+        - path: TestPlans/UI.xctestplan
+    profile:
+      config: Release
+    archive:
+      config: Release

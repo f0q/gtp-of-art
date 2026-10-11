@@ -1,0 +1,112 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "last_day" : "2026-10-11",
+        "streak" : 1
+      },
+      "input" : {
+        "streak" : 0,
+        "today" : "2026-10-11"
+      },
+      "name" : "first completion"
+    },
+    {
+      "expected" : {
+        "last_day" : "2026-10-11",
+        "streak" : 5
+      },
+      "input" : {
+        "last_day" : "2026-10-10",
+        "streak" : 4,
+        "today" : "2026-10-11"
+      },
+      "name" : "next day"
+    },
+    {
+      "expected" : {
+        "last_day" : "2026-10-11",
+        "streak" : 4
+      },
+      "input" : {
+        "last_day" : "2026-10-11",
+        "streak" : 4,
+        "today" : "2026-10-11"
+      },
+      "name" : "same day"
+    },
+    {
+      "expected" : {
+        "last_day" : "2026-10-12",
+        "streak" : 4
+      },
+      "input" : {
+        "last_day" : "2026-10-12",
+        "streak" : 4,
+        "today" : "2026-10-11"
+      },
+      "name" : "travel backwards"
+    },
+    {
+      "expected" : {
+        "last_day" : "2026-10-11",
+        "streak" : 1
+      },
+      "input" : {
+        "last_day" : "2026-10-09",
+        "streak" : 4,
+        "today" : "2026-10-11"
+      },
+      "name" : "missed one day"
+    },
+    {
+      "expected" : {
+        "last_day" : "2027-01-01",
+        "streak" : 10
+      },
+      "input" : {
+        "last_day" : "2026-12-31",
+        "streak" : 9,
+        "today" : "2027-01-01"
+      },
+      "name" : "year boundary"
+    },
+    {
+      "expected" : {
+        "last_day" : "2028-02-29",
+        "streak" : 3
+      },
+      "input" : {
+        "last_day" : "2028-02-28",
+        "streak" : 2,
+        "today" : "2028-02-29"
+      },
+      "name" : "leap day"
+    },
+    {
+      "expected" : {
+        "last_day" : "2027-03-01",
+        "streak" : 3
+      },
+      "input" : {
+        "last_day" : "2027-02-28",
+        "streak" : 2,
+        "today" : "2027-03-01"
+      },
+      "name" : "non-leap month end"
+    },
+    {
+      "expected" : {
+        "last_day" : "2026-10-11",
+        "streak" : 1
+      },
+      "input" : {
+        "last_day" : "2025-10-11",
+        "streak" : 30,
+        "today" : "2026-10-11"
+      },
+      "name" : "long gap"
+    }
+  ],
+  "description" : "Daily streak update: gap 1 → +1; gap ≤ 0 → unchanged; gap > 1 → 1; no previous → 1."
+}

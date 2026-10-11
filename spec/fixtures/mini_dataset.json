@@ -1,0 +1,3354 @@
+{
+  "artworks" : [
+    {
+      "artist" : {
+        "birth_year" : 1452,
+        "death_year" : 1519,
+        "display_name" : "Leonardo da Vinci",
+        "id" : "leonardo-da-vinci",
+        "nationality" : "Italian"
+      },
+      "category_id" : "renaissance_it",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1499–1510",
+        "end" : 1510,
+        "start" : 1499
+      },
+      "game_price_id" : "leonardo-salvator-mundi-p1",
+      "id" : "leonardo-salvator-mundi",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Salvator Mundi by Leonardo da Vinci",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#3A3027",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "leonardo-salvator-mundi_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#3A3027",
+            "#62584F",
+            "#8A8077",
+            "#1C1209",
+            "#000000"
+          ],
+          "sm" : {
+            "file" : "leonardo-salvator-mundi_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on walnut",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 45031250000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2017-11-15",
+          "game_eligible" : true,
+          "id" : "leonardo-salvator-mundi-p1",
+          "log10_usd_adjusted_milli" : 8771,
+          "log10_usd_nominal_milli" : 8654,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/leonardo-salvator-mundi"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 589909375,
+          "usd_nominal" : 450312500,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 10,
+        "brightness" : 25,
+        "complexity" : 35,
+        "era_bucket" : "pre1500",
+        "mood" : "serene",
+        "saturation" : 25,
+        "subject" : "religious_myth",
+        "warmth" : 55
+      },
+      "title" : "Salvator Mundi"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1445,
+        "death_year" : 1510,
+        "display_name" : "Sandro Botticelli",
+        "id" : "sandro-botticelli",
+        "nationality" : "Italian"
+      },
+      "category_id" : "renaissance_it",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1480",
+        "end" : 1480,
+        "start" : 1480
+      },
+      "game_price_id" : "botticelli-young-man-roundel-p1",
+      "id" : "botticelli-young-man-roundel",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Young Man Holding a Roundel by Sandro Botticelli",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#5B6E7A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "botticelli-young-man-roundel_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#5B6E7A",
+            "#8396A2",
+            "#ABBECA",
+            "#3D505C",
+            "#1F323E"
+          ],
+          "sm" : {
+            "file" : "botticelli-young-man-roundel_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Tempera on panel",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 9218450000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2021-01-28",
+          "game_eligible" : true,
+          "id" : "botticelli-young-man-roundel-p1",
+          "log10_usd_adjusted_milli" : 8040,
+          "log10_usd_nominal_milli" : 7965,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/botticelli-young-man-roundel"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 109699555,
+          "usd_nominal" : 92184500,
+          "venue" : "Sotheby's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 8,
+        "brightness" : 55,
+        "complexity" : 40,
+        "era_bucket" : "pre1500",
+        "mood" : "serene",
+        "saturation" : 45,
+        "subject" : "portrait",
+        "warmth" : 60
+      },
+      "title" : "Young Man Holding a Roundel"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1471,
+        "death_year" : 1528,
+        "display_name" : "Albrecht Dürer",
+        "id" : "albrecht-dürer",
+        "nationality" : "German"
+      },
+      "category_id" : "renaissance_north",
+      "date" : {
+        "circa" : false,
+        "display" : "1514",
+        "end" : 1514,
+        "start" : 1514
+      },
+      "game_price_id" : "durer-melencolia-i-p1",
+      "id" : "durer-melencolia-i",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Melencolia I by Albrecht Dürer",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "same_edition_other_impression",
+          "dominant_hex" : "#8C8577",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "durer-melencolia-i_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#8C8577",
+            "#B4AD9F",
+            "#DCD5C7",
+            "#6E6759",
+            "#50493B"
+          ],
+          "sm" : {
+            "file" : "durer-melencolia-i_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Engraving",
+        "medium_class" : "print"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 48000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2019-06-12",
+          "game_eligible" : true,
+          "id" : "durer-melencolia-i-p1",
+          "log10_usd_adjusted_milli" : 5782,
+          "log10_usd_nominal_milli" : 5681,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "same_edition_other_impression",
+          "source_urls" : [
+            "https://example.org/fixture/durer-melencolia-i"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 604800,
+          "usd_nominal" : 480000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+        "print"
+      ],
+      "taste" : {
+        "abstraction" : 20,
+        "brightness" : 50,
+        "complexity" : 85,
+        "era_bucket" : "1500_1600",
+        "mood" : "melancholic",
+        "saturation" : 5,
+        "subject" : "figure",
+        "warmth" : 50
+      },
+      "title" : "Melencolia I"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1472,
+        "death_year" : 1553,
+        "display_name" : "Lucas Cranach the Elder",
+        "id" : "lucas-cranach-the-elder",
+        "nationality" : "German"
+      },
+      "category_id" : "renaissance_north",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1530–1534",
+        "end" : 1534,
+        "start" : 1530
+      },
+      "game_price_id" : "cranach-nymph-of-the-spring-p1",
+      "id" : "cranach-nymph-of-the-spring",
+      "images" : {
+        "primary" : {
+          "alt_text" : "The Nymph of the Spring by Lucas Cranach the Elder",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#2E3B2A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "cranach-nymph-of-the-spring_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#2E3B2A",
+            "#566352",
+            "#7E8B7A",
+            "#101D0C",
+            "#000000"
+          ],
+          "sm" : {
+            "file" : "cranach-nymph-of-the-spring_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on panel",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 945000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "GBP",
+          "date" : "2015-07-08",
+          "game_eligible" : true,
+          "id" : "cranach-nymph-of-the-spring-p1",
+          "log10_usd_adjusted_milli" : 7299,
+          "log10_usd_nominal_milli" : 7166,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/cranach-nymph-of-the-spring"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 19924000,
+          "usd_nominal" : 14650000,
+          "venue" : "Sotheby's London"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 10,
+        "brightness" : 45,
+        "complexity" : 30,
+        "era_bucket" : "1500_1600",
+        "mood" : "serene",
+        "saturation" : 40,
+        "subject" : "figure",
+        "warmth" : 60
+      },
+      "title" : "The Nymph of the Spring"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1471,
+        "death_year" : 1528,
+        "display_name" : "Albrecht Dürer",
+        "id" : "albrecht-dürer",
+        "nationality" : "German"
+      },
+      "category_id" : "print",
+      "date" : {
+        "circa" : false,
+        "display" : "1515",
+        "end" : 1515,
+        "start" : 1515
+      },
+      "game_price_id" : "durer-rhinoceros-p1",
+      "id" : "durer-rhinoceros",
+      "images" : {
+        "primary" : {
+          "alt_text" : "The Rhinoceros by Albrecht Dürer",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "same_edition_other_impression",
+          "dominant_hex" : "#9A9283",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "durer-rhinoceros_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#9A9283",
+            "#C2BAAB",
+            "#EAE2D3",
+            "#7C7465",
+            "#5E5647"
+          ],
+          "sm" : {
+            "file" : "durer-rhinoceros_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Woodcut",
+        "medium_class" : "print"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 25000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2019-01-29",
+          "game_eligible" : true,
+          "id" : "durer-rhinoceros-p1",
+          "log10_usd_adjusted_milli" : 5498,
+          "log10_usd_nominal_milli" : 5398,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "same_edition_other_impression",
+          "source_urls" : [
+            "https://example.org/fixture/durer-rhinoceros"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 315000,
+          "usd_nominal" : 250000,
+          "venue" : "Sotheby's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+        "renaissance_north"
+      ],
+      "taste" : {
+        "abstraction" : 15,
+        "brightness" : 80,
+        "complexity" : 75,
+        "era_bucket" : "1500_1600",
+        "mood" : "serene",
+        "saturation" : 5,
+        "subject" : "genre",
+        "warmth" : 50
+      },
+      "title" : "The Rhinoceros"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1606,
+        "death_year" : 1669,
+        "display_name" : "Rembrandt van Rijn",
+        "id" : "rembrandt-van-rijn",
+        "nationality" : "Dutch"
+      },
+      "category_id" : "print",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1648",
+        "end" : 1649,
+        "start" : 1647
+      },
+      "game_price_id" : "rembrandt-hundred-guilder-print-p1",
+      "id" : "rembrandt-hundred-guilder-print",
+      "images" : {
+        "primary" : {
+          "alt_text" : "The Hundred Guilder Print by Rembrandt van Rijn",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "same_edition_other_impression",
+          "dominant_hex" : "#6B6458",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "rembrandt-hundred-guilder-print_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#6B6458",
+            "#938C80",
+            "#BBB4A8",
+            "#4D463A",
+            "#2F281C"
+          ],
+          "sm" : {
+            "file" : "rembrandt-hundred-guilder-print_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Etching, drypoint and engraving",
+        "medium_class" : "print"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 23750000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "GBP",
+          "date" : "2014-12-04",
+          "game_eligible" : true,
+          "id" : "rembrandt-hundred-guilder-print-p1",
+          "log10_usd_adjusted_milli" : 5704,
+          "log10_usd_nominal_milli" : 5571,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "same_edition_other_impression",
+          "source_urls" : [
+            "https://example.org/fixture/rembrandt-hundred-guilder-print"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 505920,
+          "usd_nominal" : 372000,
+          "venue" : "Sotheby's London"
+        }
+      ],
+      "secondary_category_ids" : [
+        "dutch_golden_age"
+      ],
+      "taste" : {
+        "abstraction" : 10,
+        "brightness" : 45,
+        "complexity" : 90,
+        "era_bucket" : "1600_1700",
+        "mood" : "dramatic",
+        "saturation" : 5,
+        "subject" : "religious_myth",
+        "warmth" : 55
+      },
+      "title" : "The Hundred Guilder Print"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1606,
+        "death_year" : 1669,
+        "display_name" : "Rembrandt van Rijn",
+        "id" : "rembrandt-van-rijn",
+        "nationality" : "Dutch"
+      },
+      "category_id" : "dutch_golden_age",
+      "date" : {
+        "circa" : false,
+        "display" : "1653",
+        "end" : 1653,
+        "start" : 1653
+      },
+      "game_price_id" : "rembrandt-aristotle-p1",
+      "id" : "rembrandt-aristotle",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Aristotle with a Bust of Homer by Rembrandt van Rijn",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#2B2016",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "rembrandt-aristotle_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#2B2016",
+            "#53483E",
+            "#7B7066",
+            "#0D0200",
+            "#000000"
+          ],
+          "sm" : {
+            "file" : "rembrandt-aristotle_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 230000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "1961-11-15",
+          "game_eligible" : true,
+          "id" : "rembrandt-aristotle-p1",
+          "log10_usd_adjusted_milli" : 7394,
+          "log10_usd_nominal_milli" : 6362,
+          "lower_bound" : false,
+          "premium_included" : false,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/rembrandt-aristotle"
+          ],
+          "type" : "auction_hammer",
+          "usd_adjusted" : 24771000,
+          "usd_nominal" : 2300000,
+          "venue" : "Parke-Bernet New York"
+        }
+      ],
+      "secondary_category_ids" : [
+        "baroque"
+      ],
+      "taste" : {
+        "abstraction" : 8,
+        "brightness" : 20,
+        "complexity" : 40,
+        "era_bucket" : "1600_1700",
+        "mood" : "melancholic",
+        "saturation" : 35,
+        "subject" : "portrait",
+        "warmth" : 80
+      },
+      "title" : "Aristotle with a Bust of Homer"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1606,
+        "death_year" : 1669,
+        "display_name" : "Rembrandt van Rijn",
+        "id" : "rembrandt-van-rijn",
+        "nationality" : "Dutch"
+      },
+      "category_id" : "dutch_golden_age",
+      "date" : {
+        "circa" : false,
+        "display" : "1636",
+        "end" : 1636,
+        "start" : 1636
+      },
+      "game_price_id" : "rembrandt-standard-bearer-p1",
+      "id" : "rembrandt-standard-bearer",
+      "images" : {
+        "primary" : {
+          "alt_text" : "The Standard Bearer by Rembrandt van Rijn",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#3B2A1A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "rembrandt-standard-bearer_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#3B2A1A",
+            "#635242",
+            "#8B7A6A",
+            "#1D0C00",
+            "#000000"
+          ],
+          "sm" : {
+            "file" : "rembrandt-standard-bearer_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 17500000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "EUR",
+          "date" : "2022",
+          "game_eligible" : true,
+          "id" : "rembrandt-standard-bearer-p1",
+          "log10_usd_adjusted_milli" : 8306,
+          "log10_usd_nominal_milli" : 8265,
+          "lower_bound" : false,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/rembrandt-standard-bearer"
+          ],
+          "type" : "private_sale",
+          "usd_adjusted" : 202400000,
+          "usd_nominal" : 184000000
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 8,
+        "brightness" : 25,
+        "complexity" : 40,
+        "era_bucket" : "1600_1700",
+        "mood" : "dramatic",
+        "saturation" : 45,
+        "subject" : "portrait",
+        "warmth" : 75
+      },
+      "title" : "The Standard Bearer"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1632,
+        "death_year" : 1675,
+        "display_name" : "Johannes Vermeer",
+        "id" : "johannes-vermeer",
+        "nationality" : "Dutch"
+      },
+      "category_id" : "dutch_golden_age",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1665–1667",
+        "end" : 1667,
+        "start" : 1665
+      },
+      "game_price_id" : "vermeer-study-young-woman-p1",
+      "id" : "vermeer-study-young-woman",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Study of a Young Woman by Johannes Vermeer",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#2A2A26",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "vermeer-study-young-woman_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#2A2A26",
+            "#52524E",
+            "#7A7A76",
+            "#0C0C08",
+            "#000000"
+          ],
+          "sm" : {
+            "file" : "vermeer-study-young-woman_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 200000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "1959",
+          "game_eligible" : true,
+          "id" : "vermeer-study-young-woman-p1",
+          "log10_usd_adjusted_milli" : 7346,
+          "log10_usd_nominal_milli" : 6301,
+          "lower_bound" : false,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/vermeer-study-young-woman"
+          ],
+          "type" : "private_sale",
+          "usd_adjusted" : 22180000,
+          "usd_nominal" : 2000000
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 10,
+        "brightness" : 30,
+        "complexity" : 20,
+        "era_bucket" : "1600_1700",
+        "mood" : "serene",
+        "saturation" : 35,
+        "subject" : "portrait",
+        "warmth" : 55
+      },
+      "title" : "Study of a Young Woman"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1577,
+        "death_year" : 1640,
+        "display_name" : "Peter Paul Rubens",
+        "id" : "peter-paul-rubens",
+        "nationality" : "Flemish"
+      },
+      "category_id" : "baroque",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1611–1612",
+        "end" : 1612,
+        "start" : 1611
+      },
+      "game_price_id" : "rubens-massacre-innocents-p1",
+      "id" : "rubens-massacre-innocents",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Massacre of the Innocents by Peter Paul Rubens",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#6A3B24",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "rubens-massacre-innocents_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#6A3B24",
+            "#92634C",
+            "#BA8B74",
+            "#4C1D06",
+            "#2E0000"
+          ],
+          "sm" : {
+            "file" : "rubens-massacre-innocents_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on panel",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 4950000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "GBP",
+          "date" : "2002-07-10",
+          "game_eligible" : true,
+          "id" : "rubens-massacre-innocents-p1",
+          "log10_usd_adjusted_milli" : 8138,
+          "log10_usd_nominal_milli" : 7885,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/rubens-massacre-innocents"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 137293000,
+          "usd_nominal" : 76700000,
+          "venue" : "Sotheby's London"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 15,
+        "brightness" : 45,
+        "complexity" : 95,
+        "era_bucket" : "1600_1700",
+        "mood" : "dramatic",
+        "saturation" : 60,
+        "subject" : "religious_myth",
+        "warmth" : 75
+      },
+      "title" : "Massacre of the Innocents"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1599,
+        "death_year" : 1660,
+        "display_name" : "Diego Velázquez",
+        "id" : "diego-velázquez",
+        "nationality" : "Spanish"
+      },
+      "category_id" : "baroque",
+      "date" : {
+        "circa" : false,
+        "display" : "1650",
+        "end" : 1650,
+        "start" : 1650
+      },
+      "game_price_id" : "velazquez-juan-de-pareja-p1",
+      "id" : "velazquez-juan-de-pareja",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Juan de Pareja by Diego Velázquez",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#4A4238",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "velazquez-juan-de-pareja_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#4A4238",
+            "#726A60",
+            "#9A9288",
+            "#2C241A",
+            "#0E0600"
+          ],
+          "sm" : {
+            "file" : "velazquez-juan-de-pareja_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 231000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "GBP",
+          "date" : "1970-11-27",
+          "game_eligible" : true,
+          "id" : "velazquez-juan-de-pareja-p1",
+          "log10_usd_adjusted_milli" : 7662,
+          "log10_usd_nominal_milli" : 6744,
+          "lower_bound" : false,
+          "premium_included" : false,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/velazquez-juan-de-pareja"
+          ],
+          "type" : "auction_hammer",
+          "usd_adjusted" : 45959760,
+          "usd_nominal" : 5544000,
+          "venue" : "Christie's London"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 8,
+        "brightness" : 30,
+        "complexity" : 25,
+        "era_bucket" : "1600_1700",
+        "mood" : "serene",
+        "saturation" : 30,
+        "subject" : "portrait",
+        "warmth" : 65
+      },
+      "title" : "Juan de Pareja"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1699,
+        "death_year" : 1779,
+        "display_name" : "Jean-Siméon Chardin",
+        "id" : "jean-siméon-chardin",
+        "nationality" : "French"
+      },
+      "category_id" : "rococo",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1761",
+        "end" : 1761,
+        "start" : 1761
+      },
+      "game_price_id" : "chardin-basket-wild-strawberries-p1",
+      "id" : "chardin-basket-wild-strawberries",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Basket of Wild Strawberries by Jean-Siméon Chardin",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#8B4A2E",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "chardin-basket-wild-strawberries_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#8B4A2E",
+            "#B37256",
+            "#DB9A7E",
+            "#6D2C10",
+            "#4F0E00"
+          ],
+          "sm" : {
+            "file" : "chardin-basket-wild-strawberries_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 2436800000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "EUR",
+          "date" : "2022-03-23",
+          "game_eligible" : true,
+          "id" : "chardin-basket-wild-strawberries-p1",
+          "log10_usd_adjusted_milli" : 7470,
+          "log10_usd_nominal_milli" : 7428,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/chardin-basket-wild-strawberries"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 29480000,
+          "usd_nominal" : 26800000,
+          "venue" : "Artcurial Paris"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 5,
+        "brightness" : 50,
+        "complexity" : 20,
+        "era_bucket" : "1700_1800",
+        "mood" : "serene",
+        "saturation" : 50,
+        "subject" : "still_life",
+        "warmth" : 80
+      },
+      "title" : "Basket of Wild Strawberries"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1702,
+        "death_year" : 1789,
+        "display_name" : "Jean-Étienne Liotard",
+        "id" : "jean-étienne-liotard",
+        "nationality" : "Swiss"
+      },
+      "category_id" : "rococo",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1756",
+        "end" : 1757,
+        "start" : 1756
+      },
+      "game_price_id" : "liotard-dutch-girl-breakfast-p1",
+      "id" : "liotard-dutch-girl-breakfast",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Dutch Girl at Breakfast by Jean-Étienne Liotard",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#B8A88A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "liotard-dutch-girl-breakfast_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#B8A88A",
+            "#E0D0B2",
+            "#FFF8DA",
+            "#9A8A6C",
+            "#7C6C4E"
+          ],
+          "sm" : {
+            "file" : "liotard-dutch-girl-breakfast_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 441000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "GBP",
+          "date" : "2016",
+          "game_eligible" : true,
+          "id" : "liotard-dutch-girl-breakfast-p1",
+          "log10_usd_adjusted_milli" : 6933,
+          "log10_usd_nominal_milli" : 6806,
+          "lower_bound" : false,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/liotard-dutch-girl-breakfast"
+          ],
+          "type" : "private_sale",
+          "usd_adjusted" : 8576000,
+          "usd_nominal" : 6400000
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 5,
+        "brightness" : 70,
+        "complexity" : 35,
+        "era_bucket" : "1700_1800",
+        "mood" : "serene",
+        "saturation" : 40,
+        "subject" : "genre",
+        "warmth" : 55
+      },
+      "title" : "Dutch Girl at Breakfast"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1775,
+        "death_year" : 1851,
+        "display_name" : "J. M. W. Turner",
+        "id" : "j.-m.-w.-turner",
+        "nationality" : "British"
+      },
+      "category_id" : "romanticism",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1845",
+        "end" : 1845,
+        "start" : 1845
+      },
+      "game_price_id" : "turner-seascape-folkestone-p1",
+      "id" : "turner-seascape-folkestone",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Seascape: Folkestone by J. M. W. Turner",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#A7A28C",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "turner-seascape-folkestone_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#A7A28C",
+            "#CFCAB4",
+            "#F7F2DC",
+            "#89846E",
+            "#6B6650"
+          ],
+          "sm" : {
+            "file" : "turner-seascape-folkestone_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 737000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "GBP",
+          "date" : "1984-07-05",
+          "game_eligible" : true,
+          "id" : "turner-seascape-folkestone-p1",
+          "log10_usd_adjusted_milli" : 7491,
+          "log10_usd_nominal_milli" : 7000,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/turner-seascape-folkestone"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 31000000,
+          "usd_nominal" : 10000000,
+          "venue" : "Sotheby's London"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 70,
+        "brightness" : 70,
+        "complexity" : 30,
+        "era_bucket" : "1800_1850",
+        "mood" : "dramatic",
+        "saturation" : 35,
+        "subject" : "landscape",
+        "warmth" : 55
+      },
+      "title" : "Seascape: Folkestone"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1774,
+        "death_year" : 1840,
+        "display_name" : "Caspar David Friedrich",
+        "id" : "caspar-david-friedrich",
+        "nationality" : "German"
+      },
+      "category_id" : "romanticism",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1821",
+        "end" : 1821,
+        "start" : 1821
+      },
+      "game_price_id" : "friedrich-moonrise-study-p1",
+      "id" : "friedrich-moonrise-study",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Moonrise over the Sea (study) by Caspar David Friedrich",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#5E5546",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "friedrich-moonrise-study_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#5E5546",
+            "#867D6E",
+            "#AEA596",
+            "#403728",
+            "#22190A"
+          ],
+          "sm" : {
+            "file" : "friedrich-moonrise-study_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Pencil and sepia on paper",
+        "medium_class" : "drawing"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 34000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "EUR",
+          "date" : "2018-11-16",
+          "game_eligible" : true,
+          "id" : "friedrich-moonrise-study-p1",
+          "log10_usd_adjusted_milli" : 5710,
+          "log10_usd_nominal_milli" : 5603,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/friedrich-moonrise-study"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 513280,
+          "usd_nominal" : 401000,
+          "venue" : "Lempertz Cologne"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 40,
+        "brightness" : 35,
+        "complexity" : 15,
+        "era_bucket" : "1800_1850",
+        "mood" : "melancholic",
+        "saturation" : 15,
+        "subject" : "landscape",
+        "warmth" : 40
+      },
+      "title" : "Moonrise over the Sea (study)"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1840,
+        "death_year" : 1926,
+        "display_name" : "Claude Monet",
+        "id" : "claude-monet",
+        "nationality" : "French"
+      },
+      "category_id" : "impressionism",
+      "date" : {
+        "circa" : false,
+        "display" : "1890",
+        "end" : 1890,
+        "start" : 1890
+      },
+      "game_price_id" : "monet-meules-p1",
+      "id" : "monet-meules",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Meules by Claude Monet",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#C79A5A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "monet-meules_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#C79A5A",
+            "#EFC282",
+            "#FFEAAA",
+            "#A97C3C",
+            "#8B5E1E"
+          ],
+          "sm" : {
+            "file" : "monet-meules_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 11074700000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2019-05-14",
+          "game_eligible" : true,
+          "id" : "monet-meules-p1",
+          "log10_usd_adjusted_milli" : 8145,
+          "log10_usd_nominal_milli" : 8044,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/monet-meules"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 139541220,
+          "usd_nominal" : 110747000,
+          "venue" : "Sotheby's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 45,
+        "brightness" : 70,
+        "complexity" : 55,
+        "era_bucket" : "1850_1900",
+        "mood" : "serene",
+        "saturation" : 70,
+        "subject" : "landscape",
+        "warmth" : 75
+      },
+      "title" : "Meules"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1841,
+        "death_year" : 1919,
+        "display_name" : "Pierre-Auguste Renoir",
+        "id" : "pierre-auguste-renoir",
+        "nationality" : "French"
+      },
+      "category_id" : "impressionism",
+      "date" : {
+        "circa" : false,
+        "display" : "1876",
+        "end" : 1876,
+        "start" : 1876
+      },
+      "game_price_id" : "renoir-bal-du-moulin-small-p1",
+      "id" : "renoir-bal-du-moulin-small",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Bal du moulin de la Galette (small version) by Pierre-Auguste Renoir",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#6E7B6A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "renoir-bal-du-moulin-small_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#6E7B6A",
+            "#96A392",
+            "#BECBBA",
+            "#505D4C",
+            "#323F2E"
+          ],
+          "sm" : {
+            "file" : "renoir-bal-du-moulin-small_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 7810000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "1990-05-17",
+          "game_eligible" : true,
+          "id" : "renoir-bal-du-moulin-small-p1",
+          "log10_usd_adjusted_milli" : 8285,
+          "log10_usd_nominal_milli" : 7893,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/renoir-bal-du-moulin-small"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 192907000,
+          "usd_nominal" : 78100000,
+          "venue" : "Sotheby's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 30,
+        "brightness" : 65,
+        "complexity" : 90,
+        "era_bucket" : "1850_1900",
+        "mood" : "joyful",
+        "saturation" : 60,
+        "subject" : "genre",
+        "warmth" : 55
+      },
+      "title" : "Bal du moulin de la Galette (small version)"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1841,
+        "death_year" : 1895,
+        "display_name" : "Berthe Morisot",
+        "id" : "berthe-morisot",
+        "nationality" : "French"
+      },
+      "category_id" : "impressionism",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1883",
+        "end" : 1883,
+        "start" : 1883
+      },
+      "game_price_id" : "morisot-garden-study-p1",
+      "id" : "morisot-garden-study",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Garden Study at Bougival by Berthe Morisot",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#A9B79A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "morisot-garden-study_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#A9B79A",
+            "#D1DFC2",
+            "#F9FFEA",
+            "#8B997C",
+            "#6D7B5E"
+          ],
+          "sm" : {
+            "file" : "morisot-garden-study_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Watercolour on paper",
+        "medium_class" : "drawing"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 4500000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2015-05-06",
+          "game_eligible" : true,
+          "id" : "morisot-garden-study-p1",
+          "log10_usd_adjusted_milli" : 4787,
+          "log10_usd_nominal_milli" : 4653,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/morisot-garden-study"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 61200,
+          "usd_nominal" : 45000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 55,
+        "brightness" : 80,
+        "complexity" : 35,
+        "era_bucket" : "1850_1900",
+        "mood" : "joyful",
+        "saturation" : 45,
+        "subject" : "landscape",
+        "warmth" : 60
+      },
+      "title" : "Garden Study at Bougival"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1853,
+        "death_year" : 1890,
+        "display_name" : "Vincent van Gogh",
+        "id" : "vincent-van-gogh",
+        "nationality" : "Dutch"
+      },
+      "category_id" : "post_impressionism",
+      "date" : {
+        "circa" : false,
+        "display" : "1890",
+        "end" : 1890,
+        "start" : 1890
+      },
+      "game_price_id" : "vangogh-portrait-dr-gachet-p1",
+      "id" : "vangogh-portrait-dr-gachet",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Portrait of Dr. Gachet by Vincent van Gogh",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#3E5A8C",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "vangogh-portrait-dr-gachet_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#3E5A8C",
+            "#6682B4",
+            "#8EAADC",
+            "#203C6E",
+            "#021E50"
+          ],
+          "sm" : {
+            "file" : "vangogh-portrait-dr-gachet_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 8250000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "1990-05-15",
+          "game_eligible" : true,
+          "id" : "vangogh-portrait-dr-gachet-p1",
+          "log10_usd_adjusted_milli" : 8309,
+          "log10_usd_nominal_milli" : 7916,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/vangogh-portrait-dr-gachet"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 203775000,
+          "usd_nominal" : 82500000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 35,
+        "brightness" : 45,
+        "complexity" : 60,
+        "era_bucket" : "1850_1900",
+        "mood" : "melancholic",
+        "saturation" : 75,
+        "subject" : "portrait",
+        "warmth" : 30
+      },
+      "title" : "Portrait of Dr. Gachet"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1839,
+        "death_year" : 1906,
+        "display_name" : "Paul Cézanne",
+        "id" : "paul-cézanne",
+        "nationality" : "French"
+      },
+      "category_id" : "post_impressionism",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1892–1893",
+        "end" : 1893,
+        "start" : 1892
+      },
+      "game_price_id" : "cezanne-card-players-p1",
+      "id" : "cezanne-card-players",
+      "images" : {
+        "primary" : {
+          "alt_text" : "The Card Players by Paul Cézanne",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#7A5A3A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "cezanne-card-players_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#7A5A3A",
+            "#A28262",
+            "#CAAA8A",
+            "#5C3C1C",
+            "#3E1E00"
+          ],
+          "sm" : {
+            "file" : "cezanne-card-players_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 25000000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2011",
+          "game_eligible" : true,
+          "id" : "cezanne-card-players-p1",
+          "log10_usd_adjusted_milli" : 8553,
+          "log10_usd_nominal_milli" : 8398,
+          "lower_bound" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/cezanne-card-players"
+          ],
+          "type" : "private_sale",
+          "usd_adjusted" : 357500000,
+          "usd_nominal" : 250000000
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 30,
+        "brightness" : 40,
+        "complexity" : 40,
+        "era_bucket" : "1850_1900",
+        "mood" : "serene",
+        "saturation" : 45,
+        "subject" : "genre",
+        "warmth" : 65
+      },
+      "title" : "The Card Players"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1848,
+        "death_year" : 1903,
+        "display_name" : "Paul Gauguin",
+        "id" : "paul-gauguin",
+        "nationality" : "French"
+      },
+      "category_id" : "post_impressionism",
+      "date" : {
+        "circa" : false,
+        "display" : "1892",
+        "end" : 1892,
+        "start" : 1892
+      },
+      "game_price_id" : "gauguin-nafea-faa-ipoipo-p1",
+      "id" : "gauguin-nafea-faa-ipoipo",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Nafea Faa Ipoipo by Paul Gauguin",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#C98A3A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "gauguin-nafea-faa-ipoipo_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#C98A3A",
+            "#F1B262",
+            "#FFDA8A",
+            "#AB6C1C",
+            "#8D4E00"
+          ],
+          "sm" : {
+            "file" : "gauguin-nafea-faa-ipoipo_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 21000000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2014",
+          "game_eligible" : true,
+          "id" : "gauguin-nafea-faa-ipoipo-p1",
+          "log10_usd_adjusted_milli" : 8456,
+          "log10_usd_nominal_milli" : 8322,
+          "lower_bound" : false,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/gauguin-nafea-faa-ipoipo"
+          ],
+          "type" : "private_sale",
+          "usd_adjusted" : 285600000,
+          "usd_nominal" : 210000000
+        }
+      ],
+      "secondary_category_ids" : [
+        "symbolism"
+      ],
+      "taste" : {
+        "abstraction" : 45,
+        "brightness" : 65,
+        "complexity" : 50,
+        "era_bucket" : "1850_1900",
+        "mood" : "serene",
+        "saturation" : 80,
+        "subject" : "figure",
+        "warmth" : 85
+      },
+      "title" : "Nafea Faa Ipoipo"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1859,
+        "death_year" : 1891,
+        "display_name" : "Georges Seurat",
+        "id" : "georges-seurat",
+        "nationality" : "French"
+      },
+      "category_id" : "pointillism",
+      "date" : {
+        "circa" : false,
+        "display" : "1888",
+        "end" : 1888,
+        "start" : 1888
+      },
+      "game_price_id" : "seurat-les-poseuses-small-p1",
+      "id" : "seurat-les-poseuses-small",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Les Poseuses (small version) by Georges Seurat",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#B8A27E",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "seurat-les-poseuses-small_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#B8A27E",
+            "#E0CAA6",
+            "#FFF2CE",
+            "#9A8460",
+            "#7C6642"
+          ],
+          "sm" : {
+            "file" : "seurat-les-poseuses-small_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 14924000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2022-11-09",
+          "game_eligible" : true,
+          "id" : "seurat-les-poseuses-small-p1",
+          "log10_usd_adjusted_milli" : 8215,
+          "log10_usd_nominal_milli" : 8174,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/seurat-les-poseuses-small"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 164164000,
+          "usd_nominal" : 149240000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+        "post_impressionism"
+      ],
+      "taste" : {
+        "abstraction" : 40,
+        "brightness" : 75,
+        "complexity" : 80,
+        "era_bucket" : "1850_1900",
+        "mood" : "serene",
+        "saturation" : 50,
+        "subject" : "figure",
+        "warmth" : 55
+      },
+      "title" : "Les Poseuses (small version)"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1863,
+        "death_year" : 1935,
+        "display_name" : "Paul Signac",
+        "id" : "paul-signac",
+        "nationality" : "French"
+      },
+      "category_id" : "pointillism",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1905",
+        "end" : 1905,
+        "start" : 1905
+      },
+      "game_price_id" : "signac-harbour-sketch-p1",
+      "id" : "signac-harbour-sketch",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Harbour at Saint-Tropez (sketch) by Paul Signac",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#7FB0C8",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "signac-harbour-sketch_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#7FB0C8",
+            "#A7D8F0",
+            "#CFFFFF",
+            "#6192AA",
+            "#43748C"
+          ],
+          "sm" : {
+            "file" : "signac-harbour-sketch_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Watercolour and pencil on paper",
+        "medium_class" : "drawing"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 2800000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2017-03-02",
+          "game_eligible" : true,
+          "id" : "signac-harbour-sketch-p1",
+          "log10_usd_adjusted_milli" : 4564,
+          "log10_usd_nominal_milli" : 4447,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/signac-harbour-sketch"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 36680,
+          "usd_nominal" : 28000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 55,
+        "brightness" : 80,
+        "complexity" : 55,
+        "era_bucket" : "1900_1930",
+        "mood" : "joyful",
+        "saturation" : 75,
+        "subject" : "landscape",
+        "warmth" : 55
+      },
+      "title" : "Harbour at Saint-Tropez (sketch)"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1862,
+        "death_year" : 1918,
+        "display_name" : "Gustav Klimt",
+        "id" : "gustav-klimt",
+        "nationality" : "Austrian"
+      },
+      "category_id" : "symbolism",
+      "date" : {
+        "circa" : false,
+        "display" : "1914–1916",
+        "end" : 1916,
+        "start" : 1914
+      },
+      "game_price_id" : "klimt-elisabeth-lederer-p1",
+      "id" : "klimt-elisabeth-lederer",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Portrait of Elisabeth Lederer by Gustav Klimt",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#C9A55C",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "klimt-elisabeth-lederer_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#C9A55C",
+            "#F1CD84",
+            "#FFF5AC",
+            "#AB873E",
+            "#8D6920"
+          ],
+          "sm" : {
+            "file" : "klimt-elisabeth-lederer_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 23636500000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2025-11-18",
+          "game_eligible" : true,
+          "id" : "klimt-elisabeth-lederer-p1",
+          "log10_usd_adjusted_milli" : 8374,
+          "log10_usd_nominal_milli" : 8374,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/klimt-elisabeth-lederer"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 236365000,
+          "usd_nominal" : 236365000,
+          "venue" : "Sotheby's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 40,
+        "brightness" : 70,
+        "complexity" : 85,
+        "era_bucket" : "1900_1930",
+        "mood" : "joyful",
+        "saturation" : 70,
+        "subject" : "portrait",
+        "warmth" : 65
+      },
+      "title" : "Portrait of Elisabeth Lederer"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1840,
+        "death_year" : 1916,
+        "display_name" : "Odilon Redon",
+        "id" : "odilon-redon",
+        "nationality" : "French"
+      },
+      "category_id" : "symbolism",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1905",
+        "end" : 1905,
+        "start" : 1905
+      },
+      "game_price_id" : "redon-vase-of-flowers-p1",
+      "id" : "redon-vase-of-flowers",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Vase of Flowers (pastel) by Odilon Redon",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#4A6A8A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "redon-vase-of-flowers_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#4A6A8A",
+            "#7292B2",
+            "#9ABADA",
+            "#2C4C6C",
+            "#0E2E4E"
+          ],
+          "sm" : {
+            "file" : "redon-vase-of-flowers_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Pastel on paper",
+        "medium_class" : "drawing"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 145000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2016-11-14",
+          "game_eligible" : true,
+          "id" : "redon-vase-of-flowers-p1",
+          "log10_usd_adjusted_milli" : 6288,
+          "log10_usd_nominal_milli" : 6161,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/redon-vase-of-flowers"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 1943000,
+          "usd_nominal" : 1450000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 50,
+        "brightness" : 55,
+        "complexity" : 50,
+        "era_bucket" : "1900_1930",
+        "mood" : "serene",
+        "saturation" : 80,
+        "subject" : "still_life",
+        "warmth" : 55
+      },
+      "title" : "Vase of Flowers (pastel)"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1863,
+        "death_year" : 1944,
+        "display_name" : "Edvard Munch",
+        "id" : "edvard-munch",
+        "nationality" : "Norwegian"
+      },
+      "category_id" : "expressionism",
+      "date" : {
+        "circa" : false,
+        "display" : "1895",
+        "end" : 1895,
+        "start" : 1895
+      },
+      "game_price_id" : "munch-scream-pastel-p1",
+      "id" : "munch-scream-pastel",
+      "images" : {
+        "primary" : {
+          "alt_text" : "The Scream (pastel) by Edvard Munch",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#D9772E",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "munch-scream-pastel_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#D9772E",
+            "#FF9F56",
+            "#FFC77E",
+            "#BB5910",
+            "#9D3B00"
+          ],
+          "sm" : {
+            "file" : "munch-scream-pastel_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Pastel on board",
+        "medium_class" : "drawing"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 11992250000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2012-05-02",
+          "game_eligible" : true,
+          "id" : "munch-scream-pastel-p1",
+          "log10_usd_adjusted_milli" : 8225,
+          "log10_usd_nominal_milli" : 8079,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/munch-scream-pastel"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 167891500,
+          "usd_nominal" : 119922500,
+          "venue" : "Sotheby's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+        "symbolism"
+      ],
+      "taste" : {
+        "abstraction" : 55,
+        "brightness" : 55,
+        "complexity" : 55,
+        "era_bucket" : "1850_1900",
+        "mood" : "dramatic",
+        "saturation" : 85,
+        "subject" : "figure",
+        "warmth" : 85
+      },
+      "title" : "The Scream (pastel)"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1880,
+        "death_year" : 1938,
+        "display_name" : "Ernst Ludwig Kirchner",
+        "id" : "ernst-ludwig-kirchner",
+        "nationality" : "German"
+      },
+      "category_id" : "expressionism",
+      "date" : {
+        "circa" : false,
+        "display" : "1913–1914",
+        "end" : 1914,
+        "start" : 1913
+      },
+      "game_price_id" : "kirchner-berlin-street-scene-p1",
+      "id" : "kirchner-berlin-street-scene",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Berlin Street Scene by Ernst Ludwig Kirchner",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#3F6E4A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "kirchner-berlin-street-scene_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#3F6E4A",
+            "#679672",
+            "#8FBE9A",
+            "#21502C",
+            "#03320E"
+          ],
+          "sm" : {
+            "file" : "kirchner-berlin-street-scene_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Oil on canvas",
+        "medium_class" : "painting"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 3810000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2006-11-08",
+          "game_eligible" : true,
+          "id" : "kirchner-berlin-street-scene-p1",
+          "log10_usd_adjusted_milli" : 7785,
+          "log10_usd_nominal_milli" : 7581,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/kirchner-berlin-street-scene"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 60960000,
+          "usd_nominal" : 38100000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 60,
+        "brightness" : 45,
+        "complexity" : 75,
+        "era_bucket" : "1900_1930",
+        "mood" : "dramatic",
+        "saturation" : 85,
+        "subject" : "genre",
+        "warmth" : 55
+      },
+      "title" : "Berlin Street Scene"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1890,
+        "death_year" : 1918,
+        "display_name" : "Egon Schiele",
+        "id" : "egon-schiele",
+        "nationality" : "Austrian"
+      },
+      "category_id" : "expressionism",
+      "date" : {
+        "circa" : false,
+        "display" : "1917",
+        "end" : 1917,
+        "start" : 1917
+      },
+      "game_price_id" : "schiele-seated-woman-p1",
+      "id" : "schiele-seated-woman",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Seated Woman with Bent Knee by Egon Schiele",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "this_object",
+          "dominant_hex" : "#C78E5A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "schiele-seated-woman_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#C78E5A",
+            "#EFB682",
+            "#FFDEAA",
+            "#A9703C",
+            "#8B521E"
+          ],
+          "sm" : {
+            "file" : "schiele-seated-woman_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Gouache, watercolour and black crayon",
+        "medium_class" : "drawing"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 170000000,
+          "approximate" : true,
+          "confidence" : "high",
+          "currency" : "GBP",
+          "date" : "2019-06-19",
+          "game_eligible" : true,
+          "id" : "schiele-seated-woman-p1",
+          "log10_usd_adjusted_milli" : 6443,
+          "log10_usd_nominal_milli" : 6342,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "this_object",
+          "source_urls" : [
+            "https://example.org/fixture/schiele-seated-woman"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 2772000,
+          "usd_nominal" : 2200000,
+          "venue" : "Sotheby's London"
+        }
+      ],
+      "secondary_category_ids" : [
+
+      ],
+      "taste" : {
+        "abstraction" : 35,
+        "brightness" : 80,
+        "complexity" : 30,
+        "era_bucket" : "1900_1930",
+        "mood" : "melancholic",
+        "saturation" : 55,
+        "subject" : "figure",
+        "warmth" : 70
+      },
+      "title" : "Seated Woman with Bent Knee"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1760,
+        "death_year" : 1849,
+        "display_name" : "Katsushika Hokusai",
+        "id" : "katsushika-hokusai",
+        "nationality" : "Japanese"
+      },
+      "category_id" : "ukiyo_e",
+      "date" : {
+        "circa" : true,
+        "display" : "c. 1830–1832",
+        "end" : 1832,
+        "start" : 1830
+      },
+      "game_price_id" : "hokusai-under-the-wave-p1",
+      "id" : "hokusai-under-the-wave",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Under the Wave off Kanagawa by Katsushika Hokusai",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "same_edition_other_impression",
+          "dominant_hex" : "#2F4A6B",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "hokusai-under-the-wave_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#2F4A6B",
+            "#577293",
+            "#7F9ABB",
+            "#112C4D",
+            "#000E2F"
+          ],
+          "sm" : {
+            "file" : "hokusai-under-the-wave_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Woodblock print",
+        "medium_class" : "print"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 276000000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2023-03-21",
+          "game_eligible" : true,
+          "id" : "hokusai-under-the-wave-p1",
+          "log10_usd_adjusted_milli" : 6466,
+          "log10_usd_nominal_milli" : 6441,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "same_edition_other_impression",
+          "source_urls" : [
+            "https://example.org/fixture/hokusai-under-the-wave"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 2925600,
+          "usd_nominal" : 2760000,
+          "venue" : "Christie's New York"
+        }
+      ],
+      "secondary_category_ids" : [
+        "print"
+      ],
+      "taste" : {
+        "abstraction" : 45,
+        "brightness" : 70,
+        "complexity" : 70,
+        "era_bucket" : "1800_1850",
+        "mood" : "dramatic",
+        "saturation" : 55,
+        "subject" : "landscape",
+        "warmth" : 30
+      },
+      "title" : "Under the Wave off Kanagawa"
+    },
+    {
+      "artist" : {
+        "birth_year" : 1797,
+        "death_year" : 1858,
+        "display_name" : "Utagawa Hiroshige",
+        "id" : "utagawa-hiroshige",
+        "nationality" : "Japanese"
+      },
+      "category_id" : "ukiyo_e",
+      "date" : {
+        "circa" : false,
+        "display" : "1857",
+        "end" : 1857,
+        "start" : 1857
+      },
+      "game_price_id" : "hiroshige-sudden-shower-p1",
+      "id" : "hiroshige-sudden-shower",
+      "images" : {
+        "primary" : {
+          "alt_text" : "Sudden Shower over Shin-Ōhashi Bridge and Atake by Utagawa Hiroshige",
+          "attribution" : "Fixture image (synthetic)",
+          "depicts_scope" : "same_edition_other_impression",
+          "dominant_hex" : "#4E5E6A",
+          "focus" : {
+            "x" : 500,
+            "y" : 400
+          },
+          "lg" : {
+            "file" : "hiroshige-sudden-shower_lg.jpg",
+            "h" : 1600,
+            "w" : 1280
+          },
+          "licence" : "CC0",
+          "palette" : [
+            "#4E5E6A",
+            "#768692",
+            "#9EAEBA",
+            "#30404C",
+            "#12222E"
+          ],
+          "sm" : {
+            "file" : "hiroshige-sudden-shower_sm.jpg",
+            "h" : 750,
+            "w" : 600
+          }
+        }
+      },
+      "kind" : "pd_masterpiece",
+      "medium" : {
+        "display" : "Woodblock print",
+        "medium_class" : "print"
+      },
+      "prices" : [
+        {
+          "adjust_ref_year" : 2025,
+          "amount_minor" : 520000,
+          "approximate" : false,
+          "confidence" : "high",
+          "currency" : "USD",
+          "date" : "2018-09-12",
+          "game_eligible" : true,
+          "id" : "hiroshige-sudden-shower-p1",
+          "log10_usd_adjusted_milli" : 3823,
+          "log10_usd_nominal_milli" : 3716,
+          "lower_bound" : false,
+          "premium_included" : true,
+          "price_scope" : "same_edition_other_impression",
+          "source_urls" : [
+            "https://example.org/fixture/hiroshige-sudden-shower"
+          ],
+          "type" : "auction_premium",
+          "usd_adjusted" : 6656,
+          "usd_nominal" : 5200,
+          "venue" : "Bonhams New York"
+        }
+      ],
+      "secondary_category_ids" : [
+        "print"
+      ],
+      "taste" : {
+        "abstraction" : 40,
+        "brightness" : 55,
+        "complexity" : 60,
+        "era_bucket" : "1850_1900",
+        "mood" : "melancholic",
+        "saturation" : 45,
+        "subject" : "landscape",
+        "warmth" : 35
+      },
+      "title" : "Sudden Shower over Shin-Ōhashi Bridge and Atake"
+    }
+  ],
+  "dataset_id" : "mini-2026.10",
+  "departments" : [
+    {
+      "categories" : [
+        "renaissance_it",
+        "renaissance_north",
+        "baroque",
+        "dutch_golden_age",
+        "rococo"
+      ],
+      "id" : "old_masters",
+      "label" : "Old Masters"
+    },
+    {
+      "categories" : [
+        "romanticism"
+      ],
+      "id" : "nineteenth_century",
+      "label" : "19th Century"
+    },
+    {
+      "categories" : [
+        "impressionism",
+        "post_impressionism",
+        "pointillism",
+        "symbolism",
+        "expressionism"
+      ],
+      "id" : "impressionist_modern",
+      "label" : "Impressionist & Modern"
+    },
+    {
+      "categories" : [
+        "ukiyo_e"
+      ],
+      "id" : "asian_art",
+      "label" : "Asian Art"
+    },
+    {
+      "categories" : [
+        "print"
+      ],
+      "id" : "prints_photographs",
+      "label" : "Prints & Photographs"
+    }
+  ],
+  "description" : "Frozen 30-work synthetic dataset for ArtCore fixtures. Real public-domain titles with approximate, unverified prices; not for shipping.",
+  "disclaimer" : "Fixture prices are approximate and for tests only; nothing here is an appraisal.",
+  "ref_year" : 2025,
+  "schema_version" : 1,
+  "taste_baseline" : {
+    "alpha" : 4,
+    "archetype_shares" : {
+      "MAED" : 0.0843,
+      "MAES" : 0.0602,
+      "MAVD" : 0.0361,
+      "MAVS" : 0.0963,
+      "MFED" : 0.0602,
+      "MFES" : 0.0843,
+      "MFVD" : 0.0361,
+      "MFVS" : 0.0722,
+      "OAED" : 0.0963,
+      "OAES" : 0.0361,
+      "OAVD" : 0.012,
+      "OAVS" : 0.0722,
+      "OFED" : 0.0361,
+      "OFES" : 0.0361,
+      "OFVD" : 0.0722,
+      "OFVS" : 0.1084
+    },
+    "baseline_id" : "mini-synthetic-1",
+    "distinctiveness_percentiles" : {
+      "swipes_10" : {
+        "p50" : 0.18,
+        "p75" : 0.24,
+        "p90" : 0.3,
+        "p95" : 0.34,
+        "p99" : 0.42
+      },
+      "swipes_20" : {
+        "p50" : 0.16,
+        "p75" : 0.22,
+        "p90" : 0.28,
+        "p95" : 0.32,
+        "p99" : 0.4
+      },
+      "swipes_40" : {
+        "p50" : 0.15,
+        "p75" : 0.21,
+        "p90" : 0.27,
+        "p95" : 0.31,
+        "p99" : 0.38
+      },
+      "swipes_80" : {
+        "p50" : 0.14,
+        "p75" : 0.2,
+        "p90" : 0.26,
+        "p95" : 0.3,
+        "p99" : 0.37
+      }
+    },
+    "features" : {
+      "abstraction:high" : {
+        "n" : 5000,
+        "p_like" : 0.5
+      },
+      "abstraction:low" : {
+        "n" : 5000,
+        "p_like" : 0.54
+      },
+      "abstraction:mid" : {
+        "n" : 5000,
+        "p_like" : 0.49
+      },
+      "brightness:dark" : {
+        "n" : 5000,
+        "p_like" : 0.4
+      },
+      "brightness:light" : {
+        "n" : 5000,
+        "p_like" : 0.5700000000000001
+      },
+      "brightness:mid" : {
+        "n" : 5000,
+        "p_like" : 0.47
+      },
+      "category:baroque" : {
+        "n" : 5000,
+        "p_like" : 0.6799999999999999
+      },
+      "category:dutch_golden_age" : {
+        "n" : 5000,
+        "p_like" : 0.54
+      },
+      "category:expressionism" : {
+        "n" : 5000,
+        "p_like" : 0.6699999999999999
+      },
+      "category:impressionism" : {
+        "n" : 5000,
+        "p_like" : 0.61
+      },
+      "category:pointillism" : {
+        "n" : 5000,
+        "p_like" : 0.35
+      },
+      "category:post_impressionism" : {
+        "n" : 5000,
+        "p_like" : 0.32999999999999996
+      },
+      "category:print" : {
+        "n" : 5000,
+        "p_like" : 0.48
+      },
+      "category:renaissance_it" : {
+        "n" : 5000,
+        "p_like" : 0.42
+      },
+      "category:renaissance_north" : {
+        "n" : 5000,
+        "p_like" : 0.6499999999999999
+      },
+      "category:rococo" : {
+        "n" : 5000,
+        "p_like" : 0.59
+      },
+      "category:romanticism" : {
+        "n" : 5000,
+        "p_like" : 0.64
+      },
+      "category:symbolism" : {
+        "n" : 5000,
+        "p_like" : 0.69
+      },
+      "category:ukiyo_e" : {
+        "n" : 5000,
+        "p_like" : 0.5700000000000001
+      },
+      "complexity:busy" : {
+        "n" : 5000,
+        "p_like" : 0.36
+      },
+      "complexity:mid" : {
+        "n" : 5000,
+        "p_like" : 0.6799999999999999
+      },
+      "complexity:sparse" : {
+        "n" : 5000,
+        "p_like" : 0.36
+      },
+      "era:1500_1600" : {
+        "n" : 5000,
+        "p_like" : 0.49
+      },
+      "era:1600_1700" : {
+        "n" : 5000,
+        "p_like" : 0.7
+      },
+      "era:1700_1800" : {
+        "n" : 5000,
+        "p_like" : 0.32999999999999996
+      },
+      "era:1800_1850" : {
+        "n" : 5000,
+        "p_like" : 0.6699999999999999
+      },
+      "era:1850_1900" : {
+        "n" : 5000,
+        "p_like" : 0.38
+      },
+      "era:1900_1930" : {
+        "n" : 5000,
+        "p_like" : 0.32
+      },
+      "era:pre1500" : {
+        "n" : 5000,
+        "p_like" : 0.37
+      },
+      "mood:dramatic" : {
+        "n" : 5000,
+        "p_like" : 0.44
+      },
+      "mood:joyful" : {
+        "n" : 5000,
+        "p_like" : 0.45999999999999996
+      },
+      "mood:melancholic" : {
+        "n" : 5000,
+        "p_like" : 0.61
+      },
+      "mood:serene" : {
+        "n" : 5000,
+        "p_like" : 0.38
+      },
+      "saturation:mid" : {
+        "n" : 5000,
+        "p_like" : 0.41
+      },
+      "saturation:muted" : {
+        "n" : 5000,
+        "p_like" : 0.32999999999999996
+      },
+      "saturation:vivid" : {
+        "n" : 5000,
+        "p_like" : 0.5700000000000001
+      },
+      "subject:figure" : {
+        "n" : 5000,
+        "p_like" : 0.48
+      },
+      "subject:genre" : {
+        "n" : 5000,
+        "p_like" : 0.6699999999999999
+      },
+      "subject:landscape" : {
+        "n" : 5000,
+        "p_like" : 0.52
+      },
+      "subject:portrait" : {
+        "n" : 5000,
+        "p_like" : 0.52
+      },
+      "subject:religious_myth" : {
+        "n" : 5000,
+        "p_like" : 0.51
+      },
+      "subject:still_life" : {
+        "n" : 5000,
+        "p_like" : 0.6599999999999999
+      },
+      "warmth:cool" : {
+        "n" : 5000,
+        "p_like" : 0.6
+      },
+      "warmth:neutral" : {
+        "n" : 5000,
+        "p_like" : 0.39
+      },
+      "warmth:warm" : {
+        "n" : 5000,
+        "p_like" : 0.44
+      }
+    },
+    "schema_version" : 1
+  },
+  "taxonomy" : [
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "baroque"
+      ],
+      "department_id" : "old_masters",
+      "era" : {
+        "end" : 1550,
+        "start" : 1400
+      },
+      "id" : "renaissance_it",
+      "label" : "Italian Renaissance",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "renaissance_north"
+      ],
+      "teach" : "Balanced, idealised figures and linear perspective.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "dutch_golden_age"
+      ],
+      "department_id" : "old_masters",
+      "era" : {
+        "end" : 1580,
+        "start" : 1430
+      },
+      "id" : "renaissance_north",
+      "label" : "Northern Renaissance",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "renaissance_it"
+      ],
+      "teach" : "Minute detail and oil glazes north of the Alps.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "renaissance_north"
+      ],
+      "department_id" : "old_masters",
+      "era" : {
+        "end" : 1700,
+        "start" : 1600
+      },
+      "id" : "dutch_golden_age",
+      "label" : "Dutch Golden Age",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "baroque"
+      ],
+      "teach" : "Everyday Dutch life, portraits and light.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "renaissance_it"
+      ],
+      "department_id" : "old_masters",
+      "era" : {
+        "end" : 1720,
+        "start" : 1590
+      },
+      "id" : "baroque",
+      "label" : "Baroque",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "dutch_golden_age",
+        "rococo"
+      ],
+      "teach" : "Drama, movement and strong light and shade.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "romanticism"
+      ],
+      "department_id" : "old_masters",
+      "era" : {
+        "end" : 1780,
+        "start" : 1720
+      },
+      "id" : "rococo",
+      "label" : "Rococo",
+      "min_quiz_items" : 3,
+      "neighbours" : [
+        "baroque"
+      ],
+      "teach" : "Light, playful elegance in pastel tones.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "baroque"
+      ],
+      "department_id" : "nineteenth_century",
+      "era" : {
+        "end" : 1850,
+        "start" : 1790
+      },
+      "id" : "romanticism",
+      "label" : "Romanticism",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "impressionism"
+      ],
+      "teach" : "Emotion and the sublime power of nature.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "romanticism"
+      ],
+      "department_id" : "impressionist_modern",
+      "era" : {
+        "end" : 1895,
+        "start" : 1865
+      },
+      "id" : "impressionism",
+      "label" : "Impressionism",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "post_impressionism",
+        "pointillism"
+      ],
+      "teach" : "Fleeting light in quick, visible brushstrokes.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "expressionism"
+      ],
+      "department_id" : "impressionist_modern",
+      "era" : {
+        "end" : 1910,
+        "start" : 1885
+      },
+      "id" : "post_impressionism",
+      "label" : "Post-Impressionism",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "impressionism",
+        "symbolism"
+      ],
+      "teach" : "Bold colour and structure beyond Impressionism.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "post_impressionism"
+      ],
+      "department_id" : "impressionist_modern",
+      "era" : {
+        "end" : 1905,
+        "start" : 1884
+      },
+      "id" : "pointillism",
+      "label" : "Pointillism",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "impressionism",
+        "symbolism"
+      ],
+      "parent" : "post_impressionism",
+      "teach" : "Pure colour applied in small dots.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "romanticism"
+      ],
+      "department_id" : "impressionist_modern",
+      "era" : {
+        "end" : 1915,
+        "start" : 1870
+      },
+      "id" : "symbolism",
+      "label" : "Symbolism",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "post_impressionism",
+        "expressionism"
+      ],
+      "teach" : "Dreams, myth and mood over description.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "pointillism"
+      ],
+      "department_id" : "impressionist_modern",
+      "era" : {
+        "end" : 1930,
+        "start" : 1905
+      },
+      "id" : "expressionism",
+      "label" : "Expressionism",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "symbolism",
+        "post_impressionism"
+      ],
+      "teach" : "Distorted form and colour to convey feeling.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "movement",
+      "confusers" : [
+        "symbolism"
+      ],
+      "department_id" : "asian_art",
+      "era" : {
+        "end" : 1900,
+        "start" : 1660
+      },
+      "id" : "ukiyo_e",
+      "label" : "Ukiyo-e",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "post_impressionism",
+        "impressionism"
+      ],
+      "teach" : "Japanese woodblock pictures of the floating world.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : true,
+      "axis" : "medium",
+      "confusers" : [
+        "renaissance_north"
+      ],
+      "department_id" : "prints_photographs",
+      "era" : {
+        "end" : 1930,
+        "start" : 1450
+      },
+      "id" : "print",
+      "label" : "Print",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+        "ukiyo_e"
+      ],
+      "teach" : "An image made to be printed in multiple impressions.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    },
+    {
+      "active" : false,
+      "axis" : "medium",
+      "confusers" : [
+
+      ],
+      "era" : {
+        "end" : 1930,
+        "start" : 1400
+      },
+      "id" : "sculpture",
+      "label" : "Sculpture",
+      "min_quiz_items" : 2,
+      "neighbours" : [
+
+      ],
+      "teach" : "Reserved; inactive until pricing is resolved.",
+      "tells" : [
+        "Fixture tell 1",
+        "Fixture tell 2",
+        "Fixture tell 3"
+      ]
+    }
+  ]
+}

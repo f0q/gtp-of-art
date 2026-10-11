@@ -1,0 +1,1649 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "monet-meules",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "post_impressionism",
+            "impressionism",
+            "renaissance_it",
+            "renaissance_north"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "monet-meules",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "monet-meules easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "monet-meules",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "romanticism",
+            "dutch_golden_age",
+            "renaissance_it",
+            "impressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "monet-meules",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "monet-meules easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "monet-meules",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "romanticism",
+            "impressionism",
+            "ukiyo_e",
+            "symbolism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "monet-meules",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "monet-meules medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "monet-meules",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "post_impressionism",
+            "expressionism",
+            "pointillism",
+            "impressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "monet-meules",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "monet-meules medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "monet-meules",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "romanticism",
+            "impressionism",
+            "post_impressionism",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "monet-meules",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "monet-meules hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "monet-meules",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "post_impressionism",
+            "pointillism",
+            "romanticism",
+            "impressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "monet-meules",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "monet-meules hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "post_impressionism"
+          ],
+          "artwork" : "seurat-les-poseuses-small",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "symbolism",
+            "pointillism",
+            "baroque",
+            "renaissance_north"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "seurat-les-poseuses-small",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "seurat-les-poseuses-small easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "post_impressionism"
+          ],
+          "artwork" : "seurat-les-poseuses-small",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "romanticism",
+            "baroque",
+            "dutch_golden_age",
+            "pointillism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "seurat-les-poseuses-small",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "seurat-les-poseuses-small easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "post_impressionism"
+          ],
+          "artwork" : "seurat-les-poseuses-small",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "impressionism",
+            "pointillism",
+            "expressionism",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "seurat-les-poseuses-small",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "seurat-les-poseuses-small medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "post_impressionism"
+          ],
+          "artwork" : "seurat-les-poseuses-small",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "symbolism",
+            "expressionism",
+            "impressionism",
+            "pointillism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "seurat-les-poseuses-small",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "seurat-les-poseuses-small medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "post_impressionism"
+          ],
+          "artwork" : "seurat-les-poseuses-small",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "impressionism",
+            "pointillism",
+            "symbolism",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "seurat-les-poseuses-small",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "seurat-les-poseuses-small hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "post_impressionism"
+          ],
+          "artwork" : "seurat-les-poseuses-small",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "symbolism",
+            "impressionism",
+            "renaissance_north",
+            "pointillism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "seurat-les-poseuses-small",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "seurat-les-poseuses-small hard seed 77"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "5"
+      },
+      "input" : {
+        "artwork_id" : "chardin-basket-wild-strawberries",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "chardin-basket-wild-strawberries easy seed 5"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "77"
+      },
+      "input" : {
+        "artwork_id" : "chardin-basket-wild-strawberries",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "chardin-basket-wild-strawberries easy seed 77"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "5"
+      },
+      "input" : {
+        "artwork_id" : "chardin-basket-wild-strawberries",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "chardin-basket-wild-strawberries medium seed 5"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "77"
+      },
+      "input" : {
+        "artwork_id" : "chardin-basket-wild-strawberries",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "chardin-basket-wild-strawberries medium seed 77"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "5"
+      },
+      "input" : {
+        "artwork_id" : "chardin-basket-wild-strawberries",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "chardin-basket-wild-strawberries hard seed 5"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "77"
+      },
+      "input" : {
+        "artwork_id" : "chardin-basket-wild-strawberries",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "chardin-basket-wild-strawberries hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "friedrich-moonrise-study",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "post_impressionism",
+            "romanticism",
+            "renaissance_it",
+            "renaissance_north"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "friedrich-moonrise-study",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "friedrich-moonrise-study easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "friedrich-moonrise-study",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "symbolism",
+            "renaissance_it",
+            "renaissance_north",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "friedrich-moonrise-study",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "friedrich-moonrise-study easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "friedrich-moonrise-study",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "impressionism",
+            "romanticism",
+            "symbolism",
+            "rococo"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "friedrich-moonrise-study",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "friedrich-moonrise-study medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "friedrich-moonrise-study",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "impressionism",
+            "expressionism",
+            "post_impressionism",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "friedrich-moonrise-study",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "friedrich-moonrise-study medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "friedrich-moonrise-study",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "impressionism",
+            "romanticism",
+            "post_impressionism",
+            "baroque"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "friedrich-moonrise-study",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "friedrich-moonrise-study hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "friedrich-moonrise-study",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "impressionism",
+            "baroque",
+            "dutch_golden_age",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "friedrich-moonrise-study",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "friedrich-moonrise-study hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "renaissance_north"
+          ],
+          "artwork" : "durer-rhinoceros",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "dutch_golden_age",
+            "print",
+            "post_impressionism",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "durer-rhinoceros",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "durer-rhinoceros easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "renaissance_north"
+          ],
+          "artwork" : "durer-rhinoceros",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "baroque",
+            "dutch_golden_age",
+            "expressionism",
+            "print"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "durer-rhinoceros",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "durer-rhinoceros easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "renaissance_north"
+          ],
+          "artwork" : "durer-rhinoceros",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "ukiyo_e",
+            "print",
+            "pointillism",
+            "symbolism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "durer-rhinoceros",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "durer-rhinoceros medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "renaissance_north"
+          ],
+          "artwork" : "durer-rhinoceros",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "ukiyo_e",
+            "baroque",
+            "dutch_golden_age",
+            "print"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "durer-rhinoceros",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "durer-rhinoceros medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "renaissance_north"
+          ],
+          "artwork" : "durer-rhinoceros",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "ukiyo_e",
+            "print",
+            "pointillism",
+            "symbolism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "durer-rhinoceros",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "durer-rhinoceros hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "renaissance_north"
+          ],
+          "artwork" : "durer-rhinoceros",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "ukiyo_e",
+            "baroque",
+            "dutch_golden_age",
+            "print"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "durer-rhinoceros",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "durer-rhinoceros hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "print"
+          ],
+          "artwork" : "hokusai-under-the-wave",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "symbolism",
+            "ukiyo_e",
+            "pointillism",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "hokusai-under-the-wave",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "hokusai-under-the-wave easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "print"
+          ],
+          "artwork" : "hokusai-under-the-wave",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "rococo",
+            "baroque",
+            "dutch_golden_age",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "hokusai-under-the-wave",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "hokusai-under-the-wave easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "print"
+          ],
+          "artwork" : "hokusai-under-the-wave",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "impressionism",
+            "ukiyo_e",
+            "baroque",
+            "pointillism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "hokusai-under-the-wave",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "hokusai-under-the-wave medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "print"
+          ],
+          "artwork" : "hokusai-under-the-wave",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "post_impressionism",
+            "pointillism",
+            "romanticism",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "hokusai-under-the-wave",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "hokusai-under-the-wave medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "print"
+          ],
+          "artwork" : "hokusai-under-the-wave",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "impressionism",
+            "ukiyo_e",
+            "post_impressionism",
+            "symbolism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "hokusai-under-the-wave",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "hokusai-under-the-wave hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "print"
+          ],
+          "artwork" : "hokusai-under-the-wave",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "post_impressionism",
+            "impressionism",
+            "symbolism",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "hokusai-under-the-wave",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "hokusai-under-the-wave hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "baroque"
+          ],
+          "artwork" : "rembrandt-aristotle",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "rococo",
+            "dutch_golden_age",
+            "symbolism",
+            "post_impressionism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "rembrandt-aristotle",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "rembrandt-aristotle easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "baroque"
+          ],
+          "artwork" : "rembrandt-aristotle",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "renaissance_north",
+            "expressionism",
+            "impressionism",
+            "dutch_golden_age"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "rembrandt-aristotle",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "rembrandt-aristotle easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "baroque"
+          ],
+          "artwork" : "rembrandt-aristotle",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "symbolism",
+            "dutch_golden_age",
+            "renaissance_it",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "rembrandt-aristotle",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "rembrandt-aristotle medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "baroque"
+          ],
+          "artwork" : "rembrandt-aristotle",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "romanticism",
+            "renaissance_it",
+            "renaissance_north",
+            "dutch_golden_age"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "rembrandt-aristotle",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "rembrandt-aristotle medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "baroque"
+          ],
+          "artwork" : "rembrandt-aristotle",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "symbolism",
+            "dutch_golden_age",
+            "romanticism",
+            "renaissance_north"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "rembrandt-aristotle",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "rembrandt-aristotle hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "baroque"
+          ],
+          "artwork" : "rembrandt-aristotle",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "romanticism",
+            "expressionism",
+            "renaissance_north",
+            "dutch_golden_age"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "rembrandt-aristotle",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "rembrandt-aristotle hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "leonardo-salvator-mundi",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "renaissance_north",
+            "renaissance_it",
+            "romanticism",
+            "symbolism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "leonardo-salvator-mundi",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "leonardo-salvator-mundi easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "leonardo-salvator-mundi",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "baroque",
+            "expressionism",
+            "impressionism",
+            "renaissance_it"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "leonardo-salvator-mundi",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "leonardo-salvator-mundi easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "leonardo-salvator-mundi",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "renaissance_north",
+            "renaissance_it",
+            "baroque",
+            "dutch_golden_age"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "leonardo-salvator-mundi",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "leonardo-salvator-mundi medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "leonardo-salvator-mundi",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "renaissance_north",
+            "baroque",
+            "dutch_golden_age",
+            "renaissance_it"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "leonardo-salvator-mundi",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "leonardo-salvator-mundi medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "leonardo-salvator-mundi",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "renaissance_north",
+            "renaissance_it",
+            "pointillism",
+            "baroque"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "leonardo-salvator-mundi",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "leonardo-salvator-mundi hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "leonardo-salvator-mundi",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "renaissance_north",
+            "baroque",
+            "dutch_golden_age",
+            "renaissance_it"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "leonardo-salvator-mundi",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "leonardo-salvator-mundi hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "munch-scream-pastel",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "romanticism",
+            "expressionism",
+            "baroque",
+            "renaissance_north"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "munch-scream-pastel",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "munch-scream-pastel easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "munch-scream-pastel",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "post_impressionism",
+            "baroque",
+            "dutch_golden_age",
+            "expressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "munch-scream-pastel",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "munch-scream-pastel easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "munch-scream-pastel",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "post_impressionism",
+            "expressionism",
+            "impressionism",
+            "ukiyo_e"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "munch-scream-pastel",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "munch-scream-pastel medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "munch-scream-pastel",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "post_impressionism",
+            "impressionism",
+            "pointillism",
+            "expressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "munch-scream-pastel",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "munch-scream-pastel medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "munch-scream-pastel",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "post_impressionism",
+            "expressionism",
+            "romanticism",
+            "pointillism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "munch-scream-pastel",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "munch-scream-pastel hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "munch-scream-pastel",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "post_impressionism",
+            "baroque",
+            "pointillism",
+            "expressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "munch-scream-pastel",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "munch-scream-pastel hard seed 77"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "5"
+      },
+      "input" : {
+        "artwork_id" : "liotard-dutch-girl-breakfast",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "liotard-dutch-girl-breakfast easy seed 5"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "77"
+      },
+      "input" : {
+        "artwork_id" : "liotard-dutch-girl-breakfast",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "liotard-dutch-girl-breakfast easy seed 77"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "5"
+      },
+      "input" : {
+        "artwork_id" : "liotard-dutch-girl-breakfast",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "liotard-dutch-girl-breakfast medium seed 5"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "77"
+      },
+      "input" : {
+        "artwork_id" : "liotard-dutch-girl-breakfast",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "liotard-dutch-girl-breakfast medium seed 77"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "5"
+      },
+      "input" : {
+        "artwork_id" : "liotard-dutch-girl-breakfast",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "liotard-dutch-girl-breakfast hard seed 5"
+    },
+    {
+      "expected" : {
+        "error" : "no_quiz_category",
+        "state_after" : "77"
+      },
+      "input" : {
+        "artwork_id" : "liotard-dutch-girl-breakfast",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "liotard-dutch-girl-breakfast hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "turner-seascape-folkestone",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "post_impressionism",
+            "romanticism",
+            "renaissance_it",
+            "renaissance_north"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "turner-seascape-folkestone",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "turner-seascape-folkestone easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "turner-seascape-folkestone",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "symbolism",
+            "renaissance_it",
+            "renaissance_north",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "turner-seascape-folkestone",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "turner-seascape-folkestone easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "turner-seascape-folkestone",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "impressionism",
+            "romanticism",
+            "symbolism",
+            "rococo"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "turner-seascape-folkestone",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "turner-seascape-folkestone medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "turner-seascape-folkestone",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "impressionism",
+            "expressionism",
+            "post_impressionism",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "turner-seascape-folkestone",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "turner-seascape-folkestone medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "turner-seascape-folkestone",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "impressionism",
+            "romanticism",
+            "post_impressionism",
+            "baroque"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "turner-seascape-folkestone",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "turner-seascape-folkestone hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+
+          ],
+          "artwork" : "turner-seascape-folkestone",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "impressionism",
+            "baroque",
+            "dutch_golden_age",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "turner-seascape-folkestone",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "turner-seascape-folkestone hard seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "gauguin-nafea-faa-ipoipo",
+          "correct_index" : 1,
+          "difficulty" : "easy",
+          "options" : [
+            "romanticism",
+            "post_impressionism",
+            "baroque",
+            "renaissance_north"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "gauguin-nafea-faa-ipoipo",
+        "difficulty" : "easy",
+        "seed" : "5"
+      },
+      "name" : "gauguin-nafea-faa-ipoipo easy seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "gauguin-nafea-faa-ipoipo",
+          "correct_index" : 3,
+          "difficulty" : "easy",
+          "options" : [
+            "impressionism",
+            "baroque",
+            "dutch_golden_age",
+            "post_impressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "gauguin-nafea-faa-ipoipo",
+        "difficulty" : "easy",
+        "seed" : "77"
+      },
+      "name" : "gauguin-nafea-faa-ipoipo easy seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "gauguin-nafea-faa-ipoipo",
+          "correct_index" : 1,
+          "difficulty" : "medium",
+          "options" : [
+            "ukiyo_e",
+            "post_impressionism",
+            "impressionism",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "gauguin-nafea-faa-ipoipo",
+        "difficulty" : "medium",
+        "seed" : "5"
+      },
+      "name" : "gauguin-nafea-faa-ipoipo medium seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "gauguin-nafea-faa-ipoipo",
+          "correct_index" : 3,
+          "difficulty" : "medium",
+          "options" : [
+            "expressionism",
+            "impressionism",
+            "romanticism",
+            "post_impressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "gauguin-nafea-faa-ipoipo",
+        "difficulty" : "medium",
+        "seed" : "77"
+      },
+      "name" : "gauguin-nafea-faa-ipoipo medium seed 77"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "gauguin-nafea-faa-ipoipo",
+          "correct_index" : 1,
+          "difficulty" : "hard",
+          "options" : [
+            "ukiyo_e",
+            "post_impressionism",
+            "expressionism",
+            "romanticism"
+          ]
+        },
+        "state_after" : "8709371129873690713"
+      },
+      "input" : {
+        "artwork_id" : "gauguin-nafea-faa-ipoipo",
+        "difficulty" : "hard",
+        "seed" : "5"
+      },
+      "name" : "gauguin-nafea-faa-ipoipo hard seed 5"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "accepted" : [
+            "symbolism"
+          ],
+          "artwork" : "gauguin-nafea-faa-ipoipo",
+          "correct_index" : 3,
+          "difficulty" : "hard",
+          "options" : [
+            "expressionism",
+            "impressionism",
+            "renaissance_north",
+            "post_impressionism"
+          ]
+        },
+        "state_after" : "8709371129873690785"
+      },
+      "input" : {
+        "artwork_id" : "gauguin-nafea-faa-ipoipo",
+        "difficulty" : "hard",
+        "seed" : "77"
+      },
+      "name" : "gauguin-nafea-faa-ipoipo hard seed 77"
+    }
+  ],
+  "description" : "Category quiz questions over mini_dataset.json."
+}

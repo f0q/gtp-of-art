@@ -1,0 +1,31 @@
+# Xcode / SwiftPM
+*.xcodeproj
+*.xcworkspace
+!*.xcodeproj/project.xcworkspace
+xcuserdata/
+.build/
+.swiftpm/
+DerivedData/
+*.xcresult
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Generated snapshots are committed; failures are not
+**/__Snapshots__/**/*.failed.png
+
+# Python tooling
+tools/.venv/
+tools/cache/
+__pycache__/
+*.pyc
+
+# Dataset build intermediates (masters are regenerated; HEIC bundle is committed)
+tools/out/
+
+# macOS
+.DS_Store
+
+# Secrets
+*.env

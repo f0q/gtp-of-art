@@ -1,0 +1,325 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "direction" : "exact",
+        "error_milli" : 0,
+        "factor" : 1,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 2000,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 2000,
+        "position" : 0
+      },
+      "name" : "p=0 actual=2000"
+    },
+    {
+      "expected" : {
+        "direction" : "exact",
+        "error_milli" : 0,
+        "factor" : 1,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 9000,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 9000,
+        "position" : 700
+      },
+      "name" : "p=700 actual=9000"
+    },
+    {
+      "expected" : {
+        "direction" : "exact",
+        "error_milli" : 0,
+        "factor" : 1,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 2000,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 2000,
+        "position" : -5
+      },
+      "name" : "p=-5 actual=2000"
+    },
+    {
+      "expected" : {
+        "direction" : "exact",
+        "error_milli" : 0,
+        "factor" : 1,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 9000,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 9000,
+        "position" : 800
+      },
+      "name" : "p=800 actual=9000"
+    },
+    {
+      "expected" : {
+        "direction" : "under",
+        "error_milli" : 3,
+        "factor" : 1.0069316688518042,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6650,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 6653,
+        "position" : 465
+      },
+      "name" : "p=465 actual=6653"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 7,
+        "factor" : 1.0162486928706955,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6660,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 6653,
+        "position" : 466
+      },
+      "name" : "p=466 actual=6653"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 97,
+        "factor" : 1.2502590302177201,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6750,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 6653,
+        "position" : 475
+      },
+      "name" : "p=475 actual=6653"
+    },
+    {
+      "expected" : {
+        "direction" : "under",
+        "error_milli" : 93,
+        "factor" : 1.238796586530369,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6560,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 6653,
+        "position" : 456
+      },
+      "name" : "p=456 actual=6653"
+    },
+    {
+      "expected" : {
+        "direction" : "under",
+        "error_milli" : 103,
+        "factor" : 1.2676518658578457,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6550,
+        "points" : 70,
+        "tier" : "expert_eye"
+      },
+      "input" : {
+        "actual_milli" : 6653,
+        "position" : 455
+      },
+      "name" : "p=455 actual=6653"
+    },
+    {
+      "expected" : {
+        "direction" : "under",
+        "error_milli" : 303,
+        "factor" : 2.0090928126087277,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6350,
+        "points" : 40,
+        "tier" : "good_instinct"
+      },
+      "input" : {
+        "actual_milli" : 6653,
+        "position" : 435
+      },
+      "name" : "p=435 actual=6653"
+    },
+    {
+      "expected" : {
+        "direction" : "under",
+        "error_milli" : 2,
+        "factor" : 1.0046157902783952,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6350,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 6352,
+        "position" : 435
+      },
+      "name" : "p=435 actual=6352"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 300,
+        "factor" : 1.9952623149688795,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6350,
+        "points" : 70,
+        "tier" : "expert_eye"
+      },
+      "input" : {
+        "actual_milli" : 6050,
+        "position" : 435
+      },
+      "name" : "p=435 actual=6050"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 301,
+        "factor" : 1.9998618696327441,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6350,
+        "points" : 70,
+        "tier" : "expert_eye"
+      },
+      "input" : {
+        "actual_milli" : 6049,
+        "position" : 435
+      },
+      "name" : "p=435 actual=6049"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 1000,
+        "factor" : 10.000000000000002,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6350,
+        "points" : 15,
+        "tier" : "in_the_room"
+      },
+      "input" : {
+        "actual_milli" : 5350,
+        "position" : 435
+      },
+      "name" : "p=435 actual=5350"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 1001,
+        "factor" : 10.023052380779001,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6350,
+        "points" : 0,
+        "tier" : "off_the_wall"
+      },
+      "input" : {
+        "actual_milli" : 5349,
+        "position" : 435
+      },
+      "name" : "p=435 actual=5349"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 1002,
+        "factor" : 10.046157902783959,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 6350,
+        "points" : 0,
+        "tier" : "off_the_wall"
+      },
+      "input" : {
+        "actual_milli" : 5348,
+        "position" : 435
+      },
+      "name" : "p=435 actual=5348"
+    },
+    {
+      "expected" : {
+        "direction" : "under",
+        "error_milli" : 903,
+        "factor" : 7.998342550070287,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 7000,
+        "points" : 15,
+        "tier" : "in_the_room"
+      },
+      "input" : {
+        "actual_milli" : 7903,
+        "position" : 500
+      },
+      "name" : "p=500 actual=7903"
+    },
+    {
+      "expected" : {
+        "direction" : "under",
+        "error_milli" : 3654,
+        "factor" : 4508.167045414604,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 5000,
+        "points" : 0,
+        "tier" : "off_the_wall"
+      },
+      "input" : {
+        "actual_milli" : 8654,
+        "position" : 300
+      },
+      "name" : "p=300 actual=8654"
+    },
+    {
+      "expected" : {
+        "direction" : "over",
+        "error_milli" : 3638,
+        "factor" : 4345.102241715723,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 8000,
+        "points" : 0,
+        "tier" : "off_the_wall"
+      },
+      "input" : {
+        "actual_milli" : 4362,
+        "position" : 600
+      },
+      "name" : "p=600 actual=4362"
+    },
+    {
+      "expected" : {
+        "direction" : "exact",
+        "error_milli" : 0,
+        "factor" : 1,
+        "factor_tolerance" : 1e-09,
+        "guess_milli" : 5500,
+        "points" : 100,
+        "tier" : "bullseye"
+      },
+      "input" : {
+        "actual_milli" : 5500,
+        "position" : 350
+      },
+      "name" : "p=350 actual=5500"
+    }
+  ],
+  "description" : "Bid scoring: guessMilli = 2000 + 10·clamp(p,0,700); e = |guess − actual|; tiers ≤97/≤301/≤699/≤1000."
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://artprice.invalid/spec/onboarding.schema.json",
+  "title": "ArtPrice onboarding exemplars (Resources/onboarding.json)",
+  "description": "Exemplar artworks per questionnaire choice (plan Part I2). Choice ids: classic, modern, old_masters, nineteenth_century, impressionist_modern:impressionist, impressionist_modern:avant_garde, asian_art, prints_photographs, subject:landscape|people|still_life, mood:serene|dramatic. artwork_id refers to Resources/dataset.json.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "choices"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "dataset_id": {
+      "type": "string"
+    },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "step",
+          "label",
+          "exemplars"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z_]+(:[a-z_]+)?$"
+          },
+          "step": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exemplars": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 3,
+            "items": {
+              "type": "object",
+              "required": [
+                "artwork_id",
+                "caption"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "artwork_id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+                },
+                "caption": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 90
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

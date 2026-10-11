@@ -1,0 +1,743 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "schiele-seated-woman",
+              "correct_index" : 0,
+              "difficulty" : "easy",
+              "options" : [
+                2200000,
+                8800000,
+                44000000,
+                260000000
+              ],
+              "price_id" : "schiele-seated-woman-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "vangogh-portrait-dr-gachet",
+              "bottom_milli" : 8309,
+              "difficulty" : "medium",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "signac-harbour-sketch",
+              "top_milli" : 4564
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+                "print"
+              ],
+              "artwork" : "hokusai-under-the-wave",
+              "correct_index" : 2,
+              "difficulty" : "medium",
+              "options" : [
+                "impressionism",
+                "pointillism",
+                "ukiyo_e",
+                "dutch_golden_age"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 5571,
+              "actual_usd" : 372000,
+              "artwork" : "rembrandt-hundred-guilder-print",
+              "price_id" : "rembrandt-hundred-guilder-print-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "chardin-basket-wild-strawberries",
+              "correct_index" : 2,
+              "difficulty" : "hard",
+              "options" : [
+                5400000,
+                14000000,
+                27000000,
+                54000000
+              ],
+              "price_id" : "chardin-basket-wild-strawberries-p1"
+            }
+          }
+        ],
+        "seed" : "7890112032649508074",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2026-10-11"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2026-10-11",
+        "rules_version" : 2
+      },
+      "name" : "daily 2026-10-11"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "durer-melencolia-i",
+              "correct_index" : 3,
+              "difficulty" : "easy",
+              "options" : [
+                7500,
+                30000,
+                120000,
+                480000
+              ],
+              "price_id" : "durer-melencolia-i-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "renoir-bal-du-moulin-small",
+              "bottom_milli" : 8285,
+              "difficulty" : "medium",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "hokusai-under-the-wave",
+              "top_milli" : 6466
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "morisot-garden-study",
+              "correct_index" : 3,
+              "difficulty" : "medium",
+              "options" : [
+                "pointillism",
+                "romanticism",
+                "symbolism",
+                "impressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 6301,
+              "actual_usd" : 2000000,
+              "artwork" : "vermeer-study-young-woman",
+              "price_id" : "vermeer-study-young-woman-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "signac-harbour-sketch",
+              "correct_index" : 2,
+              "difficulty" : "hard",
+              "options" : [
+                4500,
+                11000,
+                28000,
+                70000
+              ],
+              "price_id" : "signac-harbour-sketch-p1"
+            }
+          }
+        ],
+        "seed" : "7890110933137879863",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2026-10-12"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2026-10-12",
+        "rules_version" : 2
+      },
+      "name" : "daily 2026-10-12"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "friedrich-moonrise-study",
+              "correct_index" : 3,
+              "difficulty" : "easy",
+              "options" : [
+                2700,
+                13000,
+                67000,
+                400000
+              ],
+              "price_id" : "friedrich-moonrise-study-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-standard-bearer",
+              "bottom_milli" : 8306,
+              "difficulty" : "medium",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "velazquez-juan-de-pareja",
+              "top_milli" : 7662
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "cezanne-card-players",
+              "correct_index" : 3,
+              "difficulty" : "medium",
+              "options" : [
+                "symbolism",
+                "ukiyo_e",
+                "romanticism",
+                "post_impressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 8654,
+              "actual_usd" : 450312500,
+              "artwork" : "leonardo-salvator-mundi",
+              "price_id" : "leonardo-salvator-mundi-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "seurat-les-poseuses-small",
+              "correct_index" : 1,
+              "difficulty" : "hard",
+              "options" : [
+                60000000,
+                150000000,
+                380000000,
+                940000000
+              ],
+              "price_id" : "seurat-les-poseuses-small-p1"
+            }
+          }
+        ],
+        "seed" : "7890109833626251652",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2026-10-13"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2026-10-13",
+        "rules_version" : 2
+      },
+      "name" : "daily 2026-10-13"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "monet-meules",
+              "correct_index" : 3,
+              "difficulty" : "easy",
+              "options" : [
+                510000,
+                3100000,
+                18000000,
+                110000000
+              ],
+              "price_id" : "monet-meules-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-hundred-guilder-print",
+              "bottom_milli" : 5704,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "velazquez-juan-de-pareja",
+              "top_milli" : 7662
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "signac-harbour-sketch",
+              "correct_index" : 0,
+              "difficulty" : "medium",
+              "options" : [
+                "pointillism",
+                "symbolism",
+                "ukiyo_e",
+                "expressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 7428,
+              "actual_usd" : 26800000,
+              "artwork" : "chardin-basket-wild-strawberries",
+              "price_id" : "chardin-basket-wild-strawberries-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "rembrandt-standard-bearer",
+              "correct_index" : 1,
+              "difficulty" : "hard",
+              "options" : [
+                72000000,
+                180000000,
+                450000000,
+                900000000
+              ],
+              "price_id" : "rembrandt-standard-bearer-p1"
+            }
+          }
+        ],
+        "seed" : "7890108734114623441",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2026-10-14"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2026-10-14",
+        "rules_version" : 2
+      },
+      "name" : "daily 2026-10-14"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "gauguin-nafea-faa-ipoipo",
+              "correct_index" : 3,
+              "difficulty" : "easy",
+              "options" : [
+                2100000,
+                11000000,
+                53000000,
+                210000000
+              ],
+              "price_id" : "gauguin-nafea-faa-ipoipo-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "morisot-garden-study",
+              "bottom_milli" : 4787,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "renoir-bal-du-moulin-small",
+              "top_milli" : 8285
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+                "dutch_golden_age"
+              ],
+              "artwork" : "rembrandt-hundred-guilder-print",
+              "correct_index" : 1,
+              "difficulty" : "medium",
+              "options" : [
+                "ukiyo_e",
+                "print",
+                "expressionism",
+                "post_impressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 6301,
+              "actual_usd" : 2000000,
+              "artwork" : "vermeer-study-young-woman",
+              "price_id" : "vermeer-study-young-woman-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "klimt-elisabeth-lederer",
+              "correct_index" : 2,
+              "difficulty" : "hard",
+              "options" : [
+                48000000,
+                120000000,
+                240000000,
+                600000000
+              ],
+              "price_id" : "klimt-elisabeth-lederer-p1"
+            }
+          }
+        ],
+        "seed" : "1108151651590664922",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2026-11-30"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2026-11-30",
+        "rules_version" : 2
+      },
+      "name" : "daily 2026-11-30"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "seurat-les-poseuses-small",
+              "correct_index" : 2,
+              "difficulty" : "easy",
+              "options" : [
+                5000000,
+                30000000,
+                150000000,
+                600000000
+              ],
+              "price_id" : "seurat-les-poseuses-small-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "signac-harbour-sketch",
+              "bottom_milli" : 4564,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "kirchner-berlin-street-scene",
+              "top_milli" : 7785
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "morisot-garden-study",
+              "correct_index" : 0,
+              "difficulty" : "medium",
+              "options" : [
+                "impressionism",
+                "ukiyo_e",
+                "symbolism",
+                "expressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 5398,
+              "actual_usd" : 250000,
+              "artwork" : "durer-rhinoceros",
+              "price_id" : "durer-rhinoceros-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "chardin-basket-wild-strawberries",
+              "correct_index" : 0,
+              "difficulty" : "hard",
+              "options" : [
+                27000000,
+                54000000,
+                110000000,
+                220000000
+              ],
+              "price_id" : "chardin-basket-wild-strawberries-p1"
+            }
+          }
+        ],
+        "seed" : "14792700828630807942",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2026-12-31"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2026-12-31",
+        "rules_version" : 2
+      },
+      "name" : "daily 2026-12-31"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "durer-rhinoceros",
+              "correct_index" : 1,
+              "difficulty" : "easy",
+              "options" : [
+                42000,
+                250000,
+                1300000,
+                6300000
+              ],
+              "price_id" : "durer-rhinoceros-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "durer-melencolia-i",
+              "bottom_milli" : 5782,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "leonardo-salvator-mundi",
+              "top_milli" : 8771
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "cezanne-card-players",
+              "correct_index" : 0,
+              "difficulty" : "medium",
+              "options" : [
+                "post_impressionism",
+                "expressionism",
+                "impressionism",
+                "ukiyo_e"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 8374,
+              "actual_usd" : 236365000,
+              "artwork" : "klimt-elisabeth-lederer",
+              "price_id" : "klimt-elisabeth-lederer-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "morisot-garden-study",
+              "correct_index" : 3,
+              "difficulty" : "hard",
+              "options" : [
+                3600,
+                9000,
+                23000,
+                45000
+              ],
+              "price_id" : "morisot-garden-study-p1"
+            }
+          }
+        ],
+        "seed" : "12793295201684797509",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2027-10-11"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2027-10-11",
+        "rules_version" : 2
+      },
+      "name" : "daily 2027-10-11"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "schiele-seated-woman",
+              "correct_index" : 1,
+              "difficulty" : "easy",
+              "options" : [
+                370000,
+                2200000,
+                13000000,
+                53000000
+              ],
+              "price_id" : "schiele-seated-woman-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "morisot-garden-study",
+              "bottom_milli" : 4787,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "cezanne-card-players",
+              "top_milli" : 8553
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "signac-harbour-sketch",
+              "correct_index" : 2,
+              "difficulty" : "medium",
+              "options" : [
+                "symbolism",
+                "impressionism",
+                "pointillism",
+                "ukiyo_e"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 8374,
+              "actual_usd" : 236365000,
+              "artwork" : "klimt-elisabeth-lederer",
+              "price_id" : "klimt-elisabeth-lederer-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "renoir-bal-du-moulin-small",
+              "correct_index" : 0,
+              "difficulty" : "hard",
+              "options" : [
+                78000000,
+                160000000,
+                390000000,
+                780000000
+              ],
+              "price_id" : "renoir-bal-du-moulin-small-p1"
+            }
+          }
+        ],
+        "seed" : "10090542538390992701",
+        "seed_string" : "artprice|daily|r2|dmini-2026.10|2028-10-09"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2028-10-09",
+        "rules_version" : 2
+      },
+      "name" : "daily 2028-10-09"
+    },
+    {
+      "expected" : {
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "redon-vase-of-flowers",
+              "correct_index" : 0,
+              "difficulty" : "easy",
+              "options" : [
+                1500000,
+                7500000,
+                30000000,
+                150000000
+              ],
+              "price_id" : "redon-vase-of-flowers-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "cranach-nymph-of-the-spring",
+              "bottom_milli" : 7299,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "leonardo-salvator-mundi",
+              "top_milli" : 8771
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "vangogh-portrait-dr-gachet",
+              "correct_index" : 3,
+              "difficulty" : "medium",
+              "options" : [
+                "ukiyo_e",
+                "expressionism",
+                "impressionism",
+                "post_impressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 6301,
+              "actual_usd" : 2000000,
+              "artwork" : "vermeer-study-young-woman",
+              "price_id" : "vermeer-study-young-woman-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "seurat-les-poseuses-small",
+              "correct_index" : 2,
+              "difficulty" : "hard",
+              "options" : [
+                24000000,
+                60000000,
+                150000000,
+                300000000
+              ],
+              "price_id" : "seurat-les-poseuses-small-p1"
+            }
+          }
+        ],
+        "seed" : "16663302425811926759",
+        "seed_string" : "artprice|daily|r3|dmini-2026.10|2026-10-11"
+      },
+      "input" : {
+        "dataset_version" : "mini-2026.10",
+        "day" : "2026-10-11",
+        "rules_version" : 3
+      },
+      "name" : "a different rules version changes the seed"
+    }
+  ],
+  "description" : "Daily challenge over mini_dataset.json (rules version 2)."
+}

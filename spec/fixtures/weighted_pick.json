@@ -1,0 +1,240 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "picks" : [
+          0,
+          0,
+          0
+        ],
+        "state_after" : "15755400384260043840"
+      },
+      "input" : {
+        "count" : 3,
+        "seed" : "1",
+        "weights" : [
+          5
+        ]
+      },
+      "name" : "single"
+    },
+    {
+      "expected" : {
+        "picks" : [
+          1,
+          1,
+          3,
+          3,
+          1,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        "state_after" : "7681369315912755075"
+      },
+      "input" : {
+        "count" : 12,
+        "seed" : "1234567",
+        "weights" : [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "name" : "uniform 4"
+    },
+    {
+      "expected" : {
+        "picks" : [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "state_after" : "16390740445785211258"
+      },
+      "input" : {
+        "count" : 16,
+        "seed" : "42",
+        "weights" : [
+          3,
+          1
+        ]
+      },
+      "name" : "3 vs 1"
+    },
+    {
+      "expected" : {
+        "picks" : [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "state_after" : "16390740445785211223"
+      },
+      "input" : {
+        "count" : 16,
+        "seed" : "7",
+        "weights" : [
+          0,
+          2,
+          0,
+          1,
+          0
+        ]
+      },
+      "name" : "zeros skipped"
+    },
+    {
+      "expected" : {
+        "picks" : [
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2
+        ],
+        "state_after" : "17418742259747381425"
+      },
+      "input" : {
+        "count" : 8,
+        "seed" : "9",
+        "weights" : [
+          -4,
+          1,
+          1
+        ]
+      },
+      "name" : "negative counts as zero"
+    },
+    {
+      "expected" : {
+        "state_after" : "3"
+      },
+      "input" : {
+        "count" : 5,
+        "seed" : "3",
+        "weights" : [
+          0,
+          0,
+          0
+        ]
+      },
+      "name" : "all zero"
+    },
+    {
+      "expected" : {
+        "state_after" : "3"
+      },
+      "input" : {
+        "count" : 1,
+        "seed" : "3",
+        "weights" : [
+
+        ]
+      },
+      "name" : "empty"
+    },
+    {
+      "expected" : {
+        "picks" : [
+          1,
+          5,
+          2,
+          3,
+          2,
+          1,
+          2,
+          2,
+          3,
+          0,
+          2,
+          0,
+          4,
+          1,
+          4,
+          2,
+          2,
+          1,
+          1,
+          4
+        ],
+        "state_after" : "6653367501949352334"
+      },
+      "input" : {
+        "count" : 20,
+        "seed" : "2026",
+        "weights" : [
+          3,
+          5,
+          7,
+          9,
+          3,
+          5
+        ]
+      },
+      "name" : "prior-like 3..9"
+    },
+    {
+      "expected" : {
+        "picks" : [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "state_after" : "3326683754710603713"
+      },
+      "input" : {
+        "count" : 10,
+        "seed" : "3735928559",
+        "weights" : [
+          1000000007,
+          1,
+          999999999999
+        ]
+      },
+      "name" : "large"
+    }
+  ],
+  "description" : "WeightedPicker: r = nextInt(Σ positive weights); first i with r < cumulative positive weight."
+}

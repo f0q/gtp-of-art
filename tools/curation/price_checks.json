@@ -1,0 +1,1561 @@
+{
+ "avercamp-colf-players": {
+  "amount": 11400000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://historiek.net/colfspelers-op-het-ijs-avercamp/185893/"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.destentor.nl/kampen/topstuk-van-schilder-uit-kampen-naar-nederland-gehaald-voor-recordbedrag~a5db0c0c/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q121548581#Q121548581$30999fd3-4a1e-f4fe-4a53-bce450dd7055",
+  "wikidata": {
+   "amount": 11400000.0,
+   "date": "2026-09-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q121548581",
+   "refs": [
+    "https://www.destentor.nl/kampen/topstuk-van-schilder-uit-kampen-naar-nederland-gehaald-voor-recordbedrag~a5db0c0c/",
+    "https://historiek.net/colfspelers-op-het-ijs-avercamp/185893/"
+   ],
+   "statement_id": "Q121548581$30999fd3-4a1e-f4fe-4a53-bce450dd7055"
+  }
+ },
+ "bosschaert-flowers-wanli-vase": {
+  "amount": 1571250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/en/lot/lot-6238432"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q125410315#Q125410315$08F1281E-5F1C-4085-8B1A-E329D7763D15",
+  "wikidata": {
+   "amount": 1571250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q125410315",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238432"
+   ],
+   "statement_id": "Q125410315$08F1281E-5F1C-4085-8B1A-E329D7763D15"
+  }
+ },
+ "botticelli-young-man-roundel": {
+  "amount": 92200000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "e index art & design log in today’s paper art & design | a botticelli portrait sells for $92 million at sotheby’s auction https://nyti.ms/2yk06hk --> at home ma",
+    "url": "https://web.archive.org/web/2020/https://www.nytimes.com/2021/01/28/arts/design/sandro-botticelli-painting-sothebys.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2021/01/28/arts/design/sandro-botticelli-painting-sothebys.html",
+  "wikidata": {
+   "amount": 92200000.0,
+   "date": "2021-01-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q99569815",
+   "refs": [
+    "https://www.nytimes.com/2021/01/28/arts/design/sandro-botticelli-painting-sothebys.html"
+   ],
+   "statement_id": "Q99569815$f836f998-49c4-e0c2-6c96-d88f858160ea"
+  }
+ },
+ "bouguereau-the-bohemian": {
+  "amount": 735500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "http://www.christies.com/Lotfinder/lot_details.aspx?intObjectID=4264007"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q1000128#Q1000128$b34ad4e8-401a-06f6-2e8c-cecfb30805f0",
+  "wikidata": {
+   "amount": 735500.0,
+   "date": "2004-04-22",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q1000128",
+   "refs": [
+    "http://www.christies.com/Lotfinder/lot_details.aspx?intObjectID=4264007"
+   ],
+   "statement_id": "Q1000128$b34ad4e8-401a-06f6-2e8c-cecfb30805f0"
+  }
+ },
+ "caillebotte-young-man-window": {
+  "amount": 53030000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/lot/lot-6341139"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q8058274#Q8058274$fc36d80a-46ac-ec4f-1146-b81d41c2b375",
+  "wikidata": {
+   "amount": 53030000.0,
+   "date": "2021-11-11",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q8058274",
+   "refs": [
+    "https://www.christies.com/lot/lot-6341139?ldp_breadcrumb=back&intObjectID=6341139&from=salessummary&lid=1"
+   ],
+   "statement_id": "Q8058274$fc36d80a-46ac-ec4f-1146-b81d41c2b375"
+  }
+ },
+ "canaletto-grand-canal-rialto": {
+  "amount": 18604000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "http://www.sothebys.com/en/auctions/ecatalogue/2005/old-master-paintings-evening-sale-l05031/lot.47.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q19660552#Q19660552$a3ac4aeb-4fb2-3150-fd10-596874af9b22",
+  "wikidata": {
+   "amount": 18600000.0,
+   "date": "2005-07-07",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q19660552",
+   "refs": [
+    "http://www.sothebys.com/en/auctions/ecatalogue/2005/old-master-paintings-evening-sale-l05031/lot.47.html"
+   ],
+   "statement_id": "Q19660552$a3ac4aeb-4fb2-3150-fd10-596874af9b22"
+  }
+ },
+ "cezanne-montagne-sainte-victoire": {
+  "amount": 137790000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ontagne sainte-victoire\" attracted the sale's second biggest sale price, fetching almost $137.8 million. christie's elsewhere, cézanne’s oil on canvas “la montagne",
+    "url": "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "m wednesday’s sale included paul cézanne’s “la montagne sainte-victoire,” which sold for $137.8 million, and van gogh’s landscape “verger avec cyprès,” which sold ",
+    "url": "https://www.fortune.com/2022/11/10/paul-allen-estate-christies-auction-fine-art-billion-cezanne-seurt-van-gogh"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record",
+  "wikidata": {
+   "amount": 137790000.0,
+   "date": "2022-11-09",
+   "estimate_flag": false,
+   "has_reference": false,
+   "qid": "Q64262379",
+   "refs": [],
+   "statement_id": "Q64262379$3aa0b4df-4899-382f-00d5-3272a790472f"
+  }
+ },
+ "chardin-basket-wild-strawberries": {
+  "amount": 24300000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "senger whatsapp le tableau avait été acquis par le galeriste américain adam williams pour 24,3 millions d'euros. stephane de sakutin / afp annoncé dans un communiq",
+    "url": "https://www.lefigaro.fr/culture/le-louvre-acquiert-le-panier-de-fraises-des-bois-de-chardin-grace-a-un-record-de-dons-20240229"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lefigaro.fr/culture/le-louvre-acquiert-le-panier-de-fraises-des-bois-de-chardin-grace-a-un-record-de-dons-20240229",
+  "wikidata": {
+   "amount": 24300000.0,
+   "date": "2024-02-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q111578201",
+   "refs": [
+    "https://www.lefigaro.fr/culture/le-louvre-acquiert-le-panier-de-fraises-des-bois-de-chardin-grace-a-un-record-de-dons-20240229"
+   ],
+   "statement_id": "Q111578201$032bda41-465e-7c68-297d-151600616079"
+  }
+ },
+ "coorte-wild-strawberries": {
+  "amount": 2440000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.sothebys.com/en/buy/auction/2022/master-paintings-sculpture-part-i/still-life-of-fraises-de-bois-in-a-wan-li-bowl-upon"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q110814193#Q110814193$4305be87-4bdf-6834-9889-cd3b72fa2e16",
+  "wikidata": {
+   "amount": 2440000.0,
+   "date": "2022-01-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q110814193",
+   "refs": [
+    "https://www.sothebys.com/en/buy/auction/2022/master-paintings-sculpture-part-i/still-life-of-fraises-de-bois-in-a-wan-li-bowl"
+   ],
+   "statement_id": "Q110814193$4305be87-4bdf-6834-9889-cd3b72fa2e16"
+  }
+ },
+ "corinth-half-nude-young-woman": {
+  "amount": 35625.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.karlundfaber.de/de/auktionen/238/moderne-zeitgenoessische-kunst/2380415/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q123533028#Q123533028$81d85018-4ca3-e577-f028-ab38cbdfb869",
+  "wikidata": {
+   "amount": 35625.0,
+   "date": "2011-06-10",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q123533028",
+   "refs": [
+    "https://www.karlundfaber.de/de/auktionen/238/moderne-zeitgenoessische-kunst/2380415/"
+   ],
+   "statement_id": "Q123533028$81d85018-4ca3-e577-f028-ab38cbdfb869"
+  }
+ },
+ "corinth-skating-rink-tiergarten": {
+  "amount": 45220.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "- moderne kunst künstler lovis corinth lot 653 schätzpreis: 10.000 € - 12.000 € ergebnis: 45.220 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/891-1/653-lovis-corinth-1.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/891-1/653-lovis-corinth-1.html",
+  "wikidata": {
+   "amount": 45220.0,
+   "date": "2006-06-02",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q123537327",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/891-1/653-lovis-corinth-1.html"
+   ],
+   "statement_id": "Q123537327$A419C7A4-A337-435C-8471-0E4B41136464"
+  }
+ },
+ "corinth-still-life-with-fish": {
+  "amount": 52360.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "zeitgenöss.kunst künstler lovis corinth lot 67 schätzpreis: 15.000 € - 20.000 € ergebnis: 52.360 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/896-1/67-lovis-corinth.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/896-1/67-lovis-corinth.html",
+  "wikidata": {
+   "amount": 52360.0,
+   "date": "2006-11-29",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q122697683",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/896-1/67-lovis-corinth.html"
+   ],
+   "statement_id": "Q122697683$B58BF70D-6509-4439-B63C-6D81D4BCC807"
+  }
+ },
+ "cranach-reclining-water-nymph": {
+  "amount": 9449500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/en/lot/lot-6381771"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q113332014#Q113332014$c36f4509-4d3e-59cf-aee1-e459dee2e638",
+  "wikidata": {
+   "amount": 9449500.0,
+   "date": "2022-07-07",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q113332014",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6381771"
+   ],
+   "statement_id": "Q113332014$c36f4509-4d3e-59cf-aee1-e459dee2e638"
+  }
+ },
+ "drouais-madame-de-pompadour-muff": {
+  "amount": 75000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.sothebys.com/en/auctions/ecatalogue/2018/master-paintings-n09875/lot.133.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q135284517#Q135284517$1fc39a7b-448e-03cc-d1fb-1a16febc66b3",
+  "wikidata": {
+   "amount": 75000.0,
+   "date": "2018-05-22",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q135284517",
+   "refs": [
+    "https://www.sothebys.com/en/auctions/ecatalogue/2018/master-paintings-n09875/lot.133.html"
+   ],
+   "statement_id": "Q135284517$1fc39a7b-448e-03cc-d1fb-1a16febc66b3"
+  }
+ },
+ "duccio-madonna-child": {
+  "amount": 45000000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " met pay $45m for duccio’s ‘stroganoff’ madonna skip to content to ensure",
+    "url": "https://web.archive.org/web/2024/https://www.antiquestradegazette.com/news/2004/met-pay-45m-for-duccio-s-stroganoff-madonna"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": " to the early renaissance master duccio di buoninsegna that was purchased for a reported $45 million. art historian james beck, a professor at columbia universi",
+    "url": "https://web.archive.org/web/2024/https://www.nysun.com/article/arts-met-defends-its-most-expensive-acquisition-duccio"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2024/https://www.antiquestradegazette.com/news/2004/met-pay-45m-for-duccio-s-stroganoff-madonna",
+  "wikidata": null
+ },
+ "durer-melencolia-i": {
+  "amount": 110000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " albrecht durer's melencolia i sees $110,000 at swann skip to content +44 (0)1534 639 998 | info@paulfra",
+    "url": "https://www.paulfrasercollectibles.com/blogs/art-photography/albrecht-durers-melencolia-i-sees-110-000-at-swann"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.paulfrasercollectibles.com/blogs/art-photography/albrecht-durers-melencolia-i-sees-110-000-at-swann",
+  "wikidata": null
+ },
+ "durer-rhinoceros": {
+  "amount": 866500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.bloomberg.com/news/2013-01-29/durer-rhino-sells-for-record-866-500-at-christie-s-nyc.html"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "is extraordinary high-quality woodcut prints. the market record for the artist’s work is $866,500 for a woodcut called the rhinoceros, sold at christie’s new",
+    "url": "https://galeriemagazine.com/albrecht-durer-print-auction/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://galeriemagazine.com/albrecht-durer-print-auction/",
+  "wikidata": null
+ },
+ "fragonard-interesting-student": {
+  "amount": 1032500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.sothebys.com/fr/auctions/ecatalogue/lot.18.html/2019/collection-ribes-pf1930"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q78155713#Q78155713$cbd8e3e8-4a3f-a9f7-2d9b-c654fa37cb02",
+  "wikidata": {
+   "amount": 1032500.0,
+   "date": "2019-12-11",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q78155713",
+   "refs": [
+    "https://www.sothebys.com/fr/auctions/ecatalogue/lot.18.html/2019/collection-ribes-pf1930"
+   ],
+   "statement_id": "Q78155713$cbd8e3e8-4a3f-a9f7-2d9b-c654fa37cb02"
+  }
+ },
+ "gauguin-nafea-faa-ipoipo": {
+  "amount": 210000000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "all. paul gauguin’s 1892 oil painting “nafea faa ipoipo (when will you marry)?” sold for $210 million in 2014, $90 million less than originally reported. the new",
+    "url": "https://web.archive.org/web/2020/https://www.nytimes.com/2017/07/03/arts/design/lawsuit-reveals-gauguin-painting-was-not-worlds-most-expensive.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2017/07/03/arts/design/lawsuit-reveals-gauguin-painting-was-not-worlds-most-expensive.html",
+  "wikidata": {
+   "amount": 210000000.0,
+   "date": "2014-09-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q3869871",
+   "refs": [
+    "https://www.nytimes.com/2017/07/03/arts/design/lawsuit-reveals-gauguin-painting-was-not-worlds-most-expensive.html"
+   ],
+   "statement_id": "Q3869871$d4812b3d-4280-9ee7-f54b-da4f58783048"
+  }
+ },
+ "gentileschi-danae": {
+  "amount": 30490000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "http://www.sothebys.com/en/auctions/ecatalogue/2016/master-paintings-evening-sale-n09460/lot.41.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q22329907#Q22329907$d738af17-4c7e-3f5c-417a-270e9e8425d9",
+  "wikidata": {
+   "amount": 30490000.0,
+   "date": "2016-01-28",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q22329907",
+   "refs": [
+    "http://www.sothebys.com/en/auctions/ecatalogue/2016/master-paintings-evening-sale-n09460/lot.41.html"
+   ],
+   "statement_id": "Q22329907$d738af17-4c7e-3f5c-417a-270e9e8425d9"
+  }
+ },
+ "giovanni-di-paolo-saint-clare": {
+  "amount": 5313750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/en/lot/lot-6238411"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q134998961#Q134998961$0D090C4F-1C90-431A-9C8F-6229BD3FAEC5",
+  "wikidata": {
+   "amount": 5313750.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134998961",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238411"
+   ],
+   "statement_id": "Q134998961$0D090C4F-1C90-431A-9C8F-6229BD3FAEC5"
+  }
+ },
+ "goya-duke-of-wellington": {
+  "amount": 140000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.nationalgallery.org.uk/paintings/francisco-de-goya-the-duke-of-wellington"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q7232352#Q7232352$23889aaa-4672-024f-9e8e-9092e00e2380",
+  "wikidata": {
+   "amount": 140000.0,
+   "date": "1961-06-14",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q7232352",
+   "refs": [
+    "https://www.nationalgallery.org.uk/paintings/francisco-de-goya-the-duke-of-wellington"
+   ],
+   "statement_id": "Q7232352$23889aaa-4672-024f-9e8e-9092e00e2380"
+  }
+ },
+ "heda-still-life-fruit-pie": {
+  "amount": 4842500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/lot/lot-5813567"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q113332473#Q113332473$f9d48ed7-46ca-4e03-73b5-d42014ba2f11",
+  "wikidata": {
+   "amount": 4842500.0,
+   "date": "2014-07-08",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q113332473",
+   "refs": [
+    "https://www.christies.com/lot/lot-5813567"
+   ],
+   "statement_id": "Q113332473$f9d48ed7-46ca-4e03-73b5-d42014ba2f11"
+  }
+ },
+ "hokusai-under-the-wave": {
+  "amount": 2800000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "plash at auction an edition of the iconic woodblock print broke records when it sold for $2.8m this week. taylor michael march 26, 2023 — 3 min read the i",
+    "url": "https://hyperallergic.com/hokusais-great-wave-makes-a-splash-at-auction"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "its estimate of $500,000-700,000 in a sale at christie’s new york last week, selling for $2.8 million. the sale marks a new high record for the print. hokusai’s ",
+    "url": "https://artlawandmore.com/2023/04/06/hokusais-great-wave-sails-past-auction-estimate-at-christies/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://hyperallergic.com/hokusais-great-wave-makes-a-splash-at-auction",
+  "wikidata": null
+ },
+ "jawlensky-variation-1916-4": {
+  "amount": 112500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ing sale künstler alexej von jawlensky lot 53 schätzpreis: 90.000 € - 120.000 € ergebnis: 112.500 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/53-alexej-von-jawlensky.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/53-alexej-von-jawlensky.html",
+  "wikidata": {
+   "amount": 112500.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138854517",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/53-alexej-von-jawlensky.html"
+   ],
+   "statement_id": "Q138854517$C9BBB657-13EC-471E-9E2A-542B19132662"
+  }
+ },
+ "kirchner-berlin-street-scene": {
+  "amount": 38096000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://heni.com/news/article/ernst-ludwig-kirchner-berliner-strassenszene-berlin-street-scene-baume-trees-2006-11-08"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ber, the cofounder of the neue galerie, the cosmetics mogul ronald lauder, bought it for $38.1 million, setting a record for the artist. (last year, lauder also p",
+    "url": "https://web.archive.org/web/2024/https://www.nysun.com/article/arts-painting-with-the-energy-of-the-city"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": " auction results work price sale berliner strassenszene (recto); baume (verso) (1913) usd 38,096,000 (about eur 30,000,000) christie's, new york, 2006-11-08 das",
+    "url": "https://www.masterworks.com/academy/artists/ernst-ludwig-kirchner"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2024/https://www.nysun.com/article/arts-painting-with-the-energy-of-the-city",
+  "wikidata": {
+   "amount": 38096000.0,
+   "date": "2006-11-08",
+   "estimate_flag": false,
+   "has_reference": false,
+   "qid": "Q3476580",
+   "refs": [],
+   "statement_id": "Q3476580$b0ff50cd-4f90-f9c9-6946-4fc3f2169dec"
+  }
+ },
+ "kirchner-blue-girl-in-the-sun": {
+  "amount": 4750000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "das blaue mädchen in der sonne , 1910. öl auf leinwand schätzung: € 2.000.000 ergebnis: € 4.750.000 (inklusive aufgeld) 10 ernst ludwig kirchner das blaue mädc",
+    "url": "https://kettererkunst.de/kunst/kd/details.php?obnr=122000463&anummer=535"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://kettererkunst.de/kunst/kd/details.php?obnr=122000463&anummer=535",
+  "wikidata": {
+   "amount": 4750000.0,
+   "date": "2022-12-09",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q117600409",
+   "refs": [
+    "https://kettererkunst.de/kunst/kd/details.php?obnr=122000463&anummer=535"
+   ],
+   "statement_id": "Q117600409$3877d9ab-4729-6175-b93a-1c92afb847fa"
+  }
+ },
+ "klimt-elisabeth-lederer": {
+  "amount": 236400000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " klimt's elisabeth lederer portrait sells for $236.4 m. at sotheby's skip to main content follow us icon link plus",
+    "url": "https://www.artnews.com/art-news/news/gustav-klimt-portrait-of-elisabeth-lederer-auction-record-1234762083/"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "on this story portrait of elisabeth lederer: why this mysterious klimt painting sold for $236m abu dhabi buys $450m 'leonardo work' published 8 december 2",
+    "url": "https://www.bbc.co.uk/news/articles/cm2emm4737zo"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.artnews.com/art-news/news/gustav-klimt-portrait-of-elisabeth-lederer-auction-record-1234762083/",
+  "wikidata": {
+   "amount": 236400000.0,
+   "date": "2025-11-18",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q136433749",
+   "refs": [
+    "https://www.sothebys.com/en/buy/auction/2025/leonard-a-lauder-collector-evening-auction/bildnis-elisabeth-lederer-portrait-of-elisabeth?locale=en"
+   ],
+   "statement_id": "Q136433749$44425445-4550-2324-70c0-4ba7d8e3420e"
+  }
+ },
+ "klimt-water-serpents-ii": {
+  "amount": 183800000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "theby's für 126 millionen dollar kaufte. sein kunde rybolovlev kaufte es schliesslich für 183,8 millionen dollar. aus den büchern von sotheby's soll der handel mit b",
+    "url": "https://www.finews.ch/news/finanzplatz/37015-dmitry-rybolovlev-sothebys-yves-bouvier-kunstraub"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.bloomberg.com/news/articles/2017-12-21/russian-billionaire-seeks-to-pull-sotheby-s-into-art-world-fight"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.finews.ch/news/finanzplatz/37015-dmitry-rybolovlev-sothebys-yves-bouvier-kunstraub",
+  "wikidata": null
+ },
+ "lavery-paisley-lawn-tennis": {
+  "amount": 537700.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " sir john lavery painting sells for £537,700 at auction – paisley photographs skip to content facebook t",
+    "url": "https://paisleyphotographs.com/2024/09/27/sir-john-lavery-painting-sells-for-537700-at-auc"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://paisleyphotographs.com/2024/09/27/sir-john-lavery-painting-sells-for-537700-at-auc",
+  "wikidata": {
+   "amount": 537700.0,
+   "date": "2024-09-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q119748516",
+   "refs": [
+    "https://paisleyphotographs.com/2024/09/27/sir-john-lavery-painting-sells-for-537700-at-auction/",
+    "https://www.bbc.com/news/articles/c0kj74vp4z5o",
+    "https://www.lyonandturnbull.com/auctions/selected-works-from-paisley-art-institute-collection-823/lot/64"
+   ],
+   "statement_id": "Q119748516$5b738510-4c27-ab2e-0080-19a96523439b"
+  }
+ },
+ "leonardo-ginevra-de-benci": {
+  "amount": 5000000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "for sale. the nga won out in the ensuing bidding war, acquiring the painting in 1967 for $5m—the largest sum ever paid for a piece of art at the time. t",
+    "url": "https://theartnewspaper.com/2023/07/03/leonardo-da-vinci-national-gallery-washington-relocation-renovations"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://italoamericano.org/leonardo-ginevra/"
+   },
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://theartnewspaper.com/2023/07/03/leonardo-da-vinci-national-gallery-washington-relocation-renovations",
+  "wikidata": {
+   "amount": 5000000.0,
+   "date": "1967-00-00",
+   "estimate_flag": false,
+   "has_reference": false,
+   "qid": "Q1267893",
+   "refs": [],
+   "statement_id": "Q1267893$0718aa71-46b9-363f-431d-3f2ae872f7ec"
+  }
+ },
+ "leonardo-salvator-mundi": {
+  "amount": 450312500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/lotfinder/paintings/leonardo-da-vinci-salvator-mundi-6110563-details.aspx"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.reuters.com/article/us-art-auction-da-vinci-abudhabi/abu-dhabi-to-acquire-leonardo-da-vincis-salvator-mundi-christies-idUSKBN1E22IN"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q1892745#Q1892745$4b1c2821-4525-30ba-5f77-055711d8917a",
+  "wikidata": {
+   "amount": 450312500.0,
+   "date": "2017-11-15",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q1892745",
+   "refs": [
+    "http://www.christies.com/lotfinder/paintings/leonardo-da-vinci-salvator-mundi-6110563-details.aspx"
+   ],
+   "statement_id": "Q1892745$4b1c2821-4525-30ba-5f77-055711d8917a"
+  }
+ },
+ "leyster-merry-trio": {
+  "amount": 1808750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/lot/lot-6182936"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q4109849#Q4109849$d4f792f1-4a49-cdba-9d96-4275621f9564",
+  "wikidata": {
+   "amount": 1808750.0,
+   "date": "2018-12-06",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q4109849",
+   "refs": [
+    "https://www.christies.com/lot/lot-6182936"
+   ],
+   "statement_id": "Q4109849$d4f792f1-4a49-cdba-9d96-4275621f9564"
+  }
+ },
+ "liebermann-child-under-trees": {
+  "amount": 55000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " - evening sale künstler max liebermann lot 28 schätzpreis: 40.000 € - 50.000 € ergebnis: 55.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/28-max-liebermann.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/28-max-liebermann.html",
+  "wikidata": {
+   "amount": 55000.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138757362",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/28-max-liebermann.html"
+   ],
+   "statement_id": "Q138757362$c3bfa737-4e29-f838-9788-2d15b2b06dac"
+  }
+ },
+ "liebermann-dunes-farmer-goats": {
+  "amount": 62500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " - evening sale künstler max liebermann lot 29 schätzpreis: 45.000 € - 55.000 € ergebnis: 62.500 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/29-max-liebermann.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/29-max-liebermann.html",
+  "wikidata": {
+   "amount": 62500.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138757411",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/29-max-liebermann.html"
+   ],
+   "statement_id": "Q138757411$426DEA5F-1FA8-4A7E-9EEA-FB74C8042698"
+  }
+ },
+ "liebermann-jewish-street-amsterdam": {
+  "amount": 856000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "oderne kunst künstler max liebermann lot 261 schätzpreis: 600.000 € - 800.000 € ergebnis: 856.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1134-1/261-max-liebermann.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1134-1/261-max-liebermann.html",
+  "wikidata": {
+   "amount": 856000.0,
+   "date": "2019-05-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138881666",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1134-1/261-max-liebermann.html"
+   ],
+   "statement_id": "Q138881666$4AA1D292-29CC-4366-A628-2CBF8880BE4A"
+  }
+ },
+ "liotard-dutch-girl-breakfast": {
+  "amount": 4405000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rl at breakfast'. the rijksmuseum bought the painting at sotheby's earlier this year for £4.4m, and then had an anxious wait while the picture went throug",
+    "url": "https://www.arthistorynews.com/articles/4354_Rijksmuseum_buys_Liotard_oil"
+   },
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.thehistoryblog.com/archives/45545"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.arthistorynews.com/articles/4354_Rijksmuseum_buys_Liotard_oil",
+  "wikidata": {
+   "amount": 4405000.0,
+   "date": "2016-07-00",
+   "estimate_flag": false,
+   "has_reference": false,
+   "qid": "Q26713350",
+   "refs": [],
+   "statement_id": "Q26713350$15cbf932-4b12-cc11-ecdd-065aa24815e9"
+  }
+ },
+ "malevich-suprematist-composition": {
+  "amount": 85812500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " $85.8 million malevich breaks record for russian art - artsy news skip to",
+    "url": "https://web.archive.org/web/2020/https://www.artsy.net/news/artsy-editorial-malevich-suprematist-composition-sold-858-million-christies-breaking-record-work-russian-art"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "n-christies-breaking-record-work-russian-art a malevich suprematist composition sold for $85.8 million at christie’s, breaking the record for a work of russian ar",
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2020/https://www.artsy.net/news/artsy-editorial-malevich-suprematist-composition-sold-858-million-christies-breaking-record-work-russian-art",
+  "wikidata": null
+ },
+ "mantegna-adoration-magi": {
+  "amount": 10500000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.getty.edu/publications/virtuallibrary/0892362871.html"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": " july 5, 1984 estate of kenneth clark unknown sotheby's , london [ 190 ] [ 191 ] [ 192 ] $10.5 million adoration of the magi andrea mantegna 1462 april 18, 1985 s",
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488",
+  "wikidata": null
+ },
+ "merritt-eve": {
+  "amount": 121875.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/lot/lot-5701811"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q112181506#Q112181506$BFF88A49-BE4C-46D3-BF05-CAE7063286C7",
+  "wikidata": {
+   "amount": 121875.0,
+   "date": "2013-07-11",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q112181506",
+   "refs": [
+    "https://www.christies.com/lot/lot-5701811"
+   ],
+   "statement_id": "Q112181506$BFF88A49-BE4C-46D3-BF05-CAE7063286C7"
+  }
+ },
+ "modersohn-becker-self-portrait": {
+  "amount": 1270000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.grisebach.com/en/lot/4071659"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q111799341#Q111799341$fcfd0b8a-45ec-550f-7e26-cf0a6afb75d9",
+  "wikidata": {
+   "amount": 1270000.0,
+   "date": "2025-11-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q111799341",
+   "refs": [
+    "https://www.grisebach.com/en/lot/4071659"
+   ],
+   "statement_id": "Q111799341$fcfd0b8a-45ec-550f-7e26-cf0a6afb75d9"
+  }
+ },
+ "modigliani-nu-couche": {
+  "amount": 170405000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " with $170.4 million sale at auction, modigliani work joins rarefied nine-figure",
+    "url": "https://web.archive.org/web/2020/https://www.nytimes.com/2015/11/10/arts/with-170-4-million-sale-at-auction-modigliani-work-joins-rarefied-nine-figure-club.html"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "that he was the buyer of the painting of a nude woman by amedeo modigliani that sold for $170.4 million at christie’s new york on monday night. speaking by telepho",
+    "url": "https://web.archive.org/web/2020/https://www.nytimes.com/2015/11/11/arts/international/liu-yiqian-modigliani-nu-couche.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2015/11/10/arts/with-170-4-million-sale-at-auction-modigliani-work-joins-rarefied-nine-figure-club.html",
+  "wikidata": {
+   "amount": 170405000.0,
+   "date": "2015-11-00",
+   "estimate_flag": false,
+   "has_reference": false,
+   "qid": "Q3877556",
+   "refs": [],
+   "statement_id": "Q3877556$6898ee50-4c46-f74b-e802-eba8aaa2884c"
+  }
+ },
+ "mondrian-farm-building-irrigation-ditch": {
+  "amount": 72500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "t - evening sale künstler piet mondrian lot 18 schätzpreis: 60.000 € - 80.000 € ergebnis: 72.500 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/18-piet-mondrian.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/18-piet-mondrian.html",
+  "wikidata": {
+   "amount": 72500.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138819258",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/18-piet-mondrian.html"
+   ],
+   "statement_id": "Q138819258$2C940A80-71A6-414C-BD42-42AF72A6EC93"
+  }
+ },
+ "monet-meules": {
+  "amount": 110700000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " a monet sells for $110.7 million, an auction high for an impressionist work - the new york t",
+    "url": "https://web.archive.org/web/2020/https://www.nytimes.com/2019/05/14/arts/monet-auction-110-million.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2019/05/14/arts/monet-auction-110-million.html",
+  "wikidata": null
+ },
+ "morse-marquis-de-lafayette": {
+  "amount": 1360000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": false,
+    "found": false,
+    "url": "http://www.sothebys.com/en/auctions/ecatalogue/2005/american-paintings-drawings-sculpture-including-property-from-the-new-york-public-library-astor-lenox-and-tilden-foundations-n08134/lot.1.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q32312033#Q32312033$e51e6e18-45ad-bde9-b043-91c12535bd40",
+  "wikidata": {
+   "amount": 1360000.0,
+   "date": "2005-11-30",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q32312033",
+   "refs": [
+    "http://www.sothebys.com/en/auctions/ecatalogue/2005/american-paintings-drawings-sculpture-including-property-from-the-new-york-public-library-astor-lenox-and-tilden-foundations-n08134/lot.1.html"
+   ],
+   "statement_id": "Q32312033$e51e6e18-45ad-bde9-b043-91c12535bd40"
+  }
+ },
+ "munch-scream-pastel": {
+  "amount": 119900000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": false,
+    "found": false,
+    "url": "http://www.aftenposten.no/kultur/Skrik-solgt-for-119_9-millioner-dollar-157225b.html"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ermalink an art mystery solved: mogul is 'scream' buyer financier leon black paid nearly $120 million for munch pastel at may auction sotheby's workers in london",
+    "url": "https://web.archive.org/web/2020/https://www.wsj.com/articles/SB10001424052702304373804577521240470769420"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2020/https://www.wsj.com/articles/SB10001424052702304373804577521240470769420",
+  "wikidata": {
+   "amount": 119900000.0,
+   "date": "2012-05-02",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q18891157",
+   "refs": [
+    "http://www.aftenposten.no/kultur/Skrik-solgt-for-119_9-millioner-dollar-157225b.html"
+   ],
+   "statement_id": "Q18891157$1eca93f8-46d0-3225-c7e5-9031920c30d3"
+  }
+ },
+ "pontormo-portrait-halberdier": {
+  "amount": 35200000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "erdier, long identified as a portrait of the young duke cosimo i de' medici, sold for usd 35,200,000 at christie's new york on 31 may 1989, then a record for an",
+    "url": "https://www.masterworks.com/academy/artists/jacopo-da-pontormo"
+   },
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.masterworks.com/academy/artists/jacopo-da-pontormo",
+  "wikidata": null
+ },
+ "raphael-ansidei-madonna": {
+  "amount": 70000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "icture at the national gallery—it was purchased in 1885 from the duke of marlborough for £70,000. raphael by paul g. konody ❀❀❀ illustrated with eight repro",
+    "url": "https://www.gutenberg.org/files/44033/44033-h/44033-h.htm"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rlborough , under the lord cairn's act for £75,000 [ 13 ] or nearly unanimously cited at £70,000, [ 3 ] [ 4 ] which was about $350,000, [ 14 ] to the london",
+    "url": "https://en.wikipedia.org/wiki/Ansidei_Madonna"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.gutenberg.org/files/44033/44033-h/44033-h.htm",
+  "wikidata": null
+ },
+ "rembrandt-aristotle": {
+  "amount": 2300000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "last night for the highest amount ever paid for any picture at public or private sale -- $2,300,000. the painting, \"aristotle contemplating the bust of homer,\"",
+    "url": "https://web.archive.org/web/2020/https://www.nytimes.com/1961/11/16/archives/museum-gets-rembrandt-for-23-million-record-price-is-paid-by-the.html"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "of that work, hoping that she might see fit to donate it. but they ultimately had to pay $2.3 million for it in 1961—then a record for any work at auction. those",
+    "url": "https://artsjournal.com/culturegrrl/2007/09/message_of_the_mets_age_of_rem.html"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://realtime1960s.com/post/rembrandt-is-world-s-costliest-painting"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/1961/11/16/archives/museum-gets-rembrandt-for-23-million-record-price-is-paid-by-the.html",
+  "wikidata": null
+ },
+ "rembrandt-standard-bearer": {
+  "amount": 175000000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ce 1844. the french family is willing to let go of the treasured portrait for a price of €175 million ($198 million). the best of artnet news in your inbox. sign",
+    "url": "https://web.archive.org/web/2024/https://news.artnet.com/art-world/netherlands-rembrandt-standard-bearer-2046187"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://artfixdaily.com/news_feed/2021/12/08/7532-dutch-state-moves-to-acquire-rembrandt-masterpiece-from-rothschil"
+   },
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.bbc.com/news/world-europe-59588109"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2024/https://news.artnet.com/art-world/netherlands-rembrandt-standard-bearer-2046187",
+  "wikidata": null
+ },
+ "renoir-bal-du-moulin-small": {
+  "amount": 78100000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "pinterest linkedin reddit contact an account manager who bal du moulin de la galette what 78.1 million us dollar(s) where united states (new york city) when 17 ma",
+    "url": "https://www.guinnessworldrecords.com/world-records/769008-most-expensive-painting-by-renoir-sold-at-auction"
+   },
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.guinnessworldrecords.com/world-records/769008-most-expensive-painting-by-renoir-sold-at-auction",
+  "wikidata": null
+ },
+ "romero-de-torres-two-paths": {
+  "amount": 475000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/en/lot/lot-6282304"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q100432952#Q100432952$d8fa709e-48cc-07ff-03a9-86d320e81979",
+  "wikidata": {
+   "amount": 475000.0,
+   "date": "2020-10-15",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q100432952",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6282304"
+   ],
+   "statement_id": "Q100432952$d8fa709e-48cc-07ff-03a9-86d320e81979"
+  }
+ },
+ "rubens-massacre-innocents": {
+  "amount": 49506650.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "en �4m and �5m, but at the sotheby's auction on wednesday evening it went for a total of �49,506,650 mr gordon identified the painting as rubens the closing bid",
+    "url": "https://news.bbc.co.uk/2/hi/entertainment/2119451.stm"
+   },
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://web.archive.org/web/20061008011920/http://www.ago.net/transformation/new-art-collector.cfm"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ist, all created by munch. ↑ rybolovlev resold gauguin's otahi before 2017 for less than $50 million. [ 63 ] ↑ this stands as the most expensive painting by a l",
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://news.bbc.co.uk/2/hi/entertainment/2119451.stm",
+  "wikidata": null
+ },
+ "seurat-les-poseuses-small": {
+  "amount": 149240000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "s seurat’s “les poseuses, ensemble (petite version),” pictured above, which fetched over $149.2 million — almost five times the previous record for the french arti",
+    "url": "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "million. georges seurat’s pointillist “les poseuses, ensemble (petite version)” sold for $149.2 million, the evening’s highest price. the larger version of “les po",
+    "url": "https://www.fortune.com/2022/11/10/paul-allen-estate-christies-auction-fine-art-billion-cezanne-seurt-van-gogh"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "million. georges seurat’s pointillist “les poseuses, ensemble (petite version)” sold for $149.2 million, wednesday evening’s highest price. the larger version of “",
+    "url": "https://abc17news.com/news/ap-national-news/2022/11/10/art-from-microsoft-founder-paul-allen-sells-for-1-6-billion/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record",
+  "wikidata": {
+   "amount": 149240000.0,
+   "date": "2022-11-09",
+   "estimate_flag": false,
+   "has_reference": false,
+   "qid": "Q112114362",
+   "refs": [],
+   "statement_id": "Q112114362$ca1ae909-4cfc-a972-52ae-c494e2703f87"
+  }
+ },
+ "shishkin-pine-forest": {
+  "amount": 1031250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/LotFinder/lot_details.aspx?intObjectID=6236313"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q47147358#Q47147358$f2e72501-4a0c-07a1-e716-8c02beb8c2d1",
+  "wikidata": {
+   "amount": 1031250.0,
+   "date": "2019-11-25",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q47147358",
+   "refs": [
+    "https://www.christies.com/LotFinder/lot_details.aspx?intObjectID=6236313"
+   ],
+   "statement_id": "Q47147358$f2e72501-4a0c-07a1-e716-8c02beb8c2d1"
+  }
+ },
+ "slevogt-red-carnations": {
+  "amount": 49600.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "0 - moderne kunst künstler max slevogt lot 259 schätzpreis: 25.000 € - 30.000 € ergebnis: 49.600 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1134-1/259-max-slevogt.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1134-1/259-max-slevogt.html",
+  "wikidata": {
+   "amount": 49600.0,
+   "date": "2019-05-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138882565",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1134-1/259-max-slevogt.html"
+   ],
+   "statement_id": "Q138882565$D4D66D65-ECE1-456A-8945-650475F96118"
+  }
+ },
+ "sorolla-las-tres-velas": {
+  "amount": 4521000.0,
+  "currency": "USD",
+  "urls": [],
+  "verified": false,
+  "verified_by": null,
+  "wikidata": {
+   "amount": 4521000.0,
+   "date": "2008-05-07",
+   "estimate_flag": false,
+   "has_reference": false,
+   "qid": "Q19266867",
+   "refs": [],
+   "statement_id": "Q19266867$f7bebd86-4076-c90d-54d1-f798de4b8db6"
+  }
+ },
+ "teniers-allegory-of-autumn": {
+  "amount": 55800.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "culpture artists david teniers the younger lot 1060 estimate: 45.000 € - 50.000 € result: 55.800 € (incl. premium) bid closes in: day , days , h m s auction",
+    "url": "https://www.lempertz.com/en/catalogues/lot/1076-1/1060-david-teniers-the-younger.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/en/catalogues/lot/1076-1/1060-david-teniers-the-younger.html",
+  "wikidata": {
+   "amount": 55800.0,
+   "date": "2016-11-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q28037019",
+   "refs": [
+    "https://www.lempertz.com/en/catalogues/lot/1076-1/1060-david-teniers-the-younger.html"
+   ],
+   "statement_id": "Q28037019$e4b0dd2e-40e3-3334-d4ed-3048af5b6743"
+  }
+ },
+ "teniers-madonna-infant-baptist": {
+  "amount": 38400.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "baptist old master paintings 6 december 2023, 14:00 gmt london, new bond street sold for £38,400 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/28752/lot/7/david-teniers-the-younger-antwerp-1610-1690-said-to-be-after-jacopo-negretti-called-palma-il-giovane-the-madonna-and-child-with-the-infant-saint-john-the-baptist/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/28752/lot/7/david-teniers-the-younger-antwerp-1610-1690-said-to-be-after-jacopo-negretti-called-palma-il-giovane-the-madonna-and-child-with-the-infant-saint-john-the-baptist/",
+  "wikidata": {
+   "amount": 38400.0,
+   "date": "2023-12-06",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139498198",
+   "refs": [
+    "https://www.bonhams.com/auction/28752/lot/7/david-teniers-the-younger-antwerp-1610-1690-said-to-be-after-jacopo-negretti-called-palma-il-giovane-the-madonna-and-child-with-the-infant-saint-john-the-baptist/"
+   ],
+   "statement_id": "Q139498198$4190836a-4a68-5fe3-f4d4-f84047f0ce61"
+  }
+ },
+ "turner-seascape-folkestone": {
+  "amount": 7370000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ting by the british artist j. m. w. turner sold thursday for a world-record price of (str)7.37 million, the equivalent about $9.5 million at sotheby's auction hou",
+    "url": "https://www.csmonitor.com/1984/0706/070634.html"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://web.archive.org/web/2020/https://www.washingtonpost.com/archive/politics/1984/07/06/turner-painting-sold-for-record-10-million/1cd11189-ef24-4359-8c16-7d0dfba38ea6/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.csmonitor.com/1984/0706/070634.html",
+  "wikidata": null
+ },
+ "vangogh-portrait-dr-gachet": {
+  "amount": 82500000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rtrait of dr gachet disappeared after it was sold at christie’s in 1990, when it fetched $82.5m, then the highest price for any painting at auction. the bu",
+    "url": "https://theartnewspaper.com/blog/where-is-van-gogh-s-portrait-of-dr-gachet"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "trait of dr. gachet” made history at christie’s in manhattan, auctioned for a staggering $82.5 million. purchased by a japanese paper magnate, it became the most ",
+    "url": "https://www.omanobserver.om/article/1163878/features/travel/the-search-for-van-goghs-lost-masterpiece"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ch museum of modern art new york private sale via thomas ammann , fine art zurich [ 68 ] $82.5 million portrait of dr. gachet vincent van gogh 1890 may 15, 1990 s",
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://theartnewspaper.com/blog/where-is-van-gogh-s-portrait-of-dr-gachet",
+  "wikidata": null
+ },
+ "vangogh-wheat-field-cypresses": {
+  "amount": 57000000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "jor landscape by vincent van gogh, \"wheat field with cypresses,\" after purchasing it for $57 million from the family of swiss industrialist emil buhrle, who die",
+    "url": "https://www.deseret.com/1993/5/26/19048601/pricey-van-gogh-gift-leaves-museum-agog/"
+   },
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.deseret.com/1993/5/26/19048601/pricey-van-gogh-gift-leaves-museum-agog/",
+  "wikidata": null
+ },
+ "velazquez-juan-de-pareja": {
+  "amount": 2310000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " heard on the radio that velázquez's portrait of his mulatto assistant had been sold for £2,310,000 i burst out laughing. it was the extremity which counted, l",
+    "url": "https://www.theguardian.com/news/2013/dec/01/archive-velazquez-scarred-price-tag"
+   },
+   {
+    "fetched": false,
+    "found": false,
+    "url": "https://www.spectator.co.uk/2014/11/the-story-of-the-first-painting-to-sell-for-over-a-million-pounds/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.theguardian.com/news/2013/dec/01/archive-velazquez-scarred-price-tag",
+  "wikidata": null
+ },
+ "wautier-study-young-woman": {
+  "amount": 511500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": false,
+    "url": "https://www.christies.com/lot/lot-6068889"
+   }
+  ],
+  "verified": true,
+  "verified_by": "wikidata:Q55238821#Q55238821$7FFFFBA3-5BC6-4187-833D-5B55161287D4",
+  "wikidata": {
+   "amount": 511500.0,
+   "date": "2017-04-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q55238821",
+   "refs": [
+    "https://www.christies.com/lot/lot-6068889"
+   ],
+   "statement_id": "Q55238821$7FFFFBA3-5BC6-4187-833D-5B55161287D4"
+  }
+ }
+}

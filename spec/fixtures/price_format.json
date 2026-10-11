@@ -1,0 +1,341 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "compact" : "$0",
+        "rounded" : 0,
+        "text" : "$0"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 0
+      },
+      "name" : "0 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$7",
+        "rounded" : 7,
+        "text" : "$7"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 7
+      },
+      "name" : "7 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$99",
+        "rounded" : 99,
+        "text" : "$99"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 99
+      },
+      "name" : "99 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$850",
+        "rounded" : 850,
+        "text" : "$850"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 850
+      },
+      "name" : "850 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$950",
+        "rounded" : 950,
+        "text" : "$950"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 949
+      },
+      "name" : "949 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$950",
+        "rounded" : 950,
+        "text" : "$950"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 950
+      },
+      "name" : "950 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$1K",
+        "rounded" : 1000,
+        "text" : "$1K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 999
+      },
+      "name" : "999 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$1K",
+        "rounded" : 1000,
+        "text" : "$1K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 1000
+      },
+      "name" : "1000 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$1K",
+        "rounded" : 1000,
+        "text" : "$1K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 1049
+      },
+      "name" : "1049 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$1.1K",
+        "rounded" : 1100,
+        "text" : "$1.1K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 1050
+      },
+      "name" : "1050 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$5.2K",
+        "rounded" : 5200,
+        "text" : "$5.2K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 5200
+      },
+      "name" : "5200 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$57K",
+        "rounded" : 57000,
+        "text" : "$57K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 57400
+      },
+      "name" : "57400 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$100K",
+        "rounded" : 100000,
+        "text" : "$100K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 99500
+      },
+      "name" : "99500 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$120K",
+        "rounded" : 120000,
+        "text" : "$120K"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 120000
+      },
+      "name" : "120000 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$1M",
+        "rounded" : 1000000,
+        "text" : "$1M"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 999499
+      },
+      "name" : "999499 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$1M",
+        "rounded" : 1000000,
+        "text" : "$1M"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 999500
+      },
+      "name" : "999500 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$2.8M",
+        "rounded" : 2800000,
+        "text" : "$2.8M"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 2760000
+      },
+      "name" : "2760000 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$5.5M",
+        "rounded" : 5500000,
+        "text" : "≈$5.5M"
+      },
+      "input" : {
+        "approximate" : true,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 5544000
+      },
+      "name" : "5544000 a=true r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$450M",
+        "rounded" : 450000000,
+        "text" : "$450M"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 450312500
+      },
+      "name" : "450312500 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$250M",
+        "rounded" : 250000000,
+        "text" : "~$250M+"
+      },
+      "input" : {
+        "approximate" : true,
+        "lower_bound" : true,
+        "reported" : true,
+        "usd" : 250000000
+      },
+      "name" : "250000000 a=true r=true lb=true"
+    },
+    {
+      "expected" : {
+        "compact" : "$180M",
+        "rounded" : 180000000,
+        "text" : "~$180M"
+      },
+      "input" : {
+        "approximate" : true,
+        "lower_bound" : false,
+        "reported" : true,
+        "usd" : 184000000
+      },
+      "name" : "184000000 a=true r=true lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$2B",
+        "rounded" : 2000000000,
+        "text" : "$2B"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 1950000000
+      },
+      "name" : "1950000000 a=false r=false lb=false"
+    },
+    {
+      "expected" : {
+        "compact" : "$1B",
+        "rounded" : 1000000000,
+        "text" : "$1B+"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : true,
+        "reported" : false,
+        "usd" : 1000000000
+      },
+      "name" : "1000000000 a=false r=false lb=true"
+    },
+    {
+      "expected" : {
+        "compact" : "$12B",
+        "rounded" : 12000000000,
+        "text" : "$12B"
+      },
+      "input" : {
+        "approximate" : false,
+        "lower_bound" : false,
+        "reported" : false,
+        "usd" : 12345678901
+      },
+      "name" : "12345678901 a=false r=false lb=false"
+    }
+  ],
+  "description" : "2 significant figures (half up) + K/M/B; prefix ~ (reported) else ≈ (approximate); suffix + (lower bound)."
+}

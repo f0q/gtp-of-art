@@ -1,0 +1,229 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "day_number" : 0,
+        "iso" : "1970-01-01",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 1,
+        "month" : 1,
+        "year" : 1970
+      },
+      "name" : "1970-1-1"
+    },
+    {
+      "expected" : {
+        "day_number" : -1,
+        "iso" : "1969-12-31",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 31,
+        "month" : 12,
+        "year" : 1969
+      },
+      "name" : "1969-12-31"
+    },
+    {
+      "expected" : {
+        "day_number" : 11016,
+        "iso" : "2000-02-29",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 29,
+        "month" : 2,
+        "year" : 2000
+      },
+      "name" : "2000-2-29"
+    },
+    {
+      "expected" : {
+        "day_number" : 11017,
+        "iso" : "2000-03-01",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 1,
+        "month" : 3,
+        "year" : 2000
+      },
+      "name" : "2000-3-1"
+    },
+    {
+      "expected" : {
+        "day_number" : -25509,
+        "iso" : "1900-02-28",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 28,
+        "month" : 2,
+        "year" : 1900
+      },
+      "name" : "1900-2-28"
+    },
+    {
+      "expected" : {
+        "day_number" : -25508,
+        "iso" : "1900-03-01",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 1,
+        "month" : 3,
+        "year" : 1900
+      },
+      "name" : "1900-3-1"
+    },
+    {
+      "expected" : {
+        "day_number" : 19782,
+        "iso" : "2024-02-29",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 29,
+        "month" : 2,
+        "year" : 2024
+      },
+      "name" : "2024-2-29"
+    },
+    {
+      "expected" : {
+        "day_number" : 20737,
+        "iso" : "2026-10-11",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 11,
+        "month" : 10,
+        "year" : 2026
+      },
+      "name" : "2026-10-11"
+    },
+    {
+      "expected" : {
+        "day_number" : 20818,
+        "iso" : "2026-12-31",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 31,
+        "month" : 12,
+        "year" : 2026
+      },
+      "name" : "2026-12-31"
+    },
+    {
+      "expected" : {
+        "day_number" : 20819,
+        "iso" : "2027-01-01",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 1,
+        "month" : 1,
+        "year" : 2027
+      },
+      "name" : "2027-1-1"
+    },
+    {
+      "expected" : {
+        "day_number" : 21467,
+        "iso" : "2028-10-10",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 10,
+        "month" : 10,
+        "year" : 2028
+      },
+      "name" : "2028-10-10"
+    },
+    {
+      "expected" : {
+        "day_number" : -719162,
+        "iso" : "0001-01-01",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 1,
+        "month" : 1,
+        "year" : 1
+      },
+      "name" : "1-1-1"
+    },
+    {
+      "expected" : {
+        "day_number" : 2932896,
+        "iso" : "9999-12-31",
+        "valid" : true
+      },
+      "input" : {
+        "day" : 31,
+        "month" : 12,
+        "year" : 9999
+      },
+      "name" : "9999-12-31"
+    },
+    {
+      "expected" : {
+        "valid" : false
+      },
+      "input" : {
+        "day" : 29,
+        "month" : 2,
+        "year" : 2025
+      },
+      "name" : "2025-2-29"
+    },
+    {
+      "expected" : {
+        "valid" : false
+      },
+      "input" : {
+        "day" : 29,
+        "month" : 2,
+        "year" : 1900
+      },
+      "name" : "1900-2-29"
+    },
+    {
+      "expected" : {
+        "valid" : false
+      },
+      "input" : {
+        "day" : 1,
+        "month" : 13,
+        "year" : 2026
+      },
+      "name" : "2026-13-1"
+    },
+    {
+      "expected" : {
+        "valid" : false
+      },
+      "input" : {
+        "day" : 31,
+        "month" : 4,
+        "year" : 2026
+      },
+      "name" : "2026-4-31"
+    },
+    {
+      "expected" : {
+        "valid" : false
+      },
+      "input" : {
+        "day" : 10,
+        "month" : 0,
+        "year" : 2026
+      },
+      "name" : "2026-0-10"
+    }
+  ],
+  "description" : "DayKey validity, Hinnant days_from_civil (days since 1970-01-01) and yyyy-MM-dd formatting."
+}

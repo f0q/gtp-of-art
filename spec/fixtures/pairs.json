@@ -1,0 +1,936 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "hokusai-under-the-wave",
+          "bottom_milli" : 6466,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "gauguin-nafea-faa-ipoipo",
+          "top_milli" : 8456
+        },
+        "state_after" : "9980051252924025463"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "1",
+        "used" : [
+
+        ]
+      },
+      "name" : "easy no era seed 1"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "morisot-garden-study",
+          "bottom_milli" : 4787,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "hokusai-under-the-wave",
+          "top_milli" : 6466
+        },
+        "state_after" : "9980051252924025463"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "1",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "easy era 60 seed 1"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "liotard-dutch-girl-breakfast",
+          "bottom_milli" : 6933,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "9980051252924025464"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "2",
+        "used" : [
+
+        ]
+      },
+      "name" : "easy no era seed 2"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "schiele-seated-woman",
+          "bottom_milli" : 6443,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "9980051252924025464"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "2",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "easy era 60 seed 2"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "durer-rhinoceros",
+          "bottom_milli" : 5498,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "velazquez-juan-de-pareja",
+          "top_milli" : 7662
+        },
+        "state_after" : "9980051252924025465"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "3",
+        "used" : [
+
+        ]
+      },
+      "name" : "easy no era seed 3"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "rembrandt-hundred-guilder-print",
+          "bottom_milli" : 5704,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "velazquez-juan-de-pareja",
+          "top_milli" : 7662
+        },
+        "state_after" : "9980051252924025465"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "3",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "easy era 60 seed 3"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "chardin-basket-wild-strawberries",
+          "bottom_milli" : 7470,
+          "difficulty" : "easy",
+          "pricier_side" : "bottom",
+          "relaxation" : 0,
+          "top" : "morisot-garden-study",
+          "top_milli" : 4787
+        },
+        "state_after" : "9980051252925260029"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "1234567",
+        "used" : [
+
+        ]
+      },
+      "name" : "easy no era seed 1234567"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "chardin-basket-wild-strawberries",
+          "bottom_milli" : 7470,
+          "difficulty" : "easy",
+          "pricier_side" : "bottom",
+          "relaxation" : 0,
+          "top" : "friedrich-moonrise-study",
+          "top_milli" : 5710
+        },
+        "state_after" : "9980051252925260029"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "1234567",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "easy era 60 seed 1234567"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "hokusai-under-the-wave",
+          "bottom_milli" : 6466,
+          "difficulty" : "medium",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "gauguin-nafea-faa-ipoipo",
+          "top_milli" : 8456
+        },
+        "state_after" : "9980051252924025463"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "1",
+        "used" : [
+
+        ]
+      },
+      "name" : "medium no era seed 1"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "morisot-garden-study",
+          "bottom_milli" : 4787,
+          "difficulty" : "medium",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "hokusai-under-the-wave",
+          "top_milli" : 6466
+        },
+        "state_after" : "9980051252924025463"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "1",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "medium era 60 seed 1"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "vermeer-study-young-woman",
+          "bottom_milli" : 7346,
+          "difficulty" : "medium",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "9980051252924025464"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "2",
+        "used" : [
+
+        ]
+      },
+      "name" : "medium no era seed 2"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "schiele-seated-woman",
+          "bottom_milli" : 6443,
+          "difficulty" : "medium",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "9980051252924025464"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "2",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "medium era 60 seed 2"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "velazquez-juan-de-pareja",
+          "bottom_milli" : 7662,
+          "difficulty" : "medium",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "cezanne-card-players",
+          "top_milli" : 8553
+        },
+        "state_after" : "9980051252924025465"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "3",
+        "used" : [
+
+        ]
+      },
+      "name" : "medium no era seed 3"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "rembrandt-hundred-guilder-print",
+          "bottom_milli" : 5704,
+          "difficulty" : "medium",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "velazquez-juan-de-pareja",
+          "top_milli" : 7662
+        },
+        "state_after" : "9980051252924025465"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "3",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "medium era 60 seed 3"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "chardin-basket-wild-strawberries",
+          "bottom_milli" : 7470,
+          "difficulty" : "medium",
+          "pricier_side" : "bottom",
+          "relaxation" : 0,
+          "top" : "liotard-dutch-girl-breakfast",
+          "top_milli" : 6933
+        },
+        "state_after" : "9980051252925260029"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "1234567",
+        "used" : [
+
+        ]
+      },
+      "name" : "medium no era seed 1234567"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "chardin-basket-wild-strawberries",
+          "bottom_milli" : 7470,
+          "difficulty" : "medium",
+          "pricier_side" : "bottom",
+          "relaxation" : 0,
+          "top" : "liotard-dutch-girl-breakfast",
+          "top_milli" : 6933
+        },
+        "state_after" : "9980051252925260029"
+      },
+      "input" : {
+        "difficulty" : "medium",
+        "seed" : "1234567",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "medium era 60 seed 1234567"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "rembrandt-hundred-guilder-print",
+          "bottom_milli" : 5704,
+          "difficulty" : "hard",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "hokusai-under-the-wave",
+          "top_milli" : 6466
+        },
+        "state_after" : "9980051252924025463"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "1",
+        "used" : [
+
+        ]
+      },
+      "name" : "hard no era seed 1"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "hiroshige-sudden-shower",
+          "bottom_milli" : 3823,
+          "difficulty" : "hard",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "hokusai-under-the-wave",
+          "top_milli" : 6466
+        },
+        "state_after" : "9980051252924025463"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "1",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "hard era 60 seed 1"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "morisot-garden-study",
+          "bottom_milli" : 4787,
+          "difficulty" : "hard",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "9980051252924025464"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "2",
+        "used" : [
+
+        ]
+      },
+      "name" : "hard no era seed 2"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "morisot-garden-study",
+          "bottom_milli" : 4787,
+          "difficulty" : "hard",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "9980051252924025464"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "2",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "hard era 60 seed 2"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "velazquez-juan-de-pareja",
+          "bottom_milli" : 7662,
+          "difficulty" : "hard",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "rubens-massacre-innocents",
+          "top_milli" : 8138
+        },
+        "state_after" : "9980051252924025465"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "3",
+        "used" : [
+
+        ]
+      },
+      "name" : "hard no era seed 3"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "velazquez-juan-de-pareja",
+          "bottom_milli" : 7662,
+          "difficulty" : "hard",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "rubens-massacre-innocents",
+          "top_milli" : 8138
+        },
+        "state_after" : "9980051252924025465"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "3",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "hard era 60 seed 3"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "chardin-basket-wild-strawberries",
+          "bottom_milli" : 7470,
+          "difficulty" : "hard",
+          "pricier_side" : "bottom",
+          "relaxation" : 0,
+          "top" : "liotard-dutch-girl-breakfast",
+          "top_milli" : 6933
+        },
+        "state_after" : "9980051252925260029"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "1234567",
+        "used" : [
+
+        ]
+      },
+      "name" : "hard no era seed 1234567"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "chardin-basket-wild-strawberries",
+          "bottom_milli" : 7470,
+          "difficulty" : "hard",
+          "pricier_side" : "bottom",
+          "relaxation" : 0,
+          "top" : "liotard-dutch-girl-breakfast",
+          "top_milli" : 6933
+        },
+        "state_after" : "9980051252925260029"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "1234567",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "hard era 60 seed 1234567"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "morisot-garden-study",
+          "bottom_milli" : 4787,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "15755400384260043848"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "9",
+        "used" : [
+          "botticelli-young-man-roundel",
+          "cezanne-card-players",
+          "chardin-basket-wild-strawberries",
+          "cranach-nymph-of-the-spring",
+          "durer-melencolia-i",
+          "durer-rhinoceros",
+          "friedrich-moonrise-study",
+          "gauguin-nafea-faa-ipoipo",
+          "hiroshige-sudden-shower",
+          "hokusai-under-the-wave",
+          "kirchner-berlin-street-scene",
+          "klimt-elisabeth-lederer",
+          "leonardo-salvator-mundi",
+          "liotard-dutch-girl-breakfast",
+          "munch-scream-pastel",
+          "redon-vase-of-flowers",
+          "rembrandt-aristotle",
+          "rembrandt-hundred-guilder-print",
+          "rembrandt-standard-bearer",
+          "rubens-massacre-innocents",
+          "schiele-seated-woman",
+          "seurat-les-poseuses-small",
+          "signac-harbour-sketch",
+          "turner-seascape-folkestone",
+          "vangogh-portrait-dr-gachet",
+          "velazquez-juan-de-pareja",
+          "vermeer-study-young-woman"
+        ],
+        "year_window" : 60
+      },
+      "name" : "easy forced relaxation (3 impressionists left)"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "morisot-garden-study",
+          "bottom_milli" : 4787,
+          "difficulty" : "hard",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "renoir-bal-du-moulin-small",
+          "top_milli" : 8285
+        },
+        "state_after" : "15755400384260043848"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "9",
+        "used" : [
+          "botticelli-young-man-roundel",
+          "cezanne-card-players",
+          "chardin-basket-wild-strawberries",
+          "cranach-nymph-of-the-spring",
+          "durer-melencolia-i",
+          "durer-rhinoceros",
+          "friedrich-moonrise-study",
+          "gauguin-nafea-faa-ipoipo",
+          "hiroshige-sudden-shower",
+          "hokusai-under-the-wave",
+          "kirchner-berlin-street-scene",
+          "klimt-elisabeth-lederer",
+          "leonardo-salvator-mundi",
+          "liotard-dutch-girl-breakfast",
+          "munch-scream-pastel",
+          "redon-vase-of-flowers",
+          "rembrandt-aristotle",
+          "rembrandt-hundred-guilder-print",
+          "rembrandt-standard-bearer",
+          "rubens-massacre-innocents",
+          "schiele-seated-woman",
+          "seurat-les-poseuses-small",
+          "signac-harbour-sketch",
+          "turner-seascape-folkestone",
+          "vangogh-portrait-dr-gachet",
+          "velazquez-juan-de-pareja",
+          "vermeer-study-young-woman"
+        ]
+      },
+      "name" : "hard shared category among 3 left"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "leonardo-salvator-mundi",
+          "bottom_milli" : 8771,
+          "difficulty" : "easy",
+          "pricier_side" : "bottom",
+          "relaxation" : 1,
+          "top" : "morisot-garden-study",
+          "top_milli" : 4787
+        },
+        "state_after" : "4354685564936845375"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "21",
+        "used" : [
+          "botticelli-young-man-roundel",
+          "cezanne-card-players",
+          "chardin-basket-wild-strawberries",
+          "cranach-nymph-of-the-spring",
+          "durer-melencolia-i",
+          "durer-rhinoceros",
+          "friedrich-moonrise-study",
+          "gauguin-nafea-faa-ipoipo",
+          "hiroshige-sudden-shower",
+          "hokusai-under-the-wave",
+          "kirchner-berlin-street-scene",
+          "klimt-elisabeth-lederer",
+          "liotard-dutch-girl-breakfast",
+          "monet-meules",
+          "munch-scream-pastel",
+          "redon-vase-of-flowers",
+          "rembrandt-aristotle",
+          "rembrandt-hundred-guilder-print",
+          "rembrandt-standard-bearer",
+          "renoir-bal-du-moulin-small",
+          "rubens-massacre-innocents",
+          "schiele-seated-woman",
+          "seurat-les-poseuses-small",
+          "signac-harbour-sketch",
+          "turner-seascape-folkestone",
+          "vangogh-portrait-dr-gachet",
+          "velazquez-juan-de-pareja",
+          "vermeer-study-young-woman"
+        ],
+        "year_window" : 60
+      },
+      "name" : "easy era relaxed (Leonardo vs Morisot)"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "kirchner-berlin-street-scene",
+          "bottom_milli" : 7785,
+          "difficulty" : "easy",
+          "pricier_side" : "top",
+          "relaxation" : 3,
+          "top" : "monet-meules",
+          "top_milli" : 8145
+        },
+        "state_after" : "4354685564936845376"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "22",
+        "used" : [
+          "botticelli-young-man-roundel",
+          "cezanne-card-players",
+          "chardin-basket-wild-strawberries",
+          "cranach-nymph-of-the-spring",
+          "durer-melencolia-i",
+          "durer-rhinoceros",
+          "friedrich-moonrise-study",
+          "gauguin-nafea-faa-ipoipo",
+          "hiroshige-sudden-shower",
+          "hokusai-under-the-wave",
+          "klimt-elisabeth-lederer",
+          "leonardo-salvator-mundi",
+          "liotard-dutch-girl-breakfast",
+          "morisot-garden-study",
+          "munch-scream-pastel",
+          "redon-vase-of-flowers",
+          "rembrandt-aristotle",
+          "rembrandt-hundred-guilder-print",
+          "rembrandt-standard-bearer",
+          "renoir-bal-du-moulin-small",
+          "rubens-massacre-innocents",
+          "schiele-seated-woman",
+          "seurat-les-poseuses-small",
+          "signac-harbour-sketch",
+          "turner-seascape-folkestone",
+          "vangogh-portrait-dr-gachet",
+          "velazquez-juan-de-pareja",
+          "vermeer-study-young-woman"
+        ],
+        "year_window" : 60
+      },
+      "name" : "easy relaxed to floor (Monet vs Kirchner)"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "leonardo-salvator-mundi",
+          "bottom_milli" : 8771,
+          "difficulty" : "hard",
+          "pricier_side" : "bottom",
+          "relaxation" : 1,
+          "top" : "morisot-garden-study",
+          "top_milli" : 4787
+        },
+        "state_after" : "4354685564936845377"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "23",
+        "used" : [
+          "botticelli-young-man-roundel",
+          "cezanne-card-players",
+          "chardin-basket-wild-strawberries",
+          "cranach-nymph-of-the-spring",
+          "durer-melencolia-i",
+          "durer-rhinoceros",
+          "friedrich-moonrise-study",
+          "gauguin-nafea-faa-ipoipo",
+          "hiroshige-sudden-shower",
+          "hokusai-under-the-wave",
+          "kirchner-berlin-street-scene",
+          "klimt-elisabeth-lederer",
+          "liotard-dutch-girl-breakfast",
+          "monet-meules",
+          "munch-scream-pastel",
+          "redon-vase-of-flowers",
+          "rembrandt-aristotle",
+          "rembrandt-hundred-guilder-print",
+          "rembrandt-standard-bearer",
+          "renoir-bal-du-moulin-small",
+          "rubens-massacre-innocents",
+          "schiele-seated-woman",
+          "seurat-les-poseuses-small",
+          "signac-harbour-sketch",
+          "turner-seascape-folkestone",
+          "vangogh-portrait-dr-gachet",
+          "velazquez-juan-de-pareja",
+          "vermeer-study-young-woman"
+        ]
+      },
+      "name" : "hard shared category relaxed"
+    },
+    {
+      "expected" : {
+        "error" : "pool_exhausted",
+        "state_after" : "11400714819323198509"
+      },
+      "input" : {
+        "difficulty" : "hard",
+        "seed" : "24",
+        "used" : [
+          "botticelli-young-man-roundel",
+          "cezanne-card-players",
+          "chardin-basket-wild-strawberries",
+          "cranach-nymph-of-the-spring",
+          "durer-melencolia-i",
+          "durer-rhinoceros",
+          "friedrich-moonrise-study",
+          "gauguin-nafea-faa-ipoipo",
+          "hiroshige-sudden-shower",
+          "hokusai-under-the-wave",
+          "kirchner-berlin-street-scene",
+          "klimt-elisabeth-lederer",
+          "leonardo-salvator-mundi",
+          "liotard-dutch-girl-breakfast",
+          "morisot-garden-study",
+          "munch-scream-pastel",
+          "redon-vase-of-flowers",
+          "rembrandt-aristotle",
+          "rembrandt-hundred-guilder-print",
+          "rembrandt-standard-bearer",
+          "rubens-massacre-innocents",
+          "schiele-seated-woman",
+          "seurat-les-poseuses-small",
+          "signac-harbour-sketch",
+          "turner-seascape-folkestone",
+          "vangogh-portrait-dr-gachet",
+          "velazquez-juan-de-pareja",
+          "vermeer-study-young-woman"
+        ]
+      },
+      "name" : "below floor gap → exhausted"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "durer-melencolia-i",
+          "bottom_milli" : 5782,
+          "difficulty" : "medium",
+          "pricier_side" : "top",
+          "relaxation" : 0,
+          "top" : "leonardo-salvator-mundi",
+          "top_milli" : 8771
+        },
+        "state_after" : "5625365687987180119"
+      },
+      "input" : {
+        "anchor" : "leonardo-salvator-mundi",
+        "difficulty" : "medium",
+        "seed" : "11",
+        "used" : [
+
+        ],
+        "year_window" : 60
+      },
+      "name" : "anchored on Salvator Mundi"
+    },
+    {
+      "expected" : {
+        "round" : {
+          "bottom" : "durer-rhinoceros",
+          "bottom_milli" : 5498,
+          "difficulty" : "hard",
+          "pricier_side" : "bottom",
+          "relaxation" : 0,
+          "top" : "hiroshige-sudden-shower",
+          "top_milli" : 3823
+        },
+        "state_after" : "5625365687987180120"
+      },
+      "input" : {
+        "anchor" : "hiroshige-sudden-shower",
+        "difficulty" : "hard",
+        "seed" : "12",
+        "used" : [
+
+        ]
+      },
+      "name" : "anchored on Hiroshige"
+    },
+    {
+      "expected" : {
+        "error" : "pool_exhausted",
+        "state_after" : "13"
+      },
+      "input" : {
+        "difficulty" : "easy",
+        "seed" : "13",
+        "used" : [
+          "cezanne-card-players",
+          "chardin-basket-wild-strawberries",
+          "cranach-nymph-of-the-spring",
+          "durer-melencolia-i",
+          "durer-rhinoceros",
+          "friedrich-moonrise-study",
+          "gauguin-nafea-faa-ipoipo",
+          "hiroshige-sudden-shower",
+          "hokusai-under-the-wave",
+          "kirchner-berlin-street-scene",
+          "klimt-elisabeth-lederer",
+          "leonardo-salvator-mundi",
+          "liotard-dutch-girl-breakfast",
+          "monet-meules",
+          "morisot-garden-study",
+          "munch-scream-pastel",
+          "redon-vase-of-flowers",
+          "rembrandt-aristotle",
+          "rembrandt-hundred-guilder-print",
+          "rembrandt-standard-bearer",
+          "renoir-bal-du-moulin-small",
+          "rubens-massacre-innocents",
+          "schiele-seated-woman",
+          "seurat-les-poseuses-small",
+          "signac-harbour-sketch",
+          "turner-seascape-folkestone",
+          "vangogh-portrait-dr-gachet",
+          "velazquez-juan-de-pareja",
+          "vermeer-study-young-woman"
+        ]
+      },
+      "name" : "pool exhausted"
+    },
+    {
+      "expected" : {
+        "error" : "invalid_anchor",
+        "state_after" : "14"
+      },
+      "input" : {
+        "anchor" : "no-such-work",
+        "difficulty" : "easy",
+        "seed" : "14",
+        "used" : [
+
+        ]
+      },
+      "name" : "invalid anchor"
+    }
+  ],
+  "description" : "Which-is-pricier pair selection over mini_dataset.json (log10_usd_adjusted_milli)."
+}

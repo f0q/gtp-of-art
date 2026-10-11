@@ -1,0 +1,75 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "hash" : "14695981039346656037",
+        "hash_hex" : "0xcbf29ce484222325"
+      },
+      "input" : {
+        "text" : ""
+      },
+      "name" : "fnv \"\""
+    },
+    {
+      "expected" : {
+        "hash" : "12638187200555641996",
+        "hash_hex" : "0xaf63dc4c8601ec8c"
+      },
+      "input" : {
+        "text" : "a"
+      },
+      "name" : "fnv \"a\""
+    },
+    {
+      "expected" : {
+        "hash" : "9625390261332436968",
+        "hash_hex" : "0x85944171f73967e8"
+      },
+      "input" : {
+        "text" : "foobar"
+      },
+      "name" : "fnv \"foobar\""
+    },
+    {
+      "expected" : {
+        "hash" : "12305735035231682411",
+        "hash_hex" : "0xaac6c0d0e3103f6b"
+      },
+      "input" : {
+        "text" : "artprice"
+      },
+      "name" : "fnv \"artprice\""
+    },
+    {
+      "expected" : {
+        "hash" : "15238593917339714309",
+        "hash_hex" : "0xd37a5c6e27764305"
+      },
+      "input" : {
+        "text" : "artprice|daily|r1|dmini-2026.10|2026-10-11"
+      },
+      "name" : "fnv \"artprice|daily|r1|dmini-2026.10|2026-10-11\""
+    },
+    {
+      "expected" : {
+        "hash" : "17293201812817215597",
+        "hash_hex" : "0xeffdcb6cea1c806d"
+      },
+      "input" : {
+        "text" : "Hokusai — 葛飾北斎"
+      },
+      "name" : "fnv \"Hokusai — 葛飾北斎\""
+    },
+    {
+      "expected" : {
+        "hash" : "13486654199309714709",
+        "hash_hex" : "0xbb2a3889f662c515"
+      },
+      "input" : {
+        "text" : "Dürer"
+      },
+      "name" : "fnv \"Dürer\""
+    }
+  ],
+  "description" : "FNV-1a 64 over UTF-8 bytes."
+}

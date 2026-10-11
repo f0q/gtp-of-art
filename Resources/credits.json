@@ -1,0 +1,1470 @@
+{
+ "generated_at": "2026-10-11T16:08:57+00:00",
+ "disclaimer": "Prices are approximate public figures for historical sales, gathered from published reports, and are for entertainment and education only. Auction prices usually include the buyer's premium; private-sale prices are as reported and may be unconfirmed. Inflation-adjusted values are estimates. Nothing here is an appraisal, valuation, or investment advice, and past sale prices do not indicate what any work would fetch today.",
+ "data_sources": [
+  {
+   "name": "The Metropolitan Museum of Art Open Access",
+   "url": "https://www.metmuseum.org/hubs/open-access",
+   "licence": "CC0"
+  },
+  {
+   "name": "Art Institute of Chicago API (images and data; descriptions not used)",
+   "url": "https://api.artic.edu/docs/",
+   "licence": "CC0"
+  },
+  {
+   "name": "The Cleveland Museum of Art Open Access",
+   "url": "https://openaccess-api.clevelandart.org/",
+   "licence": "CC0"
+  },
+  {
+   "name": "Rijksmuseum data services",
+   "url": "https://data.rijksmuseum.nl/",
+   "licence": "Public domain / CC0"
+  },
+  {
+   "name": "Wikimedia Commons (PD-Art reproductions)",
+   "url": "https://commons.wikimedia.org/",
+   "licence": "Public domain"
+  },
+  {
+   "name": "Wikidata (structured facts and price statements)",
+   "url": "https://www.wikidata.org/",
+   "licence": "CC0"
+  },
+  {
+   "name": "FRED, Federal Reserve Bank of St. Louis (H.10 exchange rates; CPI-U series)",
+   "url": "https://fred.stlouisfed.org/",
+   "licence": "Public data"
+  },
+  {
+   "name": "ECB Data Portal (euro reference rates)",
+   "url": "https://data.ecb.europa.eu/",
+   "licence": "Free reuse with attribution"
+  },
+  {
+   "name": "U.S. Bureau of Labor Statistics, CPI-U",
+   "url": "https://www.bls.gov/cpi/",
+   "licence": "Public domain (US government)"
+  },
+  {
+   "name": "Federal Reserve Bank of Minneapolis, Consumer Price Index 1800-",
+   "url": "https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1800-",
+   "licence": "Public data"
+  }
+ ],
+ "images": [
+  {
+   "artwork_id": "avercamp-colf-players",
+   "title": "Colf Players on the Ice",
+   "artist": "Hendrick Avercamp",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Houston Museum of Fine Arts, Collection Edward and Sally Speelman",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Hendrick_Avercamp,_Kolfspelers_op_het_ijs,_Circa_1625.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Hendrick_Avercamp%2C_Kolfspelers_op_het_ijs%2C_Circa_1625.jpg/1920px-Hendrick_Avercamp%2C_Kolfspelers_op_het_ijs%2C_Circa_1625.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "blanchard-still-life",
+   "title": "Still Life",
+   "artist": "María Blanchard",
+   "licence": "CC0",
+   "attribution": "The Cleveland Museum of Art, Partial purchase from the J. H. Wade Fund and partial gift of Mr. and Mrs. Maurice Saltzman, by exchange (CC0)",
+   "landing_url": "https://clevelandart.org/art/2026.37",
+   "source_url": "https://openaccess-cdn.clevelandart.org/2026.37/2026.37_print.jpg"
+  },
+  {
+   "artwork_id": "bocklin-island-of-the-dead",
+   "title": "Island of the Dead",
+   "artist": "Arnold Böcklin",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Reisinger Fund, 1926 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/435683",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-003.jpg"
+  },
+  {
+   "artwork_id": "bosschaert-flowers-wanli-vase",
+   "title": "Flowers in a Wan-Li Vase in a Niche",
+   "artist": "Ambrosius Bosschaert the Elder",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6238432&amp;lid=1",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Ambrosius_bosschaert_the_elder_flowers_in_a_wan-li_gilt-mounted_vase.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ambrosius_bosschaert_the_elder_flowers_in_a_wan-li_gilt-mounted_vase.jpg/1920px-Ambrosius_bosschaert_the_elder_flowers_in_a_wan-li_gilt-mounted_vase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "botticelli-young-man-roundel",
+   "title": "Young Man Holding a Roundel",
+   "artist": "Sandro Botticelli",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: [1]",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Botticelli_-_Portrait_of_a_Young_Man_Holding_a_Roundel.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Botticelli_-_Portrait_of_a_Young_Man_Holding_a_Roundel.jpg/1920px-Botticelli_-_Portrait_of_a_Young_Man_Holding_a_Roundel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "boucher-toilette-of-venus",
+   "title": "The Toilette of Venus",
+   "artist": "François Boucher",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Bequest of William K. Vanderbilt, 1920 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/435739",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-411-01.jpg"
+  },
+  {
+   "artwork_id": "bouguereau-the-bohemian",
+   "title": "The Bohemian",
+   "artist": "William-Adolphe Bouguereau",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Christie's, LotFinder: entry 4264007",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:William-Adolphe_Bouguereau_(1825-1905)_-_The_Bohemian_(1890).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/William-Adolphe_Bouguereau_%281825-1905%29_-_The_Bohemian_%281890%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "bruegel-the-harvesters",
+   "title": "The Harvesters",
+   "artist": "Pieter Bruegel the Elder",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Rogers Fund, 1919 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/435809",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg"
+  },
+  {
+   "artwork_id": "cabanel-birth-of-venus",
+   "title": "The Birth of Venus",
+   "artist": "Alexandre Cabanel",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of John Wolfe, 1893 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/435831",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-22432-001.jpg"
+  },
+  {
+   "artwork_id": "caillebotte-young-man-window",
+   "title": "Young Man at His Window",
+   "artist": "Gustave Caillebotte",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: www.christies.com",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Jeune_homme_%C3%A0_sa_fen%C3%AAtre_(B_32).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Gustave_Caillebotte_-_Jeune_homme_%C3%A0_sa_fen%C3%AAtre_%28B_32%29.jpg/1920px-Gustave_Caillebotte_-_Jeune_homme_%C3%A0_sa_fen%C3%AAtre_%28B_32%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "cameron-julia-jackson",
+   "title": "Julia Jackson",
+   "artist": "Julia Margaret Cameron",
+   "licence": "CC0",
+   "attribution": "Art Institute of Chicago, Harriott A. Fox Endowment (CC0)",
+   "landing_url": "https://www.artic.edu/artworks/29230",
+   "source_url": "https://www.artic.edu/iiif/2/7582416c-67cd-3682-bf97-5f9883bdd972/full/1686,/0/default.jpg"
+  },
+  {
+   "artwork_id": "canaletto-grand-canal-rialto",
+   "title": "The Grand Canal, Looking North-East from Palazzo Balbi to the Rialto Bridge",
+   "artist": "Canaletto",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Web Gallery of Art: Image Info about artworkwga QS:P11807,\"c/canalett/1/canal110\"",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Antonio_Canal,_il_Canaletto_-_Venice_-_The_Grand_Canal,_Looking_North-East_from_Palazzo_Balbi_to_the_Rialto_Bridge_-_WGA03851.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Giovanni_Antonio_Canal%2C_il_Canaletto_-_Venice_-_The_Grand_Canal%2C_Looking_North-East_from_Palazzo_Balbi_to_the_Rialto_Bridge_-_WGA03851.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "cezanne-montagne-sainte-victoire",
+   "title": "La Montagne Sainte-Victoire",
+   "artist": "Paul Cézanne",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: The Yorck Project (2002) 10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH. ISBN: 3936122202.",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Montagne_Sainte-Victoire,_par_Paul_C%C3%A9zanne_114.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Montagne_Sainte-Victoire%2C_par_Paul_C%C3%A9zanne_114.jpg/1920px-Montagne_Sainte-Victoire%2C_par_Paul_C%C3%A9zanne_114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "chardin-basket-wild-strawberries",
+   "title": "Basket of Wild Strawberries",
+   "artist": "Jean-Siméon Chardin",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Artcurial",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Jean_Sim%C3%A9on_Chardin_-_Le_Panier_de_fraises_des_bois_(1761).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Jean_Sim%C3%A9on_Chardin_-_Le_Panier_de_fraises_des_bois_%281761%29.jpg/1920px-Jean_Sim%C3%A9on_Chardin_-_Le_Panier_de_fraises_des_bois_%281761%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "coorte-wild-strawberries",
+   "title": "Still Life of Wild Strawberries in a Wan-Li Bowl",
+   "artist": "Adriaen Coorte",
+   "licence": "PD",
+   "attribution": "Photo via Wikimedia Commons (PD); source: https://www.sothebys.com/en/buy/auction/2022/master-paintings-sculpture-part-i/still-life-of-fraises-de-bois-in-a-wan-li-bowl",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Adriaen_Coorte_-_Still_life_of_fraises-de-bois_in_a_Wan-Li_bowl_upon_a_stone_ledge.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Adriaen_Coorte_-_Still_life_of_fraises-de-bois_in_a_Wan-Li_bowl_upon_a_stone_ledge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "corinth-half-nude-young-woman",
+   "title": "Half-Nude of a Young Woman",
+   "artist": "Lovis Corinth",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Karl &amp; Faber Kunstauktionen, München, 10 June 2011, Los 415",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Lovis_Corinth_-_Halbakt_einer_jungen_Frau,_den_Kopf_mit_der_linken_Hand_gest%C3%BCtzt_(ca._1907).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Lovis_Corinth_-_Halbakt_einer_jungen_Frau%2C_den_Kopf_mit_der_linken_Hand_gest%C3%BCtzt_%28ca._1907%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "corinth-skating-rink-tiergarten",
+   "title": "Skating Rink in the Tiergarten",
+   "artist": "Lovis Corinth",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: [1]",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:1919_Lovis_Corinth_Eisbahn.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/1919_Lovis_Corinth_Eisbahn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "corinth-still-life-with-fish",
+   "title": "Still Life with Fish",
+   "artist": "Lovis Corinth",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Ulrike Lorenz, Marie-Amelie Prinzessin zu Salm-Salm, Hans-Werner Schmidt (Hrsg.): Lovis Corinth und die Geburt der Moderne. Kerber, Bielefeld/Leipzig 2008, ISBN",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Lovis_Corinth_Stillleben_mit_Fischen_1917.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Lovis_Corinth_Stillleben_mit_Fischen_1917.jpg/1920px-Lovis_Corinth_Stillleben_mit_Fischen_1917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "courbet-woman-with-a-parrot",
+   "title": "Woman with a Parrot",
+   "artist": "Gustave Courbet",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/436002",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-17680-001.jpg"
+  },
+  {
+   "artwork_id": "cranach-reclining-water-nymph",
+   "title": "Reclining Water Nymph",
+   "artist": "Lucas Cranach the Elder",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Christie's, LotFinder: entry 6381771 (sale 20552, lot 6, London, 7 July 2022)",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Ruhende_Quellnymphe_(Christie%E2%80%99s_2022).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lucas_Cranach_d.%C3%84._-_Ruhende_Quellnymphe_%28Christie%E2%80%99s_2022%29.jpg/1920px-Lucas_Cranach_d.%C3%84._-_Ruhende_Quellnymphe_%28Christie%E2%80%99s_2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "david-death-of-socrates",
+   "title": "The Death of Socrates",
+   "artist": "Jacques-Louis David",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Catharine Lorillard Wolfe Collection, Wolfe Fund, 1931 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg"
+  },
+  {
+   "artwork_id": "drouais-madame-de-pompadour-muff",
+   "title": "Portrait of Madame de Pompadour with a Fur Muff",
+   "artist": "François-Hubert Drouais",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Sotheby's",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Jeanne-Antoinette_Poisson,_Marquise_de_Pompadour_(1721-1764),_by_Fran%C3%A7ois-Hubert_Drouais.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Jeanne-Antoinette_Poisson%2C_Marquise_de_Pompadour_%281721-1764%29%2C_by_Fran%C3%A7ois-Hubert_Drouais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "duccio-madonna-child",
+   "title": "Madonna and Child",
+   "artist": "Duccio di Buoninsegna",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Purchase, Rogers Fund, Walter and Leonore Annenberg and The Annenberg Foundation Gift, Lila Acheson Wallace Gift, Annette de la Renta Gift, Harris Brisbane Dick, Fletcher, Louis V. Bell, and Dodge Funds, Joseph Pulitzer Bequest, several members of The Chairman's Council Gifts, Elaine L. Rosenberg and Stephenson Family Foundation Gifts, 2003 Benefit Fund, and other gifts and funds from various donors, 2004 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/438754",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg"
+  },
+  {
+   "artwork_id": "durer-melencolia-i",
+   "title": "Melencolia I",
+   "artist": "Albrecht Dürer",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Fletcher Fund, 1919 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/360018",
+   "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP815742.jpg"
+  },
+  {
+   "artwork_id": "durer-rhinoceros",
+   "title": "The Rhinoceros",
+   "artist": "Albrecht Dürer",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of Junius Spencer Morgan, 1919 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/356497",
+   "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DT241450.jpg"
+  },
+  {
+   "artwork_id": "fragonard-interesting-student",
+   "title": "The Interesting Student",
+   "artist": "Jean-Honoré Fragonard and Marguerite Gérard",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: sothebys",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Fragonard_et_G%C3%A9rard_-_L%27%C3%A9l%C3%A8ve_int%C3%A9ressante.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Fragonard_et_G%C3%A9rard_-_L%27%C3%A9l%C3%A8ve_int%C3%A9ressante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "gauguin-nafea-faa-ipoipo",
+   "title": "Nafea Faa Ipoipo? (When Will You Marry?)",
+   "artist": "Paul Gauguin",
+   "licence": "PD",
+   "attribution": "Photo via Wikimedia Commons (PD); source: Beyeler Foundation",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin,_Nafea_Faa_Ipoipo%3F_(When_Will_You_Marry%3F)_1892,_oil_on_canvas,_101_x_77_cm.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Paul_Gauguin%2C_Nafea_Faa_Ipoipo%3F_%28When_Will_You_Marry%3F%29_1892%2C_oil_on_canvas%2C_101_x_77_cm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "gentileschi-danae",
+   "title": "Danaë and the Shower of Gold",
+   "artist": "Orazio Gentileschi",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: The Getty Center, Object 133975 This image was taken from the Getty Research Institute's Open Content Program, which states the following regarding their assess",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Orazio_Gentileschi_-_Dana%C3%AB_and_the_Shower_of_Gold_-_2016.6_-_J._Paul_Getty_Museum.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Orazio_Gentileschi_-_Dana%C3%AB_and_the_Shower_of_Gold_-_2016.6_-_J._Paul_Getty_Museum.jpg/1920px-Orazio_Gentileschi_-_Dana%C3%AB_and_the_Shower_of_Gold_-_2016.6_-_J._Paul_Getty_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "gerome-pygmalion-and-galatea",
+   "title": "Pygmalion and Galatea",
+   "artist": "Jean-Léon Gérôme",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of Louis C. Raegner, 1927 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/436483",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-005.jpg"
+  },
+  {
+   "artwork_id": "giovanni-di-paolo-saint-clare",
+   "title": "Saint Clare Rescuing the Shipwrecked",
+   "artist": "Giovanni di Paolo",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.christies.com/lotfinder/paintings/giovanni-di-paolo-saint-clare-rescuing-the-6238411-details.aspx?from=salesummary&amp;intObjectID=6238411&amp;lid=1",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Giovanni_di_paolo_saint_clare_rescuing_the_shipwrecked.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Giovanni_di_paolo_saint_clare_rescuing_the_shipwrecked.jpg/1920px-Giovanni_di_paolo_saint_clare_rescuing_the_shipwrecked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "goya-duke-of-wellington",
+   "title": "Portrait of the Duke of Wellington",
+   "artist": "Francisco Goya",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: National Gallery, London - online catalogue.",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Francisco_Goya_-_Portrait_of_the_Duke_of_Wellington.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Francisco_Goya_-_Portrait_of_the_Duke_of_Wellington.jpg/1920px-Francisco_Goya_-_Portrait_of_the_Duke_of_Wellington.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "guo-xi-old-trees-level-distance",
+   "title": "Old Trees, Level Distance",
+   "artist": "Guo Xi",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of John M. Crawford Jr., in honor of Douglas Dillon, 1981 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/39668",
+   "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP167812_CRD.jpg"
+  },
+  {
+   "artwork_id": "heda-still-life-fruit-pie",
+   "title": "Still Life with a Fruit Pie",
+   "artist": "Willem Claesz. Heda",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.frenchandcompanyart.com/object/789500/0/willem-claesz-heda-still-life-with",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Willem_Claesz_Heda_-_Still_Life_with_a_Fruit_Pie,_1644.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Willem_Claesz_Heda_-_Still_Life_with_a_Fruit_Pie%2C_1644.jpg/1920px-Willem_Claesz_Heda_-_Still_Life_with_a_Fruit_Pie%2C_1644.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "hiroshige-sudden-shower-shin-ohashi",
+   "title": "Sudden Shower over Shin-Ōhashi Bridge and Atake",
+   "artist": "Utagawa Hiroshige",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, The Howard Mansfield Collection, Purchase, Rogers Fund, 1936 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/55433",
+   "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP130156.jpg"
+  },
+  {
+   "artwork_id": "hokusai-under-the-wave",
+   "title": "Under the Wave off Kanagawa (The Great Wave)",
+   "artist": "Katsushika Hokusai",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, The Howard Mansfield Collection, Purchase, Rogers Fund, 1936 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/39799",
+   "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP141042.jpg"
+  },
+  {
+   "artwork_id": "jawlensky-variation-1916-4",
+   "title": "Variation 1916 N. 4",
+   "artist": "Alexej von Jawlensky",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: lempertz.com",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Alexej_von_Jawlensky_Variation_1916_N._4.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Alexej_von_Jawlensky_Variation_1916_N._4.jpg/1920px-Alexej_von_Jawlensky_Variation_1916_N._4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "kandinsky-improvisation-30",
+   "title": "Improvisation No. 30 (Cannons)",
+   "artist": "Vasily Kandinsky",
+   "licence": "CC0",
+   "attribution": "Art Institute of Chicago, Arthur Jerome Eddy Memorial Collection (CC0)",
+   "landing_url": "https://www.artic.edu/artworks/8991",
+   "source_url": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/1686,/0/default.jpg"
+  },
+  {
+   "artwork_id": "kirchner-berlin-street-scene",
+   "title": "Berlin Street Scene",
+   "artist": "Ernst Ludwig Kirchner",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Scanned by uploader from the catalog: Deborah Wye, Kirchner and the Berlin Street, New York, MoMA, 2008. ISBN 9780870707414.",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Kirchner_Berlin_Street_Scene_1913.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Kirchner_Berlin_Street_Scene_1913.jpg/1920px-Kirchner_Berlin_Street_Scene_1913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "kirchner-blue-girl-in-the-sun",
+   "title": "Blue Girl in the Sun",
+   "artist": "Ernst Ludwig Kirchner",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: http://www.kettererkunst.de/",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Ernst_Ludwig_Kirchner_Das_blaue_M%C3%A4dchen_in_der_Sonne_1910.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Ernst_Ludwig_Kirchner_Das_blaue_M%C3%A4dchen_in_der_Sonne_1910.jpg/1920px-Ernst_Ludwig_Kirchner_Das_blaue_M%C3%A4dchen_in_der_Sonne_1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "klimt-elisabeth-lederer",
+   "title": "Portrait of Elisabeth Lederer",
+   "artist": "Gustav Klimt",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Sotheby's",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_Bildnis_der_Elisabeth_Lederer.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gustav_Klimt_Bildnis_der_Elisabeth_Lederer.jpg/1920px-Gustav_Klimt_Bildnis_der_Elisabeth_Lederer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "klimt-mada-primavesi",
+   "title": "Mäda Primavesi",
+   "artist": "Gustav Klimt",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of André and Clara Mertens, in memory of her mother, Jenny Pulitzer Steiner, 1964 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/436819",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP243354.jpg"
+  },
+  {
+   "artwork_id": "klimt-water-serpents-ii",
+   "title": "Water Serpents II",
+   "artist": "Gustav Klimt",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: repro from artbook",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Wasserschlangen_II_(Freundinnen)_-_1904.jpeg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Klimt_-_Wasserschlangen_II_%28Freundinnen%29_-_1904.jpeg/1920px-Klimt_-_Wasserschlangen_II_%28Freundinnen%29_-_1904.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "lavery-paisley-lawn-tennis",
+   "title": "Paisley Lawn Tennis Club",
+   "artist": "John Lavery",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Lyon &amp; Turnbull, Edinburgh &amp; Online, A Taste for Art, 26 September 2024, lot 64 — with frame",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:John_Lavery_-_Paisley_Lawn_Tennis_Club.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/John_Lavery_-_Paisley_Lawn_Tennis_Club.jpg/1920px-John_Lavery_-_Paisley_Lawn_Tennis_Club.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "le-gray-great-wave-sete",
+   "title": "The Great Wave, Sète",
+   "artist": "Gustave Le Gray",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of John Goldsmith Phillips, 1976 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/261941",
+   "source_url": "https://images.metmuseum.org/CRDImages/ph/original/DP223650.jpg"
+  },
+  {
+   "artwork_id": "leonardo-ginevra-de-benci",
+   "title": "Ginevra de' Benci",
+   "artist": "Leonardo da Vinci",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: nga.gov (downloaded with dezoomify-rs)",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Ginevra_de%27_Benci_-_National_Gallery_of_Art.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ginevra_de%27_Benci_-_National_Gallery_of_Art.jpg/1920px-Ginevra_de%27_Benci_-_National_Gallery_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "leonardo-head-of-the-virgin",
+   "title": "The Head of the Virgin in Three-Quarter View Facing Right",
+   "artist": "Leonardo da Vinci",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1951 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/337496",
+   "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP102382.jpg"
+  },
+  {
+   "artwork_id": "leonardo-salvator-mundi",
+   "title": "Salvator Mundi",
+   "artist": "Leonardo da Vinci (attributed)",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Getty Images",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci,_Salvator_Mundi,_c.1500,_oil_on_walnut,_45.4_%C3%97_65.6_cm.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Leonardo_da_Vinci%2C_Salvator_Mundi%2C_c.1500%2C_oil_on_walnut%2C_45.4_%C3%97_65.6_cm.jpg/1920px-Leonardo_da_Vinci%2C_Salvator_Mundi%2C_c.1500%2C_oil_on_walnut%2C_45.4_%C3%97_65.6_cm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "leyster-merry-trio",
+   "title": "Merry Trio",
+   "artist": "Judith Leyster",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.christies.com/lotfinder/Lot/judith-leyster-haarlem-1609-1660-heemstede-merry-company-6182936-details.aspx",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Judith_Leyster_Merry_Trio.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Judith_Leyster_Merry_Trio.jpg/1920px-Judith_Leyster_Merry_Trio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "liebermann-child-under-trees",
+   "title": "Child under Trees (study for Children Playing)",
+   "artist": "Max Liebermann",
+   "licence": "PD",
+   "attribution": "Photo via Wikimedia Commons (PD); source: Lempertz",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Max_Liebermann_Kind_unter_B%C3%A4umen_1882.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Max_Liebermann_Kind_unter_B%C3%A4umen_1882.jpg/1920px-Max_Liebermann_Kind_unter_B%C3%A4umen_1882.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "liebermann-dunes-farmer-goats",
+   "title": "Dunes with a Farmer and Grazing Goats",
+   "artist": "Max Liebermann",
+   "licence": "PD",
+   "attribution": "Photo via Wikimedia Commons (PD); source: Lempertz",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Max_Liebermann_D%C3%BCnen_mit_Bauer_und_grasenden_Ziegen_1895.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Max_Liebermann_D%C3%BCnen_mit_Bauer_und_grasenden_Ziegen_1895.jpg/1920px-Max_Liebermann_D%C3%BCnen_mit_Bauer_und_grasenden_Ziegen_1895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "liebermann-jewish-street-amsterdam",
+   "title": "Jewish Street in Amsterdam",
+   "artist": "Max Liebermann",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: lempertz.com",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Max_Liebermann_Judengasse_in_Amsterdam_1909.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Max_Liebermann_Judengasse_in_Amsterdam_1909.jpg/1920px-Max_Liebermann_Judengasse_in_Amsterdam_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "liotard-dutch-girl-breakfast",
+   "title": "A Dutch Girl at Breakfast",
+   "artist": "Jean-Étienne Liotard",
+   "licence": "CC0",
+   "attribution": "Rijksmuseum, Amsterdam (public domain)",
+   "landing_url": "https://www.rijksmuseum.nl/en/collection/SK-A-5039",
+   "source_url": "https://iiif.micr.io/fvkAL/full/!2400,2400/0/default.jpg"
+  },
+  {
+   "artwork_id": "malevich-suprematist-composition",
+   "title": "Suprematist Composition",
+   "artist": "Kazimir Malevich",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.christies.com/lotfinder/paintings/kazimir-malevich-suprematist-composition-6140947-details.aspx from=salesummery&amp;intobjectid=6140947&amp;sid=bea",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Kazimir_malevich_suprematist_composition.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Kazimir_malevich_suprematist_composition.jpg/1920px-Kazimir_malevich_suprematist_composition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "mantegna-adoration-magi",
+   "title": "Adoration of the Magi",
+   "artist": "Andrea Mantegna",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: J. Paul Getty Museum",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Andrea_Mantegna_-_Adoration_of_the_Magi_-_85.PA.417_-_J._Paul_Getty_Museum.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Andrea_Mantegna_-_Adoration_of_the_Magi_-_85.PA.417_-_J._Paul_Getty_Museum.jpg/1920px-Andrea_Mantegna_-_Adoration_of_the_Magi_-_85.PA.417_-_J._Paul_Getty_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "marcoussis-night-cafe",
+   "title": "Night Café",
+   "artist": "Louis Marcoussis",
+   "licence": "CC0",
+   "attribution": "The Cleveland Museum of Art, Given in loving memory of W. Chave and Mary Tyler McCracken by their daughters (CC0)",
+   "landing_url": "https://clevelandart.org/art/2006.139",
+   "source_url": "https://openaccess-cdn.clevelandart.org/2006.139/2006.139_print.jpg"
+  },
+  {
+   "artwork_id": "matisse-still-life-geranium",
+   "title": "Still Life with Geranium",
+   "artist": "Henri Matisse",
+   "licence": "CC0",
+   "attribution": "Art Institute of Chicago, Joseph Winterbotham Collection (CC0)",
+   "landing_url": "https://www.artic.edu/artworks/87045",
+   "source_url": "https://www.artic.edu/iiif/2/d0049e0b-bd55-020e-aa8c-b137d06ae7df/full/1686,/0/default.jpg"
+  },
+  {
+   "artwork_id": "merritt-eve",
+   "title": "Eve",
+   "artist": "Anna Lea Merritt",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: 1./2. Art Renewal Center3. Christie's, LotFinder: entry 5701811 (sale 1128, London, 11 July 2013, lot 5)",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Merritt_Anna_Lea_Eve_1885_Oil_On_Canvas-large.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Merritt_Anna_Lea_Eve_1885_Oil_On_Canvas-large.jpg/1920px-Merritt_Anna_Lea_Eve_1885_Oil_On_Canvas-large.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "michelangelo-libyan-sibyl-studies",
+   "title": "Studies for the Libyan Sibyl",
+   "artist": "Michelangelo Buonarroti",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Purchase, Joseph Pulitzer Bequest, 1924 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/337497",
+   "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP826907.jpg"
+  },
+  {
+   "artwork_id": "modersohn-becker-self-portrait",
+   "title": "Self-Portrait Looking Slightly Left",
+   "artist": "Paula Modersohn-Becker",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Grisebach",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Paula_Modersohn_Becker_Selbstbildnis_nach_halblinks.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Paula_Modersohn_Becker_Selbstbildnis_nach_halblinks.jpg/1920px-Paula_Modersohn_Becker_Selbstbildnis_nach_halblinks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "modigliani-jeanne-hebuterne",
+   "title": "Jeanne Hébuterne",
+   "artist": "Amedeo Modigliani",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of Mr. and Mrs. Nate B. Spingold, 1956 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/488903",
+   "source_url": "https://images.metmuseum.org/CRDImages/ma/original/DT2180.jpg"
+  },
+  {
+   "artwork_id": "modigliani-nu-couche",
+   "title": "Nu couché (Red Nude)",
+   "artist": "Amedeo Modigliani",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Christie's sale, New York, 9 November 2015",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Modigliani_-_Nu_couch%C3%A9.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Modigliani_-_Nu_couch%C3%A9.jpg/1920px-Modigliani_-_Nu_couch%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "mondrian-farm-building-irrigation-ditch",
+   "title": "Farm Building near an Irrigation Ditch",
+   "artist": "Piet Mondrian",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: lempertz.com",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_Farm_building_near_irrigation_ditch.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Piet_Mondrian_Farm_building_near_irrigation_ditch.jpg/1920px-Piet_Mondrian_Farm_building_near_irrigation_ditch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "mondrian-lozenge-composition",
+   "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
+   "artist": "Piet Mondrian",
+   "licence": "CC0",
+   "attribution": "Art Institute of Chicago, Gift of Edgar Kaufmann, Jr. (CC0)",
+   "landing_url": "https://www.artic.edu/artworks/109819",
+   "source_url": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/1686,/0/default.jpg"
+  },
+  {
+   "artwork_id": "monet-meules",
+   "title": "Meules (Haystacks)",
+   "artist": "Claude Monet",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://fineartconnoisseur.com/2019/05/record-breaking-monet/",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Meules_(W_1273).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Claude_Monet_-_Meules_%28W_1273%29.jpg/1920px-Claude_Monet_-_Meules_%28W_1273%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "monet-water-lilies-aic",
+   "title": "Water Lilies",
+   "artist": "Claude Monet",
+   "licence": "CC0",
+   "attribution": "Art Institute of Chicago, Mr. and Mrs. Martin A. Ryerson Collection (CC0)",
+   "landing_url": "https://www.artic.edu/artworks/16568",
+   "source_url": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/1686,/0/default.jpg"
+  },
+  {
+   "artwork_id": "morse-marquis-de-lafayette",
+   "title": "Marquis de Lafayette",
+   "artist": "Samuel F. B. Morse",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: http://collection.crystalbridges.org/objects/192/marquis-de-lafayette;jsessionid=1477F99269FF236DE614FB804464499D?ctx=80ac503b-a88e-4be1-a15e-65c69c0a4d54&amp;i",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Lafayette.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Portrait_of_Lafayette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "munch-scream-pastel",
+   "title": "The Scream (pastel)",
+   "artist": "Edvard Munch",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Transferred from en.wikipedia to Commons. Sotheby's Current high resolution version: http://www.sothebys.com/content/dam/stb/lots/N08/N08850/365N08850_68PZY_sil",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:The_Scream_Pastel.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/The_Scream_Pastel.jpg/1920px-The_Scream_Pastel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "pontormo-portrait-halberdier",
+   "title": "Portrait of a Halberdier",
+   "artist": "Pontormo",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: swE0HqDMOIKB5w at Google Cultural Institute maximum zoom level",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Pontormo_(Jacopo_Carucci)_(Italian,_Florentine)_-_Portrait_of_a_Halberdier_(Francesco_Guardi%3F)_-_Google_Art_Project.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Pontormo_%28Jacopo_Carucci%29_%28Italian%2C_Florentine%29_-_Portrait_of_a_Halberdier_%28Francesco_Guardi%3F%29_-_Google_Art_Project.jpg/1920px-Pontormo_%28Jacopo_Carucci%29_%28Italian%2C_Florentine%29_-_Portrait_of_a_Halberdier_%28Francesco_Guardi%3F%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "raphael-ansidei-madonna",
+   "title": "Ansidei Madonna",
+   "artist": "Raphael",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Web Gallery of Art: Image Info about artworkwga QS:P11807,\"r/raphael/3umbtrip/31anside\"",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_Madonna_and_Child_(The_Ansidei_Altarpiece)_-_WGA18663.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Raffaello_Sanzio_-_Madonna_and_Child_%28The_Ansidei_Altarpiece%29_-_WGA18663.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "rembrandt-aristotle",
+   "title": "Aristotle with a Bust of Homer",
+   "artist": "Rembrandt van Rijn",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Purchase, special contributions and funds given or bequeathed by friends of the Museum, 1961 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/437394",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-30758-001.jpg"
+  },
+  {
+   "artwork_id": "rembrandt-hundred-guilder-print",
+   "title": "The Hundred Guilder Print",
+   "artist": "Rembrandt van Rijn",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/371732",
+   "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP230429.jpg"
+  },
+  {
+   "artwork_id": "rembrandt-standard-bearer",
+   "title": "The Standard Bearer",
+   "artist": "Rembrandt van Rijn",
+   "licence": "CC0",
+   "attribution": "Rijksmuseum, Amsterdam (public domain)",
+   "landing_url": "https://www.rijksmuseum.nl/en/collection/SK-A-5092",
+   "source_url": "https://iiif.micr.io/wceCO/full/!2400,2400/0/default.jpg"
+  },
+  {
+   "artwork_id": "renoir-bal-du-moulin-small",
+   "title": "Bal du moulin de la Galette (small version)",
+   "artist": "Pierre-Auguste Renoir",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Sotheby's sale catalogue 17 May 1990",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_(ex_Whitney_collection).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_%28ex_Whitney_collection%29.jpg/1920px-Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_%28ex_Whitney_collection%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "romero-de-torres-two-paths",
+   "title": "The Two Paths",
+   "artist": "Julio Romero de Torres",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: christies.com",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Las_dos_Sendas_-_Julio_Romero_de_Torres.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Las_dos_Sendas_-_Julio_Romero_de_Torres.jpg/1920px-Las_dos_Sendas_-_Julio_Romero_de_Torres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "rossetti-lady-lilith",
+   "title": "Lady Lilith",
+   "artist": "Dante Gabriel Rossetti",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Rogers Fund, 1908 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/337500",
+   "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP289717.jpg"
+  },
+  {
+   "artwork_id": "rubens-massacre-innocents",
+   "title": "Massacre of the Innocents",
+   "artist": "Peter Paul Rubens",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://ago.ca/node/27752/mirador",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Rubens,_Peter_Paul_-_Massacre_of_the_Innocents_-_Art_Gallery_of_Ontario.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Rubens%2C_Peter_Paul_-_Massacre_of_the_Innocents_-_Art_Gallery_of_Ontario.jpg/1920px-Rubens%2C_Peter_Paul_-_Massacre_of_the_Innocents_-_Art_Gallery_of_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "seurat-les-poseuses-small",
+   "title": "Les Poseuses, Ensemble (small version)",
+   "artist": "Georges Seurat",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.christies.com/en/lot/lot-6397099",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Georges_seurat_les_poseuses_ensemble100119).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Georges_seurat_les_poseuses_ensemble100119%29.jpg/1920px-Georges_seurat_les_poseuses_ensemble100119%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "seurat-sunday-grande-jatte",
+   "title": "A Sunday on La Grande Jatte — 1884",
+   "artist": "Georges Seurat",
+   "licence": "CC0",
+   "attribution": "Art Institute of Chicago, Helen Birch Bartlett Memorial Collection (CC0)",
+   "landing_url": "https://www.artic.edu/artworks/27992",
+   "source_url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/1686,/0/default.jpg"
+  },
+  {
+   "artwork_id": "shishkin-pine-forest",
+   "title": "Pine Forest",
+   "artist": "Ivan Shishkin",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.christies.com/lotfinder/paintings/ivan-shishkin-sukhostoi-6236313-details.aspx",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Pine_Forest_02_(Ivan_Shishkin).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Pine_Forest_02_%28Ivan_Shishkin%29.jpg/1920px-Pine_Forest_02_%28Ivan_Shishkin%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "slevogt-red-carnations",
+   "title": "Red Carnations",
+   "artist": "Max Slevogt",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: lempertz.com",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Max_Slevogt_Rote_Nelken.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Max_Slevogt_Rote_Nelken.jpg/1920px-Max_Slevogt_Rote_Nelken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "sorolla-las-tres-velas",
+   "title": "Las tres velas",
+   "artist": "Joaquín Sorolla",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: Sotheby's New York, 07 Mai 2008, lot 29",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Joaquin_Sorolla_-_Las_tres_velas.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Joaquin_Sorolla_-_Las_tres_velas.jpg/1920px-Joaquin_Sorolla_-_Las_tres_velas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "teniers-allegory-of-autumn",
+   "title": "Allegory of Autumn",
+   "artist": "David Teniers the Younger",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.lempertz.com/en/catalogues/lot/1076-1/1060-david-teniers-the-younger.html",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:David-Teniers-the-Younger-Allegory-of-Autumn_Lempertz.jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/David-Teniers-the-Younger-Allegory-of-Autumn_Lempertz.jpg/1920px-David-Teniers-the-Younger-Allegory-of-Autumn_Lempertz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "teniers-madonna-infant-baptist",
+   "title": "The Madonna and Child with the Infant Saint John the Baptist",
+   "artist": "David Teniers the Younger",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.bonhams.com/auction/28752/lot/7/david-teniers-the-younger-antwerp-1610-1690-said-to-be-after-jacopo-negretti-called-palma-il-giovane-the-madonna-and",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:David_Teniers_after_Palma_il_Giovane_-_The_Madonna_and_Child_with_the_Infant_Saint_John_the_Baptist.webp",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/David_Teniers_after_Palma_il_Giovane_-_The_Madonna_and_Child_with_the_Infant_Saint_John_the_Baptist.webp/1920px-David_Teniers_after_Palma_il_Giovane_-_The_Madonna_and_Child_with_the_Infant_Saint_John_the_Baptist.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "turner-seascape-folkestone",
+   "title": "Seascape: Folkestone",
+   "artist": "J. M. W. Turner",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://estadodaarte.estadao.com.br/arte/luisa-kiefer-arte-futuro-brasil/",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:J._M._W._Turner_-_Seascape,_Folkestone_(c._1845).jpg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/J._M._W._Turner_-_Seascape%2C_Folkestone_%28c._1845%29.jpg/1920px-J._M._W._Turner_-_Seascape%2C_Folkestone_%28c._1845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "vangogh-portrait-dr-gachet",
+   "title": "Portrait of Dr. Gachet",
+   "artist": "Vincent van Gogh",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: repro from artbook",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Bildnis_Doktor_Gachet.jpeg",
+   "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Van_Gogh_-_Bildnis_Doktor_Gachet.jpeg/1920px-Van_Gogh_-_Bildnis_Doktor_Gachet.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "artwork_id": "vangogh-the-bedroom",
+   "title": "The Bedroom",
+   "artist": "Vincent van Gogh",
+   "licence": "CC0",
+   "attribution": "Art Institute of Chicago, Helen Birch Bartlett Memorial Collection (CC0)",
+   "landing_url": "https://www.artic.edu/artworks/28560",
+   "source_url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/1686,/0/default.jpg"
+  },
+  {
+   "artwork_id": "vangogh-wheat-field-cypresses",
+   "title": "Wheat Field with Cypresses",
+   "artist": "Vincent van Gogh",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Purchase, The Annenberg Foundation Gift, 1993 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/436535",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg"
+  },
+  {
+   "artwork_id": "velazquez-juan-de-pareja",
+   "title": "Juan de Pareja",
+   "artist": "Diego Velázquez",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Purchase, Fletcher and Rogers Funds, and Bequest of Miss Adelaide Milton de Groot (1876-1967), by exchange, supplemented by gifts from friends of the Museum, 1971 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/437869",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-001.jpg"
+  },
+  {
+   "artwork_id": "vermeer-study-young-woman",
+   "title": "Study of a Young Woman",
+   "artist": "Johannes Vermeer",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Gift of Mr. and Mrs. Charles Wrightsman, in memory of Theodore Rousseau Jr., 1979 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/437879",
+   "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP353256.jpg"
+  },
+  {
+   "artwork_id": "wautier-study-young-woman",
+   "title": "Study of a Young Woman",
+   "artist": "Michaelina Wautier",
+   "licence": "PD-Art",
+   "attribution": "Photo via Wikimedia Commons (PD-Art); source: https://www.latribunedelart.com/michaelina-wautier",
+   "landing_url": "https://commons.wikimedia.org/wiki/File:Wautier-studie_jonge_vrouw.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Wautier-studie_jonge_vrouw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "artwork_id": "xia-chang-windblown-bamboo",
+   "title": "Windblown Bamboo",
+   "artist": "Xia Chang",
+   "licence": "CC0",
+   "attribution": "The Metropolitan Museum of Art, Edward Elliott Family Collection, Gift of Douglas Dillon, 1989 (CC0)",
+   "landing_url": "https://www.metmuseum.org/art/collection/search/44590",
+   "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP154126.jpg"
+  }
+ ],
+ "price_sources": [
+  {
+   "artwork_id": "avercamp-colf-players",
+   "price_id": "avercamp-colf-players-p1",
+   "source_urls": [
+    "https://historiek.net/colfspelers-op-het-ijs-avercamp/185893/",
+    "https://www.destentor.nl/kampen/topstuk-van-schilder-uit-kampen-naar-nederland-gehaald-voor-recordbedrag~a5db0c0c/",
+    "https://www.wikidata.org/wiki/Q121548581#Q121548581-30999fd3-4a1e-f4fe-4a53-bce450dd7055"
+   ],
+   "verified_by": "wikidata:Q121548581#Q121548581$30999fd3-4a1e-f4fe-4a53-bce450dd7055"
+  },
+  {
+   "artwork_id": "bosschaert-flowers-wanli-vase",
+   "price_id": "bosschaert-flowers-wanli-vase-p1",
+   "source_urls": [
+    "https://www.christies.com/en/lot/lot-6238432",
+    "https://www.wikidata.org/wiki/Q125410315#Q125410315-08F1281E-5F1C-4085-8B1A-E329D7763D15"
+   ],
+   "verified_by": "wikidata:Q125410315#Q125410315$08F1281E-5F1C-4085-8B1A-E329D7763D15"
+  },
+  {
+   "artwork_id": "botticelli-young-man-roundel",
+   "price_id": "botticelli-young-man-roundel-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2020/https://www.nytimes.com/2021/01/28/arts/design/sandro-botticelli-painting-sothebys.html",
+    "https://www.wikidata.org/wiki/Q99569815#Q99569815-f836f998-49c4-e0c2-6c96-d88f858160ea"
+   ],
+   "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2021/01/28/arts/design/sandro-botticelli-painting-sothebys.html"
+  },
+  {
+   "artwork_id": "bouguereau-the-bohemian",
+   "price_id": "bouguereau-the-bohemian-p1",
+   "source_urls": [
+    "http://www.christies.com/Lotfinder/lot_details.aspx?intObjectID=4264007",
+    "https://www.wikidata.org/wiki/Q1000128#Q1000128-b34ad4e8-401a-06f6-2e8c-cecfb30805f0"
+   ],
+   "verified_by": "wikidata:Q1000128#Q1000128$b34ad4e8-401a-06f6-2e8c-cecfb30805f0"
+  },
+  {
+   "artwork_id": "caillebotte-young-man-window",
+   "price_id": "caillebotte-young-man-window-p1",
+   "source_urls": [
+    "https://www.christies.com/lot/lot-6341139",
+    "https://www.wikidata.org/wiki/Q8058274#Q8058274-fc36d80a-46ac-ec4f-1146-b81d41c2b375"
+   ],
+   "verified_by": "wikidata:Q8058274#Q8058274$fc36d80a-46ac-ec4f-1146-b81d41c2b375"
+  },
+  {
+   "artwork_id": "canaletto-grand-canal-rialto",
+   "price_id": "canaletto-grand-canal-rialto-p1",
+   "source_urls": [
+    "http://www.sothebys.com/en/auctions/ecatalogue/2005/old-master-paintings-evening-sale-l05031/lot.47.html",
+    "https://www.wikidata.org/wiki/Q19660552#Q19660552-a3ac4aeb-4fb2-3150-fd10-596874af9b22"
+   ],
+   "verified_by": "wikidata:Q19660552#Q19660552$a3ac4aeb-4fb2-3150-fd10-596874af9b22"
+  },
+  {
+   "artwork_id": "cezanne-montagne-sainte-victoire",
+   "price_id": "cezanne-montagne-sainte-victoire-p1",
+   "source_urls": [
+    "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record",
+    "https://www.fortune.com/2022/11/10/paul-allen-estate-christies-auction-fine-art-billion-cezanne-seurt-van-gogh",
+    "https://www.wikidata.org/wiki/Q64262379#Q64262379-3aa0b4df-4899-382f-00d5-3272a790472f"
+   ],
+   "verified_by": "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record"
+  },
+  {
+   "artwork_id": "chardin-basket-wild-strawberries",
+   "price_id": "chardin-basket-wild-strawberries-p1",
+   "source_urls": [
+    "https://www.lefigaro.fr/culture/le-louvre-acquiert-le-panier-de-fraises-des-bois-de-chardin-grace-a-un-record-de-dons-20240229",
+    "https://www.wikidata.org/wiki/Q111578201#Q111578201-032bda41-465e-7c68-297d-151600616079"
+   ],
+   "verified_by": "https://www.lefigaro.fr/culture/le-louvre-acquiert-le-panier-de-fraises-des-bois-de-chardin-grace-a-un-record-de-dons-20240229"
+  },
+  {
+   "artwork_id": "coorte-wild-strawberries",
+   "price_id": "coorte-wild-strawberries-p1",
+   "source_urls": [
+    "https://www.sothebys.com/en/buy/auction/2022/master-paintings-sculpture-part-i/still-life-of-fraises-de-bois-in-a-wan-li-bowl-upon",
+    "https://www.wikidata.org/wiki/Q110814193#Q110814193-4305be87-4bdf-6834-9889-cd3b72fa2e16"
+   ],
+   "verified_by": "wikidata:Q110814193#Q110814193$4305be87-4bdf-6834-9889-cd3b72fa2e16"
+  },
+  {
+   "artwork_id": "corinth-half-nude-young-woman",
+   "price_id": "corinth-half-nude-young-woman-p1",
+   "source_urls": [
+    "https://www.karlundfaber.de/de/auktionen/238/moderne-zeitgenoessische-kunst/2380415/",
+    "https://www.wikidata.org/wiki/Q123533028#Q123533028-81d85018-4ca3-e577-f028-ab38cbdfb869"
+   ],
+   "verified_by": "wikidata:Q123533028#Q123533028$81d85018-4ca3-e577-f028-ab38cbdfb869"
+  },
+  {
+   "artwork_id": "corinth-skating-rink-tiergarten",
+   "price_id": "corinth-skating-rink-tiergarten-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/891-1/653-lovis-corinth-1.html",
+    "https://www.wikidata.org/wiki/Q123537327#Q123537327-A419C7A4-A337-435C-8471-0E4B41136464"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/891-1/653-lovis-corinth-1.html"
+  },
+  {
+   "artwork_id": "corinth-still-life-with-fish",
+   "price_id": "corinth-still-life-with-fish-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/896-1/67-lovis-corinth.html",
+    "https://www.wikidata.org/wiki/Q122697683#Q122697683-B58BF70D-6509-4439-B63C-6D81D4BCC807"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/896-1/67-lovis-corinth.html"
+  },
+  {
+   "artwork_id": "cranach-reclining-water-nymph",
+   "price_id": "cranach-reclining-water-nymph-p1",
+   "source_urls": [
+    "https://www.christies.com/en/lot/lot-6381771",
+    "https://www.wikidata.org/wiki/Q113332014#Q113332014-c36f4509-4d3e-59cf-aee1-e459dee2e638"
+   ],
+   "verified_by": "wikidata:Q113332014#Q113332014$c36f4509-4d3e-59cf-aee1-e459dee2e638"
+  },
+  {
+   "artwork_id": "drouais-madame-de-pompadour-muff",
+   "price_id": "drouais-madame-de-pompadour-muff-p1",
+   "source_urls": [
+    "https://www.sothebys.com/en/auctions/ecatalogue/2018/master-paintings-n09875/lot.133.html",
+    "https://www.wikidata.org/wiki/Q135284517#Q135284517-1fc39a7b-448e-03cc-d1fb-1a16febc66b3"
+   ],
+   "verified_by": "wikidata:Q135284517#Q135284517$1fc39a7b-448e-03cc-d1fb-1a16febc66b3"
+  },
+  {
+   "artwork_id": "duccio-madonna-child",
+   "price_id": "duccio-madonna-child-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2024/https://www.antiquestradegazette.com/news/2004/met-pay-45m-for-duccio-s-stroganoff-madonna",
+    "https://web.archive.org/web/2024/https://www.nysun.com/article/arts-met-defends-its-most-expensive-acquisition-duccio"
+   ],
+   "verified_by": "https://web.archive.org/web/2024/https://www.antiquestradegazette.com/news/2004/met-pay-45m-for-duccio-s-stroganoff-madonna"
+  },
+  {
+   "artwork_id": "durer-melencolia-i",
+   "price_id": "durer-melencolia-i-p1",
+   "source_urls": [
+    "https://www.paulfrasercollectibles.com/blogs/art-photography/albrecht-durers-melencolia-i-sees-110-000-at-swann"
+   ],
+   "verified_by": "https://www.paulfrasercollectibles.com/blogs/art-photography/albrecht-durers-melencolia-i-sees-110-000-at-swann"
+  },
+  {
+   "artwork_id": "durer-rhinoceros",
+   "price_id": "durer-rhinoceros-p1",
+   "source_urls": [
+    "https://www.bloomberg.com/news/2013-01-29/durer-rhino-sells-for-record-866-500-at-christie-s-nyc.html",
+    "https://galeriemagazine.com/albrecht-durer-print-auction/"
+   ],
+   "verified_by": "https://galeriemagazine.com/albrecht-durer-print-auction/"
+  },
+  {
+   "artwork_id": "fragonard-interesting-student",
+   "price_id": "fragonard-interesting-student-p1",
+   "source_urls": [
+    "https://www.sothebys.com/fr/auctions/ecatalogue/lot.18.html/2019/collection-ribes-pf1930",
+    "https://www.wikidata.org/wiki/Q78155713#Q78155713-cbd8e3e8-4a3f-a9f7-2d9b-c654fa37cb02"
+   ],
+   "verified_by": "wikidata:Q78155713#Q78155713$cbd8e3e8-4a3f-a9f7-2d9b-c654fa37cb02"
+  },
+  {
+   "artwork_id": "gauguin-nafea-faa-ipoipo",
+   "price_id": "gauguin-nafea-faa-ipoipo-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2020/https://www.nytimes.com/2017/07/03/arts/design/lawsuit-reveals-gauguin-painting-was-not-worlds-most-expensive.html",
+    "https://www.wikidata.org/wiki/Q3869871#Q3869871-d4812b3d-4280-9ee7-f54b-da4f58783048"
+   ],
+   "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2017/07/03/arts/design/lawsuit-reveals-gauguin-painting-was-not-worlds-most-expensive.html"
+  },
+  {
+   "artwork_id": "gentileschi-danae",
+   "price_id": "gentileschi-danae-p1",
+   "source_urls": [
+    "http://www.sothebys.com/en/auctions/ecatalogue/2016/master-paintings-evening-sale-n09460/lot.41.html",
+    "https://www.wikidata.org/wiki/Q22329907#Q22329907-d738af17-4c7e-3f5c-417a-270e9e8425d9"
+   ],
+   "verified_by": "wikidata:Q22329907#Q22329907$d738af17-4c7e-3f5c-417a-270e9e8425d9"
+  },
+  {
+   "artwork_id": "giovanni-di-paolo-saint-clare",
+   "price_id": "giovanni-di-paolo-saint-clare-p1",
+   "source_urls": [
+    "https://www.christies.com/en/lot/lot-6238411",
+    "https://www.wikidata.org/wiki/Q134998961#Q134998961-0D090C4F-1C90-431A-9C8F-6229BD3FAEC5"
+   ],
+   "verified_by": "wikidata:Q134998961#Q134998961$0D090C4F-1C90-431A-9C8F-6229BD3FAEC5"
+  },
+  {
+   "artwork_id": "goya-duke-of-wellington",
+   "price_id": "goya-duke-of-wellington-p1",
+   "source_urls": [
+    "https://www.nationalgallery.org.uk/paintings/francisco-de-goya-the-duke-of-wellington",
+    "https://www.wikidata.org/wiki/Q7232352#Q7232352-23889aaa-4672-024f-9e8e-9092e00e2380"
+   ],
+   "verified_by": "wikidata:Q7232352#Q7232352$23889aaa-4672-024f-9e8e-9092e00e2380"
+  },
+  {
+   "artwork_id": "heda-still-life-fruit-pie",
+   "price_id": "heda-still-life-fruit-pie-p1",
+   "source_urls": [
+    "https://www.christies.com/lot/lot-5813567",
+    "https://www.wikidata.org/wiki/Q113332473#Q113332473-f9d48ed7-46ca-4e03-73b5-d42014ba2f11"
+   ],
+   "verified_by": "wikidata:Q113332473#Q113332473$f9d48ed7-46ca-4e03-73b5-d42014ba2f11"
+  },
+  {
+   "artwork_id": "hokusai-under-the-wave",
+   "price_id": "hokusai-under-the-wave-p1",
+   "source_urls": [
+    "https://hyperallergic.com/hokusais-great-wave-makes-a-splash-at-auction",
+    "https://artlawandmore.com/2023/04/06/hokusais-great-wave-sails-past-auction-estimate-at-christies/"
+   ],
+   "verified_by": "https://hyperallergic.com/hokusais-great-wave-makes-a-splash-at-auction"
+  },
+  {
+   "artwork_id": "jawlensky-variation-1916-4",
+   "price_id": "jawlensky-variation-1916-4-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/53-alexej-von-jawlensky.html",
+    "https://www.wikidata.org/wiki/Q138854517#Q138854517-C9BBB657-13EC-471E-9E2A-542B19132662"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/53-alexej-von-jawlensky.html"
+  },
+  {
+   "artwork_id": "kirchner-berlin-street-scene",
+   "price_id": "kirchner-berlin-street-scene-p1",
+   "source_urls": [
+    "https://heni.com/news/article/ernst-ludwig-kirchner-berliner-strassenszene-berlin-street-scene-baume-trees-2006-11-08",
+    "https://web.archive.org/web/2024/https://www.nysun.com/article/arts-painting-with-the-energy-of-the-city",
+    "https://www.masterworks.com/academy/artists/ernst-ludwig-kirchner",
+    "https://www.wikidata.org/wiki/Q3476580#Q3476580-b0ff50cd-4f90-f9c9-6946-4fc3f2169dec"
+   ],
+   "verified_by": "https://web.archive.org/web/2024/https://www.nysun.com/article/arts-painting-with-the-energy-of-the-city"
+  },
+  {
+   "artwork_id": "kirchner-blue-girl-in-the-sun",
+   "price_id": "kirchner-blue-girl-in-the-sun-p1",
+   "source_urls": [
+    "https://kettererkunst.de/kunst/kd/details.php?obnr=122000463&anummer=535",
+    "https://www.wikidata.org/wiki/Q117600409#Q117600409-3877d9ab-4729-6175-b93a-1c92afb847fa"
+   ],
+   "verified_by": "https://kettererkunst.de/kunst/kd/details.php?obnr=122000463&anummer=535"
+  },
+  {
+   "artwork_id": "klimt-elisabeth-lederer",
+   "price_id": "klimt-elisabeth-lederer-p1",
+   "source_urls": [
+    "https://www.artnews.com/art-news/news/gustav-klimt-portrait-of-elisabeth-lederer-auction-record-1234762083/",
+    "https://www.bbc.co.uk/news/articles/cm2emm4737zo",
+    "https://www.wikidata.org/wiki/Q136433749#Q136433749-44425445-4550-2324-70c0-4ba7d8e3420e"
+   ],
+   "verified_by": "https://www.artnews.com/art-news/news/gustav-klimt-portrait-of-elisabeth-lederer-auction-record-1234762083/"
+  },
+  {
+   "artwork_id": "klimt-water-serpents-ii",
+   "price_id": "klimt-water-serpents-ii-p1",
+   "source_urls": [
+    "https://www.finews.ch/news/finanzplatz/37015-dmitry-rybolovlev-sothebys-yves-bouvier-kunstraub",
+    "https://www.bloomberg.com/news/articles/2017-12-21/russian-billionaire-seeks-to-pull-sotheby-s-into-art-world-fight"
+   ],
+   "verified_by": "https://www.finews.ch/news/finanzplatz/37015-dmitry-rybolovlev-sothebys-yves-bouvier-kunstraub"
+  },
+  {
+   "artwork_id": "lavery-paisley-lawn-tennis",
+   "price_id": "lavery-paisley-lawn-tennis-p1",
+   "source_urls": [
+    "https://paisleyphotographs.com/2024/09/27/sir-john-lavery-painting-sells-for-537700-at-auc",
+    "https://www.wikidata.org/wiki/Q119748516#Q119748516-5b738510-4c27-ab2e-0080-19a96523439b"
+   ],
+   "verified_by": "https://paisleyphotographs.com/2024/09/27/sir-john-lavery-painting-sells-for-537700-at-auc"
+  },
+  {
+   "artwork_id": "leonardo-ginevra-de-benci",
+   "price_id": "leonardo-ginevra-de-benci-p1",
+   "source_urls": [
+    "https://theartnewspaper.com/2023/07/03/leonardo-da-vinci-national-gallery-washington-relocation-renovations",
+    "https://italoamericano.org/leonardo-ginevra/",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488",
+    "https://www.wikidata.org/wiki/Q1267893#Q1267893-0718aa71-46b9-363f-431d-3f2ae872f7ec"
+   ],
+   "verified_by": "https://theartnewspaper.com/2023/07/03/leonardo-da-vinci-national-gallery-washington-relocation-renovations"
+  },
+  {
+   "artwork_id": "leonardo-salvator-mundi",
+   "price_id": "leonardo-salvator-mundi-p1",
+   "source_urls": [
+    "https://www.christies.com/lotfinder/paintings/leonardo-da-vinci-salvator-mundi-6110563-details.aspx",
+    "https://www.reuters.com/article/us-art-auction-da-vinci-abudhabi/abu-dhabi-to-acquire-leonardo-da-vincis-salvator-mundi-christies-idUSKBN1E22IN",
+    "https://www.wikidata.org/wiki/Q1892745#Q1892745-4b1c2821-4525-30ba-5f77-055711d8917a"
+   ],
+   "verified_by": "wikidata:Q1892745#Q1892745$4b1c2821-4525-30ba-5f77-055711d8917a"
+  },
+  {
+   "artwork_id": "leyster-merry-trio",
+   "price_id": "leyster-merry-trio-p1",
+   "source_urls": [
+    "https://www.christies.com/lot/lot-6182936",
+    "https://www.wikidata.org/wiki/Q4109849#Q4109849-d4f792f1-4a49-cdba-9d96-4275621f9564"
+   ],
+   "verified_by": "wikidata:Q4109849#Q4109849$d4f792f1-4a49-cdba-9d96-4275621f9564"
+  },
+  {
+   "artwork_id": "liebermann-child-under-trees",
+   "price_id": "liebermann-child-under-trees-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/28-max-liebermann.html",
+    "https://www.wikidata.org/wiki/Q138757362#Q138757362-c3bfa737-4e29-f838-9788-2d15b2b06dac"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/28-max-liebermann.html"
+  },
+  {
+   "artwork_id": "liebermann-dunes-farmer-goats",
+   "price_id": "liebermann-dunes-farmer-goats-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/29-max-liebermann.html",
+    "https://www.wikidata.org/wiki/Q138757411#Q138757411-426DEA5F-1FA8-4A7E-9EEA-FB74C8042698"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/29-max-liebermann.html"
+  },
+  {
+   "artwork_id": "liebermann-jewish-street-amsterdam",
+   "price_id": "liebermann-jewish-street-amsterdam-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/1134-1/261-max-liebermann.html",
+    "https://www.wikidata.org/wiki/Q138881666#Q138881666-4AA1D292-29CC-4366-A628-2CBF8880BE4A"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/1134-1/261-max-liebermann.html"
+  },
+  {
+   "artwork_id": "liotard-dutch-girl-breakfast",
+   "price_id": "liotard-dutch-girl-breakfast-p1",
+   "source_urls": [
+    "https://www.arthistorynews.com/articles/4354_Rijksmuseum_buys_Liotard_oil",
+    "https://www.thehistoryblog.com/archives/45545",
+    "https://www.wikidata.org/wiki/Q26713350#Q26713350-15cbf932-4b12-cc11-ecdd-065aa24815e9"
+   ],
+   "verified_by": "https://www.arthistorynews.com/articles/4354_Rijksmuseum_buys_Liotard_oil"
+  },
+  {
+   "artwork_id": "malevich-suprematist-composition",
+   "price_id": "malevich-suprematist-composition-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2020/https://www.artsy.net/news/artsy-editorial-malevich-suprematist-composition-sold-858-million-christies-breaking-record-work-russian-art",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   ],
+   "verified_by": "https://web.archive.org/web/2020/https://www.artsy.net/news/artsy-editorial-malevich-suprematist-composition-sold-858-million-christies-breaking-record-work-russian-art"
+  },
+  {
+   "artwork_id": "mantegna-adoration-magi",
+   "price_id": "mantegna-adoration-magi-p1",
+   "source_urls": [
+    "https://www.getty.edu/publications/virtuallibrary/0892362871.html",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   ],
+   "verified_by": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+  },
+  {
+   "artwork_id": "merritt-eve",
+   "price_id": "merritt-eve-p1",
+   "source_urls": [
+    "https://www.christies.com/lot/lot-5701811",
+    "https://www.wikidata.org/wiki/Q112181506#Q112181506-BFF88A49-BE4C-46D3-BF05-CAE7063286C7"
+   ],
+   "verified_by": "wikidata:Q112181506#Q112181506$BFF88A49-BE4C-46D3-BF05-CAE7063286C7"
+  },
+  {
+   "artwork_id": "modersohn-becker-self-portrait",
+   "price_id": "modersohn-becker-self-portrait-p1",
+   "source_urls": [
+    "https://www.grisebach.com/en/lot/4071659",
+    "https://www.wikidata.org/wiki/Q111799341#Q111799341-fcfd0b8a-45ec-550f-7e26-cf0a6afb75d9"
+   ],
+   "verified_by": "wikidata:Q111799341#Q111799341$fcfd0b8a-45ec-550f-7e26-cf0a6afb75d9"
+  },
+  {
+   "artwork_id": "modigliani-nu-couche",
+   "price_id": "modigliani-nu-couche-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2020/https://www.nytimes.com/2015/11/10/arts/with-170-4-million-sale-at-auction-modigliani-work-joins-rarefied-nine-figure-club.html",
+    "https://web.archive.org/web/2020/https://www.nytimes.com/2015/11/11/arts/international/liu-yiqian-modigliani-nu-couche.html",
+    "https://www.wikidata.org/wiki/Q3877556#Q3877556-6898ee50-4c46-f74b-e802-eba8aaa2884c"
+   ],
+   "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2015/11/10/arts/with-170-4-million-sale-at-auction-modigliani-work-joins-rarefied-nine-figure-club.html"
+  },
+  {
+   "artwork_id": "mondrian-farm-building-irrigation-ditch",
+   "price_id": "mondrian-farm-building-irrigation-ditch-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/18-piet-mondrian.html",
+    "https://www.wikidata.org/wiki/Q138819258#Q138819258-2C940A80-71A6-414C-BD42-42AF72A6EC93"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/18-piet-mondrian.html"
+  },
+  {
+   "artwork_id": "monet-meules",
+   "price_id": "monet-meules-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2020/https://www.nytimes.com/2019/05/14/arts/monet-auction-110-million.html"
+   ],
+   "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2019/05/14/arts/monet-auction-110-million.html"
+  },
+  {
+   "artwork_id": "morse-marquis-de-lafayette",
+   "price_id": "morse-marquis-de-lafayette-p1",
+   "source_urls": [
+    "http://www.sothebys.com/en/auctions/ecatalogue/2005/american-paintings-drawings-sculpture-including-property-from-the-new-york-public-library-astor-lenox-and-tilden-foundations-n08134/lot.1.html",
+    "https://www.wikidata.org/wiki/Q32312033#Q32312033-e51e6e18-45ad-bde9-b043-91c12535bd40"
+   ],
+   "verified_by": "wikidata:Q32312033#Q32312033$e51e6e18-45ad-bde9-b043-91c12535bd40"
+  },
+  {
+   "artwork_id": "munch-scream-pastel",
+   "price_id": "munch-scream-pastel-p1",
+   "source_urls": [
+    "http://www.aftenposten.no/kultur/Skrik-solgt-for-119_9-millioner-dollar-157225b.html",
+    "https://web.archive.org/web/2020/https://www.wsj.com/articles/SB10001424052702304373804577521240470769420",
+    "https://www.wikidata.org/wiki/Q18891157#Q18891157-1eca93f8-46d0-3225-c7e5-9031920c30d3"
+   ],
+   "verified_by": "https://web.archive.org/web/2020/https://www.wsj.com/articles/SB10001424052702304373804577521240470769420"
+  },
+  {
+   "artwork_id": "pontormo-portrait-halberdier",
+   "price_id": "pontormo-portrait-halberdier-p1",
+   "source_urls": [
+    "https://www.masterworks.com/academy/artists/jacopo-da-pontormo",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   ],
+   "verified_by": "https://www.masterworks.com/academy/artists/jacopo-da-pontormo"
+  },
+  {
+   "artwork_id": "raphael-ansidei-madonna",
+   "price_id": "raphael-ansidei-madonna-p1",
+   "source_urls": [
+    "https://www.gutenberg.org/files/44033/44033-h/44033-h.htm",
+    "https://en.wikipedia.org/wiki/Ansidei_Madonna"
+   ],
+   "verified_by": "https://www.gutenberg.org/files/44033/44033-h/44033-h.htm"
+  },
+  {
+   "artwork_id": "rembrandt-aristotle",
+   "price_id": "rembrandt-aristotle-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2020/https://www.nytimes.com/1961/11/16/archives/museum-gets-rembrandt-for-23-million-record-price-is-paid-by-the.html",
+    "https://artsjournal.com/culturegrrl/2007/09/message_of_the_mets_age_of_rem.html",
+    "https://realtime1960s.com/post/rembrandt-is-world-s-costliest-painting"
+   ],
+   "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/1961/11/16/archives/museum-gets-rembrandt-for-23-million-record-price-is-paid-by-the.html"
+  },
+  {
+   "artwork_id": "rembrandt-standard-bearer",
+   "price_id": "rembrandt-standard-bearer-p1",
+   "source_urls": [
+    "https://web.archive.org/web/2024/https://news.artnet.com/art-world/netherlands-rembrandt-standard-bearer-2046187",
+    "https://artfixdaily.com/news_feed/2021/12/08/7532-dutch-state-moves-to-acquire-rembrandt-masterpiece-from-rothschil",
+    "https://www.bbc.com/news/world-europe-59588109"
+   ],
+   "verified_by": "https://web.archive.org/web/2024/https://news.artnet.com/art-world/netherlands-rembrandt-standard-bearer-2046187"
+  },
+  {
+   "artwork_id": "renoir-bal-du-moulin-small",
+   "price_id": "renoir-bal-du-moulin-small-p1",
+   "source_urls": [
+    "https://www.guinnessworldrecords.com/world-records/769008-most-expensive-painting-by-renoir-sold-at-auction",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   ],
+   "verified_by": "https://www.guinnessworldrecords.com/world-records/769008-most-expensive-painting-by-renoir-sold-at-auction"
+  },
+  {
+   "artwork_id": "romero-de-torres-two-paths",
+   "price_id": "romero-de-torres-two-paths-p1",
+   "source_urls": [
+    "https://www.christies.com/en/lot/lot-6282304",
+    "https://www.wikidata.org/wiki/Q100432952#Q100432952-d8fa709e-48cc-07ff-03a9-86d320e81979"
+   ],
+   "verified_by": "wikidata:Q100432952#Q100432952$d8fa709e-48cc-07ff-03a9-86d320e81979"
+  },
+  {
+   "artwork_id": "rubens-massacre-innocents",
+   "price_id": "rubens-massacre-innocents-p1",
+   "source_urls": [
+    "https://news.bbc.co.uk/2/hi/entertainment/2119451.stm",
+    "https://web.archive.org/web/20061008011920/http://www.ago.net/transformation/new-art-collector.cfm",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   ],
+   "verified_by": "https://news.bbc.co.uk/2/hi/entertainment/2119451.stm"
+  },
+  {
+   "artwork_id": "seurat-les-poseuses-small",
+   "price_id": "seurat-les-poseuses-small-p1",
+   "source_urls": [
+    "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record",
+    "https://www.fortune.com/2022/11/10/paul-allen-estate-christies-auction-fine-art-billion-cezanne-seurt-van-gogh",
+    "https://abc17news.com/news/ap-national-news/2022/11/10/art-from-microsoft-founder-paul-allen-sells-for-1-6-billion/",
+    "https://www.wikidata.org/wiki/Q112114362#Q112114362-ca1ae909-4cfc-a972-52ae-c494e2703f87"
+   ],
+   "verified_by": "https://edition.cnn.com/style/article/paul-allen-collection-christies-auction-record"
+  },
+  {
+   "artwork_id": "shishkin-pine-forest",
+   "price_id": "shishkin-pine-forest-p1",
+   "source_urls": [
+    "https://www.christies.com/LotFinder/lot_details.aspx?intObjectID=6236313",
+    "https://www.wikidata.org/wiki/Q47147358#Q47147358-f2e72501-4a0c-07a1-e716-8c02beb8c2d1"
+   ],
+   "verified_by": "wikidata:Q47147358#Q47147358$f2e72501-4a0c-07a1-e716-8c02beb8c2d1"
+  },
+  {
+   "artwork_id": "slevogt-red-carnations",
+   "price_id": "slevogt-red-carnations-p1",
+   "source_urls": [
+    "https://www.lempertz.com/de/kataloge/lot/1134-1/259-max-slevogt.html",
+    "https://www.wikidata.org/wiki/Q138882565#Q138882565-D4D66D65-ECE1-456A-8945-650475F96118"
+   ],
+   "verified_by": "https://www.lempertz.com/de/kataloge/lot/1134-1/259-max-slevogt.html"
+  },
+  {
+   "artwork_id": "sorolla-las-tres-velas",
+   "price_id": "sorolla-las-tres-velas-p1",
+   "source_urls": [
+    "https://www.wikidata.org/wiki/Q19266867#Q19266867-f7bebd86-4076-c90d-54d1-f798de4b8db6"
+   ],
+   "verified_by": null
+  },
+  {
+   "artwork_id": "teniers-allegory-of-autumn",
+   "price_id": "teniers-allegory-of-autumn-p1",
+   "source_urls": [
+    "https://www.lempertz.com/en/catalogues/lot/1076-1/1060-david-teniers-the-younger.html",
+    "https://www.wikidata.org/wiki/Q28037019#Q28037019-e4b0dd2e-40e3-3334-d4ed-3048af5b6743"
+   ],
+   "verified_by": "https://www.lempertz.com/en/catalogues/lot/1076-1/1060-david-teniers-the-younger.html"
+  },
+  {
+   "artwork_id": "teniers-madonna-infant-baptist",
+   "price_id": "teniers-madonna-infant-baptist-p1",
+   "source_urls": [
+    "https://www.bonhams.com/auction/28752/lot/7/david-teniers-the-younger-antwerp-1610-1690-said-to-be-after-jacopo-negretti-called-palma-il-giovane-the-madonna-and-child-with-the-infant-saint-john-the-baptist/",
+    "https://www.wikidata.org/wiki/Q139498198#Q139498198-4190836a-4a68-5fe3-f4d4-f84047f0ce61"
+   ],
+   "verified_by": "https://www.bonhams.com/auction/28752/lot/7/david-teniers-the-younger-antwerp-1610-1690-said-to-be-after-jacopo-negretti-called-palma-il-giovane-the-madonna-and-child-with-the-infant-saint-john-the-baptist/"
+  },
+  {
+   "artwork_id": "turner-seascape-folkestone",
+   "price_id": "turner-seascape-folkestone-p1",
+   "source_urls": [
+    "https://www.csmonitor.com/1984/0706/070634.html",
+    "https://web.archive.org/web/2020/https://www.washingtonpost.com/archive/politics/1984/07/06/turner-painting-sold-for-record-10-million/1cd11189-ef24-4359-8c16-7d0dfba38ea6/"
+   ],
+   "verified_by": "https://www.csmonitor.com/1984/0706/070634.html"
+  },
+  {
+   "artwork_id": "vangogh-portrait-dr-gachet",
+   "price_id": "vangogh-portrait-dr-gachet-p1",
+   "source_urls": [
+    "https://theartnewspaper.com/blog/where-is-van-gogh-s-portrait-of-dr-gachet",
+    "https://www.omanobserver.om/article/1163878/features/travel/the-search-for-van-goghs-lost-masterpiece",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   ],
+   "verified_by": "https://theartnewspaper.com/blog/where-is-van-gogh-s-portrait-of-dr-gachet"
+  },
+  {
+   "artwork_id": "vangogh-wheat-field-cypresses",
+   "price_id": "vangogh-wheat-field-cypresses-p1",
+   "source_urls": [
+    "https://www.deseret.com/1993/5/26/19048601/pricey-van-gogh-gift-leaves-museum-agog/",
+    "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488"
+   ],
+   "verified_by": "https://www.deseret.com/1993/5/26/19048601/pricey-van-gogh-gift-leaves-museum-agog/"
+  },
+  {
+   "artwork_id": "velazquez-juan-de-pareja",
+   "price_id": "velazquez-juan-de-pareja-p1",
+   "source_urls": [
+    "https://www.theguardian.com/news/2013/dec/01/archive-velazquez-scarred-price-tag",
+    "https://www.spectator.co.uk/2014/11/the-story-of-the-first-painting-to-sell-for-over-a-million-pounds/"
+   ],
+   "verified_by": "https://www.theguardian.com/news/2013/dec/01/archive-velazquez-scarred-price-tag"
+  },
+  {
+   "artwork_id": "wautier-study-young-woman",
+   "price_id": "wautier-study-young-woman-p1",
+   "source_urls": [
+    "https://www.christies.com/lot/lot-6068889",
+    "https://www.wikidata.org/wiki/Q55238821#Q55238821-7FFFFBA3-5BC6-4187-833D-5B55161287D4"
+   ],
+   "verified_by": "wikidata:Q55238821#Q55238821$7FFFFBA3-5BC6-4187-833D-5B55161287D4"
+  }
+ ],
+ "copy": "All teasers, alt text and category teaching copy are original to this project."
+}

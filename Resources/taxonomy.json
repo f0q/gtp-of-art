@@ -1,0 +1,781 @@
+{
+ "schema_version": 1,
+ "departments": [
+  {
+   "id": "old_masters",
+   "label": "Old Masters",
+   "categories": [
+    "byzantine_gothic",
+    "renaissance_it",
+    "renaissance_north",
+    "baroque",
+    "dutch_golden_age",
+    "rococo",
+    "old_master_drawing"
+   ]
+  },
+  {
+   "id": "nineteenth_century",
+   "label": "19th Century",
+   "categories": [
+    "neoclassicism",
+    "romanticism",
+    "realism",
+    "academic",
+    "pre_raphaelite"
+   ]
+  },
+  {
+   "id": "impressionist_modern",
+   "label": "Impressionist & Modern",
+   "categories": [
+    "impressionism",
+    "post_impressionism",
+    "pointillism",
+    "symbolism",
+    "art_nouveau",
+    "fauvism",
+    "expressionism",
+    "cubism",
+    "early_abstraction",
+    "school_of_paris"
+   ]
+  },
+  {
+   "id": "asian_art",
+   "label": "Asian Art",
+   "categories": [
+    "ukiyo_e",
+    "chinese_ink"
+   ]
+  },
+  {
+   "id": "prints_photographs",
+   "label": "Prints & Photographs",
+   "categories": [
+    "print",
+    "early_photography"
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "id": "academic",
+   "label": "Academic art",
+   "axis": "movement",
+   "era": {
+    "start": 1830,
+    "end": 1910
+   },
+   "teach": "The official style of the art schools and Salons: flawless finish and classical subjects.",
+   "tells": [
+    "Invisible brushwork",
+    "Mythological nudes",
+    "Porcelain-smooth skin"
+   ],
+   "neighbours": [
+    "neoclassicism",
+    "realism",
+    "pre_raphaelite",
+    "romanticism"
+   ],
+   "confusers": [
+    "rococo",
+    "renaissance_it"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "nineteenth_century"
+  },
+  {
+   "id": "art_nouveau",
+   "label": "Art Nouveau & Secession",
+   "axis": "movement",
+   "era": {
+    "start": 1890,
+    "end": 1915
+   },
+   "teach": "Decoration as art: flowing lines, gold patterns and flat ornamental fields, from Paris to Vienna.",
+   "tells": [
+    "Gold patterning",
+    "Whiplash curves",
+    "Flattened decorative fields"
+   ],
+   "neighbours": [
+    "symbolism",
+    "expressionism",
+    "post_impressionism"
+   ],
+   "confusers": [
+    "byzantine_gothic",
+    "pre_raphaelite"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "baroque",
+   "label": "Baroque",
+   "axis": "movement",
+   "era": {
+    "start": 1600,
+    "end": 1750
+   },
+   "teach": "Drama for the senses: deep shadows, sudden light and bodies caught mid-action.",
+   "tells": [
+    "Strong chiaroscuro",
+    "Diagonal, surging action",
+    "Theatrical gestures"
+   ],
+   "neighbours": [
+    "dutch_golden_age",
+    "rococo",
+    "renaissance_it"
+   ],
+   "confusers": [
+    "romanticism",
+    "academic"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "old_masters"
+  },
+  {
+   "id": "byzantine_gothic",
+   "label": "Byzantine & Gothic",
+   "axis": "movement",
+   "era": {
+    "start": 1100,
+    "end": 1450
+   },
+   "teach": "Sacred images made to glow in candlelight: gold grounds, flat bodies and size that signals importance.",
+   "tells": [
+    "Gold-leaf background",
+    "Flat, elongated figures",
+    "Holy figures drawn larger than others"
+   ],
+   "neighbours": [
+    "renaissance_it",
+    "renaissance_north"
+   ],
+   "confusers": [
+    "symbolism",
+    "art_nouveau"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "old_masters"
+  },
+  {
+   "id": "chinese_ink",
+   "label": "Chinese ink painting",
+   "axis": "medium",
+   "era": {
+    "start": 900,
+    "end": 1900
+   },
+   "teach": "Brush and ink on silk or paper, where empty space and the stroke itself carry meaning.",
+   "tells": [
+    "Ink washes in greys and blacks",
+    "Red seals and inscriptions",
+    "Hanging or hand-scroll format"
+   ],
+   "neighbours": [
+    "ukiyo_e",
+    "old_master_drawing"
+   ],
+   "confusers": [
+    "print",
+    "early_photography"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "asian_art"
+  },
+  {
+   "id": "cubism",
+   "label": "Cubism (to 1930)",
+   "axis": "movement",
+   "era": {
+    "start": 1907,
+    "end": 1930
+   },
+   "teach": "Objects broken into planes and seen from several sides at once, in a restrained palette.",
+   "tells": [
+    "Faceted planes",
+    "Muted browns and greys",
+    "Fragmented objects"
+   ],
+   "neighbours": [
+    "early_abstraction",
+    "school_of_paris"
+   ],
+   "confusers": [
+    "post_impressionism",
+    "expressionism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "dutch_golden_age",
+   "label": "Dutch Golden Age",
+   "axis": "movement",
+   "era": {
+    "start": 1600,
+    "end": 1700
+   },
+   "teach": "A merchant republic bought pictures of its own world: quiet rooms, laden tables, flat horizons.",
+   "tells": [
+    "Quiet domestic interiors",
+    "Still lifes with glinting reflections",
+    "Low horizons under big skies"
+   ],
+   "neighbours": [
+    "baroque",
+    "renaissance_north",
+    "rococo"
+   ],
+   "confusers": [
+    "realism",
+    "romanticism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "parent": "baroque",
+   "department_id": "old_masters"
+  },
+  {
+   "id": "early_abstraction",
+   "label": "Early abstraction (to 1930)",
+   "axis": "movement",
+   "era": {
+    "start": 1910,
+    "end": 1930
+   },
+   "teach": "The first fully non-objective pictures: shape and colour with nothing left to recognise.",
+   "tells": [
+    "Geometric shapes",
+    "No recognisable objects",
+    "Flat colour fields"
+   ],
+   "neighbours": [
+    "cubism",
+    "expressionism"
+   ],
+   "confusers": [
+    "pointillism",
+    "fauvism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "early_photography",
+   "label": "Early photography",
+   "axis": "medium",
+   "era": {
+    "start": 1839,
+    "end": 1910
+   },
+   "teach": "The first decades of the camera, when long exposures and hand-made prints shaped the look.",
+   "tells": [
+    "Sepia or albumen tones",
+    "Long-exposure stillness",
+    "Soft edges and focus"
+   ],
+   "neighbours": [
+    "print",
+    "old_master_drawing"
+   ],
+   "confusers": [
+    "realism",
+    "symbolism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "prints_photographs"
+  },
+  {
+   "id": "expressionism",
+   "label": "Expressionism",
+   "axis": "movement",
+   "era": {
+    "start": 1905,
+    "end": 1930
+   },
+   "teach": "Inner feeling forced onto the outer world: distortion, acid colour and raw strokes.",
+   "tells": [
+    "Distorted, angular figures",
+    "Acid colour",
+    "Harsh, rapid strokes"
+   ],
+   "neighbours": [
+    "fauvism",
+    "art_nouveau",
+    "early_abstraction"
+   ],
+   "confusers": [
+    "post_impressionism",
+    "symbolism",
+    "romanticism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "fauvism",
+   "label": "Fauvism",
+   "axis": "movement",
+   "era": {
+    "start": 1904,
+    "end": 1910
+   },
+   "teach": "The 'wild beasts' freed colour from description and used it at full strength.",
+   "tells": [
+    "Arbitrary, saturated colour",
+    "Loose, flat patches",
+    "Little or no shading"
+   ],
+   "neighbours": [
+    "expressionism",
+    "post_impressionism"
+   ],
+   "confusers": [
+    "impressionism",
+    "pointillism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "impressionism",
+   "label": "Impressionism",
+   "axis": "movement",
+   "era": {
+    "start": 1865,
+    "end": 1910
+   },
+   "teach": "Painting the moment: quick strokes of pure colour to catch outdoor light and modern life.",
+   "tells": [
+    "Broken, visible strokes",
+    "Outdoor light and shadow in colour",
+    "Cropped modern-life scenes"
+   ],
+   "neighbours": [
+    "post_impressionism",
+    "realism",
+    "pointillism"
+   ],
+   "confusers": [
+    "fauvism",
+    "expressionism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "neoclassicism",
+   "label": "Neoclassicism",
+   "axis": "movement",
+   "era": {
+    "start": 1760,
+    "end": 1840
+   },
+   "teach": "A return to ancient Greece and Rome: clear outlines, noble poses and smooth, cool surfaces.",
+   "tells": [
+    "Crisp contours",
+    "Frieze-like poses",
+    "Cool, polished surfaces"
+   ],
+   "neighbours": [
+    "romanticism",
+    "rococo",
+    "academic"
+   ],
+   "confusers": [
+    "renaissance_it",
+    "pre_raphaelite"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "nineteenth_century"
+  },
+  {
+   "id": "old_master_drawing",
+   "label": "Old Master drawing",
+   "axis": "medium",
+   "era": {
+    "start": 1400,
+    "end": 1800
+   },
+   "teach": "Studies on paper by the great painters, where you can watch an idea take shape.",
+   "tells": [
+    "Chalk or ink on toned paper",
+    "Hatching for shadow",
+    "Studies and repeated details"
+   ],
+   "neighbours": [
+    "print",
+    "chinese_ink"
+   ],
+   "confusers": [
+    "renaissance_it",
+    "renaissance_north"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "old_masters"
+  },
+  {
+   "id": "pointillism",
+   "label": "Pointillism",
+   "axis": "movement",
+   "era": {
+    "start": 1884,
+    "end": 1910
+   },
+   "teach": "Colour built from separate dots that mix in the viewer's eye, applied almost scientifically.",
+   "tells": [
+    "Uniform dots of pure colour",
+    "Shimmering haloes around edges",
+    "Still, geometric figures"
+   ],
+   "neighbours": [
+    "post_impressionism",
+    "impressionism"
+   ],
+   "confusers": [
+    "fauvism",
+    "early_abstraction"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "parent": "post_impressionism",
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "post_impressionism",
+   "label": "Post-Impressionism",
+   "axis": "movement",
+   "era": {
+    "start": 1885,
+    "end": 1910
+   },
+   "teach": "After Impressionism, painters pushed colour and form toward structure, symbol and emotion.",
+   "tells": [
+    "Bold outlines and thick impasto",
+    "Non-natural colour",
+    "Simplified, solid forms"
+   ],
+   "neighbours": [
+    "impressionism",
+    "pointillism",
+    "fauvism",
+    "symbolism"
+   ],
+   "confusers": [
+    "expressionism",
+    "cubism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "pre_raphaelite",
+   "label": "Pre-Raphaelite",
+   "axis": "movement",
+   "era": {
+    "start": 1848,
+    "end": 1900
+   },
+   "teach": "Young British painters looked back before Raphael for truth to nature and vivid colour.",
+   "tells": [
+    "Jewel greens and reds",
+    "Flowing, abundant hair",
+    "Botanical detail"
+   ],
+   "neighbours": [
+    "academic",
+    "symbolism",
+    "romanticism"
+   ],
+   "confusers": [
+    "renaissance_north",
+    "art_nouveau"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "nineteenth_century"
+  },
+  {
+   "id": "print",
+   "label": "Old Master print",
+   "axis": "medium",
+   "era": {
+    "start": 1450,
+    "end": 1900
+   },
+   "teach": "Engravings, etchings and woodcuts: images cut into plates or blocks and printed in multiples.",
+   "tells": [
+    "Dense hatching lines",
+    "Mostly monochrome",
+    "Plate mark or paper margin"
+   ],
+   "neighbours": [
+    "old_master_drawing",
+    "ukiyo_e"
+   ],
+   "confusers": [
+    "early_photography",
+    "chinese_ink"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "prints_photographs"
+  },
+  {
+   "id": "realism",
+   "label": "Realism",
+   "axis": "movement",
+   "era": {
+    "start": 1840,
+    "end": 1890
+   },
+   "teach": "Painting the world as it is: ordinary work, plain people and no idealising.",
+   "tells": [
+    "Labourers and peasants",
+    "Earthy palette",
+    "Unglamorous subjects"
+   ],
+   "neighbours": [
+    "romanticism",
+    "impressionism",
+    "academic"
+   ],
+   "confusers": [
+    "dutch_golden_age",
+    "post_impressionism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "nineteenth_century"
+  },
+  {
+   "id": "renaissance_it",
+   "label": "Italian Renaissance",
+   "axis": "movement",
+   "era": {
+    "start": 1400,
+    "end": 1600
+   },
+   "teach": "Painters rebuilt space with geometry and modelled faces in soft light, reviving classical ideals.",
+   "tells": [
+    "One-point perspective",
+    "Stable pyramid compositions",
+    "Sfumato: smoky, soft transitions"
+   ],
+   "neighbours": [
+    "renaissance_north",
+    "byzantine_gothic",
+    "baroque"
+   ],
+   "confusers": [
+    "neoclassicism",
+    "academic"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "old_masters"
+  },
+  {
+   "id": "renaissance_north",
+   "label": "Northern Renaissance",
+   "axis": "movement",
+   "era": {
+    "start": 1420,
+    "end": 1600
+   },
+   "teach": "Flemish and German painters used oil glazes for microscopic detail and everyday symbolism.",
+   "tells": [
+    "Jewel-like detail",
+    "Crisp outlines",
+    "Domestic objects carrying symbols"
+   ],
+   "neighbours": [
+    "renaissance_it",
+    "dutch_golden_age",
+    "byzantine_gothic"
+   ],
+   "confusers": [
+    "pre_raphaelite",
+    "old_master_drawing"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "old_masters"
+  },
+  {
+   "id": "rococo",
+   "label": "Rococo",
+   "axis": "movement",
+   "era": {
+    "start": 1720,
+    "end": 1790
+   },
+   "teach": "Lightness after Baroque grandeur: pastel colour, curling forms and aristocrats at leisure.",
+   "tells": [
+    "Pastel palette",
+    "Frothy, curving forms",
+    "Scenes of aristocratic leisure"
+   ],
+   "neighbours": [
+    "baroque",
+    "neoclassicism",
+    "dutch_golden_age"
+   ],
+   "confusers": [
+    "academic",
+    "impressionism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "old_masters"
+  },
+  {
+   "id": "romanticism",
+   "label": "Romanticism",
+   "axis": "movement",
+   "era": {
+    "start": 1790,
+    "end": 1860
+   },
+   "teach": "Feeling over reason: storms, struggle and nature too big for people to master.",
+   "tells": [
+    "Stormy skies and seas",
+    "Heroic struggle",
+    "Expressive, dramatic light"
+   ],
+   "neighbours": [
+    "neoclassicism",
+    "realism",
+    "academic"
+   ],
+   "confusers": [
+    "baroque",
+    "symbolism",
+    "expressionism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "nineteenth_century"
+  },
+  {
+   "id": "school_of_paris",
+   "label": "School of Paris",
+   "axis": "movement",
+   "era": {
+    "start": 1905,
+    "end": 1930
+   },
+   "teach": "Artists from across Europe in Montparnasse, sharing cafés more than a single style.",
+   "tells": [
+    "Elongated faces and necks",
+    "Almond-shaped eyes",
+    "Warm, flat backgrounds"
+   ],
+   "neighbours": [
+    "cubism",
+    "expressionism",
+    "fauvism"
+   ],
+   "confusers": [
+    "post_impressionism",
+    "art_nouveau"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "sculpture",
+   "label": "Sculpture",
+   "axis": "medium",
+   "era": {
+    "start": 1400,
+    "end": 1930
+   },
+   "teach": "Reserved: posthumous casts make sculpture prices hard to compare.",
+   "tells": [
+    "Three-dimensional form",
+    "Bronze or marble",
+    "Seen in the round"
+   ],
+   "neighbours": [],
+   "confusers": [],
+   "min_quiz_items": 4,
+   "active": false,
+   "department_id": null
+  },
+  {
+   "id": "symbolism",
+   "label": "Symbolism",
+   "axis": "movement",
+   "era": {
+    "start": 1870,
+    "end": 1915
+   },
+   "teach": "Art of dreams and ideas: mysterious figures and moods that point beyond what is shown.",
+   "tells": [
+    "Enigmatic figures",
+    "Muted or eerie light",
+    "Allegory and myth"
+   ],
+   "neighbours": [
+    "art_nouveau",
+    "pre_raphaelite",
+    "post_impressionism"
+   ],
+   "confusers": [
+    "romanticism",
+    "expressionism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "impressionist_modern"
+  },
+  {
+   "id": "ukiyo_e",
+   "label": "Ukiyo-e",
+   "axis": "medium",
+   "era": {
+    "start": 1650,
+    "end": 1900
+   },
+   "teach": "Japanese woodblock prints of the 'floating world': actors, beauties and famous views.",
+   "tells": [
+    "Flat areas of colour",
+    "Bold outlines",
+    "Cartouches with text"
+   ],
+   "neighbours": [
+    "print",
+    "chinese_ink"
+   ],
+   "confusers": [
+    "art_nouveau",
+    "post_impressionism"
+   ],
+   "min_quiz_items": 4,
+   "active": true,
+   "department_id": "asian_art"
+  }
+ ]
+}

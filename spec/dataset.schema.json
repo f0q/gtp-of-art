@@ -1,0 +1,779 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://artprice.invalid/spec/dataset.schema.json",
+  "title": "ArtPrice dataset (Resources/dataset.json)",
+  "description": "Bundled artwork dataset. Field names follow spec/game-logic.md §8 and §19 (snake_case; optional fields omitted when absent, except game_price_id which is null for the unpriced pool). The pipeline validator (tools/artpipe/validate.py) applies stricter shipping rules on top of this schema.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "artworks"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ref_year": {
+      "type": "integer"
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "artworks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artwork"
+      }
+    },
+    "taxonomy": {
+      "description": "Fixture-only: embedded categories (spec/fixtures/mini_dataset.json).",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    },
+    "departments": {
+      "description": "Fixture-only: embedded departments.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/department"
+      }
+    },
+    "taste_baseline": {
+      "description": "Fixture-only: embedded taste baseline (spec §17).",
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "category_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "hex": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "permille": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000
+    },
+    "pct": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "scope": {
+      "enum": [
+        "this_object",
+        "same_edition_other_impression",
+        "other_version"
+      ]
+    },
+    "rendition": {
+      "type": "object",
+      "required": [
+        "file",
+        "w",
+        "h"
+      ],
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "w": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "h": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "artist": {
+      "type": "object",
+      "required": [
+        "id",
+        "display_name"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[^\\sA-Z]+$",
+          "description": "Lower-case artist key. The pipeline emits ASCII slugs; the mini fixture uses accented ids, which are accepted."
+        },
+        "display_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "birth_year": {
+          "type": "integer"
+        },
+        "death_year": {
+          "type": "integer"
+        },
+        "nationality": {
+          "type": "string"
+        },
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        }
+      }
+    },
+    "date": {
+      "type": "object",
+      "required": [
+        "display"
+      ],
+      "properties": {
+        "display": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start": {
+          "type": "integer"
+        },
+        "end": {
+          "type": "integer"
+        },
+        "circa": {
+          "type": "boolean"
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "start"
+          ]
+        },
+        {
+          "required": [
+            "end"
+          ]
+        }
+      ]
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "sm",
+        "lg",
+        "licence",
+        "attribution",
+        "depicts_scope",
+        "alt_text",
+        "focus",
+        "dominant_hex"
+      ],
+      "properties": {
+        "sm": {
+          "$ref": "#/$defs/rendition"
+        },
+        "lg": {
+          "$ref": "#/$defs/rendition"
+        },
+        "source_url": {
+          "$ref": "#/$defs/url"
+        },
+        "landing_url": {
+          "$ref": "#/$defs/url"
+        },
+        "licence": {
+          "enum": [
+            "CC0",
+            "PD",
+            "PD-Art"
+          ]
+        },
+        "attribution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "depicts_scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "alt_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "focus": {
+          "type": "object",
+          "required": [
+            "x",
+            "y"
+          ],
+          "properties": {
+            "x": {
+              "$ref": "#/$defs/permille"
+            },
+            "y": {
+              "$ref": "#/$defs/permille"
+            }
+          },
+          "additionalProperties": false
+        },
+        "dominant_hex": {
+          "$ref": "#/$defs/hex"
+        },
+        "palette": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/hex"
+          },
+          "maxItems": 5
+        },
+        "lg_missing": {
+          "type": "boolean"
+        }
+      }
+    },
+    "price": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "amount_minor",
+        "currency",
+        "approximate",
+        "lower_bound",
+        "date",
+        "usd_nominal",
+        "usd_adjusted",
+        "adjust_ref_year",
+        "log10_usd_nominal_milli",
+        "log10_usd_adjusted_milli",
+        "source_urls",
+        "confidence",
+        "game_eligible",
+        "price_scope"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "enum": [
+            "auction_premium",
+            "auction_hammer",
+            "private_sale",
+            "ask_price",
+            "self_reported",
+            "estimate_low",
+            "estimate_high"
+          ]
+        },
+        "amount_minor": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "premium_included": {
+          "type": "boolean",
+          "description": "Required by the pipeline validator for auction types; may be omitted for private sales."
+        },
+        "approximate": {
+          "type": "boolean"
+        },
+        "lower_bound": {
+          "type": "boolean"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+        },
+        "venue": {
+          "type": "string"
+        },
+        "lot": {
+          "type": "string"
+        },
+        "usd_nominal": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "usd_adjusted": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "adjust_ref_year": {
+          "type": "integer"
+        },
+        "fx_rate_to_usd": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "fx_source": {
+          "type": "string"
+        },
+        "cpi_source": {
+          "type": "string"
+        },
+        "log10_usd_nominal_milli": {
+          "type": "integer"
+        },
+        "log10_usd_adjusted_milli": {
+          "type": "integer"
+        },
+        "source_urls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/url"
+          }
+        },
+        "primary_citation": {
+          "type": "string"
+        },
+        "verified_by": {
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "game_eligible": {
+          "type": "boolean"
+        },
+        "price_scope": {
+          "$ref": "#/$defs/scope"
+        }
+      }
+    },
+    "taste": {
+      "type": "object",
+      "required": [
+        "era_bucket",
+        "subject",
+        "mood",
+        "abstraction",
+        "warmth",
+        "saturation",
+        "brightness",
+        "complexity"
+      ],
+      "properties": {
+        "era_bucket": {
+          "enum": [
+            "pre1500",
+            "1500_1600",
+            "1600_1700",
+            "1700_1800",
+            "1800_1850",
+            "1850_1900",
+            "1900_1930"
+          ]
+        },
+        "subject": {
+          "enum": [
+            "portrait",
+            "figure",
+            "landscape",
+            "still_life",
+            "religious_myth",
+            "genre",
+            "abstract"
+          ]
+        },
+        "mood": {
+          "enum": [
+            "serene",
+            "dramatic",
+            "melancholic",
+            "joyful"
+          ]
+        },
+        "abstraction": {
+          "$ref": "#/$defs/pct"
+        },
+        "warmth": {
+          "$ref": "#/$defs/pct"
+        },
+        "saturation": {
+          "$ref": "#/$defs/pct"
+        },
+        "brightness": {
+          "$ref": "#/$defs/pct"
+        },
+        "complexity": {
+          "$ref": "#/$defs/pct"
+        }
+      }
+    },
+    "artwork": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "title",
+        "artist",
+        "date",
+        "category_id",
+        "medium",
+        "images",
+        "prices",
+        "game_price_id",
+        "taste"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "kind": {
+          "enum": [
+            "pd_masterpiece",
+            "contemporary_listing",
+            "user_upload"
+          ]
+        },
+        "status": {
+          "enum": [
+            "active",
+            "hidden",
+            "retired"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_alt": {
+          "type": "string"
+        },
+        "artist": {
+          "$ref": "#/$defs/artist"
+        },
+        "date": {
+          "$ref": "#/$defs/date"
+        },
+        "category_id": {
+          "$ref": "#/$defs/category_id"
+        },
+        "secondary_category_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/category_id"
+          },
+          "uniqueItems": true
+        },
+        "medium": {
+          "type": "object",
+          "required": [
+            "display",
+            "medium_class"
+          ],
+          "properties": {
+            "display": {
+              "type": "string"
+            },
+            "medium_class": {
+              "enum": [
+                "painting",
+                "drawing",
+                "works_on_paper",
+                "print",
+                "photograph",
+                "ink_painting",
+                "sculpture"
+              ]
+            }
+          }
+        },
+        "dimensions_cm": {
+          "type": "object",
+          "properties": {
+            "h": {
+              "type": "number"
+            },
+            "w": {
+              "type": "number"
+            },
+            "d": {
+              "type": "number"
+            }
+          }
+        },
+        "holder": {
+          "type": "string"
+        },
+        "external_ids": {
+          "type": "object",
+          "properties": {
+            "met": {
+              "type": "integer"
+            },
+            "aic": {
+              "type": "integer"
+            },
+            "cma": {
+              "type": "integer"
+            },
+            "rijks": {
+              "type": "string"
+            },
+            "wikidata": {
+              "type": "string",
+              "pattern": "^Q[0-9]+$"
+            },
+            "commons_file": {
+              "type": "string"
+            }
+          }
+        },
+        "images": {
+          "type": "object",
+          "required": [
+            "primary"
+          ],
+          "properties": {
+            "primary": {
+              "$ref": "#/$defs/image"
+            }
+          }
+        },
+        "prices": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/price"
+          }
+        },
+        "game_price_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "taste": {
+          "$ref": "#/$defs/taste"
+        },
+        "copy": {
+          "type": "object",
+          "properties": {
+            "teaser": {
+              "type": "string"
+            },
+            "copy_licence": {
+              "type": "string"
+            }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "rights": {
+          "type": "object",
+          "properties": {
+            "work_pd": {
+              "type": "boolean"
+            },
+            "pd_basis": {
+              "type": "string"
+            },
+            "image_licence_verified": {
+              "type": "boolean"
+            }
+          }
+        },
+        "listing": {
+          "type": "object"
+        },
+        "submission": {
+          "type": "object"
+        },
+        "department_id": {
+          "$ref": "#/$defs/department_id",
+          "description": "Derived from category_id (Part I1). Required by the pipeline validator; optional here so older fixtures validate."
+        }
+      }
+    },
+    "department_id": {
+      "enum": [
+        "old_masters",
+        "nineteenth_century",
+        "impressionist_modern",
+        "asian_art",
+        "prints_photographs"
+      ]
+    },
+    "category": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "axis",
+        "era",
+        "teach",
+        "tells",
+        "neighbours",
+        "confusers",
+        "min_quiz_items",
+        "active"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/category_id"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "axis": {
+          "enum": [
+            "movement",
+            "medium"
+          ]
+        },
+        "era": {
+          "type": "object",
+          "required": [
+            "start",
+            "end"
+          ],
+          "properties": {
+            "start": {
+              "type": "integer"
+            },
+            "end": {
+              "type": "integer"
+            }
+          }
+        },
+        "parent": {
+          "$ref": "#/$defs/category_id"
+        },
+        "department_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/department_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "null only for reserved inactive categories (sculpture)"
+        },
+        "teach": {
+          "type": "string"
+        },
+        "tells": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "neighbours": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/category_id"
+          }
+        },
+        "confusers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/category_id"
+          }
+        },
+        "min_quiz_items": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "active": {
+          "type": "boolean"
+        }
+      }
+    },
+    "department": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "categories"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/department_id"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/category_id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "taxonomy_file": {
+      "description": "Resources/taxonomy.json",
+      "type": "object",
+      "required": [
+        "schema_version",
+        "departments",
+        "categories"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "departments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/department"
+          },
+          "minItems": 5,
+          "maxItems": 5
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/category"
+          }
+        }
+      }
+    }
+  }
+}

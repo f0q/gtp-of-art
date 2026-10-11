@@ -1,0 +1,263 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "archetype_share" : 0.0361,
+        "band" : {
+          "lower" : 0,
+          "upper" : 50
+        },
+        "edition_number" : 4,
+        "percentile" : 27.77777777777778,
+        "swipe_bucket" : 10,
+        "tolerance" : 0.5,
+        "visibility" : "hidden"
+      },
+      "input" : {
+        "archetype_id" : "OFES",
+        "distinctiveness" : 0.1,
+        "swipe_count" : 5
+      },
+      "name" : "dst 0.1 swipes 5 OFES"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0361,
+        "band" : {
+          "lower" : 0,
+          "upper" : 50
+        },
+        "edition_number" : 4,
+        "percentile" : 27.77777777777778,
+        "swipe_bucket" : 10,
+        "tolerance" : 0.5,
+        "visibility" : "band"
+      },
+      "input" : {
+        "archetype_id" : "OFES",
+        "distinctiveness" : 0.1,
+        "swipe_count" : 12
+      },
+      "name" : "dst 0.1 swipes 12 OFES"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0361,
+        "band" : {
+          "lower" : 0,
+          "upper" : 50
+        },
+        "edition_number" : 4,
+        "percentile" : 0,
+        "swipe_bucket" : 20,
+        "tolerance" : 0.5,
+        "visibility" : "band"
+      },
+      "input" : {
+        "archetype_id" : "MAVD",
+        "distinctiveness" : 0,
+        "swipe_count" : 20
+      },
+      "name" : "dst 0.0 swipes 20 MAVD"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0722,
+        "band" : {
+          "lower" : 0,
+          "upper" : 50
+        },
+        "edition_number" : 7,
+        "percentile" : 25,
+        "swipe_bucket" : 10,
+        "tolerance" : 0.5,
+        "visibility" : "band"
+      },
+      "input" : {
+        "archetype_id" : "MFVS",
+        "distinctiveness" : 0.09,
+        "swipe_count" : 15
+      },
+      "name" : "dst 0.09 swipes 15 MFVS"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0361,
+        "band" : {
+          "lower" : 50,
+          "upper" : 75
+        },
+        "edition_number" : 4,
+        "percentile" : 50,
+        "swipe_bucket" : 10,
+        "tolerance" : 0.5,
+        "visibility" : "hidden"
+      },
+      "input" : {
+        "archetype_id" : "OFED",
+        "distinctiveness" : 0.18,
+        "swipe_count" : 10
+      },
+      "name" : "dst 0.18 swipes 10 OFED"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0843,
+        "band" : {
+          "lower" : 50,
+          "upper" : 75
+        },
+        "edition_number" : 8,
+        "percentile" : 70.83333333333333,
+        "swipe_bucket" : 20,
+        "tolerance" : 0.5,
+        "visibility" : "band"
+      },
+      "input" : {
+        "archetype_id" : "MFES",
+        "distinctiveness" : 0.21,
+        "swipe_count" : 25
+      },
+      "name" : "dst 0.21 swipes 25 MFES"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.012,
+        "band" : {
+          "lower" : 90,
+          "upper" : 95
+        },
+        "edition_number" : 1,
+        "percentile" : 90,
+        "swipe_bucket" : 40,
+        "tolerance" : 0.5,
+        "visibility" : "exact"
+      },
+      "input" : {
+        "archetype_id" : "OAVD",
+        "distinctiveness" : 0.27,
+        "swipe_count" : 40
+      },
+      "name" : "dst 0.27 swipes 40 OAVD"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0602,
+        "band" : {
+          "lower" : 90,
+          "upper" : 95
+        },
+        "edition_number" : 6,
+        "percentile" : 94.375,
+        "swipe_bucket" : 40,
+        "tolerance" : 0.5,
+        "visibility" : "exact"
+      },
+      "input" : {
+        "archetype_id" : "MAES",
+        "distinctiveness" : 0.305,
+        "swipe_count" : 60
+      },
+      "name" : "dst 0.305 swipes 60 MAES"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.1084,
+        "band" : {
+          "lower" : 95,
+          "upper" : 99
+        },
+        "edition_number" : 11,
+        "percentile" : 96.71428571428572,
+        "swipe_bucket" : 80,
+        "tolerance" : 0.5,
+        "visibility" : "exact"
+      },
+      "input" : {
+        "archetype_id" : "OFVS",
+        "distinctiveness" : 0.33,
+        "swipe_count" : 80
+      },
+      "name" : "dst 0.33 swipes 80 OFVS"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0361,
+        "band" : {
+          "lower" : 99,
+          "upper" : 100
+        },
+        "edition_number" : 4,
+        "percentile" : 99,
+        "swipe_bucket" : 80,
+        "tolerance" : 0.5,
+        "visibility" : "exact"
+      },
+      "input" : {
+        "archetype_id" : "MFVD",
+        "distinctiveness" : 0.45,
+        "swipe_count" : 100
+      },
+      "name" : "dst 0.45 swipes 100 MFVD"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0361,
+        "band" : {
+          "lower" : 0,
+          "upper" : 50
+        },
+        "edition_number" : 4,
+        "percentile" : 46.875,
+        "swipe_bucket" : 20,
+        "tolerance" : 0.5,
+        "visibility" : "band"
+      },
+      "input" : {
+        "archetype_id" : "OAES",
+        "distinctiveness" : 0.15,
+        "swipe_count" : 30
+      },
+      "name" : "dst 0.15 swipes 30 OAES"
+    },
+    {
+      "expected" : {
+        "archetype_share" : 0.0963,
+        "band" : {
+          "lower" : 99,
+          "upper" : 100
+        },
+        "edition_number" : 10,
+        "percentile" : 99,
+        "swipe_bucket" : 40,
+        "tolerance" : 0.5,
+        "visibility" : "exact"
+      },
+      "input" : {
+        "archetype_id" : "MAVS",
+        "distinctiveness" : 0.38,
+        "swipe_count" : 59
+      },
+      "name" : "dst 0.38 swipes 59 MAVS"
+    },
+    {
+      "expected" : {
+        "band" : {
+          "lower" : 75,
+          "upper" : 90
+        },
+        "percentile" : 75,
+        "swipe_bucket" : 80,
+        "tolerance" : 0.5,
+        "visibility" : "exact"
+      },
+      "input" : {
+        "archetype_id" : "ZZZZ",
+        "distinctiveness" : 0.2,
+        "swipe_count" : 61
+      },
+      "name" : "dst 0.2 swipes 61 ZZZZ"
+    }
+  ],
+  "description" : "Rarity percentile (linear interpolation in the nearest swipe bucket's table), band and archetype share over mini_dataset.json's baseline. Percentile tolerance ±0.5."
+}

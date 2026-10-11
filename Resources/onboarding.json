@@ -1,0 +1,253 @@
+{
+ "schema_version": 1,
+ "dataset_id": "artprice-v0-20261012",
+ "choices": [
+  {
+   "id": "classic",
+   "step": 1,
+   "label": "Classic",
+   "exemplars": [
+    {
+     "artwork_id": "botticelli-young-man-roundel",
+     "caption": "Renaissance poise: a Florentine youth, crisp and still."
+    },
+    {
+     "artwork_id": "vermeer-study-young-woman",
+     "caption": "Vermeer's luminous face emerging from the dark."
+    },
+    {
+     "artwork_id": "leonardo-ginevra-de-benci",
+     "caption": "Leonardo's pale sitter against a dark juniper."
+    }
+   ]
+  },
+  {
+   "id": "modern",
+   "step": 1,
+   "label": "Modern",
+   "exemplars": [
+    {
+     "artwork_id": "vangogh-wheat-field-cypresses",
+     "caption": "Van Gogh's swirling sky over golden wheat."
+    },
+    {
+     "artwork_id": "klimt-mada-primavesi",
+     "caption": "Klimt's girl in white amid a field of ornament."
+    },
+    {
+     "artwork_id": "seurat-sunday-grande-jatte",
+     "caption": "A Sunday afternoon built from millions of dots."
+    }
+   ]
+  },
+  {
+   "id": "old_masters",
+   "step": 2,
+   "label": "Old Masters",
+   "exemplars": [
+    {
+     "artwork_id": "bruegel-the-harvesters",
+     "caption": "Bruegel's peasants at harvest in high summer."
+    },
+    {
+     "artwork_id": "rembrandt-standard-bearer",
+     "caption": "Rembrandt in armour, lit against the dark."
+    },
+    {
+     "artwork_id": "heda-still-life-fruit-pie",
+     "caption": "Silver, glass and pie on a Dutch table."
+    }
+   ]
+  },
+  {
+   "id": "nineteenth_century",
+   "step": 2,
+   "label": "19th Century",
+   "exemplars": [
+    {
+     "artwork_id": "cabanel-birth-of-venus",
+     "caption": "The Salon's ideal: Venus born on a wave."
+    },
+    {
+     "artwork_id": "rossetti-lady-lilith",
+     "caption": "A Pre-Raphaelite beauty combing golden hair."
+    },
+    {
+     "artwork_id": "shishkin-pine-forest",
+     "caption": "Sunlight through a Russian pine forest."
+    }
+   ]
+  },
+  {
+   "id": "impressionist_modern:impressionist",
+   "step": 2,
+   "label": "Impressionist",
+   "exemplars": [
+    {
+     "artwork_id": "monet-meules",
+     "caption": "Monet's haystacks glowing in winter light."
+    },
+    {
+     "artwork_id": "renoir-bal-du-moulin-small",
+     "caption": "Dappled sunlight on a Montmartre dance."
+    },
+    {
+     "artwork_id": "monet-water-lilies-aic",
+     "caption": "Water lilies floating on a mirror of sky."
+    }
+   ]
+  },
+  {
+   "id": "impressionist_modern:avant_garde",
+   "step": 2,
+   "label": "Avant-garde",
+   "exemplars": [
+    {
+     "artwork_id": "malevich-suprematist-composition",
+     "caption": "Pure shapes floating free: Suprematism."
+    },
+    {
+     "artwork_id": "kandinsky-improvisation-30",
+     "caption": "Kandinsky's colour explosion, cannons and all."
+    },
+    {
+     "artwork_id": "mondrian-lozenge-composition",
+     "caption": "Mondrian's grid turned on its point."
+    }
+   ]
+  },
+  {
+   "id": "asian_art",
+   "step": 2,
+   "label": "Asian Art",
+   "exemplars": [
+    {
+     "artwork_id": "hokusai-under-the-wave",
+     "caption": "Hokusai's Great Wave, claws of foam over Fuji."
+    },
+    {
+     "artwork_id": "hiroshige-sudden-shower-shin-ohashi",
+     "caption": "Rain slanting across a bridge in Edo."
+    },
+    {
+     "artwork_id": "xia-chang-windblown-bamboo",
+     "caption": "Bamboo bending in ink, never breaking."
+    }
+   ]
+  },
+  {
+   "id": "prints_photographs",
+   "step": 2,
+   "label": "Prints & Photographs",
+   "exemplars": [
+    {
+     "artwork_id": "durer-rhinoceros",
+     "caption": "Dürer's armoured rhinoceros, cut in wood."
+    },
+    {
+     "artwork_id": "le-gray-great-wave-sete",
+     "caption": "An early photograph of a wave and a stormy sky."
+    },
+    {
+     "artwork_id": "cameron-julia-jackson",
+     "caption": "A soft-focus face emerging from shadow."
+    }
+   ]
+  },
+  {
+   "id": "subject:landscape",
+   "step": 3,
+   "label": "Landscapes",
+   "exemplars": [
+    {
+     "artwork_id": "cezanne-montagne-sainte-victoire",
+     "caption": "Cézanne's mountain built from colour patches."
+    },
+    {
+     "artwork_id": "vangogh-wheat-field-cypresses",
+     "caption": "Wheat, cypress and a restless sky."
+    },
+    {
+     "artwork_id": "shishkin-pine-forest",
+     "caption": "Tall pines in a sunlit forest."
+    }
+   ]
+  },
+  {
+   "id": "subject:people",
+   "step": 3,
+   "label": "People",
+   "exemplars": [
+    {
+     "artwork_id": "leonardo-ginevra-de-benci",
+     "caption": "A Renaissance face that never quite smiles."
+    },
+    {
+     "artwork_id": "modigliani-jeanne-hebuterne",
+     "caption": "Modigliani's long neck and almond eyes."
+    },
+    {
+     "artwork_id": "klimt-elisabeth-lederer",
+     "caption": "Klimt's portrait in white on a blue ground."
+    }
+   ]
+  },
+  {
+   "id": "subject:still_life",
+   "step": 3,
+   "label": "Still life & objects",
+   "exemplars": [
+    {
+     "artwork_id": "coorte-wild-strawberries",
+     "caption": "A bowl of wild strawberries on a stone ledge."
+    },
+    {
+     "artwork_id": "chardin-basket-wild-strawberries",
+     "caption": "Chardin's pyramid of strawberries."
+    },
+    {
+     "artwork_id": "bosschaert-flowers-wanli-vase",
+     "caption": "An impossible bouquet in a stone niche."
+    }
+   ]
+  },
+  {
+   "id": "mood:serene",
+   "step": 4,
+   "label": "Serene & muted",
+   "exemplars": [
+    {
+     "artwork_id": "monet-water-lilies-aic",
+     "caption": "Still water, drifting lilies."
+    },
+    {
+     "artwork_id": "liotard-dutch-girl-breakfast",
+     "caption": "A quiet breakfast in morning light."
+    },
+    {
+     "artwork_id": "seurat-sunday-grande-jatte",
+     "caption": "A calm riverside Sunday."
+    }
+   ]
+  },
+  {
+   "id": "mood:dramatic",
+   "step": 4,
+   "label": "Dramatic & vivid",
+   "exemplars": [
+    {
+     "artwork_id": "munch-scream-pastel",
+     "caption": "Munch's scream under a blood-red sky."
+    },
+    {
+     "artwork_id": "rubens-massacre-innocents",
+     "caption": "Rubens' storm of bodies and despair."
+    },
+    {
+     "artwork_id": "kirchner-berlin-street-scene",
+     "caption": "Kirchner's jagged night street in Berlin."
+    }
+   ]
+  }
+ ]
+}

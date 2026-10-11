@@ -1,0 +1,930 @@
+# USD per one unit of currency, calendar-year mean. Sources: FRED (Board of Governors of the
+# Federal Reserve System, H.10 noon buying rates, https://fred.stlouisfed.org), ECB Data Portal
+# euro reference rates (https://data.ecb.europa.eu), official sterling parities before 1971.
+# Regenerate with tools/fetch_reference_data.py. partial=True: year-to-date mean.
+year,currency,usd_per_unit,partial,source
+1971,AUD,1.136125,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,AUD,1.1923417,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,AUD,1.4194667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,AUD,1.4377667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,AUD,1.3076833,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,AUD,1.2229167,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,AUD,1.1084583,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,AUD,1.1441333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,AUD,1.1175667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,AUD,1.1396,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,AUD,1.1496417,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,AUD,1.0170417,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,AUD,0.90236667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,AUD,0.87928333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,AUD,0.700575,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,AUD,0.67099167,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,AUD,0.70074167,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,AUD,0.78381667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,AUD,0.79274167,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,AUD,0.780675,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,AUD,0.77878333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,AUD,0.73488333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,AUD,0.67958333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,AUD,0.73156667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,AUD,0.74100833,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,AUD,0.782775,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,AUD,0.7436,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,AUD,0.62961667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,AUD,0.6454,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,AUD,0.58156667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,AUD,0.51693333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,AUD,0.543675,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,AUD,0.65230833,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,AUD,0.73681667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,AUD,0.76246667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,AUD,0.75361667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,AUD,0.83869167,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,AUD,0.85226667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,AUD,0.7922,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,AUD,0.920375,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,AUD,1.0328667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,AUD,1.03615,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,AUD,0.96843333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,AUD,0.90273333,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,AUD,0.752375,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,AUD,0.74395,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,AUD,0.76696667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,AUD,0.74791667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,AUD,0.695425,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,AUD,0.690425,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,AUD,0.75169167,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,AUD,0.694625,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,AUD,0.66474167,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,AUD,0.65961667,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,AUD,0.6449,False,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,AUD,0.70404444,True,"FRED EXUSAL (Federal Reserve H.10, monthly avg -> annual mean)"
+1971,CAD,0.99021339,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,CAD,1.0092939,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,CAD,0.99976672,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,CAD,1.0223555,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,CAD,0.98302641,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,CAD,1.0141216,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,CAD,0.94026939,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,CAD,0.87660345,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,CAD,0.85356399,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,CAD,0.85513329,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,CAD,0.83410372,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,CAD,0.81046582,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,CAD,0.81130417,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,CAD,0.77211134,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,CAD,0.73211802,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,CAD,0.71954525,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,CAD,0.7540483,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,CAD,0.81238618,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,CAD,0.84451732,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,CAD,0.85688579,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,CAD,0.87261939,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,CAD,0.82726101,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,CAD,0.77509366,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,CAD,0.73212248,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,CAD,0.72851783,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,CAD,0.73329911,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,CAD,0.72209118,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,CAD,0.67402098,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,CAD,0.67302677,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,CAD,0.67316646,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,CAD,0.64557085,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,CAD,0.63670273,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,CAD,0.71369097,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,CAD,0.76829994,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,CAD,0.82543438,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,CAD,0.8815427,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,CAD,0.93093978,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,CAD,0.93741212,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,CAD,0.87608507,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,CAD,0.97075598,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,CAD,1.0110968,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,CAD,1.000592,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,CAD,0.97088164,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,CAD,0.90523679,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,CAD,0.78197801,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,CAD,0.75438486,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,CAD,0.77050012,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,CAD,0.77157021,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,CAD,0.75366943,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,CAD,0.74551294,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,CAD,0.79771322,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,CAD,0.76821141,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,CAD,0.74119369,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,CAD,0.72994033,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,CAD,0.71547391,False,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,CAD,0.72217809,True,"FRED EXCAUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1971,CHF,0.24296761,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,CHF,0.26190752,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,CHF,0.31548146,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,CHF,0.33567466,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,CHF,0.38708554,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,CHF,0.39995867,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,CHF,0.41601231,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,CHF,0.55870604,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,CHF,0.60113916,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,CHF,0.59609557,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,CHF,0.50897708,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,CHF,0.49217443,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,CHF,0.4760979,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,CHF,0.42522129,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,CHF,0.40690656,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,CHF,0.5559339,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,CHF,0.6704435,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,CHF,0.68337908,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,CHF,0.61147743,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,CHF,0.71954956,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,CHF,0.69744734,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,CHF,0.71079941,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,CHF,0.67658999,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,CHF,0.73163594,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,CHF,0.84591038,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,CHF,0.80883245,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,CHF,0.68928676,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,CHF,0.68978203,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,CHF,0.66548358,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,CHF,0.59175391,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,CHF,0.59241121,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,CHF,0.64222295,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,CHF,0.74340691,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,CHF,0.80462391,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,CHF,0.80243405,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,CHF,0.79775565,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,CHF,0.83338542,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,CHF,0.9234463,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,CHF,0.92076792,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,CHF,0.95911761,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,CHF,1.1266019,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,CHF,1.066752,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,CHF,1.0791949,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,CHF,1.092717,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,CHF,1.0387182,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,CHF,1.0150137,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,CHF,1.015701,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,CHF,1.0223555,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,CHF,1.0063315,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,CHF,1.0652274,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,CHF,1.0942515,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,CHF,1.0471021,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,CHF,1.1131003,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,CHF,1.1355142,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,CHF,1.2033332,False,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,CHF,1.2573871,True,"FRED EXSZUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,CNY,0.58513751,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,CNY,0.52706246,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,CNY,0.50482316,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,CNY,0.42834808,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,CNY,0.33960086,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,CNY,0.28893383,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,CNY,0.26799593,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,CNY,0.26799593,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,CNY,0.26532295,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,CNY,0.20852919,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,CNY,0.18744816,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,CNY,0.1809428,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,CNY,0.17310797,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,CNY,0.11573985,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,CNY,0.11946099,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,CNY,0.11992241,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,CNY,0.12020218,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,CNY,0.12047286,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,CNY,0.12079823,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,CNY,0.12079605,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,CNY,0.1208166,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,CNY,0.12081599,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,CNY,0.12081405,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,CNY,0.12081964,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,CNY,0.12204052,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,CNY,0.12543851,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,CNY,0.1314763,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,CNY,0.14392148,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,CNY,0.14639717,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,CNY,0.14773322,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,CNY,0.15472052,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,CNY,0.15851733,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,CNY,0.16265364,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,CNY,0.16232031,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,CNY,0.15915921,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,CNY,0.15056443,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,CNY,0.14800818,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,CNY,0.15123407,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,CNY,0.14477996,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,CNY,0.14492946,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,CNY,0.15504136,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,CNY,0.14857461,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,CNY,0.14124892,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,CNY,0.13896931,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,CNY,0.13912624,False,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,CNY,0.14657885,True,"FRED EXCHUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,CZK,0.028923224,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2000,CZK,0.02593516,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2001,CZK,0.026293903,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2002,CZK,0.030676685,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2003,CZK,0.035540641,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2004,CZK,0.038985921,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2005,CZK,0.041787325,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2006,CZK,0.044321365,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2007,CZK,0.049387131,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2008,CZK,0.05891467,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2009,CZK,0.052665336,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2010,CZK,0.052486893,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2011,CZK,0.056612347,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2012,CZK,0.051155934,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2013,CZK,0.051121421,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2014,CZK,0.048261661,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2015,CZK,0.040683216,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2016,CZK,0.04093625,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2017,CZK,0.042909716,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2018,CZK,0.046072725,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2019,CZK,0.043615868,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2020,CZK,0.043141085,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2021,CZK,0.046140568,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2022,CZK,0.04290602,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2023,CZK,0.045068522,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2024,CZK,0.043067799,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2025,CZK,0.045759756,False,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+2026,CZK,0.047831634,True,ECB EXR M.CZK.EUR annual mean x FRED EXUSEU
+1971,DEM,0.28721189,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,DEM,0.31358858,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,DEM,0.37426901,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,DEM,0.38650704,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,DEM,0.40627973,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,DEM,0.3970762,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,DEM,0.43056742,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,DEM,0.49777247,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,DEM,0.5455215,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,DEM,0.54996677,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,DEM,0.44236533,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,DEM,0.41184041,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,DEM,0.39146349,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,DEM,0.35109175,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,DEM,0.33964315,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,DEM,0.46059955,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,DEM,0.55630502,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,DEM,0.56944906,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,DEM,0.53213662,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,DEM,0.61885975,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,DEM,0.60294539,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,DEM,0.6400512,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,DEM,0.60471374,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,DEM,0.61656082,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,DEM,0.69779613,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,DEM,0.66452174,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,DEM,0.57672621,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,DEM,0.56841327,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,DEM,0.54469198,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,DEM,0.47080795,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,DEM,0.45755422,False,"FRED EXGEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1971,DKK,0.13504252,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,DKK,0.14383126,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,DKK,0.16538402,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,DKK,0.16410369,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,DKK,0.17394128,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,DKK,0.16539679,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,DKK,0.16649693,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,DKK,0.1813349,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,DKK,0.19007552,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,DKK,0.17741008,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,DKK,0.14031756,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,DKK,0.11990132,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,DKK,0.10928693,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,DKK,0.096505612,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,DKK,0.094292032,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,DKK,0.12349516,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,DKK,0.14606341,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,DKK,0.14840777,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,DKK,0.13671693,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,DKK,0.16160245,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,DKK,0.15638011,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,DKK,0.16557388,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,DKK,0.15424541,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,DKK,0.15732114,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,DKK,0.1784575,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,DKK,0.1724185,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,DKK,0.15138365,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,DKK,0.14922812,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,DKK,0.14324373,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,DKK,0.12355174,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,DKK,0.12005487,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,DKK,0.12678958,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,DKK,0.15199128,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,DKK,0.1669851,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,DKK,0.16676464,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,DKK,0.16824348,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,DKK,0.18374978,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,DKK,0.19622047,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,DKK,0.1866072,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,DKK,0.17792592,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,DKK,0.18664551,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,DKK,0.17270784,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,DKK,0.17807774,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,DKK,0.1779911,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,DKK,0.14872893,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,DKK,0.14856854,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,DKK,0.15156376,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,DKK,0.15836128,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,DKK,0.14994152,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,DKK,0.15287247,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,DKK,0.15903097,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,DKK,0.14130913,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,DKK,0.14513964,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,DKK,0.14499741,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,DKK,0.15110058,False,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,DKK,0.15541304,True,"FRED EXDNUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,EUR,1.0667,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,EUR,0.92339167,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,EUR,0.8955,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,EUR,0.94530833,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,EUR,1.1317083,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,EUR,1.243875,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,EUR,1.24465,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,EUR,1.2559833,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,EUR,1.3709,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,EUR,1.47045,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,EUR,1.3932583,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,EUR,1.3276,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,EUR,1.3920417,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,EUR,1.28635,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,EUR,1.3285,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,EUR,1.328925,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,EUR,1.1100417,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,EUR,1.1066833,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,EUR,1.1296917,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,EUR,1.18145,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,EUR,1.1196083,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,EUR,1.1413167,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,EUR,1.1833583,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,EUR,1.0537833,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,EUR,1.081675,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,EUR,1.0818167,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,EUR,1.1299,False,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,EUR,1.1615667,True,"FRED EXUSEU (Federal Reserve H.10, monthly avg -> annual mean)"
+1971,FRF,0.18146131,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,FRF,0.19822228,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,FRF,0.22447193,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,FRF,0.20788328,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,FRF,0.23317995,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,FRF,0.20918278,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,FRF,0.20346259,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,FRF,0.22172334,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,FRF,0.23504663,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,FRF,0.23658,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,FRF,0.18399772,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,FRF,0.15206581,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,FRF,0.13119816,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,FRF,0.11436566,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,FRF,0.11127215,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,FRF,0.14438713,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,FRF,0.16636213,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,FRF,0.16788406,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,FRF,0.15685516,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,FRF,0.18365866,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,FRF,0.17734191,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,FRF,0.18883512,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,FRF,0.17654172,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,FRF,0.18028657,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,FRF,0.20044398,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,FRF,0.19547476,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,FRF,0.17134755,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,FRF,0.1695514,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,FRF,0.16240709,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,FRF,0.1403778,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,FRF,0.13642704,False,"FRED EXFRUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1880,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1881,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1882,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1883,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1884,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1885,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1886,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1887,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1888,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1889,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1890,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1891,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1892,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1893,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1894,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1895,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1896,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1897,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1898,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1899,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1900,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1901,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1902,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1903,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1904,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1905,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1906,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1907,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1908,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1909,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1910,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1911,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1912,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1913,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1914,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1925,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1926,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1927,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1928,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1929,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1930,GBP,4.8665,False,Gold-standard parity (GBP 1 = USD 4.8665)
+1950,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1951,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1952,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1953,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1954,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1955,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1956,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1957,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1958,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1959,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1960,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1961,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1962,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1963,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1964,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1965,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1966,GBP,2.8,False,"IMF par value (GBP 1 = USD 2.80, Sep 1949-Nov 1967)"
+1968,GBP,2.4,False,"IMF par value (GBP 1 = USD 2.40, Nov 1967-1971)"
+1969,GBP,2.4,False,"IMF par value (GBP 1 = USD 2.40, Nov 1967-1971)"
+1970,GBP,2.4,False,"IMF par value (GBP 1 = USD 2.40, Nov 1967-1971)"
+1971,GBP,2.4441417,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,GBP,2.500925,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,GBP,2.4509583,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,GBP,2.339275,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,GBP,2.221425,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,GBP,1.8054167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,GBP,1.7454667,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,GBP,1.9195667,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,GBP,2.122025,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,GBP,2.325525,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,GBP,2.0267917,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,GBP,1.749475,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,GBP,1.5158833,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,GBP,1.3355667,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,GBP,1.2955917,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,GBP,1.4668417,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,GBP,1.6393167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,GBP,1.781275,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,GBP,1.6395417,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,GBP,1.7849083,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,GBP,1.7695917,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,GBP,1.764175,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,GBP,1.5017,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,GBP,1.5321167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,GBP,1.5781833,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,GBP,1.5616167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,GBP,1.6379917,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,GBP,1.6570917,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,GBP,1.617875,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,GBP,1.51585,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,GBP,1.44005,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,GBP,1.5024,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,GBP,1.6347583,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,GBP,1.8325583,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,GBP,1.8198417,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,GBP,1.8429333,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,GBP,2.00165,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,GBP,1.8521833,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,GBP,1.5651917,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,GBP,1.5465167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,GBP,1.603675,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,GBP,1.58555,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,GBP,1.56475,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,GBP,1.6474583,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,GBP,1.528525,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,GBP,1.354925,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,GBP,1.28915,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,GBP,1.3357167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,GBP,1.2773583,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,GBP,1.2837167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,GBP,1.376075,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,GBP,1.2373583,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,GBP,1.243875,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,GBP,1.278125,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,GBP,1.3185167,False,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,GBP,1.3453333,True,"FRED EXUSUK (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,HKD,0.17894343,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,HKD,0.16468654,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,HKD,0.1376949,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,HKD,0.12789646,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,HKD,0.12834307,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,HKD,0.12814352,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,HKD,0.12823157,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,HKD,0.12809482,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,HKD,0.12819061,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,HKD,0.12836819,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,HKD,0.12868177,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,HKD,0.12919285,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,HKD,0.12927134,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,HKD,0.12938215,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,HKD,0.12927092,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,HKD,0.1292907,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,HKD,0.12914849,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,HKD,0.12908834,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,HKD,0.12887733,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,HKD,0.12833072,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,HKD,0.12821033,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,HKD,0.1282117,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,HKD,0.12841105,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,HKD,0.12838921,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,HKD,0.12857671,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,HKD,0.12873119,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,HKD,0.12817678,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,HKD,0.12843552,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,HKD,0.1290084,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,HKD,0.12872374,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,HKD,0.12847017,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,HKD,0.12891845,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,HKD,0.12892441,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,HKD,0.1289571,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,HKD,0.12899245,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,HKD,0.12882946,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,HKD,0.12833305,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,HKD,0.12759808,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,HKD,0.12763093,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,HKD,0.12893189,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,HKD,0.12865873,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,HKD,0.12770971,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,HKD,0.12773023,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,HKD,0.1281583,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,HKD,0.128279,False,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,HKD,0.12771356,True,"FRED EXHKUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1971,JPY,0.0028731833,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,JPY,0.0032991066,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,JPY,0.0036846284,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,JPY,0.0034253471,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,JPY,0.0033696546,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,JPY,0.0033729317,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,JPY,0.0037260418,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,JPY,0.0047515236,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,JPY,0.0045617413,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,JPY,0.0044135131,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,JPY,0.004536187,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,JPY,0.0040152401,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,JPY,0.0042114992,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,JPY,0.0042089898,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,JPY,0.0041933654,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,JPY,0.0059347492,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,JPY,0.0069145335,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,JPY,0.0078038061,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,JPY,0.0072466547,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,JPY,0.006905211,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,JPY,0.0074345163,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,JPY,0.0078897305,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,JPY,0.0089902658,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,JPY,0.0097851898,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,JPY,0.010626339,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,JPY,0.0091907675,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,JPY,0.0082580031,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,JPY,0.0076441963,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,JPY,0.0087940564,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,JPY,0.0092746046,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,JPY,0.0082291478,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,JPY,0.0079829564,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,JPY,0.008626889,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,JPY,0.009245825,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,JPY,0.0090794861,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,JPY,0.0085947751,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,JPY,0.0084914524,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,JPY,0.0096731117,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,JPY,0.010683812,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,JPY,0.011395982,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,JPY,0.012545207,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,JPY,0.012529634,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,JPY,0.010249926,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,JPY,0.0094467384,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,JPY,0.0082632154,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,JPY,0.0091947957,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,JPY,0.0089176685,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,JPY,0.0090554413,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,JPY,0.0091719502,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,JPY,0.0093664034,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,JPY,0.0091097082,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,JPY,0.0076067218,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,JPY,0.0071180326,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,JPY,0.0066024719,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,JPY,0.0066831782,False,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,JPY,0.0063110537,True,"FRED EXJPUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1971,NLG,0.28614214,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,NLG,0.31151192,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,NLG,0.35790554,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,NLG,0.37198114,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,NLG,0.39535198,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,NLG,0.37818026,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,NLG,0.40742878,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,NLG,0.46218908,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,NLG,0.49845272,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,NLG,0.5029654,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,NLG,0.40058485,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,NLG,0.37432621,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,NLG,0.35027803,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,NLG,0.31136724,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,NLG,0.30110354,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,NLG,0.40829381,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,NLG,0.49363418,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,NLG,0.50586167,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,NLG,0.47167772,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,NLG,0.54922171,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,NLG,0.534993,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,NLG,0.56841058,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,NLG,0.53830729,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,NLG,0.54966196,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,NLG,0.62282013,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,NLG,0.59304653,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,NLG,0.51243947,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,NLG,0.50423346,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,NLG,0.48342263,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,NLG,0.41784912,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,NLG,0.40609,False,"FRED EXNEUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1971,NOK,0.14241363,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,NOK,0.15178346,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,NOK,0.17380045,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,NOK,0.18093434,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,NOK,0.19122805,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,NOK,0.18319939,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,NOK,0.18776551,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,NOK,0.19068049,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,NOK,0.1974652,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,NOK,0.20249542,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,NOK,0.17426233,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,NOK,0.15488667,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,NOK,0.13696566,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,NOK,0.12243786,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,NOK,0.11628583,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,NOK,0.13514503,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,NOK,0.14831642,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,NOK,0.15329351,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,NOK,0.1447473,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,NOK,0.1597527,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,NOK,0.15427099,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,NOK,0.16085554,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,NOK,0.14089882,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,NOK,0.1417247,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,NOK,0.1577511,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,NOK,0.15484051,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,NOK,0.14124327,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,NOK,0.13245428,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,NOK,0.12817418,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,NOK,0.11349632,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,NOK,0.1111943,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,NOK,0.12522514,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,NOK,0.14126173,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,NOK,0.14833714,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,NOK,0.15519696,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,NOK,0.15592151,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,NOK,0.1707094,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,NOK,0.17710321,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,NOK,0.15895092,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,NOK,0.16553962,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,NOK,0.17836599,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,NOK,0.17193381,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,NOK,0.17018283,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,NOK,0.15867685,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,NOK,0.12399833,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,NOK,0.11907869,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,NOK,0.12094458,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,NOK,0.12289453,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,NOK,0.11364519,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,NOK,0.10616876,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,NOK,0.11636262,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,NOK,0.10397586,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,NOK,0.094685537,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,NOK,0.092967187,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,NOK,0.09624284,False,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,NOK,0.10470814,True,"FRED EXNOUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,PLN,0.25236259,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2000,PLN,0.23040054,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2001,PLN,0.24400274,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2002,PLN,0.24530913,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2003,PLN,0.25730521,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2004,PLN,0.2744495,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2005,PLN,0.30941433,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2006,PLN,0.32245021,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2007,PLN,0.3623713,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2008,PLN,0.41832396,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2009,PLN,0.32178054,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2010,PLN,0.3323185,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2011,PLN,0.33798048,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2012,PLN,0.30742073,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2013,PLN,0.31652952,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2014,PLN,0.31758529,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2015,PLN,0.26538342,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2016,PLN,0.25361515,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2017,PLN,0.26541575,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2018,PLN,0.27729827,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2019,PLN,0.2605238,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2020,PLN,0.2568695,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2021,PLN,0.25927891,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2022,PLN,0.22495171,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2023,PLN,0.23814619,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2024,PLN,0.25124943,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2025,PLN,0.26653665,False,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+2026,PLN,0.27208177,True,ECB EXR M.PLN.EUR annual mean x FRED EXUSEU
+1971,SEK,0.19586241,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1972,SEK,0.21020769,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1973,SEK,0.22918258,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1974,SEK,0.22523833,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1975,SEK,0.24073182,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1976,SEK,0.2294986,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1977,SEK,0.22303382,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1978,SEK,0.22123608,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1979,SEK,0.23318811,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1980,SEK,0.23633399,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1981,SEK,0.19741875,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1982,SEK,0.15903919,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1983,SEK,0.13033363,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1984,SEK,0.12082122,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1985,SEK,0.11618439,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1986,SEK,0.14026918,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1987,SEK,0.15754792,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1988,SEK,0.16298922,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1989,SEK,0.1549875,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1990,SEK,0.1688728,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1991,SEK,0.16541959,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1992,SEK,0.17158545,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1993,SEK,0.12840116,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1994,SEK,0.12962379,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1995,SEK,0.14006011,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1996,SEK,0.14906462,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1997,SEK,0.13088077,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1998,SEK,0.12574372,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1999,SEK,0.12097677,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2000,SEK,0.10899044,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2001,SEK,0.096677672,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2002,SEK,0.102849,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2003,SEK,0.12376046,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2004,SEK,0.13611214,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2005,SEK,0.13381029,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2006,SEK,0.13562816,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2007,SEK,0.14801256,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2008,SEK,0.15161201,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2009,SEK,0.13067027,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2010,SEK,0.13886494,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2011,SEK,0.15404167,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2012,SEK,0.14770994,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2013,SEK,0.15356816,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2014,SEK,0.14574675,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2015,SEK,0.11857473,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2016,SEK,0.11681561,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2017,SEK,0.11701837,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2018,SEK,0.11502152,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2019,SEK,0.10574812,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2020,SEK,0.10857056,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2021,SEK,0.11659032,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2022,SEK,0.098844671,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2023,SEK,0.094286401,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2024,SEK,0.094575392,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2025,SEK,0.10189741,False,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+2026,SEK,0.10658632,True,"FRED EXSDUS (Federal Reserve H.10, monthly avg -> annual mean)"
+1880,USD,1,False,identity
+1881,USD,1,False,identity
+1882,USD,1,False,identity
+1883,USD,1,False,identity
+1884,USD,1,False,identity
+1885,USD,1,False,identity
+1886,USD,1,False,identity
+1887,USD,1,False,identity
+1888,USD,1,False,identity
+1889,USD,1,False,identity
+1890,USD,1,False,identity
+1891,USD,1,False,identity
+1892,USD,1,False,identity
+1893,USD,1,False,identity
+1894,USD,1,False,identity
+1895,USD,1,False,identity
+1896,USD,1,False,identity
+1897,USD,1,False,identity
+1898,USD,1,False,identity
+1899,USD,1,False,identity
+1900,USD,1,False,identity
+1901,USD,1,False,identity
+1902,USD,1,False,identity
+1903,USD,1,False,identity
+1904,USD,1,False,identity
+1905,USD,1,False,identity
+1906,USD,1,False,identity
+1907,USD,1,False,identity
+1908,USD,1,False,identity
+1909,USD,1,False,identity
+1910,USD,1,False,identity
+1911,USD,1,False,identity
+1912,USD,1,False,identity
+1913,USD,1,False,identity
+1914,USD,1,False,identity
+1915,USD,1,False,identity
+1916,USD,1,False,identity
+1917,USD,1,False,identity
+1918,USD,1,False,identity
+1919,USD,1,False,identity
+1920,USD,1,False,identity
+1921,USD,1,False,identity
+1922,USD,1,False,identity
+1923,USD,1,False,identity
+1924,USD,1,False,identity
+1925,USD,1,False,identity
+1926,USD,1,False,identity
+1927,USD,1,False,identity
+1928,USD,1,False,identity
+1929,USD,1,False,identity
+1930,USD,1,False,identity
+1931,USD,1,False,identity
+1932,USD,1,False,identity
+1933,USD,1,False,identity
+1934,USD,1,False,identity
+1935,USD,1,False,identity
+1936,USD,1,False,identity
+1937,USD,1,False,identity
+1938,USD,1,False,identity
+1939,USD,1,False,identity
+1940,USD,1,False,identity
+1941,USD,1,False,identity
+1942,USD,1,False,identity
+1943,USD,1,False,identity
+1944,USD,1,False,identity
+1945,USD,1,False,identity
+1946,USD,1,False,identity
+1947,USD,1,False,identity
+1948,USD,1,False,identity
+1949,USD,1,False,identity
+1950,USD,1,False,identity
+1951,USD,1,False,identity
+1952,USD,1,False,identity
+1953,USD,1,False,identity
+1954,USD,1,False,identity
+1955,USD,1,False,identity
+1956,USD,1,False,identity
+1957,USD,1,False,identity
+1958,USD,1,False,identity
+1959,USD,1,False,identity
+1960,USD,1,False,identity
+1961,USD,1,False,identity
+1962,USD,1,False,identity
+1963,USD,1,False,identity
+1964,USD,1,False,identity
+1965,USD,1,False,identity
+1966,USD,1,False,identity
+1967,USD,1,False,identity
+1968,USD,1,False,identity
+1969,USD,1,False,identity
+1970,USD,1,False,identity
+1971,USD,1,False,identity
+1972,USD,1,False,identity
+1973,USD,1,False,identity
+1974,USD,1,False,identity
+1975,USD,1,False,identity
+1976,USD,1,False,identity
+1977,USD,1,False,identity
+1978,USD,1,False,identity
+1979,USD,1,False,identity
+1980,USD,1,False,identity
+1981,USD,1,False,identity
+1982,USD,1,False,identity
+1983,USD,1,False,identity
+1984,USD,1,False,identity
+1985,USD,1,False,identity
+1986,USD,1,False,identity
+1987,USD,1,False,identity
+1988,USD,1,False,identity
+1989,USD,1,False,identity
+1990,USD,1,False,identity
+1991,USD,1,False,identity
+1992,USD,1,False,identity
+1993,USD,1,False,identity
+1994,USD,1,False,identity
+1995,USD,1,False,identity
+1996,USD,1,False,identity
+1997,USD,1,False,identity
+1998,USD,1,False,identity
+1999,USD,1,False,identity
+2000,USD,1,False,identity
+2001,USD,1,False,identity
+2002,USD,1,False,identity
+2003,USD,1,False,identity
+2004,USD,1,False,identity
+2005,USD,1,False,identity
+2006,USD,1,False,identity
+2007,USD,1,False,identity
+2008,USD,1,False,identity
+2009,USD,1,False,identity
+2010,USD,1,False,identity
+2011,USD,1,False,identity
+2012,USD,1,False,identity
+2013,USD,1,False,identity
+2014,USD,1,False,identity
+2015,USD,1,False,identity
+2016,USD,1,False,identity
+2017,USD,1,False,identity
+2018,USD,1,False,identity
+2019,USD,1,False,identity
+2020,USD,1,False,identity
+2021,USD,1,False,identity
+2022,USD,1,False,identity
+2023,USD,1,False,identity
+2024,USD,1,False,identity
+2025,USD,1,False,identity
+2026,USD,1,False,identity

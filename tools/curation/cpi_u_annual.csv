@@ -1,0 +1,230 @@
+# US CPI-U annual average, 1982-84=100. Source: U.S. Bureau of Labor Statistics CPI-U (CPIAUCNS)
+# via FRED; pre-1913 from Federal Reserve Bank of Minneapolis 'Consumer Price Index, 1800-'.
+# Regenerate with tools/fetch_reference_data.py. partial=True: year-to-date mean.
+year,cpi,partial,source
+1801,16.6386,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1802,14.3092,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1803,14.9747,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1804,14.9747,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1805,14.9747,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1806,15.6403,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1807,14.6420,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1808,15.9731,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1809,15.6403,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1810,15.6403,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1811,16.6386,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1812,16.9714,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1813,19.3008,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1814,20.9646,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1815,18.3025,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1816,16.9714,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1817,15.9731,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1818,15.3075,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1819,15.3075,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1820,13.9764,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1821,13.3109,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1822,13.3109,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1823,11.9798,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1824,10.9815,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1825,11.3143,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1826,11.3143,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1827,11.3143,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1828,10.9815,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1829,10.6487,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1830,10.6487,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1831,10.6487,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1832,9.9832,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1833,9.6504,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1834,9.9832,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1835,10.3159,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1836,10.9815,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1837,11.3143,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1838,10.6487,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1839,10.6487,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1840,9.9832,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1841,10.3159,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1842,9.6504,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1843,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1844,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1845,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1846,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1847,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1848,8.6521,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1849,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1850,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1851,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1852,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1853,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1854,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1855,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1856,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1857,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1858,8.6521,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1859,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1860,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1861,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1862,9.9832,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1863,12.3126,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1864,15.6403,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1865,15.3075,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1866,14.6420,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1867,13.9764,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1868,13.3109,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1869,13.3109,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1870,12.6453,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1871,11.9798,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1872,11.9798,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1873,11.9798,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1874,11.3143,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1875,10.9815,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1876,10.6487,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1877,10.6487,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1878,9.6504,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1879,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1880,9.6504,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1881,9.6504,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1882,9.6504,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1883,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1884,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1885,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1886,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1887,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1888,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1889,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1890,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1891,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1892,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1893,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1894,8.6521,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1895,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1896,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1897,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1898,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1899,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1900,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1901,8.3193,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1902,8.6521,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1903,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1904,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1905,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1906,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1907,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1908,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1909,8.9848,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1910,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1911,9.3176,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1912,9.6504,False,Minneapolis Fed CPI 1800- (rescaled to 1982-84=100 at 1913)
+1913,9.8833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1914,10.0167,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1915,10.1083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1916,10.8833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1917,12.8250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1918,15.0417,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1919,17.3333,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1920,20.0417,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1921,17.8500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1922,16.7500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1923,17.0500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1924,17.1250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1925,17.5417,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1926,17.7000,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1927,17.3583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1928,17.1583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1929,17.1583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1930,16.7000,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1931,15.2083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1932,13.6417,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1933,12.9333,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1934,13.3833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1935,13.7250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1936,13.8667,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1937,14.3833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1938,14.0917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1939,13.9083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1940,14.0083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1941,14.7250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1942,16.3333,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1943,17.3083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1944,17.5917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1945,17.9917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1946,19.5167,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1947,22.3250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1948,24.0417,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1949,23.8083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1950,24.0667,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1951,25.9583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1952,26.5500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1953,26.7667,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1954,26.8500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1955,26.7750,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1956,27.1833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1957,28.0917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1958,28.8583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1959,29.1500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1960,29.5750,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1961,29.8917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1962,30.2500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1963,30.6250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1964,31.0167,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1965,31.5083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1966,32.4583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1967,33.3583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1968,34.7833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1969,36.6833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1970,38.8250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1971,40.4917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1972,41.8167,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1973,44.4000,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1974,49.3083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1975,53.8167,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1976,56.9083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1977,60.6083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1978,65.2333,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1979,72.5750,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1980,82.4083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1981,90.9250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1982,96.5000,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1983,99.6000,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1984,103.8833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1985,107.5667,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1986,109.6083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1987,113.6250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1988,118.2583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1989,123.9667,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1990,130.6583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1991,136.1917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1992,140.3167,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1993,144.4583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1994,148.2250,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1995,152.3833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1996,156.8500,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1997,160.5167,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1998,163.0083,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+1999,166.5750,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2000,172.2000,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2001,177.0667,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2002,179.8750,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2003,183.9583,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2004,188.8833,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2005,195.2917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2006,201.5917,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2007,207.3424,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2008,215.3025,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2009,214.5370,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2010,218.0555,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2011,224.9392,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2012,229.5939,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2013,232.9571,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2014,236.7362,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2015,237.0170,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2016,240.0072,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2017,245.1196,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2018,251.1068,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2019,255.6574,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2020,258.8112,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2021,270.9698,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2022,292.6549,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2023,304.7016,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2024,313.6888,False,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2025,321.9430,True,"BLS CPI-U CPIAUCNS via FRED, annual mean"
+2026,331.6554,True,"BLS CPI-U CPIAUCNS via FRED, annual mean"

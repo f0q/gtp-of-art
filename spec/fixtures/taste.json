@@ -1,0 +1,1291 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "archetype_id" : "MAVD",
+        "axes" : {
+          "era" : 0,
+          "form" : 0,
+          "mood" : 0,
+          "palette" : 0
+        },
+        "distinctiveness" : 0,
+        "profile" : {
+          "exposures" : {
+
+          },
+          "like_count" : 0,
+          "likes" : {
+
+          },
+          "swipe_count" : 0
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+
+        ]
+      },
+      "input" : {
+        "swipes" : [
+
+        ],
+        "undo_last" : 0
+      },
+      "name" : "empty"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "MAVS",
+        "axes" : {
+          "era" : 0.05141122455371543,
+          "form" : 0,
+          "mood" : -0.05141122455371543,
+          "palette" : 0.012209016649675795
+        },
+        "distinctiveness" : 0.03872738391810245,
+        "profile" : {
+          "exposures" : {
+            "abstraction:mid" : 1,
+            "brightness:light" : 1,
+            "category:impressionism" : 1,
+            "complexity:mid" : 1,
+            "era:1850_1900" : 1,
+            "mood:serene" : 1,
+            "saturation:vivid" : 1,
+            "subject:landscape" : 1,
+            "warmth:warm" : 1
+          },
+          "like_count" : 1,
+          "likes" : {
+            "abstraction:mid" : 1,
+            "brightness:light" : 1,
+            "category:impressionism" : 1,
+            "complexity:mid" : 1,
+            "era:1850_1900" : 1,
+            "mood:serene" : 1,
+            "saturation:vivid" : 1,
+            "subject:landscape" : 1,
+            "warmth:warm" : 1
+          },
+          "swipe_count" : 1
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "era:1850_1900",
+          "mood:serene",
+          "warmth:warm"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "monet-meules",
+            "liked" : true
+          }
+        ],
+        "undo_last" : 0
+      },
+      "name" : "one like"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "OAED",
+        "axes" : {
+          "era" : -0.04062280271500248,
+          "form" : 0,
+          "mood" : 0.04062280271500248,
+          "palette" : -0.02437368162900147
+        },
+        "distinctiveness" : 0.04462871026284195,
+        "profile" : {
+          "exposures" : {
+            "abstraction:mid" : 1,
+            "brightness:light" : 1,
+            "category:impressionism" : 1,
+            "complexity:mid" : 1,
+            "era:1850_1900" : 1,
+            "mood:serene" : 1,
+            "saturation:vivid" : 1,
+            "subject:landscape" : 1,
+            "warmth:warm" : 1
+          },
+          "like_count" : 0,
+          "likes" : {
+
+          },
+          "swipe_count" : 1
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "complexity:mid",
+          "era:1850_1900",
+          "mood:serene"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "monet-meules",
+            "liked" : false
+          }
+        ],
+        "undo_last" : 0
+      },
+      "name" : "one pass"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "MAVS",
+        "axes" : {
+          "era" : 0.28102963219151744,
+          "form" : 0.304046753440296,
+          "mood" : -0.09635073264584833,
+          "palette" : 0.22933109238651797
+        },
+        "distinctiveness" : 0.2474057059364439,
+        "profile" : {
+          "exposures" : {
+            "abstraction:high" : 1,
+            "abstraction:low" : 15,
+            "abstraction:mid" : 14,
+            "brightness:dark" : 5,
+            "brightness:light" : 10,
+            "brightness:mid" : 15,
+            "category:baroque" : 2,
+            "category:dutch_golden_age" : 3,
+            "category:expressionism" : 3,
+            "category:impressionism" : 3,
+            "category:pointillism" : 2,
+            "category:post_impressionism" : 3,
+            "category:print" : 2,
+            "category:renaissance_it" : 2,
+            "category:renaissance_north" : 2,
+            "category:rococo" : 2,
+            "category:romanticism" : 2,
+            "category:symbolism" : 2,
+            "category:ukiyo_e" : 2,
+            "complexity:busy" : 9,
+            "complexity:mid" : 14,
+            "complexity:sparse" : 7,
+            "era:1500_1600" : 3,
+            "era:1600_1700" : 6,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 3,
+            "era:1850_1900" : 9,
+            "era:1900_1930" : 5,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 7,
+            "mood:joyful" : 4,
+            "mood:melancholic" : 6,
+            "mood:serene" : 13,
+            "saturation:mid" : 16,
+            "saturation:muted" : 6,
+            "saturation:vivid" : 8,
+            "subject:figure" : 6,
+            "subject:genre" : 5,
+            "subject:landscape" : 7,
+            "subject:portrait" : 7,
+            "subject:religious_myth" : 3,
+            "subject:still_life" : 2,
+            "warmth:cool" : 2,
+            "warmth:neutral" : 20,
+            "warmth:warm" : 8
+          },
+          "like_count" : 14,
+          "likes" : {
+            "abstraction:low" : 2,
+            "abstraction:mid" : 12,
+            "brightness:light" : 6,
+            "brightness:mid" : 8,
+            "category:expressionism" : 3,
+            "category:impressionism" : 3,
+            "category:pointillism" : 2,
+            "category:post_impressionism" : 3,
+            "category:symbolism" : 2,
+            "category:ukiyo_e" : 1,
+            "complexity:busy" : 4,
+            "complexity:mid" : 9,
+            "complexity:sparse" : 1,
+            "era:1850_1900" : 9,
+            "era:1900_1930" : 5,
+            "mood:dramatic" : 2,
+            "mood:joyful" : 4,
+            "mood:melancholic" : 3,
+            "mood:serene" : 5,
+            "saturation:mid" : 6,
+            "saturation:vivid" : 8,
+            "subject:figure" : 4,
+            "subject:genre" : 3,
+            "subject:landscape" : 4,
+            "subject:portrait" : 2,
+            "subject:still_life" : 1,
+            "warmth:cool" : 1,
+            "warmth:neutral" : 9,
+            "warmth:warm" : 4
+          },
+          "swipe_count" : 30
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "abstraction:low",
+          "era:1600_1700",
+          "saturation:muted"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "botticelli-young-man-roundel",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "cezanne-card-players",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "chardin-basket-wild-strawberries",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "cranach-nymph-of-the-spring",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "durer-melencolia-i",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "durer-rhinoceros",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "friedrich-moonrise-study",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "gauguin-nafea-faa-ipoipo",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "hiroshige-sudden-shower",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "hokusai-under-the-wave",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "kirchner-berlin-street-scene",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "klimt-elisabeth-lederer",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "leonardo-salvator-mundi",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "liotard-dutch-girl-breakfast",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "monet-meules",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "morisot-garden-study",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "munch-scream-pastel",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "redon-vase-of-flowers",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rembrandt-aristotle",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "rembrandt-hundred-guilder-print",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "rembrandt-standard-bearer",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "renoir-bal-du-moulin-small",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rubens-massacre-innocents",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "schiele-seated-woman",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "seurat-les-poseuses-small",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "signac-harbour-sketch",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "turner-seascape-folkestone",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "vangogh-portrait-dr-gachet",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "velazquez-juan-de-pareja",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "vermeer-study-young-woman",
+            "liked" : false
+          }
+        ],
+        "undo_last" : 0
+      },
+      "name" : "likes modern, passes old (all 30)"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "OFES",
+        "axes" : {
+          "era" : -0.2799838844796971,
+          "form" : -0.10975285617312257,
+          "mood" : -0.01480559005778473,
+          "palette" : -0.3872365641912926
+        },
+        "distinctiveness" : 0.30726739470353587,
+        "profile" : {
+          "exposures" : {
+            "abstraction:high" : 1,
+            "abstraction:low" : 15,
+            "abstraction:mid" : 14,
+            "brightness:dark" : 5,
+            "brightness:light" : 10,
+            "brightness:mid" : 15,
+            "category:baroque" : 2,
+            "category:dutch_golden_age" : 3,
+            "category:expressionism" : 3,
+            "category:impressionism" : 3,
+            "category:pointillism" : 2,
+            "category:post_impressionism" : 3,
+            "category:print" : 2,
+            "category:renaissance_it" : 2,
+            "category:renaissance_north" : 2,
+            "category:rococo" : 2,
+            "category:romanticism" : 2,
+            "category:symbolism" : 2,
+            "category:ukiyo_e" : 2,
+            "complexity:busy" : 9,
+            "complexity:mid" : 14,
+            "complexity:sparse" : 7,
+            "era:1500_1600" : 3,
+            "era:1600_1700" : 6,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 3,
+            "era:1850_1900" : 9,
+            "era:1900_1930" : 5,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 7,
+            "mood:joyful" : 4,
+            "mood:melancholic" : 6,
+            "mood:serene" : 13,
+            "saturation:mid" : 16,
+            "saturation:muted" : 6,
+            "saturation:vivid" : 8,
+            "subject:figure" : 6,
+            "subject:genre" : 5,
+            "subject:landscape" : 7,
+            "subject:portrait" : 7,
+            "subject:religious_myth" : 3,
+            "subject:still_life" : 2,
+            "warmth:cool" : 2,
+            "warmth:neutral" : 20,
+            "warmth:warm" : 8
+          },
+          "like_count" : 11,
+          "likes" : {
+            "abstraction:low" : 11,
+            "brightness:dark" : 5,
+            "brightness:light" : 1,
+            "brightness:mid" : 5,
+            "category:baroque" : 2,
+            "category:dutch_golden_age" : 3,
+            "category:print" : 2,
+            "category:renaissance_it" : 2,
+            "category:renaissance_north" : 2,
+            "complexity:busy" : 4,
+            "complexity:mid" : 4,
+            "complexity:sparse" : 3,
+            "era:1500_1600" : 3,
+            "era:1600_1700" : 6,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 3,
+            "mood:melancholic" : 2,
+            "mood:serene" : 6,
+            "saturation:mid" : 6,
+            "saturation:muted" : 5,
+            "subject:figure" : 2,
+            "subject:genre" : 1,
+            "subject:portrait" : 5,
+            "subject:religious_myth" : 3,
+            "warmth:neutral" : 8,
+            "warmth:warm" : 3
+          },
+          "swipe_count" : 30
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "abstraction:mid",
+          "era:1850_1900",
+          "saturation:vivid"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "botticelli-young-man-roundel",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "cezanne-card-players",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "chardin-basket-wild-strawberries",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "cranach-nymph-of-the-spring",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "durer-melencolia-i",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "durer-rhinoceros",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "friedrich-moonrise-study",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "gauguin-nafea-faa-ipoipo",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "hiroshige-sudden-shower",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "hokusai-under-the-wave",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "kirchner-berlin-street-scene",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "klimt-elisabeth-lederer",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "leonardo-salvator-mundi",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "liotard-dutch-girl-breakfast",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "monet-meules",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "morisot-garden-study",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "munch-scream-pastel",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "redon-vase-of-flowers",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "rembrandt-aristotle",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rembrandt-hundred-guilder-print",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rembrandt-standard-bearer",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "renoir-bal-du-moulin-small",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "rubens-massacre-innocents",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "schiele-seated-woman",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "seurat-les-poseuses-small",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "signac-harbour-sketch",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "turner-seascape-folkestone",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "vangogh-portrait-dr-gachet",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "velazquez-juan-de-pareja",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "vermeer-study-young-woman",
+            "liked" : true
+          }
+        ],
+        "undo_last" : 0
+      },
+      "name" : "likes old masters (all 30)"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "MFES",
+        "axes" : {
+          "era" : 0.09425808970909205,
+          "form" : -0.16820506846807312,
+          "mood" : -0.07883806680858833,
+          "palette" : -0.07402230120972567
+        },
+        "distinctiveness" : 0.3141458276040323,
+        "profile" : {
+          "exposures" : {
+            "abstraction:high" : 1,
+            "abstraction:low" : 15,
+            "abstraction:mid" : 14,
+            "brightness:dark" : 5,
+            "brightness:light" : 10,
+            "brightness:mid" : 15,
+            "category:baroque" : 2,
+            "category:dutch_golden_age" : 3,
+            "category:expressionism" : 3,
+            "category:impressionism" : 3,
+            "category:pointillism" : 2,
+            "category:post_impressionism" : 3,
+            "category:print" : 2,
+            "category:renaissance_it" : 2,
+            "category:renaissance_north" : 2,
+            "category:rococo" : 2,
+            "category:romanticism" : 2,
+            "category:symbolism" : 2,
+            "category:ukiyo_e" : 2,
+            "complexity:busy" : 9,
+            "complexity:mid" : 14,
+            "complexity:sparse" : 7,
+            "era:1500_1600" : 3,
+            "era:1600_1700" : 6,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 3,
+            "era:1850_1900" : 9,
+            "era:1900_1930" : 5,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 7,
+            "mood:joyful" : 4,
+            "mood:melancholic" : 6,
+            "mood:serene" : 13,
+            "saturation:mid" : 16,
+            "saturation:muted" : 6,
+            "saturation:vivid" : 8,
+            "subject:figure" : 6,
+            "subject:genre" : 5,
+            "subject:landscape" : 7,
+            "subject:portrait" : 7,
+            "subject:religious_myth" : 3,
+            "subject:still_life" : 2,
+            "warmth:cool" : 2,
+            "warmth:neutral" : 20,
+            "warmth:warm" : 8
+          },
+          "like_count" : 30,
+          "likes" : {
+            "abstraction:high" : 1,
+            "abstraction:low" : 15,
+            "abstraction:mid" : 14,
+            "brightness:dark" : 5,
+            "brightness:light" : 10,
+            "brightness:mid" : 15,
+            "category:baroque" : 2,
+            "category:dutch_golden_age" : 3,
+            "category:expressionism" : 3,
+            "category:impressionism" : 3,
+            "category:pointillism" : 2,
+            "category:post_impressionism" : 3,
+            "category:print" : 2,
+            "category:renaissance_it" : 2,
+            "category:renaissance_north" : 2,
+            "category:rococo" : 2,
+            "category:romanticism" : 2,
+            "category:symbolism" : 2,
+            "category:ukiyo_e" : 2,
+            "complexity:busy" : 9,
+            "complexity:mid" : 14,
+            "complexity:sparse" : 7,
+            "era:1500_1600" : 3,
+            "era:1600_1700" : 6,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 3,
+            "era:1850_1900" : 9,
+            "era:1900_1930" : 5,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 7,
+            "mood:joyful" : 4,
+            "mood:melancholic" : 6,
+            "mood:serene" : 13,
+            "saturation:mid" : 16,
+            "saturation:muted" : 6,
+            "saturation:vivid" : 8,
+            "subject:figure" : 6,
+            "subject:genre" : 5,
+            "subject:landscape" : 7,
+            "subject:portrait" : 7,
+            "subject:religious_myth" : 3,
+            "subject:still_life" : 2,
+            "warmth:cool" : 2,
+            "warmth:neutral" : 20,
+            "warmth:warm" : 8
+          },
+          "swipe_count" : 30
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "warmth:neutral",
+          "mood:serene",
+          "saturation:mid"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "botticelli-young-man-roundel",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "cezanne-card-players",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "chardin-basket-wild-strawberries",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "cranach-nymph-of-the-spring",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "durer-melencolia-i",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "durer-rhinoceros",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "friedrich-moonrise-study",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "gauguin-nafea-faa-ipoipo",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "hiroshige-sudden-shower",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "hokusai-under-the-wave",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "kirchner-berlin-street-scene",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "klimt-elisabeth-lederer",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "leonardo-salvator-mundi",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "liotard-dutch-girl-breakfast",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "monet-meules",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "morisot-garden-study",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "munch-scream-pastel",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "redon-vase-of-flowers",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rembrandt-aristotle",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rembrandt-hundred-guilder-print",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rembrandt-standard-bearer",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "renoir-bal-du-moulin-small",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rubens-massacre-innocents",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "schiele-seated-woman",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "seurat-les-poseuses-small",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "signac-harbour-sketch",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "turner-seascape-folkestone",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "vangogh-portrait-dr-gachet",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "velazquez-juan-de-pareja",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "vermeer-study-young-woman",
+            "liked" : true
+          }
+        ],
+        "undo_last" : 0
+      },
+      "name" : "likes everything (all 30)"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "MAED",
+        "axes" : {
+          "era" : 0.0009684130716879091,
+          "form" : 0.02482898173214858,
+          "mood" : 0.040945050117634996,
+          "palette" : -0.11582480256631233
+        },
+        "distinctiveness" : 0.08384582118368825,
+        "profile" : {
+          "exposures" : {
+            "abstraction:low" : 6,
+            "abstraction:mid" : 6,
+            "brightness:light" : 3,
+            "brightness:mid" : 9,
+            "category:expressionism" : 1,
+            "category:post_impressionism" : 2,
+            "category:print" : 1,
+            "category:renaissance_it" : 1,
+            "category:renaissance_north" : 2,
+            "category:rococo" : 1,
+            "category:romanticism" : 1,
+            "category:symbolism" : 1,
+            "category:ukiyo_e" : 2,
+            "complexity:busy" : 5,
+            "complexity:mid" : 4,
+            "complexity:sparse" : 3,
+            "era:1500_1600" : 3,
+            "era:1700_1800" : 1,
+            "era:1800_1850" : 2,
+            "era:1850_1900" : 3,
+            "era:1900_1930" : 2,
+            "era:pre1500" : 1,
+            "mood:dramatic" : 2,
+            "mood:joyful" : 1,
+            "mood:melancholic" : 3,
+            "mood:serene" : 6,
+            "saturation:mid" : 6,
+            "saturation:muted" : 3,
+            "saturation:vivid" : 3,
+            "subject:figure" : 3,
+            "subject:genre" : 3,
+            "subject:landscape" : 3,
+            "subject:portrait" : 2,
+            "subject:still_life" : 1,
+            "warmth:cool" : 1,
+            "warmth:neutral" : 9,
+            "warmth:warm" : 2
+          },
+          "like_count" : 6,
+          "likes" : {
+            "abstraction:low" : 3,
+            "abstraction:mid" : 3,
+            "brightness:mid" : 6,
+            "category:expressionism" : 1,
+            "category:renaissance_it" : 1,
+            "category:renaissance_north" : 1,
+            "category:rococo" : 1,
+            "category:romanticism" : 1,
+            "category:ukiyo_e" : 1,
+            "complexity:busy" : 2,
+            "complexity:mid" : 2,
+            "complexity:sparse" : 2,
+            "era:1500_1600" : 1,
+            "era:1700_1800" : 1,
+            "era:1800_1850" : 1,
+            "era:1850_1900" : 1,
+            "era:1900_1930" : 1,
+            "era:pre1500" : 1,
+            "mood:dramatic" : 1,
+            "mood:melancholic" : 3,
+            "mood:serene" : 2,
+            "saturation:mid" : 3,
+            "saturation:muted" : 2,
+            "saturation:vivid" : 1,
+            "subject:figure" : 1,
+            "subject:genre" : 1,
+            "subject:landscape" : 2,
+            "subject:portrait" : 1,
+            "subject:still_life" : 1,
+            "warmth:neutral" : 5,
+            "warmth:warm" : 1
+          },
+          "swipe_count" : 12
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "brightness:light",
+          "warmth:neutral",
+          "brightness:mid"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "botticelli-young-man-roundel",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "cezanne-card-players",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "chardin-basket-wild-strawberries",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "cranach-nymph-of-the-spring",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "durer-melencolia-i",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "durer-rhinoceros",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "friedrich-moonrise-study",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "gauguin-nafea-faa-ipoipo",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "hiroshige-sudden-shower",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "hokusai-under-the-wave",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "kirchner-berlin-street-scene",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "klimt-elisabeth-lederer",
+            "liked" : false
+          }
+        ],
+        "undo_last" : 0
+      },
+      "name" : "alternating 12"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "OFES",
+        "axes" : {
+          "era" : -0.015152491532449677,
+          "form" : -0.1214048095318778,
+          "mood" : -0.206826847385791,
+          "palette" : -0.04128359416764115
+        },
+        "distinctiveness" : 0.10541223372649614,
+        "profile" : {
+          "exposures" : {
+            "abstraction:low" : 3,
+            "brightness:mid" : 3,
+            "category:post_impressionism" : 1,
+            "category:renaissance_it" : 1,
+            "category:rococo" : 1,
+            "complexity:mid" : 2,
+            "complexity:sparse" : 1,
+            "era:1700_1800" : 1,
+            "era:1850_1900" : 1,
+            "era:pre1500" : 1,
+            "mood:serene" : 3,
+            "saturation:mid" : 3,
+            "subject:genre" : 1,
+            "subject:portrait" : 1,
+            "subject:still_life" : 1,
+            "warmth:neutral" : 2,
+            "warmth:warm" : 1
+          },
+          "like_count" : 3,
+          "likes" : {
+            "abstraction:low" : 3,
+            "brightness:mid" : 3,
+            "category:post_impressionism" : 1,
+            "category:renaissance_it" : 1,
+            "category:rococo" : 1,
+            "complexity:mid" : 2,
+            "complexity:sparse" : 1,
+            "era:1700_1800" : 1,
+            "era:1850_1900" : 1,
+            "era:pre1500" : 1,
+            "mood:serene" : 3,
+            "saturation:mid" : 3,
+            "subject:genre" : 1,
+            "subject:portrait" : 1,
+            "subject:still_life" : 1,
+            "warmth:neutral" : 2,
+            "warmth:warm" : 1
+          },
+          "swipe_count" : 3
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "mood:serene",
+          "saturation:mid",
+          "brightness:mid"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "botticelli-young-man-roundel",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "cezanne-card-players",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "chardin-basket-wild-strawberries",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "cranach-nymph-of-the-spring",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "durer-melencolia-i",
+            "liked" : true
+          }
+        ],
+        "undo_last" : 2
+      },
+      "name" : "undo last 2 of 5"
+    },
+    {
+      "expected" : {
+        "archetype_id" : "OAED",
+        "axes" : {
+          "era" : -0.015024271817924453,
+          "form" : 0.2635517632237365,
+          "mood" : 0.33862641638471663,
+          "palette" : -0.061952627202226405
+        },
+        "distinctiveness" : 0.3090981891631762,
+        "profile" : {
+          "exposures" : {
+            "abstraction:high" : 1,
+            "abstraction:low" : 15,
+            "abstraction:mid" : 14,
+            "brightness:dark" : 5,
+            "brightness:light" : 10,
+            "brightness:mid" : 15,
+            "category:baroque" : 2,
+            "category:dutch_golden_age" : 3,
+            "category:expressionism" : 3,
+            "category:impressionism" : 3,
+            "category:pointillism" : 2,
+            "category:post_impressionism" : 3,
+            "category:print" : 2,
+            "category:renaissance_it" : 2,
+            "category:renaissance_north" : 2,
+            "category:rococo" : 2,
+            "category:romanticism" : 2,
+            "category:symbolism" : 2,
+            "category:ukiyo_e" : 2,
+            "complexity:busy" : 9,
+            "complexity:mid" : 14,
+            "complexity:sparse" : 7,
+            "era:1500_1600" : 3,
+            "era:1600_1700" : 6,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 3,
+            "era:1850_1900" : 9,
+            "era:1900_1930" : 5,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 7,
+            "mood:joyful" : 4,
+            "mood:melancholic" : 6,
+            "mood:serene" : 13,
+            "saturation:mid" : 16,
+            "saturation:muted" : 6,
+            "saturation:vivid" : 8,
+            "subject:figure" : 6,
+            "subject:genre" : 5,
+            "subject:landscape" : 7,
+            "subject:portrait" : 7,
+            "subject:religious_myth" : 3,
+            "subject:still_life" : 2,
+            "warmth:cool" : 2,
+            "warmth:neutral" : 20,
+            "warmth:warm" : 8
+          },
+          "like_count" : 7,
+          "likes" : {
+            "abstraction:high" : 1,
+            "abstraction:low" : 3,
+            "abstraction:mid" : 3,
+            "brightness:dark" : 1,
+            "brightness:light" : 2,
+            "brightness:mid" : 4,
+            "category:baroque" : 1,
+            "category:dutch_golden_age" : 1,
+            "category:expressionism" : 2,
+            "category:print" : 1,
+            "category:romanticism" : 1,
+            "category:ukiyo_e" : 1,
+            "complexity:busy" : 4,
+            "complexity:mid" : 2,
+            "complexity:sparse" : 1,
+            "era:1600_1700" : 3,
+            "era:1800_1850" : 2,
+            "era:1850_1900" : 1,
+            "era:1900_1930" : 1,
+            "mood:dramatic" : 7,
+            "saturation:mid" : 4,
+            "saturation:muted" : 1,
+            "saturation:vivid" : 2,
+            "subject:figure" : 1,
+            "subject:genre" : 1,
+            "subject:landscape" : 2,
+            "subject:portrait" : 1,
+            "subject:religious_myth" : 2,
+            "warmth:cool" : 1,
+            "warmth:neutral" : 3,
+            "warmth:warm" : 3
+          },
+          "swipe_count" : 30
+        },
+        "tolerance" : 1e-09,
+        "top_buckets" : [
+          "mood:serene",
+          "complexity:mid",
+          "warmth:neutral"
+        ]
+      },
+      "input" : {
+        "swipes" : [
+          {
+            "artwork_id" : "botticelli-young-man-roundel",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "cezanne-card-players",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "chardin-basket-wild-strawberries",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "cranach-nymph-of-the-spring",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "durer-melencolia-i",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "durer-rhinoceros",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "friedrich-moonrise-study",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "gauguin-nafea-faa-ipoipo",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "hiroshige-sudden-shower",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "hokusai-under-the-wave",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "kirchner-berlin-street-scene",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "klimt-elisabeth-lederer",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "leonardo-salvator-mundi",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "liotard-dutch-girl-breakfast",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "monet-meules",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "morisot-garden-study",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "munch-scream-pastel",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "redon-vase-of-flowers",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "rembrandt-aristotle",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "rembrandt-hundred-guilder-print",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "rembrandt-standard-bearer",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "renoir-bal-du-moulin-small",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "rubens-massacre-innocents",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "schiele-seated-woman",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "seurat-les-poseuses-small",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "signac-harbour-sketch",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "turner-seascape-folkestone",
+            "liked" : true
+          },
+          {
+            "artwork_id" : "vangogh-portrait-dr-gachet",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "velazquez-juan-de-pareja",
+            "liked" : false
+          },
+          {
+            "artwork_id" : "vermeer-study-young-woman",
+            "liked" : false
+          }
+        ],
+        "undo_last" : 0
+      },
+      "name" : "likes dramatic moods"
+    }
+  ],
+  "description" : "Taste model over mini_dataset.json and its taste_baseline. Doubles compare within `tolerance`."
+}

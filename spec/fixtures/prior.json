@@ -1,0 +1,1639 @@
+{
+  "cases" : [
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "medium",
+          "department_weights" : {
+
+          },
+          "highlighted_mode" : "pick_price",
+          "mood_weights" : {
+
+          },
+          "seed_buckets" : [
+
+          ],
+          "subject_weights" : {
+
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "cezanne-card-players"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "vangogh-portrait-dr-gachet"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "velazquez-juan-de-pareja"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "gauguin-nafea-faa-ipoipo"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "renoir-bal-du-moulin-small"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "hokusai-under-the-wave"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rembrandt-aristotle"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "signac-harbour-sketch"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "botticelli-young-man-roundel"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rembrandt-standard-bearer"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "vermeer-study-young-woman"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "cranach-nymph-of-the-spring"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "chardin-basket-wild-strawberries"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "morisot-garden-study"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "schiele-seated-woman"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "kirchner-berlin-street-scene"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "redon-vase-of-flowers"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "klimt-elisabeth-lederer"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "durer-melencolia-i"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rubens-massacre-innocents"
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+
+          },
+          "like_count" : 0,
+          "likes" : {
+
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+
+          ],
+          "subjects" : [
+
+          ]
+        },
+        "mode" : "swipe",
+        "seed" : "1"
+      },
+      "name" : "skipped everything, swipe"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "medium",
+          "department_weights" : {
+            "nineteenth_century" : 3,
+            "old_masters" : 3
+          },
+          "highlighted_mode" : "pick_price",
+          "mood_weights" : {
+
+          },
+          "seed_buckets" : [
+            "era:1500_1600",
+            "era:1600_1700",
+            "era:1700_1800",
+            "era:1800_1850",
+            "era:1850_1900",
+            "era:pre1500"
+          ],
+          "subject_weights" : {
+
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "friedrich-moonrise-study"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "velazquez-juan-de-pareja"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rembrandt-aristotle"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "durer-melencolia-i"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rubens-massacre-innocents"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "seurat-les-poseuses-small"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rembrandt-standard-bearer"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "leonardo-salvator-mundi"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "morisot-garden-study"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "kirchner-berlin-street-scene"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "hokusai-under-the-wave"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "cranach-nymph-of-the-spring"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "munch-scream-pastel"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "monet-meules"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "turner-seascape-folkestone"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "gauguin-nafea-faa-ipoipo"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "durer-rhinoceros"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "klimt-elisabeth-lederer"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "schiele-seated-woman"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "signac-harbour-sketch"
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 2,
+            "era:1850_1900" : 2,
+            "era:pre1500" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 2,
+            "era:1850_1900" : 2,
+            "era:pre1500" : 2
+          },
+          "seeds" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:1800_1850" : 2,
+            "era:1850_1900" : 2,
+            "era:pre1500" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+
+          ],
+          "era" : "classic",
+          "subjects" : [
+
+          ]
+        },
+        "mode" : "swipe",
+        "seed" : "2"
+      },
+      "name" : "classic era only, swipe"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "medium",
+          "department_weights" : {
+            "impressionist_modern" : 3
+          },
+          "highlighted_mode" : "pick_price",
+          "mood_weights" : {
+            "joyful" : 3,
+            "serene" : 3
+          },
+          "seed_buckets" : [
+            "era:1850_1900",
+            "era:1900_1930",
+            "mood:joyful",
+            "mood:serene",
+            "subject:landscape"
+          ],
+          "subject_weights" : {
+            "landscape" : 3
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "cezanne-card-players"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "redon-vase-of-flowers"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "signac-harbour-sketch"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "liotard-dutch-girl-breakfast"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "durer-rhinoceros"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "gauguin-nafea-faa-ipoipo"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "hiroshige-sudden-shower"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "chardin-basket-wild-strawberries"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "friedrich-moonrise-study"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "morisot-garden-study"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "botticelli-young-man-roundel"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "renoir-bal-du-moulin-small"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rembrandt-aristotle"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "seurat-les-poseuses-small"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "klimt-elisabeth-lederer"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "rubens-massacre-innocents"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "velazquez-juan-de-pareja"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "turner-seascape-folkestone"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "leonardo-salvator-mundi"
+            }
+          },
+          {
+            "kind" : "swipe",
+            "payload" : {
+              "artwork" : "cranach-nymph-of-the-spring"
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "era:1850_1900" : 2,
+            "era:1900_1930" : 2,
+            "mood:joyful" : 2,
+            "mood:serene" : 2,
+            "subject:landscape" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "era:1850_1900" : 2,
+            "era:1900_1930" : 2,
+            "mood:joyful" : 2,
+            "mood:serene" : 2,
+            "subject:landscape" : 2
+          },
+          "seeds" : {
+            "era:1850_1900" : 2,
+            "era:1900_1930" : 2,
+            "mood:joyful" : 2,
+            "mood:serene" : 2,
+            "subject:landscape" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+
+          ],
+          "era" : "modern",
+          "intent" : "play",
+          "mood" : "serene",
+          "subjects" : [
+            "landscape"
+          ]
+        },
+        "mode" : "swipe",
+        "seed" : "3"
+      },
+      "name" : "modern + landscapes + serene, swipe"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "hard",
+          "department_weights" : {
+            "asian_art" : 3,
+            "prints_photographs" : 3
+          },
+          "highlighted_mode" : "bid",
+          "mood_weights" : {
+            "dramatic" : 3,
+            "melancholic" : 3
+          },
+          "seed_buckets" : [
+            "mood:dramatic",
+            "mood:melancholic",
+            "subject:figure",
+            "subject:genre",
+            "subject:portrait"
+          ],
+          "subject_weights" : {
+            "figure" : 3,
+            "genre" : 3,
+            "portrait" : 3
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "turner-seascape-folkestone",
+              "correct_index" : 0,
+              "difficulty" : "easy",
+              "options" : [
+                10000000,
+                40000000,
+                160000000,
+                800000000
+              ],
+              "price_id" : "turner-seascape-folkestone-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "redon-vase-of-flowers",
+              "correct_index" : 2,
+              "difficulty" : "easy",
+              "options" : [
+                50000,
+                250000,
+                1500000,
+                9000000
+              ],
+              "price_id" : "redon-vase-of-flowers-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "velazquez-juan-de-pareja",
+              "correct_index" : 1,
+              "difficulty" : "easy",
+              "options" : [
+                920000,
+                5500000,
+                28000000,
+                140000000
+              ],
+              "price_id" : "velazquez-juan-de-pareja-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "munch-scream-pastel",
+              "correct_index" : 3,
+              "difficulty" : "medium",
+              "options" : [
+                3300000,
+                10000000,
+                30000000,
+                120000000
+              ],
+              "price_id" : "munch-scream-pastel-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "cranach-nymph-of-the-spring",
+              "correct_index" : 1,
+              "difficulty" : "medium",
+              "options" : [
+                5000000,
+                15000000,
+                45000000,
+                180000000
+              ],
+              "price_id" : "cranach-nymph-of-the-spring-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "friedrich-moonrise-study",
+              "correct_index" : 2,
+              "difficulty" : "medium",
+              "options" : [
+                33000,
+                130000,
+                400000,
+                1200000
+              ],
+              "price_id" : "friedrich-moonrise-study-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "renoir-bal-du-moulin-small",
+              "correct_index" : 3,
+              "difficulty" : "medium",
+              "options" : [
+                3500000,
+                10000000,
+                31000000,
+                78000000
+              ],
+              "price_id" : "renoir-bal-du-moulin-small-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "hiroshige-sudden-shower",
+              "correct_index" : 1,
+              "difficulty" : "hard",
+              "options" : [
+                2100,
+                5200,
+                10000,
+                26000
+              ],
+              "price_id" : "hiroshige-sudden-shower-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "klimt-elisabeth-lederer",
+              "correct_index" : 0,
+              "difficulty" : "hard",
+              "options" : [
+                240000000,
+                480000000,
+                960000000,
+                1900000000
+              ],
+              "price_id" : "klimt-elisabeth-lederer-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "kirchner-berlin-street-scene",
+              "correct_index" : 0,
+              "difficulty" : "hard",
+              "options" : [
+                38000000,
+                76000000,
+                190000000,
+                380000000
+              ],
+              "price_id" : "kirchner-berlin-street-scene-p1"
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "mood:dramatic" : 2,
+            "mood:melancholic" : 2,
+            "subject:figure" : 2,
+            "subject:genre" : 2,
+            "subject:portrait" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "mood:dramatic" : 2,
+            "mood:melancholic" : 2,
+            "subject:figure" : 2,
+            "subject:genre" : 2,
+            "subject:portrait" : 2
+          },
+          "seeds" : {
+            "mood:dramatic" : 2,
+            "mood:melancholic" : 2,
+            "subject:figure" : 2,
+            "subject:genre" : 2,
+            "subject:portrait" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+            "asian_art",
+            "prints_photographs"
+          ],
+          "era" : "classic",
+          "intent" : "test_my_eye",
+          "mood" : "dramatic",
+          "subjects" : [
+            "people"
+          ]
+        },
+        "mode" : "pick_price",
+        "seed" : "4"
+      },
+      "name" : "asian + prints, people, dramatic, pick price"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "easy",
+          "department_weights" : {
+            "old_masters" : 3
+          },
+          "highlighted_mode" : "category",
+          "mood_weights" : {
+
+          },
+          "seed_buckets" : [
+            "era:1500_1600",
+            "era:1600_1700",
+            "era:1700_1800",
+            "era:pre1500"
+          ],
+          "subject_weights" : {
+
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "monet-meules",
+              "correct_index" : 1,
+              "difficulty" : "easy",
+              "options" : [
+                "symbolism",
+                "impressionism",
+                "renaissance_north",
+                "renaissance_it"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "renoir-bal-du-moulin-small",
+              "correct_index" : 3,
+              "difficulty" : "easy",
+              "options" : [
+                "romanticism",
+                "dutch_golden_age",
+                "renaissance_it",
+                "impressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "leonardo-salvator-mundi",
+              "correct_index" : 3,
+              "difficulty" : "easy",
+              "options" : [
+                "dutch_golden_age",
+                "romanticism",
+                "symbolism",
+                "renaissance_it"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "velazquez-juan-de-pareja",
+              "correct_index" : 0,
+              "difficulty" : "medium",
+              "options" : [
+                "baroque",
+                "rococo",
+                "ukiyo_e",
+                "dutch_golden_age"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "botticelli-young-man-roundel",
+              "correct_index" : 3,
+              "difficulty" : "medium",
+              "options" : [
+                "renaissance_north",
+                "baroque",
+                "dutch_golden_age",
+                "renaissance_it"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+                "symbolism"
+              ],
+              "artwork" : "gauguin-nafea-faa-ipoipo",
+              "correct_index" : 2,
+              "difficulty" : "medium",
+              "options" : [
+                "impressionism",
+                "ukiyo_e",
+                "post_impressionism",
+                "romanticism"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "turner-seascape-folkestone",
+              "correct_index" : 3,
+              "difficulty" : "medium",
+              "options" : [
+                "impressionism",
+                "ukiyo_e",
+                "expressionism",
+                "romanticism"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "schiele-seated-woman",
+              "correct_index" : 3,
+              "difficulty" : "hard",
+              "options" : [
+                "post_impressionism",
+                "symbolism",
+                "pointillism",
+                "expressionism"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+
+              ],
+              "artwork" : "rembrandt-standard-bearer",
+              "correct_index" : 1,
+              "difficulty" : "hard",
+              "options" : [
+                "baroque",
+                "dutch_golden_age",
+                "impressionism",
+                "renaissance_north"
+              ]
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+                "post_impressionism"
+              ],
+              "artwork" : "seurat-les-poseuses-small",
+              "correct_index" : 1,
+              "difficulty" : "hard",
+              "options" : [
+                "symbolism",
+                "pointillism",
+                "impressionism",
+                "baroque"
+              ]
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2
+          },
+          "seeds" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+            "old_masters"
+          ],
+          "era" : "classic",
+          "intent" : "learn",
+          "subjects" : [
+
+          ]
+        },
+        "mode" : "category",
+        "seed" : "5"
+      },
+      "name" : "old masters, learn, category"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "medium",
+          "department_weights" : {
+            "impressionist_modern" : 3
+          },
+          "highlighted_mode" : "pick_price",
+          "mood_weights" : {
+
+          },
+          "seed_buckets" : [
+            "era:1850_1900",
+            "era:1900_1930"
+          ],
+          "subject_weights" : {
+
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "vangogh-portrait-dr-gachet",
+              "bottom_milli" : 8309,
+              "difficulty" : "easy",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "signac-harbour-sketch",
+              "top_milli" : 4564
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "morisot-garden-study",
+              "bottom_milli" : 4787,
+              "difficulty" : "easy",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "schiele-seated-woman",
+              "bottom_milli" : 6443,
+              "difficulty" : "easy",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "redon-vase-of-flowers",
+              "bottom_milli" : 6288,
+              "difficulty" : "easy",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "friedrich-moonrise-study",
+              "bottom_milli" : 5710,
+              "difficulty" : "easy",
+              "pricier_side" : "top",
+              "relaxation" : 1,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "kirchner-berlin-street-scene",
+              "bottom_milli" : 7785,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "hiroshige-sudden-shower",
+              "bottom_milli" : 3823,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 1,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "turner-seascape-folkestone",
+              "bottom_milli" : 7491,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 1,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "hokusai-under-the-wave",
+              "bottom_milli" : 6466,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 1,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-aristotle",
+              "bottom_milli" : 7394,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 3,
+              "top" : "vangogh-portrait-dr-gachet",
+              "top_milli" : 8309
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "era:1850_1900" : 2,
+            "era:1900_1930" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "era:1850_1900" : 2,
+            "era:1900_1930" : 2
+          },
+          "seeds" : {
+            "era:1850_1900" : 2,
+            "era:1900_1930" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+            "impressionist_modern"
+          ],
+          "era" : "modern",
+          "intent" : "play",
+          "subjects" : [
+
+          ]
+        },
+        "mode" : "higher_lower",
+        "seed" : "6"
+      },
+      "name" : "impressionist, higher-lower chained"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "medium",
+          "department_weights" : {
+            "old_masters" : 3
+          },
+          "highlighted_mode" : "pick_price",
+          "mood_weights" : {
+
+          },
+          "seed_buckets" : [
+            "era:1500_1600",
+            "era:1600_1700",
+            "era:1700_1800",
+            "era:pre1500"
+          ],
+          "subject_weights" : {
+
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "cranach-nymph-of-the-spring",
+              "bottom_milli" : 7299,
+              "difficulty" : "hard",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "durer-melencolia-i",
+              "top_milli" : 5782
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "durer-rhinoceros",
+              "bottom_milli" : 5498,
+              "difficulty" : "hard",
+              "pricier_side" : "top",
+              "relaxation" : 1,
+              "top" : "cranach-nymph-of-the-spring",
+              "top_milli" : 7299
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "velazquez-juan-de-pareja",
+              "bottom_milli" : 7662,
+              "difficulty" : "hard",
+              "pricier_side" : "bottom",
+              "relaxation" : 4,
+              "top" : "cranach-nymph-of-the-spring",
+              "top_milli" : 7299
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rubens-massacre-innocents",
+              "bottom_milli" : 8138,
+              "difficulty" : "hard",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "velazquez-juan-de-pareja",
+              "top_milli" : 7662
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-aristotle",
+              "bottom_milli" : 7394,
+              "difficulty" : "hard",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "rubens-massacre-innocents",
+              "top_milli" : 8138
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "chardin-basket-wild-strawberries",
+              "bottom_milli" : 7470,
+              "difficulty" : "hard",
+              "pricier_side" : "top",
+              "relaxation" : 4,
+              "top" : "rubens-massacre-innocents",
+              "top_milli" : 8138
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "vermeer-study-young-woman",
+              "bottom_milli" : 7346,
+              "difficulty" : "hard",
+              "pricier_side" : "top",
+              "relaxation" : 4,
+              "top" : "rubens-massacre-innocents",
+              "top_milli" : 8138
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "leonardo-salvator-mundi",
+              "bottom_milli" : 8771,
+              "difficulty" : "hard",
+              "pricier_side" : "bottom",
+              "relaxation" : 4,
+              "top" : "rubens-massacre-innocents",
+              "top_milli" : 8138
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "botticelli-young-man-roundel",
+              "bottom_milli" : 8040,
+              "difficulty" : "hard",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "leonardo-salvator-mundi",
+              "top_milli" : 8771
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-standard-bearer",
+              "bottom_milli" : 8306,
+              "difficulty" : "hard",
+              "pricier_side" : "top",
+              "relaxation" : 4,
+              "top" : "leonardo-salvator-mundi",
+              "top_milli" : 8771
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2
+          },
+          "seeds" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+            "old_masters"
+          ],
+          "subjects" : [
+
+          ]
+        },
+        "mode" : "higher_lower",
+        "recipe" : [
+          {
+            "difficulty" : "hard",
+            "kind" : "higher_lower"
+          }
+        ],
+        "seed" : "7"
+      },
+      "name" : "old masters, higher-lower fixed hard"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "medium",
+          "department_weights" : {
+
+          },
+          "highlighted_mode" : "pick_price",
+          "mood_weights" : {
+            "joyful" : 3,
+            "serene" : 3
+          },
+          "seed_buckets" : [
+            "mood:joyful",
+            "mood:serene",
+            "subject:landscape",
+            "subject:still_life"
+          ],
+          "subject_weights" : {
+            "landscape" : 3,
+            "still_life" : 3
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 8079,
+              "actual_usd" : 119922500,
+              "artwork" : "munch-scream-pastel",
+              "price_id" : "munch-scream-pastel-p1"
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 7965,
+              "actual_usd" : 92184500,
+              "artwork" : "botticelli-young-man-roundel",
+              "price_id" : "botticelli-young-man-roundel-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "vermeer-study-young-woman",
+              "correct_index" : 0,
+              "difficulty" : "hard",
+              "options" : [
+                2000000,
+                4000000,
+                8000000,
+                20000000
+              ],
+              "price_id" : "vermeer-study-young-woman-p1"
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 8654,
+              "actual_usd" : 450312500,
+              "artwork" : "leonardo-salvator-mundi",
+              "price_id" : "leonardo-salvator-mundi-p1"
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "mood:joyful" : 2,
+            "mood:serene" : 2,
+            "subject:landscape" : 2,
+            "subject:still_life" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "mood:joyful" : 2,
+            "mood:serene" : 2,
+            "subject:landscape" : 2,
+            "subject:still_life" : 2
+          },
+          "seeds" : {
+            "mood:joyful" : 2,
+            "mood:serene" : 2,
+            "subject:landscape" : 2,
+            "subject:still_life" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+
+          ],
+          "mood" : "serene",
+          "subjects" : [
+            "landscape",
+            "still_life"
+          ]
+        },
+        "mode" : "bid",
+        "recipe" : [
+          {
+            "difficulty" : "medium",
+            "kind" : "bid"
+          },
+          {
+            "difficulty" : "medium",
+            "kind" : "bid"
+          },
+          {
+            "difficulty" : "hard",
+            "kind" : "pick_price"
+          },
+          {
+            "difficulty" : "easy",
+            "kind" : "bid"
+          }
+        ],
+        "seed" : "8"
+      },
+      "name" : "custom recipe bid x3 + pick hard"
+    },
+    {
+      "expected" : {
+        "prior" : {
+          "default_difficulty" : "medium",
+          "department_weights" : {
+            "old_masters" : 3
+          },
+          "highlighted_mode" : "pick_price",
+          "mood_weights" : {
+            "dramatic" : 3,
+            "melancholic" : 3
+          },
+          "seed_buckets" : [
+            "era:1500_1600",
+            "era:1600_1700",
+            "era:1700_1800",
+            "era:pre1500",
+            "mood:dramatic",
+            "mood:melancholic",
+            "subject:figure",
+            "subject:genre",
+            "subject:portrait"
+          ],
+          "subject_weights" : {
+            "figure" : 3,
+            "genre" : 3,
+            "portrait" : 3
+          }
+        },
+        "rounds" : [
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "velazquez-juan-de-pareja",
+              "correct_index" : 2,
+              "difficulty" : "easy",
+              "options" : [
+                230000,
+                1400000,
+                5500000,
+                22000000
+              ],
+              "price_id" : "velazquez-juan-de-pareja-p1"
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-aristotle",
+              "bottom_milli" : 7394,
+              "difficulty" : "medium",
+              "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "rubens-massacre-innocents",
+              "top_milli" : 8138
+            }
+          },
+          {
+            "kind" : "category",
+            "payload" : {
+              "accepted" : [
+                "print"
+              ],
+              "artwork" : "hiroshige-sudden-shower",
+              "correct_index" : 1,
+              "difficulty" : "medium",
+              "options" : [
+                "impressionism",
+                "ukiyo_e",
+                "baroque",
+                "dutch_golden_age"
+              ]
+            }
+          },
+          {
+            "kind" : "bid",
+            "payload" : {
+              "actual_milli" : 8079,
+              "actual_usd" : 119922500,
+              "artwork" : "munch-scream-pastel",
+              "price_id" : "munch-scream-pastel-p1"
+            }
+          },
+          {
+            "kind" : "pick_price",
+            "payload" : {
+              "artwork" : "chardin-basket-wild-strawberries",
+              "correct_index" : 2,
+              "difficulty" : "hard",
+              "options" : [
+                5400000,
+                14000000,
+                27000000,
+                54000000
+              ],
+              "price_id" : "chardin-basket-wild-strawberries-p1"
+            }
+          }
+        ],
+        "seeded_profile" : {
+          "exposures" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 2,
+            "mood:melancholic" : 2,
+            "subject:figure" : 2,
+            "subject:genre" : 2,
+            "subject:portrait" : 2
+          },
+          "like_count" : 0,
+          "likes" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 2,
+            "mood:melancholic" : 2,
+            "subject:figure" : 2,
+            "subject:genre" : 2,
+            "subject:portrait" : 2
+          },
+          "seeds" : {
+            "era:1500_1600" : 2,
+            "era:1600_1700" : 2,
+            "era:1700_1800" : 2,
+            "era:pre1500" : 2,
+            "mood:dramatic" : 2,
+            "mood:melancholic" : 2,
+            "subject:figure" : 2,
+            "subject:genre" : 2,
+            "subject:portrait" : 2
+          },
+          "swipe_count" : 0
+        }
+      },
+      "input" : {
+        "answers" : {
+          "departments" : [
+            "old_masters"
+          ],
+          "era" : "classic",
+          "mood" : "dramatic",
+          "subjects" : [
+            "people"
+          ]
+        },
+        "mode" : "daily",
+        "seed" : "9"
+      },
+      "name" : "daily ignores the prior"
+    }
+  ],
+  "description" : "Onboarding answers → TastePrior → seeded taste profile and prior-weighted session rounds over mini_dataset.json."
+}
