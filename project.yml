@@ -82,7 +82,7 @@ targets:
         ITSAppUsesNonExemptEncryption: false
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.artprice.app
+        PRODUCT_BUNDLE_IDENTIFIER: pro.aijam.gtpofart
         PRODUCT_NAME: ArtPrice
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
@@ -105,7 +105,7 @@ targets:
         product: SnapshotTesting
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.artprice.app.tests
+        PRODUCT_BUNDLE_IDENTIFIER: pro.aijam.gtpofart.tests
         GENERATE_INFOPLIST_FILE: YES
         TEST_HOST: $(BUILT_PRODUCTS_DIR)/ArtPrice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtPrice
         BUNDLE_LOADER: $(TEST_HOST)
@@ -119,7 +119,7 @@ targets:
       - target: ArtPrice
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.artprice.app.uitests
+        PRODUCT_BUNDLE_IDENTIFIER: pro.aijam.gtpofart.uitests
         GENERATE_INFOPLIST_FILE: YES
         TEST_TARGET_NAME: ArtPrice
         SWIFT_DEFAULT_ACTOR_ISOLATION: nonisolated

@@ -549,7 +549,7 @@
           "default_difficulty" : "hard",
           "department_weights" : {
             "asian_art" : 3,
-            "prints_photographs" : 3
+            "prints_multiples" : 3
           },
           "highlighted_mode" : "bid",
           "mood_weights" : {
@@ -751,7 +751,7 @@
         "answers" : {
           "departments" : [
             "asian_art",
-            "prints_photographs"
+            "prints_multiples"
           ],
           "era" : "classic",
           "intent" : "test_my_eye",

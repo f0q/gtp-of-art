@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://artprice.invalid/spec/onboarding.schema.json",
   "title": "ArtPrice onboarding exemplars (Resources/onboarding.json)",
-  "description": "Exemplar artworks per questionnaire choice (plan Part I2). Choice ids: classic, modern, old_masters, nineteenth_century, impressionist_modern:impressionist, impressionist_modern:avant_garde, asian_art, prints_photographs, subject:landscape|people|still_life, mood:serene|dramatic. artwork_id refers to Resources/dataset.json.",
+  "description": "Exemplar artworks per questionnaire choice (plan Part I2). Choice ids: classic, modern, old_masters, nineteenth_century, impressionist_modern:impressionist, impressionist_modern:avant_garde, asian_art, prints_multiples, photographs, posters, subject:landscape|people|still_life, mood:serene|dramatic. artwork_id refers to Resources/dataset.json.",
   "type": "object",
   "required": [
     "schema_version",

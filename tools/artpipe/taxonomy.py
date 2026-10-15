@@ -1,4 +1,4 @@
-"""Taxonomy: 26 active categories (20 movements + 6 media) + sculpture reserved inactive.
+"""Taxonomy: 29 active categories (20 movements + 9 media) in 7 departments + sculpture reserved inactive.
 
 All teaching copy is original to this project. Emitted to Resources/taxonomy.json.
 Fields per spec §8.3 / Part E5: id, label, axis, era{start,end}, parent, teach, tells[3],
@@ -8,18 +8,22 @@ from __future__ import annotations
 
 MIN_QUIZ_V0 = 4      # v0 setting (Part I4): 91-work dataset
 MIN_QUIZ_V1_TARGET = 8
-MIN_QUIZ = MIN_QUIZ_V0
+MIN_QUIZ = MIN_QUIZ_V1_TARGET   # v1 (Part J3): back to 8 ...
+MIN_QUIZ_LOW: dict[str, int] = {}  # ... except categories that cannot reach 8 works yet (filled below)
 
-# Part I1: five departments, each category in exactly one (sculpture is reserved/inactive and unassigned)
+# Part J2: seven departments, each category in exactly one (sculpture is reserved/inactive and unassigned)
 DEPARTMENTS = [
     ("old_masters", "Old Masters", ["byzantine_gothic", "renaissance_it", "renaissance_north", "baroque",
                                     "dutch_golden_age", "rococo", "old_master_drawing"]),
-    ("nineteenth_century", "19th Century", ["neoclassicism", "romanticism", "realism", "academic", "pre_raphaelite"]),
+    ("nineteenth_century", "19th Century", ["neoclassicism", "romanticism", "realism", "academic", "pre_raphaelite",
+                                            "watercolour_drawing"]),
     ("impressionist_modern", "Impressionist & Modern", ["impressionism", "post_impressionism", "pointillism",
                                                          "symbolism", "art_nouveau", "fauvism", "expressionism",
                                                          "cubism", "early_abstraction", "school_of_paris"]),
     ("asian_art", "Asian Art", ["ukiyo_e", "chinese_ink"]),
-    ("prints_photographs", "Prints & Photographs", ["print", "early_photography"]),
+    ("prints_multiples", "Prints & Multiples", ["print", "modern_print"]),
+    ("photographs", "Photographs", ["early_photography"]),
+    ("posters", "Vintage Posters", ["poster"]),
 ]
 DEPT_OF = {c: d for d, _, cs in DEPARTMENTS for c in cs}
 
@@ -113,26 +117,38 @@ CATS = {
    "Artists from across Europe in Montparnasse, sharing cafés more than a single style.",
    ["Elongated faces and necks", "Almond-shaped eyes", "Warm, flat backgrounds"],
    ["cubism", "expressionism", "fauvism"], ["post_impressionism", "art_nouveau"]),
- "ukiyo_e": ("Ukiyo-e", "medium", 1650, 1900, None,
+ "ukiyo_e": ("Ukiyo-e", "medium", 1650, 1930, None,
    "Japanese woodblock prints of the 'floating world': actors, beauties and famous views.",
    ["Flat areas of colour", "Bold outlines", "Cartouches with text"],
    ["print", "chinese_ink"], ["art_nouveau", "post_impressionism"]),
- "chinese_ink": ("Chinese ink painting", "medium", 900, 1900, None,
+ "chinese_ink": ("Chinese ink painting", "medium", 900, 1930, None,
    "Brush and ink on silk or paper, where empty space and the stroke itself carry meaning.",
    ["Ink washes in greys and blacks", "Red seals and inscriptions", "Hanging or hand-scroll format"],
    ["ukiyo_e", "old_master_drawing"], ["print", "early_photography"]),
  "old_master_drawing": ("Old Master drawing", "medium", 1400, 1800, None,
    "Studies on paper by the great painters, where you can watch an idea take shape.",
    ["Chalk or ink on toned paper", "Hatching for shadow", "Studies and repeated details"],
-   ["print", "chinese_ink"], ["renaissance_it", "renaissance_north"]),
- "print": ("Old Master print", "medium", 1450, 1900, None,
+   ["print", "watercolour_drawing", "chinese_ink"], ["renaissance_it", "renaissance_north"]),
+ "print": ("Old Master print", "medium", 1450, 1850, None,
    "Engravings, etchings and woodcuts: images cut into plates or blocks and printed in multiples.",
    ["Dense hatching lines", "Mostly monochrome", "Plate mark or paper margin"],
-   ["old_master_drawing", "ukiyo_e"], ["early_photography", "chinese_ink"]),
- "early_photography": ("Early photography", "medium", 1839, 1910, None,
-   "The first decades of the camera, when long exposures and hand-made prints shaped the look.",
-   ["Sepia or albumen tones", "Long-exposure stillness", "Soft edges and focus"],
-   ["print", "old_master_drawing"], ["realism", "symbolism"]),
+   ["old_master_drawing", "modern_print", "ukiyo_e"], ["early_photography", "chinese_ink"]),
+ "modern_print": ("Modern print", "medium", 1850, 1930, None,
+   "Painters took up etching, lithography and the woodcut again and made prints as personal as their canvases.",
+   ["Free, sketchy etched line or gouged wood", "Signed in pencil in the margin", "Limited colours or stark black and white"],
+   ["print", "poster", "ukiyo_e"], ["watercolour_drawing", "early_photography"]),
+ "poster": ("Vintage poster", "medium", 1880, 1930, None,
+   "Colour lithography put art on the street: bold lettering, flat colour and something to sell.",
+   ["Lettering built into the picture", "Flat, bright areas of colour", "Large sheets made for walls and kiosks"],
+   ["modern_print", "ukiyo_e"], ["print", "watercolour_drawing"]),
+ "watercolour_drawing": ("19th-century watercolour & drawing", "medium", 1780, 1910, None,
+   "Works on paper from the 1800s: transparent washes, pencil and chalk, often made outdoors or as studies.",
+   ["Washes with the paper glowing through", "Visible pencil underdrawing", "Small, intimate scale"],
+   ["old_master_drawing", "modern_print"], ["print", "early_photography"]),
+ "early_photography": ("Early photography", "medium", 1839, 1930, None,
+   "From the first cameras to the 1920s, when long exposures and hand-made prints shaped the look.",
+   ["Sepia, albumen or platinum tones", "Long-exposure stillness", "Soft edges and focus"],
+   ["print", "modern_print", "old_master_drawing"], ["realism", "symbolism"]),
  "sculpture": ("Sculpture", "medium", 1400, 1930, None,
    "Reserved: posthumous casts make sculpture prices hard to compare.",
    ["Three-dimensional form", "Bronze or marble", "Seen in the round"],
@@ -146,7 +162,7 @@ def categories() -> list[dict]:
     for cid, (label, axis, s, e, parent, teach, tells, nb, cf) in CATS.items():
         d = {"id": cid, "label": label, "axis": axis, "era": {"start": s, "end": e},
              "teach": teach, "tells": tells, "neighbours": nb, "confusers": cf,
-             "min_quiz_items": MIN_QUIZ, "active": cid not in INACTIVE}
+             "min_quiz_items": MIN_QUIZ_LOW.get(cid, MIN_QUIZ), "active": cid not in INACTIVE}
         if parent:
             d["parent"] = parent
         d["department_id"] = DEPT_OF.get(cid)
@@ -175,9 +191,9 @@ def check() -> list[str]:
             errs.append(f"department lists inactive category {c}")
     for c in ids - set(seen) - INACTIVE:
         errs.append(f"active category {c} not in any department")
-    if len(DEPARTMENTS) != 5:
-        errs.append("expected exactly 5 departments")
+    if len(DEPARTMENTS) != 7:
+        errs.append("expected exactly 7 departments")
     active = [c for c in ids if c not in INACTIVE]
-    if len(active) != 26:
-        errs.append(f"expected 26 active categories, found {len(active)}")
+    if len(active) != 29:
+        errs.append(f"expected 29 active categories, found {len(active)}")
     return errs

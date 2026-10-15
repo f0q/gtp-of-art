@@ -1,292 +1,304 @@
 {
  "schema_version": 1,
- "baseline_id": "synthetic-artprice-v0-20261012-s20261011",
- "source": "estimated: synthetic population (8 personas, Dirichlet(0.5) mixtures, 5000 users, like-rate 0.551); tools/gen_baseline.py",
+ "baseline_id": "synthetic-artprice-v0-20261013-s20261011",
+ "source": "estimated: synthetic population (8 personas, Dirichlet(0.5) mixtures, 5000 users, like-rate 0.553); tools/gen_baseline.py",
  "alpha": 4,
  "features": {
   "abstraction:high": {
-   "p_like": 0.5489,
-   "n": 57774
+   "p_like": 0.5503,
+   "n": 32157
   },
   "abstraction:low": {
-   "p_like": 0.5504,
-   "n": 560413
+   "p_like": 0.5573,
+   "n": 402599
   },
   "abstraction:mid": {
-   "p_like": 0.5561,
-   "n": 131813
+   "p_like": 0.5476,
+   "n": 315244
   },
   "brightness:dark": {
-   "p_like": 0.5715,
-   "n": 272292
+   "p_like": 0.5801,
+   "n": 165145
   },
   "brightness:light": {
-   "p_like": 0.543,
-   "n": 131820
+   "p_like": 0.5485,
+   "n": 287081
   },
   "brightness:mid": {
-   "p_like": 0.5385,
-   "n": 345888
+   "p_like": 0.5421,
+   "n": 297774
   },
   "category:academic": {
-   "p_like": 0.4646,
-   "n": 33065
+   "p_like": 0.5163,
+   "n": 14651
   },
   "category:art_nouveau": {
-   "p_like": 0.5173,
-   "n": 24605
+   "p_like": 0.5728,
+   "n": 14307
   },
   "category:baroque": {
-   "p_like": 0.6038,
-   "n": 49314
+   "p_like": 0.5947,
+   "n": 35771
   },
   "category:byzantine_gothic": {
-   "p_like": 0.5885,
-   "n": 16444
+   "p_like": 0.579,
+   "n": 14285
   },
   "category:chinese_ink": {
-   "p_like": 0.611,
-   "n": 16447
+   "p_like": 0.6002,
+   "n": 37680
   },
   "category:cubism": {
-   "p_like": 0.5437,
-   "n": 16492
+   "p_like": 0.5524,
+   "n": 14377
   },
   "category:dutch_golden_age": {
-   "p_like": 0.6124,
-   "n": 65611
+   "p_like": 0.6226,
+   "n": 53696
   },
   "category:early_abstraction": {
-   "p_like": 0.4937,
-   "n": 24807
+   "p_like": 0.5234,
+   "n": 14246
   },
   "category:early_photography": {
-   "p_like": 0.5417,
-   "n": 16554
+   "p_like": 0.524,
+   "n": 46720
   },
   "category:expressionism": {
-   "p_like": 0.5537,
-   "n": 57800
+   "p_like": 0.5662,
+   "n": 32274
   },
   "category:fauvism": {
-   "p_like": 0.5337,
-   "n": 8256
+   "p_like": 0.5612,
+   "n": 14582
   },
   "category:impressionism": {
-   "p_like": 0.5426,
-   "n": 73932
+   "p_like": 0.5684,
+   "n": 33938
+  },
+  "category:modern_print": {
+   "p_like": 0.4961,
+   "n": 35796
   },
   "category:neoclassicism": {
-   "p_like": 0.5158,
-   "n": 16546
+   "p_like": 0.5478,
+   "n": 16095
   },
   "category:old_master_drawing": {
-   "p_like": 0.5655,
-   "n": 16503
+   "p_like": 0.5452,
+   "n": 14388
   },
   "category:pointillism": {
-   "p_like": 0.503,
-   "n": 16502
+   "p_like": 0.5354,
+   "n": 14611
   },
   "category:post_impressionism": {
-   "p_like": 0.5487,
-   "n": 41347
+   "p_like": 0.5603,
+   "n": 23586
+  },
+  "category:poster": {
+   "p_like": 0.5293,
+   "n": 53911
   },
   "category:pre_raphaelite": {
-   "p_like": 0.5179,
-   "n": 8123
+   "p_like": 0.5232,
+   "n": 14414
   },
   "category:print": {
-   "p_like": 0.4917,
-   "n": 24712
+   "p_like": 0.506,
+   "n": 37991
   },
   "category:realism": {
-   "p_like": 0.5611,
-   "n": 41380
+   "p_like": 0.5416,
+   "n": 19890
   },
   "category:renaissance_it": {
-   "p_like": 0.5944,
-   "n": 49463
+   "p_like": 0.6018,
+   "n": 23624
   },
   "category:renaissance_north": {
-   "p_like": 0.5577,
-   "n": 16386
+   "p_like": 0.5681,
+   "n": 19876
   },
   "category:rococo": {
-   "p_like": 0.5089,
-   "n": 49597
+   "p_like": 0.5126,
+   "n": 19792
   },
   "category:romanticism": {
-   "p_like": 0.6044,
-   "n": 16496
+   "p_like": 0.5816,
+   "n": 19707
   },
   "category:school_of_paris": {
-   "p_like": 0.561,
-   "n": 16557
+   "p_like": 0.5547,
+   "n": 14202
   },
   "category:symbolism": {
-   "p_like": 0.5267,
-   "n": 16583
+   "p_like": 0.4919,
+   "n": 16267
   },
   "category:ukiyo_e": {
-   "p_like": 0.5322,
-   "n": 16478
+   "p_like": 0.5491,
+   "n": 61355
+  },
+  "category:watercolour_drawing": {
+   "p_like": 0.5289,
+   "n": 17968
   },
   "complexity:busy": {
-   "p_like": 0.5343,
-   "n": 255184
+   "p_like": 0.5388,
+   "n": 252084
   },
   "complexity:mid": {
-   "p_like": 0.5276,
-   "n": 239045
+   "p_like": 0.543,
+   "n": 246919
   },
   "complexity:sparse": {
-   "p_like": 0.5903,
-   "n": 255771
+   "p_like": 0.5768,
+   "n": 250997
   },
   "era:1500_1600": {
-   "p_like": 0.5528,
-   "n": 65869
+   "p_like": 0.5613,
+   "n": 45338
   },
   "era:1600_1700": {
-   "p_like": 0.5979,
-   "n": 114940
+   "p_like": 0.5952,
+   "n": 112664
   },
   "era:1700_1800": {
-   "p_like": 0.5208,
-   "n": 66126
+   "p_like": 0.534,
+   "n": 66793
   },
   "era:1800_1850": {
-   "p_like": 0.5726,
-   "n": 32968
+   "p_like": 0.5553,
+   "n": 75260
   },
   "era:1850_1900": {
-   "p_like": 0.5257,
-   "n": 206272
+   "p_like": 0.5281,
+   "n": 234220
   },
   "era:1900_1930": {
-   "p_like": 0.5413,
-   "n": 197954
+   "p_like": 0.5497,
+   "n": 169021
   },
   "era:pre1500": {
-   "p_like": 0.5984,
-   "n": 65871
+   "p_like": 0.6019,
+   "n": 46704
   },
   "mood:dramatic": {
-   "p_like": 0.5251,
-   "n": 107334
+   "p_like": 0.5343,
+   "n": 138589
   },
   "mood:joyful": {
-   "p_like": 0.5309,
-   "n": 131675
+   "p_like": 0.5374,
+   "n": 116546
   },
   "mood:melancholic": {
-   "p_like": 0.5312,
-   "n": 107449
+   "p_like": 0.5231,
+   "n": 110100
   },
   "mood:serene": {
-   "p_like": 0.5702,
-   "n": 403542
+   "p_like": 0.5729,
+   "n": 384765
   },
   "saturation:mid": {
-   "p_like": 0.5396,
-   "n": 403519
+   "p_like": 0.5497,
+   "n": 332866
   },
   "saturation:muted": {
-   "p_like": 0.5027,
-   "n": 148515
+   "p_like": 0.5217,
+   "n": 278919
   },
   "saturation:vivid": {
-   "p_like": 0.6116,
-   "n": 197966
+   "p_like": 0.6237,
+   "n": 138215
   },
   "subject:abstract": {
-   "p_like": 0.4937,
-   "n": 24807
+   "p_like": 0.5199,
+   "n": 16046
   },
   "subject:figure": {
-   "p_like": 0.5407,
-   "n": 123558
+   "p_like": 0.531,
+   "n": 125791
   },
   "subject:genre": {
-   "p_like": 0.5171,
-   "n": 123606
+   "p_like": 0.5252,
+   "n": 113074
   },
   "subject:landscape": {
-   "p_like": 0.56,
-   "n": 132075
+   "p_like": 0.5581,
+   "n": 192251
   },
   "subject:portrait": {
-   "p_like": 0.5808,
-   "n": 156690
+   "p_like": 0.5776,
+   "n": 156794
   },
   "subject:religious_myth": {
-   "p_like": 0.5361,
-   "n": 115308
+   "p_like": 0.543,
+   "n": 90403
   },
   "subject:still_life": {
-   "p_like": 0.5908,
-   "n": 73956
+   "p_like": 0.5967,
+   "n": 55641
   },
   "warmth:cool": {
-   "p_like": 0.5614,
-   "n": 16449
+   "p_like": 0.5389,
+   "n": 27089
   },
   "warmth:neutral": {
-   "p_like": 0.5237,
-   "n": 131982
+   "p_like": 0.5326,
+   "n": 109488
   },
   "warmth:warm": {
-   "p_like": 0.557,
-   "n": 601569
+   "p_like": 0.5572,
+   "n": 613423
   }
  },
  "distinctiveness_percentiles": {
   "swipes_10": {
-   "p50": 0.0828,
-   "p75": 0.1031,
-   "p90": 0.1347,
-   "p95": 0.1608,
-   "p99": 0.2172
+   "p50": 0.0849,
+   "p75": 0.1072,
+   "p90": 0.1388,
+   "p95": 0.167,
+   "p99": 0.2192
   },
   "swipes_20": {
-   "p50": 0.1075,
-   "p75": 0.1337,
-   "p90": 0.1738,
-   "p95": 0.2116,
-   "p99": 0.2811
+   "p50": 0.109,
+   "p75": 0.1361,
+   "p90": 0.1804,
+   "p95": 0.2132,
+   "p99": 0.2807
   },
   "swipes_40": {
-   "p50": 0.1326,
-   "p75": 0.1628,
-   "p90": 0.2157,
-   "p95": 0.2575,
-   "p99": 0.3451
+   "p50": 0.1336,
+   "p75": 0.1662,
+   "p90": 0.2182,
+   "p95": 0.2582,
+   "p99": 0.3442
   },
   "swipes_80": {
-   "p50": 0.1572,
-   "p75": 0.1936,
-   "p90": 0.2568,
-   "p95": 0.3047,
-   "p99": 0.4059
+   "p50": 0.1543,
+   "p75": 0.1913,
+   "p90": 0.2576,
+   "p95": 0.2985,
+   "p99": 0.3943
   }
  },
  "archetype_shares": {
-  "MAED": 0.0502,
-  "MAES": 0.0322,
-  "MAVD": 0.1182,
-  "MAVS": 0.0726,
-  "MFED": 0.0578,
-  "MFES": 0.1004,
+  "MAED": 0.0552,
+  "MAES": 0.0304,
+  "MAVD": 0.0984,
+  "MAVS": 0.0764,
+  "MFED": 0.0626,
+  "MFES": 0.1008,
   "MFVD": 0.0226,
-  "MFVS": 0.0496,
-  "OAED": 0.0416,
-  "OAES": 0.02,
-  "OAVD": 0.0826,
-  "OAVS": 0.0594,
-  "OFED": 0.082,
-  "OFES": 0.1188,
-  "OFVD": 0.0352,
-  "OFVS": 0.0568
+  "MFVS": 0.0556,
+  "OAED": 0.0532,
+  "OAES": 0.0204,
+  "OAVD": 0.0846,
+  "OAVS": 0.0604,
+  "OFED": 0.0898,
+  "OFES": 0.0972,
+  "OFVD": 0.0322,
+  "OFVS": 0.0602
  }
 }

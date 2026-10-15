@@ -629,7 +629,9 @@
         "nineteenth_century",
         "impressionist_modern",
         "asian_art",
-        "prints_photographs"
+        "prints_multiples",
+        "photographs",
+        "posters"
       ]
     },
     "category": {
@@ -764,8 +766,8 @@
           "items": {
             "$ref": "#/$defs/department"
           },
-          "minItems": 5,
-          "maxItems": 5
+          "minItems": 7,
+          "maxItems": 7
         },
         "categories": {
           "type": "array",

@@ -11,8 +11,8 @@ struct DatasetLoadingTests {
     @Test func decodesTheRealDataset() {
         #expect(dataset.datasetVersion == dataset.catalog.datasetID)
         #expect(!dataset.datasetVersion.isEmpty)
-        #expect(dataset.catalog.artworks.count == 91)
-        #expect(dataset.categories.count == 27)
+        #expect(dataset.catalog.artworks.count == 417)
+        #expect(dataset.categories.count == 30)
         #expect(dataset.tasteBaseline.features.count > 0)
     }
 
@@ -31,8 +31,8 @@ struct DatasetLoadingTests {
     }
 
     @Test func splitsPricedAndUnpriced() {
-        #expect(dataset.pricedArtworks.count == 62)
-        #expect(dataset.unpricedArtworks.count == 29)
+        #expect(dataset.pricedArtworks.count == 300)
+        #expect(dataset.unpricedArtworks.count == 117)
         #expect(dataset.pricedArtworks.count + dataset.unpricedArtworks.count == dataset.pool.artworks.count)
         #expect(dataset.pricedArtworks.allSatisfy { $0.gamePrice != nil })
         #expect(dataset.unpricedArtworks.allSatisfy { $0.gamePrice == nil })
@@ -85,16 +85,27 @@ struct DatasetLoadingTests {
 struct DepartmentLoadingTests {
     let dataset = TestSupport.dataset
 
-    @Test func loadsDepartmentsIntoPool() {
-        #expect(dataset.departments.map(\.id) == [
-            .asianArt, .impressionistModern, .nineteenthCentury, .oldMasters, .printsPhotographs,
-        ])
+    /// The v1 departments (plan Part J2). The list itself is data (taxonomy.json); this is the
+    /// contract the shipping dataset must meet.
+    static let v1Departments: [DepartmentID] = [
+        .asianArt, .impressionistModern, .nineteenthCentury, .oldMasters, .photographs, .posters, .printsMultiples,
+    ]
+
+    @Test func loadsDepartmentsIntoPool() throws {
+        let raw = try #require(
+            try JSONSerialization.jsonObject(
+                with: Data(contentsOf: TestSupport.resourcesDirectory.appendingPathComponent(DatasetFiles.taxonomy)))
+                as? [String: Any])
+        let rawIDs = try #require(raw["departments"] as? [[String: Any]]).compactMap { $0["id"] as? String }
+        #expect(dataset.departments.map(\.id) == rawIDs.map(DepartmentID.init(_:)).sorted(), "taxonomy order-independent")
+        #expect(dataset.departments.map(\.id) == Self.v1Departments)
+        #expect(!rawIDs.contains("prints_photographs"))
         #expect(dataset.pool.artworks.allSatisfy { dataset.department(of: $0.id) != nil })
     }
 
     @Test func contentPacksCoverThePool() {
         let packs = dataset.contentPacks
-        #expect(packs.count == 5)
+        #expect(packs.count == dataset.departments.count)
         #expect(packs.allSatisfy { $0.state == .bundled && $0.artworkCount > 0 })
         #expect(packs.map(\.artworkCount).reduce(0, +) == dataset.pool.artworks.count)
         #expect(packs.map(\.pricedCount).reduce(0, +) == dataset.pricedArtworks.count)

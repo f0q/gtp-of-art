@@ -1,4 +1,95 @@
 {
+ "adler-half-length-nude": {
+  "amount": 95000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "genössische kunst künstler jankel adler lot 46 schätzpreis: 60.000 € - 80.000 € ergebnis: 95.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1187-1/46-jankel-adler.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1187-1/46-jankel-adler.html",
+  "wikidata": {
+   "amount": 95000.0,
+   "date": "2021-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134005533",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1187-1/46-jankel-adler.html"
+   ],
+   "statement_id": "Q134005533$0A505A7A-56A3-490B-9088-2CF5E395C1FA"
+  }
+ },
+ "anderson-ferry-in-east-prussia": {
+  "amount": 3500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "onen eduard anderson (preußisch holland 1873 - stade 1947) fähre in ostpreußen ergebnis : 3.500 € mehr informationen katalog: 7. mai 2022: kunst und antiqu",
+    "url": "https://www.auktionshaus-stahl.de/de/kuenstler/16288-eduard-anderson"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.auktionshaus-stahl.de/de/kuenstler/16288-eduard-anderson",
+  "wikidata": {
+   "amount": 3500.0,
+   "date": "2022-05-07",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q137714582",
+   "refs": [
+    "https://www.invaluable.com/auction-lot/eduard-anderson-preussisch-holland-1873-stade-194-423-c-4fe4937820",
+    "https://www.auktionshaus-stahl.de/de/kuenstler/16288-eduard-anderson"
+   ],
+   "statement_id": "Q137714582$B4E3A877-D4CB-4281-B191-A604D1C8CB3F"
+  }
+ },
+ "arkhipov-peasant-woman": {
+  "amount": 553250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 553,250",
+    "url": "https://www.christies.com/lot/lot-abram-arkhipov-1862-1930-a-peasant-woman-5146269/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-abram-arkhipov-1862-1930-a-peasant-woman-5146269/",
+  "wikidata": {
+   "amount": 553250.0,
+   "date": "2008-11-26",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q130456310",
+   "refs": [
+    "https://www.christies.com/lot/lot-abram-arkhipov-1862-1930-a-peasant-woman-5146269/"
+   ],
+   "statement_id": "Q130456310$947d7b6a-4d54-d19c-bafb-59ef73eaea28"
+  }
+ },
+ "atget-joueur-dorgue": {
+  "amount": 686500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " newsletter - baio collection breaks over $1.4 million and sets new atget record at $686,500 the ultimate source for purchasing and researching fine art",
+    "url": "https://www.iphotocentral.com/news/article-view.php/1/183/173/1066/10/0/0"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.iphotocentral.com/news/article-view.php/1/183/173/1066/10/0/0",
+  "wikidata": null
+ },
  "avercamp-colf-players": {
   "amount": 11400000.0,
   "currency": "EUR",
@@ -29,6 +120,276 @@
    "statement_id": "Q121548581$30999fd3-4a1e-f4fe-4a53-bce450dd7055"
   }
  },
+ "baade-winter": {
+  "amount": 130000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": ". vurdering nok 100 000–150 000 auksjonert tirsdag 29. november 2022 kl 18:00 tilslag nok 130 000 atten år gammel, i 1826, kom knud baade til det kongelige d",
+    "url": "https://gwpa.no/nb/lots/15708"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/15708",
+  "wikidata": {
+   "amount": 130000.0,
+   "date": "2022-11-29",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q116180643",
+   "refs": [
+    "https://gwpa.no/nb/lots/15708"
+   ],
+   "statement_id": "Q116180643$5b6753c0-4684-4188-5e8f-75d01526ef0a"
+  }
+ },
+ "backer-uvdal-church-and-cemetery": {
+  "amount": 840000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rdering nok 1 000 000–1 500 000 auksjonert torsdag 30. november 2023 kl 18:00 tilslag nok 840 000 video: kode museum for kunst, design og musikk i bergen bac",
+    "url": "https://gwpa.no/nb/lots/16719"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/16719",
+  "wikidata": {
+   "amount": 840000.0,
+   "date": "2023-11-30",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q124301739",
+   "refs": [
+    "https://gwpa.no/nb/lots/16719"
+   ],
+   "statement_id": "Q124301739$aff97247-4234-6b66-f657-d422c7d255d5"
+  }
+ },
+ "bada-bird-and-rock": {
+  "amount": 100000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 100,000",
+    "url": "https://www.christies.com/en/lot/lot-5823491"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5823491",
+  "wikidata": null
+ },
+ "bada-bird-rock-grapevine": {
+  "amount": 1940000.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 1,940,000",
+    "url": "https://www.christies.com/en/lot/lot-5568361"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5568361",
+  "wikidata": null
+ },
+ "bada-stag-and-pine": {
+  "amount": 9040000.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 9,040,000",
+    "url": "https://www.christies.com/en/lot/lot-5851464"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5851464",
+  "wikidata": null
+ },
+ "bailly-summer-games": {
+  "amount": 43750.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "st - evening sale künstler alice bailly lot 62 schätzpreis: 40.000 € - 60.000 € ergebnis: 43.750 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/62-alice-bailly.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/62-alice-bailly.html",
+  "wikidata": {
+   "amount": 43750.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138858208",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/62-alice-bailly.html"
+   ],
+   "statement_id": "Q138858208$B30874EF-76E6-4ACC-83AE-7B4070AAC20C"
+  }
+ },
+ "baum-road-between-fields-in-spring-sunshine": {
+  "amount": 52920.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "zeitgenössische kunst künstler paul baum lot 2 schätzpreis: 40.000 € - 50.000 € ergebnis: 52.920 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1233-1/2-paul-baum-1.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1233-1/2-paul-baum-1.html",
+  "wikidata": {
+   "amount": 52920.0,
+   "date": "2023-12-01",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q135215129",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1233-1/2-paul-baum-1.html"
+   ],
+   "statement_id": "Q135215129$5C4FD523-E205-4BFA-B2D1-3997C4012038"
+  }
+ },
+ "beert-still-life-of-sweets-on-a-pewter-plate": {
+  "amount": 375000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "sammlung bischoff künstler ossias beert lot 10 schätzpreis: 60.000 € - 80.000 € ergebnis: 375.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1168-1/10-ossias-beert.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1168-1/10-ossias-beert.html",
+  "wikidata": {
+   "amount": 375000.0,
+   "date": "2020-12-08",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q121079756",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1168-1/10-ossias-beert.html"
+   ],
+   "statement_id": "Q121079756$6F181C93-71B3-47BB-B4CA-D084B9438491"
+  }
+ },
+ "birelli-a-captive-audience": {
+  "amount": 6000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 6,000",
+    "url": "https://www.christies.com/lot/lot-5710338"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-5710338",
+  "wikidata": {
+   "amount": 6000.0,
+   "date": "2013-09-12",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q140616120",
+   "refs": [
+    "https://www.christies.com/lot/lot-5710338"
+   ],
+   "statement_id": "Q140616120$6b7667c6-4e42-4715-8f1e-efa5b6db7cad"
+  }
+ },
+ "boeckhorst-phoebus-apollo": {
+  "amount": 93750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "sun chariot old master paintings 5 july 2017, 14:00 bst london, new bond street sold for £93,750 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/24055/lot/48/jan-boeckhorst-munster-1605-1668-antwerp-apollo-on-his-sun-chariot/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/24055/lot/48/jan-boeckhorst-munster-1605-1668-antwerp-apollo-on-his-sun-chariot/",
+  "wikidata": {
+   "amount": 93750.0,
+   "date": "2017-07-05",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q105488889",
+   "refs": [
+    "https://www.bonhams.com/auction/24055/lot/48/jan-boeckhorst-munster-1605-1668-antwerp-apollo-on-his-sun-chariot/"
+   ],
+   "statement_id": "Q105488889$8ee07a03-45a5-cc67-9fb4-b2072fce15d5"
+  }
+ },
+ "boel-a-swan-rabbit-and-other-game": {
+  "amount": 149000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 149,000",
+    "url": "https://www.christies.com/en/lot/lot-5765873"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5765873",
+  "wikidata": {
+   "amount": 149000.0,
+   "date": "2014-01-29",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q132745329",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-5765873"
+   ],
+   "statement_id": "Q132745329$1a99466d-4415-e9ec-1939-2409111c714f"
+  }
+ },
+ "boonen-a-lady-feeding-a-parrot-at-a-window": {
+  "amount": 23750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 23,750",
+    "url": "https://www.christies.com/en/lot/lot-5159345"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5159345",
+  "wikidata": {
+   "amount": 23750.0,
+   "date": "2008-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q140736565",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-5159345"
+   ],
+   "statement_id": "Q140736565$c031da4d-44ad-2843-2941-803802a6e7cd"
+  }
+ },
  "bosschaert-flowers-wanli-vase": {
   "amount": 1571250.0,
   "currency": "GBP",
@@ -52,6 +413,36 @@
    ],
    "statement_id": "Q125410315$08F1281E-5F1C-4085-8B1A-E329D7763D15"
   }
+ },
+ "both-italianate-evening-landscape": {
+  "amount": 1433750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 1,433,750",
+    "url": "https://www.christies.com/en/lot/lot-1849280"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1849280",
+  "wikidata": null
+ },
+ "botticelli-madonna-magnificat": {
+  "amount": 48480000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 48,480,000",
+    "url": "https://www.christies.com/en/lot/lot-6397116"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6397116",
+  "wikidata": null
  },
  "botticelli-young-man-roundel": {
   "amount": 92200000.0,
@@ -78,6 +469,31 @@
    "statement_id": "Q99569815$f836f998-49c4-e0c2-6c96-d88f858160ea"
   }
  },
+ "bouguereau-study-for-the-cup-of-milk": {
+  "amount": 240000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 240,000",
+    "url": "https://www.christies.com/en/lot/lot-4800794"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-4800794",
+  "wikidata": {
+   "amount": 240000.0,
+   "date": "2006-10-25",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q132173749",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-4800794"
+   ],
+   "statement_id": "Q132173749$214498b0-4e22-ee5f-9a76-992c61522d6d"
+  }
+ },
  "bouguereau-the-bohemian": {
   "amount": 735500.0,
   "currency": "USD",
@@ -100,6 +516,81 @@
     "http://www.christies.com/Lotfinder/lot_details.aspx?intObjectID=4264007"
    ],
    "statement_id": "Q1000128$b34ad4e8-401a-06f6-2e8c-cecfb30805f0"
+  }
+ },
+ "bredael-the-ommegang-in-antwerp-on-the-meir": {
+  "amount": 37500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised EUR 37,500",
+    "url": "https://www.christies.com/lot/lot-5910164/?intObjectID=5910164"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-5910164/?intObjectID=5910164",
+  "wikidata": {
+   "amount": 37500.0,
+   "date": "2015-06-24",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q124630504",
+   "refs": [
+    "https://www.christies.com/lot/lot-5910164/?intObjectID=5910164"
+   ],
+   "statement_id": "Q124630504$728eb86f-45e6-53d9-03cf-aca37e156171"
+  }
+ },
+ "brueghel-the-fight-between-carnival-and-lent": {
+  "amount": 6873250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 6,873,250",
+    "url": "http://www.christies.com/LotFinder/lot_details.aspx?intObjectID=5520523"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.christies.com/LotFinder/lot_details.aspx?intObjectID=5520523",
+  "wikidata": {
+   "amount": 6873250.0,
+   "date": "2011-12-06",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q114737304",
+   "refs": [
+    "http://www.christies.com/LotFinder/lot_details.aspx?intObjectID=5520523"
+   ],
+   "statement_id": "Q114737304$fc309b81-439f-5765-0b39-f2ff5cfff2aa"
+  }
+ },
+ "brueghel-the-payment-of-the-tithes": {
+  "amount": 431250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 431,250",
+    "url": "https://www.christies.com/en/lot/lot-6238426"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238426",
+  "wikidata": {
+   "amount": 431250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q130417883",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238426"
+   ],
+   "statement_id": "Q130417883$40AF402B-B9DF-40A5-BF48-EEA21D7E4F82"
   }
  },
  "caillebotte-young-man-window": {
@@ -126,6 +617,21 @@
    "statement_id": "Q8058274$fc36d80a-46ac-ec4f-1146-b81d41c2b375"
   }
  },
+ "cameron-sappho-1865": {
+  "amount": 40000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "1 42 43 39 julia margaret cameron sappho (mary hillier) estimate $50,000–70,000 sold for $40,000 favorite lot details 1865 albumen print. 13 x 10 1/8 in. (3",
+    "url": "https://www.phillips.com/detail/julia-margaret-cameron/NY040017/39"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/julia-margaret-cameron/NY040017/39",
+  "wikidata": null
+ },
  "canaletto-grand-canal-rialto": {
   "amount": 18604000.0,
   "currency": "GBP",
@@ -149,6 +655,146 @@
    ],
    "statement_id": "Q19660552$a3ac4aeb-4fb2-3150-fd10-596874af9b22"
   }
+ },
+ "canaletto-portico-with-lantern": {
+  "amount": 6000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 6,000",
+    "url": "https://www.christies.com/en/lot/lot-5775556"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5775556",
+  "wikidata": null
+ },
+ "canaletto-the-grand-canal-venice-looking-nor": {
+  "amount": 3849250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 3,849,250",
+    "url": "http://www.christies.com/lotfinder/Lot/giovanni-antonio-canal-il-canaletto-venice-1697-1768-5155203-details.aspx"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.christies.com/lotfinder/Lot/giovanni-antonio-canal-il-canaletto-venice-1697-1768-5155203-details.aspx",
+  "wikidata": {
+   "amount": 3849250.0,
+   "date": "2008-12-02",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q41490848",
+   "refs": [
+    "http://www.christies.com/lotfinder/Lot/giovanni-antonio-canal-il-canaletto-venice-1697-1768-5155203-details.aspx"
+   ],
+   "statement_id": "Q41490848$A0AAB5F1-9093-48D4-9E52-9DA99725A961"
+  }
+ },
+ "canaletto-venice-the-bacino-di-san-marco-on": {
+  "amount": 11432000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 11,432,000",
+    "url": "http://www.christies.com/lotfinder/Lot/giovanni-antonio-canal-il-canaletto-venice-1697-1768-4531854-details.aspx"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.christies.com/lotfinder/Lot/giovanni-antonio-canal-il-canaletto-venice-1697-1768-4531854-details.aspx",
+  "wikidata": {
+   "amount": 11432000.0,
+   "date": "2005-07-07",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q19660548",
+   "refs": [
+    "http://www.christies.com/lotfinder/Lot/giovanni-antonio-canal-il-canaletto-venice-1697-1768-4531854-details.aspx"
+   ],
+   "statement_id": "Q19660548$401c3da4-47e4-d8fd-e78a-96abc2a5e66c"
+  }
+ },
+ "cappiello-chocolat-klaus-1903": {
+  "amount": 2160.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 2,160",
+    "url": "https://www.christies.com/en/lot/lot-4592845"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-4592845",
+  "wikidata": null
+ },
+ "carroll-margaret-langton-clarke-1864": {
+  "amount": 5625.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rles lutwidge dodgson) margaret frances langton clarke estimate £5,000–7,000 ‡︎ sold for £5,625 favorite lot details 1864 albumen print. 13.4 x 11.8 cm (5 ",
+    "url": "https://www.phillips.com/detail/lewis-carroll/UK040314/8"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/lewis-carroll/UK040314/8",
+  "wikidata": null
+ },
+ "cassatt-in-the-omnibus": {
+  "amount": 167500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 167,500",
+    "url": "https://www.christies.com/en/lot/lot-1072233"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1072233",
+  "wikidata": null
+ },
+ "cassatt-the-bath": {
+  "amount": 63000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 63,000",
+    "url": "https://www.christies.com/en/lot/lot-929330"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-929330",
+  "wikidata": null
+ },
+ "cassatt-woman-bathing": {
+  "amount": 321500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 321,500",
+    "url": "https://www.christies.com/en/lot/lot-1072232"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1072232",
+  "wikidata": null
  },
  "cezanne-montagne-sainte-victoire": {
   "amount": 137790000.0,
@@ -179,6 +825,31 @@
    "statement_id": "Q64262379$3aa0b4df-4899-382f-00d5-3272a790472f"
   }
  },
+ "cezanne-the-red-roofs-of-l-estaque": {
+  "amount": 55320000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 55,320,000",
+    "url": "https://www.christies.com/lot/lot-6341126?ldp_breadcrumb=back&intObjectID=6341126&from=salessummary&lid=1"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6341126?ldp_breadcrumb=back&intObjectID=6341126&from=salessummary&lid=1",
+  "wikidata": {
+   "amount": 55320000.0,
+   "date": "2021-11-11",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q64307895",
+   "refs": [
+    "https://www.christies.com/lot/lot-6341126?ldp_breadcrumb=back&intObjectID=6341126&from=salessummary&lid=1"
+   ],
+   "statement_id": "Q64307895$60713e33-4362-907a-98d3-968386a25939"
+  }
+ },
  "chardin-basket-wild-strawberries": {
   "amount": 24300000.0,
   "currency": "EUR",
@@ -203,6 +874,21 @@
    ],
    "statement_id": "Q111578201$032bda41-465e-7c68-297d-151600616079"
   }
+ },
+ "cheret-librairie-sagot-1891": {
+  "amount": 2250.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": ", affiches-estampes prints & multiples 23 october 2012, 10:00 pdt los angeles sold for us$2,250 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auctions/20059/lot/62/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auctions/20059/lot/62/",
+  "wikidata": null
  },
  "coorte-wild-strawberries": {
   "amount": 2440000.0,
@@ -250,6 +936,56 @@
     "https://www.karlundfaber.de/de/auktionen/238/moderne-zeitgenoessische-kunst/2380415/"
    ],
    "statement_id": "Q123533028$81d85018-4ca3-e577-f028-ab38cbdfb869"
+  }
+ },
+ "corinth-landscape-under-radiant-sun": {
+  "amount": 2400.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "2009, 00:00 - moderne kunst künstler lovis corinth lot 847 schätzpreis: 2.000 € ergebnis: 2.400 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/950-1/847-lovis-corinth-1.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/950-1/847-lovis-corinth-1.html",
+  "wikidata": {
+   "amount": 2400.0,
+   "date": "2009-12-05",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q135212895",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/950-1/847-lovis-corinth-1.html"
+   ],
+   "statement_id": "Q135212895$42B21EB8-12CC-4E1A-BC12-3CD63AC260C5"
+  }
+ },
+ "corinth-self-portrait-as-a-nuremberg-landskn": {
+  "amount": 107100.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "össische kunst künstler lovis corinth lot 28 schätzpreis: 100.000 € - 120.000 € ergebnis: 107.100 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1200-1/28-lovis-corinth.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1200-1/28-lovis-corinth.html",
+  "wikidata": {
+   "amount": 107100.0,
+   "date": "2022-06-01",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q111797518",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1200-1/28-lovis-corinth.html"
+   ],
+   "statement_id": "Q111797518$EBF5DEB4-2C31-4744-A25D-354864C3AC57"
   }
  },
  "corinth-skating-rink-tiergarten": {
@@ -302,6 +1038,56 @@
    "statement_id": "Q122697683$B58BF70D-6509-4439-B63C-6D81D4BCC807"
   }
  },
+ "corinth-wilhelmine-with-the-cat-mizelonde": {
+  "amount": 31250.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "er wilhelmine mit katze mizelonde , 1912. öl auf leinwand schätzung: € 30.000 ergebnis: € 31.250 (inklusive aufgeld) 437 lovis corinth tochter wilhelmine mi",
+    "url": "https://www.kettererkunst.de/result.php?obnr=122001748&anummer=533&detail=1&detailnavi=1&limit_von_details=58&objsei=1&shw=1&anr=533"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.kettererkunst.de/result.php?obnr=122001748&anummer=533&detail=1&detailnavi=1&limit_von_details=58&objsei=1&shw=1&anr=533",
+  "wikidata": {
+   "amount": 31250.0,
+   "date": "2022-12-10",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q111797561",
+   "refs": [
+    "https://www.kettererkunst.de/result.php?obnr=122001748&anummer=533&detail=1&detailnavi=1&limit_von_details=58&objsei=1&shw=1&anr=533"
+   ],
+   "statement_id": "Q111797561$d658a716-4d07-6961-f611-31b14c3e48c6"
+  }
+ },
+ "couvelet-rustic-scene-at-belval": {
+  "amount": 3600.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "issaire-priseur à charleville de 1928 à 1966 estimations : 800,00 € - 1 200,00 € adjugé : 3 600,00 € médias crédits cgv mentions légales & cgu contact gére",
+    "url": "https://www.ardennes-encheres.fr/vente/belle-vente-de-printemps/lot/lots-ndeg327-3"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.ardennes-encheres.fr/vente/belle-vente-de-printemps/lot/lots-ndeg327-3",
+  "wikidata": {
+   "amount": 3600.0,
+   "date": "2021-00-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q131627474",
+   "refs": [
+    "https://www.ardennes-encheres.fr/vente/belle-vente-de-printemps/lot/lots-ndeg327-3"
+   ],
+   "statement_id": "Q131627474$6e2b5d82-48c5-66ea-f0e6-fc99e0364a79"
+  }
+ },
  "cranach-reclining-water-nymph": {
   "amount": 9449500.0,
   "currency": "GBP",
@@ -324,6 +1110,197 @@
     "https://www.christies.com/en/lot/lot-6381771"
    ],
    "statement_id": "Q113332014$c36f4509-4d3e-59cf-aee1-e459dee2e638"
+  }
+ },
+ "cranach-the-virgin-and-child-with-the-infant": {
+  "amount": 791250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 791,250",
+    "url": "https://www.christies.com/en/lot/lot-6238417"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238417",
+  "wikidata": {
+   "amount": 791250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q116966369",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238417"
+   ],
+   "statement_id": "Q116966369$70488E94-E849-4B6A-9F46-B1F648167707"
+  }
+ },
+ "dahl-frogner-manor": {
+  "amount": 3300000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "mling i dresden til 1945. vurdering auksjonert mandag 27. april 1998 kl 18:00 tilslag nok 3 300 000 solgt for nok 3 300 000 man må regne med at dahl fikk full ",
+    "url": "https://gwpa.no/nb/lots/11692"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/11692",
+  "wikidata": {
+   "amount": 3300000.0,
+   "date": "1998-04-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q6854974",
+   "refs": [
+    "https://gwpa.no/nb/lots/11692"
+   ],
+   "statement_id": "Q6854974$e92376f3-4eaa-6475-fd49-2cc87e18f15d"
+  }
+ },
+ "de-keyser-gentleman-fancy-ruff": {
+  "amount": 1482500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 1,482,500",
+    "url": "https://www.christies.com/en/lot/lot-5529462"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5529462",
+  "wikidata": null
+ },
+ "de-la-tour-a-girl-blowing-on-a-brazier": {
+  "amount": 4340000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " collection artists georges de la tour lot 11 estimate: 3.000.000 € - 4.000.000 € result: 4.340.000 € (incl. premium) bid closes in: day , days , h m s auction",
+    "url": "https://www.lempertz.com/en/catalogues/lot/1168-1/11-georges-de-la-tour.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/en/catalogues/lot/1168-1/11-georges-de-la-tour.html",
+  "wikidata": {
+   "amount": 4340000.0,
+   "date": null,
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q104411621",
+   "refs": [
+    "https://www.lempertz.com/en/catalogues/lot/1168-1/11-georges-de-la-tour.html"
+   ],
+   "statement_id": "Q104411621$2393c74b-4923-70b1-e0b1-10163b60951e"
+  }
+ },
+ "de-laszlo-portrait-of-lorna-woodroffe": {
+  "amount": 97500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "77 178 179 180 181-bis 181 estimation : 25000 - 30000 eur résultats avec frais résultat : 97 500eur philip alexius de laszló (1869-1937) - lot 29 philip ale",
+    "url": "https://www.daguerre.fr/lot/110383/13748908-philip-alexius-de-laszlo-1869-1937-portrait-of-lorna-marsali"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.daguerre.fr/lot/110383/13748908-philip-alexius-de-laszlo-1869-1937-portrait-of-lorna-marsali",
+  "wikidata": {
+   "amount": 97500.0,
+   "date": "2020-11-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q130404417",
+   "refs": [
+    "wd:Q115283645",
+    "https://www.daguerre.fr/lot/110383/13748908-philip-alexius-de-laszlo-1869-1937-portrait-of-lorna-marsali"
+   ],
+   "statement_id": "Q130404417$8b6805ec-4be6-b3b1-f022-6f7bc54c994e"
+  }
+ },
+ "de-witte-interior-of-a-catholic-church": {
+  "amount": 657250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 657,250",
+    "url": "http://www.christies.com/lotfinder/Lot/emanuel-de-witte-alkmaar-c-1617-16912-amsterdam-5584793-details.aspx"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.christies.com/lotfinder/Lot/emanuel-de-witte-alkmaar-c-1617-16912-amsterdam-5584793-details.aspx",
+  "wikidata": {
+   "amount": 657250.0,
+   "date": "2012-07-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q46389238",
+   "refs": [
+    "http://www.christies.com/lotfinder/Lot/emanuel-de-witte-alkmaar-c-1617-16912-amsterdam-5584793-details.aspx"
+   ],
+   "statement_id": "Q46389238$da629709-4206-391e-e5e4-bbee900af924"
+  }
+ },
+ "derain-harlequin-holding-a-guitar": {
+  "amount": 125000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "nössische kunst künstler andré derain lot 20 schätzpreis: 140.000 € - 160.000 € ergebnis: 125.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1187-1/20-andre-derain.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1187-1/20-andre-derain.html",
+  "wikidata": {
+   "amount": 125000.0,
+   "date": "2021-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134007444",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1187-1/20-andre-derain.html"
+   ],
+   "statement_id": "Q134007444$91D70FEC-2ECA-410A-9AE0-AD3BB24F442F"
+  }
+ },
+ "dixon-a-one-design-class-crossing-the-starti": {
+  "amount": 17500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 17,500",
+    "url": "https://www.christies.com/lot/lot-5564595"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-5564595",
+  "wikidata": {
+   "amount": 17500.0,
+   "date": "2012-05-23",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q123945289",
+   "refs": [
+    "https://www.christies.com/lot/lot-5564595"
+   ],
+   "statement_id": "Q123945289$f944aabe-4fdb-81cc-151b-0641f00044c2"
   }
  },
  "drouais-madame-de-pompadour-muff": {
@@ -371,6 +1348,92 @@
   "verified_by": "https://web.archive.org/web/2024/https://www.antiquestradegazette.com/news/2004/met-pay-45m-for-duccio-s-stroganoff-madonna",
   "wikidata": null
  },
+ "dufy-the-garden-in-munich": {
+  "amount": 125000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "st - evening sale künstler raoul dufy lot 63 schätzpreis: 100.000 € - 130.000 € ergebnis: 125.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/63-raoul-dufy.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/63-raoul-dufy.html",
+  "wikidata": {
+   "amount": 125000.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138859010",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/63-raoul-dufy.html"
+   ],
+   "statement_id": "Q138859010$B0205828-9203-40BD-9C28-8D3A65667065"
+  }
+ },
+ "dujardin-saint-paul-healing-the-cripple-at-l": {
+  "amount": 442500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 442,500",
+    "url": "https://www.christies.com/en/lot/lot-207556"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-207556",
+  "wikidata": {
+   "amount": 442500.0,
+   "date": "1997-01-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q17341387",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-207556"
+   ],
+   "statement_id": "Q17341387$885464d6-4a7a-a13f-318d-22544f1e8067"
+  }
+ },
+ "durer-adam-and-eve": {
+  "amount": 409250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 409,250",
+    "url": "https://www.christies.com/en/lot/lot-5460539"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5460539",
+  "wikidata": null
+ },
+ "durer-knight-death-devil": {
+  "amount": 33390.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": ", director of rare book auctions, said: “the dürer sold for a premium-inclusive total of £33,390 (£26,500 hammer). it was purchased by a private collector i",
+    "url": "https://antique-collecting.co.uk/2024/09/23/albrecht-durer-print-from-rubbish-dump-sells-for-thousands/"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": " dürer print rescued from dump by child sells for £33,390 at auction – art law & more skip to content art law & more ",
+    "url": "https://artlawandmore.com/2024/10/03/durer-print-rescued-from-dump-by-child-sells-for-33390-at-auction/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://antique-collecting.co.uk/2024/09/23/albrecht-durer-print-from-rubbish-dump-sells-for-thousands/",
+  "wikidata": null
+ },
  "durer-melencolia-i": {
   "amount": 110000.0,
   "currency": "USD",
@@ -406,6 +1469,181 @@
   "verified_by": "https://galeriemagazine.com/albrecht-durer-print-auction/",
   "wikidata": null
  },
+ "durer-saint-jerome-in-his-study": {
+  "amount": 17500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 17,500",
+    "url": "https://www.christies.com/en/lot/lot-5460550"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5460550",
+  "wikidata": null
+ },
+ "eckersberg-self-portrait": {
+  "amount": 25000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rait british and european art 13 november 2018, 13:00 gmt london, knightsbridge sold for £25,000 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auctions/24639/lot/148/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auctions/24639/lot/148/",
+  "wikidata": {
+   "amount": 25000.0,
+   "date": "2018-11-13",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q59654845",
+   "refs": [
+    "https://www.bonhams.com/auctions/24639/lot/148/"
+   ],
+   "statement_id": "Q59654845$35a214a0-4c51-deee-aefd-8ec7915d2f1a"
+  }
+ },
+ "eisen-kutsukake-rain": {
+  "amount": 4450.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ection of the late bertram and ruth malenka 20 march 2019, 10:00 edt new york sold for us$4,450 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/25644/lot/36/keisai-eisen-1790-1848-edo-period-1615-1868-circa-1835-1838"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/25644/lot/36/keisai-eisen-1790-1848-edo-period-1615-1868-circa-1835-1838",
+  "wikidata": null
+ },
+ "eisen-shiojiri-lake-suwa": {
+  "amount": 1150.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 1,150",
+    "url": "https://www.christies.com/en/lot/lot-192071"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-192071",
+  "wikidata": null
+ },
+ "el-greco-the-entombment-of-christ": {
+  "amount": 6101000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 6,101,000",
+    "url": "https://www.christies.com/lot/lot-5986934"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-5986934",
+  "wikidata": {
+   "amount": 6101000.0,
+   "date": "2016-04-14",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q102111366",
+   "refs": [
+    "https://www.christies.com/lot/lot-5986934"
+   ],
+   "statement_id": "Q102111366$1b476c8d-4513-d2d0-0ddc-d23123423927"
+  }
+ },
+ "ensor-vengeance-of-hop-frog": {
+  "amount": 5000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 5,000",
+    "url": "https://www.christies.com/en/lot/lot-6192045"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6192045",
+  "wikidata": null
+ },
+ "fearnley-procida-and-ischia-with-mount-epome": {
+  "amount": 110000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "3. vurdering nok 80 000–100 000 auksjonert torsdag 21. november 2002 kl 19:00 tilslag nok 110 000 kontakt oss grev wedels plass auksjoner as bankplassen 1a 0",
+    "url": "https://gwpa.no/nb/lots/3123"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/3123",
+  "wikidata": {
+   "amount": 110000.0,
+   "date": "2002-11-21",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q118358924",
+   "refs": [
+    "https://gwpa.no/nb/lots/3123"
+   ],
+   "statement_id": "Q118358924$42954b59-402f-6751-0629-1fea721460e2"
+  }
+ },
+ "fenton-valley-of-the-shadow-of-death-1855": {
+  "amount": 12650.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 12,650",
+    "url": "https://www.christies.com/en/lot/lot-1591354"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1591354",
+  "wikidata": null
+ },
+ "filla-woman-reading": {
+  "amount": 32400000.0,
+  "currency": "CZK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "áno odhad : 15 000 000 kč – 20 000 000 kč vyvolávací cena : 11 500 000 kč dosažená cena : 32 400 000 kč aukce : aukční den 94 / katalogové č. 62 zobrazit na art",
+    "url": "https://www.galeriekodl.cz/cs/polozka/6073-ctenarka-emil-filla/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.galeriekodl.cz/cs/polozka/6073-ctenarka-emil-filla/",
+  "wikidata": {
+   "amount": 32400000.0,
+   "date": "2025-11-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q140004429",
+   "refs": [
+    "https://www.galeriekodl.cz/cs/polozka/6073-ctenarka-emil-filla/"
+   ],
+   "statement_id": "Q140004429$3D5D0B06-0537-4797-B63F-CB69BE0C0943"
+  }
+ },
  "fragonard-interesting-student": {
   "amount": 1032500.0,
   "currency": "EUR",
@@ -430,6 +1668,137 @@
    "statement_id": "Q78155713$cbd8e3e8-4a3f-a9f7-2d9b-c654fa37cb02"
   }
  },
+ "francken-death-and-the-miser": {
+  "amount": 157500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 157,500",
+    "url": "https://www.christies.com/en/lot/lot-6411282"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6411282",
+  "wikidata": {
+   "amount": 157500.0,
+   "date": "2023-01-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q121687169",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6411282"
+   ],
+   "statement_id": "Q121687169$C64ABF75-458D-4A4E-BE39-445EBCE57573"
+  }
+ },
+ "fris-still-life-with-a-roemer-clay-pipe-and": {
+  "amount": 56250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 56,250",
+    "url": "https://www.christies.com/en/lot/lot-6217005"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6217005",
+  "wikidata": {
+   "amount": 56250.0,
+   "date": "2019-07-05",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q113237727",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6217005"
+   ],
+   "statement_id": "Q113237727$c9223d6b-4eef-148c-dec8-512b43ca075f"
+  }
+ },
+ "gao-jianfu-autumn-pleasures": {
+  "amount": 560000.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 560,000",
+    "url": "https://www.christies.com/en/lot/lot-5322974"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5322974",
+  "wikidata": null
+ },
+ "gao-jianfu-moonlight": {
+  "amount": 187500.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 187,500",
+    "url": "https://www.christies.com/en/lot/lot-6294347"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6294347",
+  "wikidata": null
+ },
+ "gao-jianfu-pine-cones": {
+  "amount": 118750.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 118,750",
+    "url": "https://www.christies.com/en/lot/lot-6319702"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6319702",
+  "wikidata": null
+ },
+ "gauguin-dramas-of-the-sea-brittany": {
+  "amount": 4375.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 4,375",
+    "url": "https://www.christies.com/en/lot/lot-5775570"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5775570",
+  "wikidata": null
+ },
+ "gauguin-maternite-ii": {
+  "amount": 105730000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 105,730,000",
+    "url": "https://www.christies.com/en/lot/lot-6397102"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ge courtesy of christie's span]:underline\"> paul gauguin 's maternité ii (1899) sold for $105.7m at christie's in new york on november 9, 2022. the sale bea",
+    "url": "https://heni.com/news/article/paul-gauguin-maternite-ii-2022-11-09"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6397102",
+  "wikidata": null
+ },
  "gauguin-nafea-faa-ipoipo": {
   "amount": 210000000.0,
   "currency": "USD",
@@ -453,6 +1822,71 @@
     "https://www.nytimes.com/2017/07/03/arts/design/lawsuit-reveals-gauguin-painting-was-not-worlds-most-expensive.html"
    ],
    "statement_id": "Q3869871$d4812b3d-4280-9ee7-f54b-da4f58783048"
+  }
+ },
+ "gauguin-nave-nave-fenua": {
+  "amount": 68750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 68,750",
+    "url": "https://www.christies.com/en/lot/lot-6192054"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6192054",
+  "wikidata": null
+ },
+ "gauguin-te-fare": {
+  "amount": 20325000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 20,325,000",
+    "url": "https://www.christies.com/lot/lot-paul-gauguin-te-fare-6059256/?from=salesummary&intObjectID=6059256&lid=1"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-paul-gauguin-te-fare-6059256/?from=salesummary&intObjectID=6059256&lid=1",
+  "wikidata": {
+   "amount": 20325000.0,
+   "date": "2017-02-28",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q106823788",
+   "refs": [
+    "https://www.christies.com/lot/lot-paul-gauguin-te-fare-6059256/?from=salesummary&intObjectID=6059256&lid=1"
+   ],
+   "statement_id": "Q106823788$3bf3737e-453c-1f92-fd1c-4bd537239a37"
+  }
+ },
+ "gaulli-pope-clement-x": {
+  "amount": 75000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 75,000",
+    "url": "https://www.christies.com/lot/lot-6104625"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6104625",
+  "wikidata": {
+   "amount": 75000.0,
+   "date": "2017-10-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q78611598",
+   "refs": [
+    "https://www.christies.com/lot/lot-6104625"
+   ],
+   "statement_id": "Q78611598$3c6b1f01-436f-bd42-8825-c909e7a67cd8"
   }
  },
  "gentileschi-danae": {
@@ -503,6 +1937,101 @@
    "statement_id": "Q134998961$0D090C4F-1C90-431A-9C8F-6229BD3FAEC5"
   }
  },
+ "giovanni-di-paolo-the-investiture-of-saint-c": {
+  "amount": 3611250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 3,611,250",
+    "url": "https://www.christies.com/en/lot/lot-6238412"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238412",
+  "wikidata": {
+   "amount": 3611250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134999827",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238412"
+   ],
+   "statement_id": "Q134999827$1C5ABB15-9D46-413D-857B-768AE3EBD712"
+  }
+ },
+ "goltzius-fall-of-man": {
+  "amount": 1542500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 1,542,500",
+    "url": "https://www.christies.com/en/lot/lot-1074561"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1074561",
+  "wikidata": null
+ },
+ "gower-sir-edward-monins-of-waldershare": {
+  "amount": 1100000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " bonhams : rare gower painting achieves £1.1 million during bonhams classics week in london we use cookies to re",
+    "url": "https://www.bonhams.com/press_release/40279/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/press_release/40279/",
+  "wikidata": {
+   "amount": 1100000.0,
+   "date": "2025-07-02",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q136222846",
+   "refs": [
+    "https://www.bonhams.com/press_release/40279/"
+   ],
+   "statement_id": "Q136222846$51505b41-4fb3-643f-7316-18c0e14d6b65"
+  }
+ },
+ "goya-caprichos-que-se-la-llevaron": {
+  "amount": 1785.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "hos' amended prints and multiples 18 june 2020, 13:00 bst london, knightsbridge sold for £1,785 inc. premium follow share own a similar item? submit your i",
+    "url": "https://bonhams.com/auction/26024/lot/23/francisco-jose-de-goya-y-lucientes-spanish-1746-1828-que-se-la-llevaron-from-los-caprichos-etching-with-aquatint-1799-on-laid-paper-a-very-good-impression-from-the-first-edition-printed-by-the-artist-madrid-the-full-sheet-215-x-150mm-8-12-x-5-78inpl-320-x-216mm-12-58-x-8-12inshunframed"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://bonhams.com/auction/26024/lot/23/francisco-jose-de-goya-y-lucientes-spanish-1746-1828-que-se-la-llevaron-from-los-caprichos-etching-with-aquatint-1799-on-laid-paper-a-very-good-impression-from-the-first-edition-printed-by-the-artist-madrid-the-full-sheet-215-x-150mm-8-12-x-5-78inpl-320-x-216mm-12-58-x-8-12inshunframed",
+  "wikidata": null
+ },
+ "goya-caprichos-self-portrait": {
+  "amount": 3562.5,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "os caprichos prints & multiples 13 june 2019, 14:00 bst london, new bond street sold for £3,562.50 inc. premium follow share own a similar item? submit your i",
+    "url": "https://bonhams.com/auction/25438/lot/22/francisco-jose-de-goya-y-lucientes-spanish-1746-1828-self-portrait-from-los-caprichos-etching-with-aquatint-1799-on-laid-paper-a-very-good-impression-from-the-first-edition-printed-by-the-artist-madrid-the-full-sheet-in-good-conditionplate-215-x-150mm-8-12-x-5-78in-sheet-320-x-216mm-12-58-x-8-12in-unframed"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://bonhams.com/auction/25438/lot/22/francisco-jose-de-goya-y-lucientes-spanish-1746-1828-self-portrait-from-los-caprichos-etching-with-aquatint-1799-on-laid-paper-a-very-good-impression-from-the-first-edition-printed-by-the-artist-madrid-the-full-sheet-in-good-conditionplate-215-x-150mm-8-12-x-5-78in-sheet-320-x-216mm-12-58-x-8-12in-unframed",
+  "wikidata": null
+ },
  "goya-duke-of-wellington": {
   "amount": 140000.0,
   "currency": "GBP",
@@ -525,6 +2054,156 @@
     "https://www.nationalgallery.org.uk/paintings/francisco-de-goya-the-duke-of-wellington"
    ],
    "statement_id": "Q7232352$23889aaa-4672-024f-9e8e-9092e00e2380"
+  }
+ },
+ "gris-grapes-carafe-and-book": {
+  "amount": 425000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "nst - evening sale künstler juan gris lot 61 schätzpreis: 300.000 € - 350.000 € ergebnis: 425.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/61-juan-gris.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/61-juan-gris.html",
+  "wikidata": {
+   "amount": 425000.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138857140",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/61-juan-gris.html"
+   ],
+   "statement_id": "Q138857140$AC699F00-C48C-43AA-B753-7F1B5F82AD31"
+  }
+ },
+ "gude-portrait-of-betsy-gude": {
+  "amount": 72000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "57. vurdering nok 50 000–70 000 auksjonert tirsdag 28. november 2006 kl 19:00 tilslag nok 72 000 kontakt oss grev wedels plass auksjoner as bankplassen 1a 0",
+    "url": "https://gwpa.no/nb/lots/6487"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/6487",
+  "wikidata": {
+   "amount": 72000.0,
+   "date": "2006-11-28",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q116276706",
+   "refs": [
+    "https://gwpa.no/nb/lots/6487"
+   ],
+   "statement_id": "Q116276706$aa8a20d6-40df-1f3c-645a-f96230978f7d"
+  }
+ },
+ "hals-portrait-of-a-man-black-hat": {
+  "amount": 2201500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 2,201,500",
+    "url": "https://www.christies.com/en/lot/lot-1480065"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1480065",
+  "wikidata": null
+ },
+ "han-gan-horse": {
+  "amount": 17047500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 17,047,500",
+    "url": "https://www.christies.com/en/lot/lot-6061277"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6061277",
+  "wikidata": null
+ },
+ "harunobu-burning-maple-leaves-sake": {
+  "amount": 4788.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 4,788",
+    "url": "https://www.christies.com/en/lot/lot-6389252"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6389252",
+  "wikidata": null
+ },
+ "harunobu-lion-dance": {
+  "amount": 6900.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 6,900",
+    "url": "https://www.christies.com/en/lot/lot-1367071"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1367071",
+  "wikidata": null
+ },
+ "harunobu-toi-no-tamagawa": {
+  "amount": 8125.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 8,125",
+    "url": "https://www.christies.com/en/lot/lot-6335467"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335467",
+  "wikidata": null
+ },
+ "hayez-the-kiss": {
+  "amount": 1865000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 1,865,000",
+    "url": "https://www.christies.com/lot/lot-5989850"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-5989850",
+  "wikidata": {
+   "amount": 1865000.0,
+   "date": "2016-04-25",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q131613703",
+   "refs": [
+    "https://www.christies.com/lot/lot-5989850"
+   ],
+   "statement_id": "Q131613703$ae3f9227-4bbc-f567-db89-187ba3825ca0"
   }
  },
  "heda-still-life-fruit-pie": {
@@ -551,6 +2230,236 @@
    "statement_id": "Q113332473$f9d48ed7-46ca-4e03-73b5-d42014ba2f11"
   }
  },
+ "hemessen-vanitas-as-we-are-born-we-die": {
+  "amount": 655200.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 655,200",
+    "url": "https://www.christies.com/lot/lot-6411000"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6411000",
+  "wikidata": {
+   "amount": 655200.0,
+   "date": "2023-01-25",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q131845890",
+   "refs": [
+    "https://www.christies.com/lot/lot-6411000"
+   ],
+   "statement_id": "Q131845890$91b71ec5-45b4-2a47-df01-287bea3afd3c"
+  }
+ },
+ "heyerdahl-the-girl-with-linen-hair": {
+  "amount": 155000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "trand\". vurdering nok 200 000–300 000 auksjonert mandag 31. mai 2010 kl 20:00 tilslag nok 155 000 kontakt oss grev wedels plass auksjoner as bankplassen 1a 0",
+    "url": "https://gwpa.no/nb/lots/7937"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/7937",
+  "wikidata": {
+   "amount": 155000.0,
+   "date": "2010-05-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q112262594",
+   "refs": [
+    "https://gwpa.no/nb/lots/7937"
+   ],
+   "statement_id": "Q112262594$32fadb59-4d1d-5dd6-35de-a4732a9ac49d"
+  }
+ },
+ "hine-sadie-pfeifer-1908": {
+  "amount": 75000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "sadie, a cotton mill spinner, lancaster, south carolina estimate $60,000–80,000 sold for $75,000 favorite lot details 1908 gelatin silver print, printed 192",
+    "url": "https://www.phillips.com/detail/lewis-hine/79493"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/lewis-hine/79493",
+  "wikidata": null
+ },
+ "hiroshige-kanbara-night-snow": {
+  "amount": 4410.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 4,410",
+    "url": "https://www.christies.com/en/lot/lot-6417539"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6417539",
+  "wikidata": null
+ },
+ "hiroshige-kinryuzan-asakusa": {
+  "amount": 2990.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 2,990",
+    "url": "https://www.christies.com/en/lot/lot-343277"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-343277",
+  "wikidata": null
+ },
+ "hiroshige-naruto-whirlpools": {
+  "amount": 5750.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 5,750",
+    "url": "https://www.christies.com/en/lot/lot-168206"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-168206",
+  "wikidata": null
+ },
+ "hiroshige-plum-estate-kameido": {
+  "amount": 75000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 75,000",
+    "url": "https://www.christies.com/en/lot/lot-6277260"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6277260",
+  "wikidata": null
+ },
+ "hiroshige-sudden-shower-shin-ohashi": {
+  "amount": 325000.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 325,000",
+    "url": "https://www.christies.com/en/lot/lot-6181656"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6181656",
+  "wikidata": null
+ },
+ "hokusai-amida-falls": {
+  "amount": 118750.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 118,750",
+    "url": "https://www.christies.com/en/lot/lot-6335527"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335527",
+  "wikidata": null
+ },
+ "hokusai-ejiri": {
+  "amount": 68750.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 68,750",
+    "url": "https://www.christies.com/en/lot/lot-6335541"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335541",
+  "wikidata": null
+ },
+ "hokusai-lake-misaka": {
+  "amount": 100000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 100,000",
+    "url": "https://www.christies.com/en/lot/lot-6307207"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6307207",
+  "wikidata": null
+ },
+ "hokusai-red-fuji": {
+  "amount": 106250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 106,250",
+    "url": "https://www.christies.com/en/lot/lot-6047648"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6047648",
+  "wikidata": null
+ },
+ "hokusai-snow-sumida": {
+  "amount": 22500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 22,500",
+    "url": "https://www.christies.com/en/lot/lot-6335542"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335542",
+  "wikidata": null
+ },
+ "hokusai-storm-below-summit": {
+  "amount": 550000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 550,000",
+    "url": "https://www.christies.com/en/lot/lot-6335746"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335746",
+  "wikidata": null
+ },
  "hokusai-under-the-wave": {
   "amount": 2800000.0,
   "currency": "USD",
@@ -570,6 +2479,51 @@
   ],
   "verified": true,
   "verified_by": "https://hyperallergic.com/hokusais-great-wave-makes-a-splash-at-auction",
+  "wikidata": null
+ },
+ "hokusai-yatsuhashi": {
+  "amount": 1890.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 1,890",
+    "url": "https://www.christies.com/en/lot/lot-6362255"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6362255",
+  "wikidata": null
+ },
+ "hokusai-yoshida-tokaido": {
+  "amount": 10710.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 10,710",
+    "url": "https://www.christies.com/en/lot/lot-6472625"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6472625",
+  "wikidata": null
+ },
+ "ingres-comtesse-dagoult-and-daughter": {
+  "amount": 1930500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 1,930,500",
+    "url": "https://www.christies.com/en/lot/lot-5649806"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5649806",
   "wikidata": null
  },
  "jawlensky-variation-1916-4": {
@@ -595,6 +2549,31 @@
     "https://www.lempertz.com/de/kataloge/lot/1155-1/53-alexej-von-jawlensky.html"
    ],
    "statement_id": "Q138854517$C9BBB657-13EC-471E-9E2A-542B19132662"
+  }
+ },
+ "kielland-peat-bog": {
+  "amount": 1750000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "vurdering nok 800 000–1 000 000 auksjonert tirsdag 29. november 2022 kl 18:00 tilslag nok 1 750 000 kitty l. kielland – torvmyr-motivet som del av den nasjonal",
+    "url": "https://gwpa.no/nb/lots/15408"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/15408",
+  "wikidata": {
+   "amount": 1750000.0,
+   "date": "2022-11-29",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q127780886",
+   "refs": [
+    "https://gwpa.no/nb/lots/15408"
+   ],
+   "statement_id": "Q127780886$76afc534-48fb-a8cf-4f13-7083a3b9dd7a"
   }
  },
  "kirchner-berlin-street-scene": {
@@ -656,6 +2635,172 @@
    "statement_id": "Q117600409$3877d9ab-4729-6175-b93a-1c92afb847fa"
   }
  },
+ "kirchner-pantomime-reimann-i": {
+  "amount": 93000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "e kunst künstler ernst ludwig kirchner lot 265 schätzpreis: 30.000 € - 40.000 € ergebnis: 93.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1134-1/265-ernst-ludwig-kirchner-1.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1134-1/265-ernst-ludwig-kirchner-1.html",
+  "wikidata": {
+   "amount": 93000.0,
+   "date": "2019-05-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138899338",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1134-1/265-ernst-ludwig-kirchner-1.html"
+   ],
+   "statement_id": "Q138899338$10EF9D08-69BF-48B6-92DC-356E9160A8EB"
+  }
+ },
+ "kirchner-pantomime-reimann-the-revenge-of-th": {
+  "amount": 7140000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 7,140,000",
+    "url": "https://www.christies.com/en/lot/lot-6328611"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6328611",
+  "wikidata": {
+   "amount": 7140000.0,
+   "date": "2021-06-30",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q130259193",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6328611"
+   ],
+   "statement_id": "Q130259193$24055f2a-4a93-43ee-b6fe-c4242e46d018"
+  }
+ },
+ "kirchner-seated-black-haired-female-nude": {
+  "amount": 3790000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 3,791,000",
+    "url": "https://www.christies.com/lot/ernst-ludwig-kirchner-1880-1938-zwei-madchen-mit-6469768"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/ernst-ludwig-kirchner-1880-1938-zwei-madchen-mit-6469768",
+  "wikidata": {
+   "amount": 3790000.0,
+   "date": "2024-03-07",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139762970",
+   "refs": [
+    "https://www.christies.com/lot/ernst-ludwig-kirchner-1880-1938-zwei-madchen-mit-6469768"
+   ],
+   "statement_id": "Q139762970$FBE413C1-DBBE-4307-8720-27632AA82CDE"
+  }
+ },
+ "kittelsen-christmas-tree": {
+  "amount": 1250000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "vurdering nok 800 000–1 000 000 auksjonert torsdag 30. november 2023 kl 18:00 tilslag nok 1 250 000 kontakt oss grev wedels plass auksjoner as bankplassen 1a 0",
+    "url": "https://gwpa.no/nb/lots/16730"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/16730",
+  "wikidata": {
+   "amount": 1250000.0,
+   "date": "2023-11-30",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q136374296",
+   "refs": [
+    "https://gwpa.no/nb/lots/16730"
+   ],
+   "statement_id": "Q136374296$18ee4e04-40a4-2f1e-1c9d-b3474b71da65"
+  }
+ },
+ "kittelsen-white-bear-king-valemon": {
+  "amount": 36000000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "jektet. vurdering på forespørsel auksjonert onsdag 27. november 2024 kl 18:00 tilslag nok 36 000 000 kvitebjørn kong valemon: har du sittet mjukere, har du sett",
+    "url": "https://gwpa.no/nb/lots/17827"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/17827",
+  "wikidata": {
+   "amount": 36000000.0,
+   "date": "2024-11-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q116250415",
+   "refs": [
+    "https://www.nrk.no/buskerud/kvitebjorn-kong-valemon-av-theodor-kittelsen-satte-overlegen-ny-norsk-prisrekord-1.17144788",
+    "wd:Q11990722"
+   ],
+   "statement_id": "Q116250415$3f566db4-4b34-aa57-481b-c26c37552f7a"
+  }
+ },
+ "klee-ghosts-as-acrobats": {
+  "amount": 82500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "kunst - evening sale künstler paul klee lot 81 schätzpreis: 40.000 € - 45.000 € ergebnis: 82.500 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/81-paul-klee.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/81-paul-klee.html",
+  "wikidata": {
+   "amount": 82500.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138861834",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/81-paul-klee.html"
+   ],
+   "statement_id": "Q138861834$FA14ADCE-BA87-484B-B45D-A7D971376581"
+  }
+ },
+ "klimt-birch-forest": {
+  "amount": 104585000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "est (1903) gustav klimt, birch forest (1903). courtesy of christie’s images, ltd. price: $104.6 million when: november 9 where: christie’s new york why: in novembe",
+    "url": "https://web.archive.org/web/2024/https://news.artnet.com/market/ten-most-expensive-works-sold-auction-2022-2234325"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://web.archive.org/web/2024/https://news.artnet.com/market/ten-most-expensive-works-sold-auction-2022-2234325",
+  "wikidata": null
+ },
  "klimt-elisabeth-lederer": {
   "amount": 236400000.0,
   "currency": "USD",
@@ -707,6 +2852,337 @@
   "verified_by": "https://www.finews.ch/news/finanzplatz/37015-dmitry-rybolovlev-sothebys-yves-bouvier-kunstraub",
   "wikidata": null
  },
+ "krohg-henrik-ibsen-on-karl-johan-street": {
+  "amount": 300000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "95. vurdering nok 400 000–600 000 auksjonert mandag 1. desember 2014 kl 19:00 tilslag nok 300 000 litteratur: oscar thue: christian krohgs portretter , oslo ",
+    "url": "https://gwpa.no/nb/lots/9659"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/9659",
+  "wikidata": {
+   "amount": 300000.0,
+   "date": "2014-12-01",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q104028987",
+   "refs": [
+    "https://gwpa.no/nb/lots/9659"
+   ],
+   "statement_id": "Q104028987$4c0f49b3-4622-8e27-1e82-a7de440f8831"
+  }
+ },
+ "kroyer-skagen-heath-near-brovandene": {
+  "amount": 165000.0,
+  "currency": "DKK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "y paintings estimate 125,000–150,000 dkk sold 28 february, 2012 at 6:19 pm price realised 165,000 dkk ← previous next → sign up for an account it's easy and ",
+    "url": "http://www.bruun-rasmussen.dk/search.do?pg=15&iid=300448988&cid=453&lang=en&mode=detail"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.bruun-rasmussen.dk/search.do?pg=15&iid=300448988&cid=453&lang=en&mode=detail",
+  "wikidata": {
+   "amount": 165000.0,
+   "date": "2012-02-28",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q21178501",
+   "refs": [
+    "http://www.bruun-rasmussen.dk/search.do?pg=15&iid=300448988&cid=453&lang=en&mode=detail"
+   ],
+   "statement_id": "Q21178501$d550b0cc-40dd-4105-8a1a-6490e2d1b3fa"
+  }
+ },
+ "kubista-old-prague-motif": {
+  "amount": 123600000.0,
+  "currency": "CZK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "áno odhad : 40 000 000 kč – 80 000 000 kč vyvolávací cena : 25 000 000 kč dosažená cena : 123 600 000 kč aukce : aukční den 87 / katalogové č. 111 zobrazit na ar",
+    "url": "https://www.galeriekodl.cz/cs/polozka/5074-staroprazsky-motiv-bohumil-kubista/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.galeriekodl.cz/cs/polozka/5074-staroprazsky-motiv-bohumil-kubista/",
+  "wikidata": {
+   "amount": 123600000.0,
+   "date": "2022-05-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q112167390",
+   "refs": [
+    "https://www.galeriekodl.cz/cs/polozka/5074-staroprazsky-motiv-bohumil-kubista/"
+   ],
+   "statement_id": "Q112167390$0c70ce23-4aad-2f32-cd4f-2ee57259ac8a"
+  }
+ },
+ "kunisada-memorial-portrait-hiroshige": {
+  "amount": 2016.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 2,016",
+    "url": "https://www.christies.com/en/lot/lot-6442146"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6442146",
+  "wikidata": null
+ },
+ "kuniyoshi-ghosts-taira": {
+  "amount": 37500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 37,500",
+    "url": "https://www.christies.com/en/lot/lot-6335869"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335869",
+  "wikidata": null
+ },
+ "kuniyoshi-kasumigaseki": {
+  "amount": 5250.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 5,250",
+    "url": "https://www.christies.com/en/lot/lot-6335559"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335559",
+  "wikidata": null
+ },
+ "kuniyoshi-susaki-new-year-sunrise": {
+  "amount": 8750.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 8,750",
+    "url": "https://www.christies.com/en/lot/lot-6335560"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335560",
+  "wikidata": null
+ },
+ "lanfranco-the-execution-of-saint-john-the-ba": {
+  "amount": 137500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 137,500",
+    "url": "https://www.christies.com/en/lot/lot-6238437"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238437",
+  "wikidata": {
+   "amount": 137500.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q135022079",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238437"
+   ],
+   "statement_id": "Q135022079$DF997B92-BAD4-4523-B682-171FCFDE484E"
+  }
+ },
+ "lautrec-ambassadeurs-aristide-bruant-1892": {
+  "amount": 84000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 84,000",
+    "url": "https://www.christies.com/en/lot/lot-4899633"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-4899633",
+  "wikidata": null
+ },
+ "lautrec-aristide-bruant-dans-son-cabaret-1893": {
+  "amount": 17250.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 17,250",
+    "url": "https://www.christies.com/en/lot/lot-1072528"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1072528",
+  "wikidata": null
+ },
+ "lautrec-confetti-1894": {
+  "amount": 39040.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "x 44cm) , framed 20th century decorative arts 7 june 2011, 13:00 edt new york sold for us$39,040 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/19235/lot/6121/henri-de-toulouse-lautrec-french-1864-1901-confetti-1894-wittrock-p13-delteil-352-lithograph-printed-in-colors-22-14-x-17-38in-565-x-44cm-framed/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/19235/lot/6121/henri-de-toulouse-lautrec-french-1864-1901-confetti-1894-wittrock-p13-delteil-352-lithograph-printed-in-colors-22-14-x-17-38in-565-x-44cm-framed/",
+  "wikidata": null
+ },
+ "lautrec-divan-japonais-1893": {
+  "amount": 8625.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 8,625",
+    "url": "https://www.christies.com/en/lot/lot-1072527"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1072527",
+  "wikidata": null
+ },
+ "lautrec-jane-avril-1899": {
+  "amount": 132000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "nternational’s june 26 sale as his rarest image of french can-can dander jane avril took $132,000 including buyer’s premium. the poster was toulouse-lautrec’",
+    "url": "https://www.antiquesandthearts.com/jane-avril-took-center-stage-at-poster-auctions-international"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.antiquesandthearts.com/jane-avril-took-center-stage-at-poster-auctions-international",
+  "wikidata": null
+ },
+ "lautrec-jane-avril-jardin-de-paris-1893": {
+  "amount": 21850.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 21,850",
+    "url": "https://www.christies.com/en/lot/lot-171181"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-171181",
+  "wikidata": null
+ },
+ "lautrec-la-revue-blanche-1895": {
+  "amount": 9200.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 9,200",
+    "url": "https://www.christies.com/en/lot/lot-929382"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-929382",
+  "wikidata": null
+ },
+ "lautrec-may-belfort-1895": {
+  "amount": 5760.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " may belfort prints & multiples 12 june 2024, 13:00 bst london, new bond street sold for £5,760 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/29906/lot/14/henri-de-toulouse-lautrec-french-1864-1901-may-belfort-lithograph-in-colours-1895-on-wove-paper-backed-with-linen-laid-onto-board-the-fourth-state-with-the-artists-monogram-in-the-stone-with-the-publishers-address-kleinmann-8-rue-de-la-victoire-framedsheet-790-x-610mm-31-18-x-24in/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/29906/lot/14/henri-de-toulouse-lautrec-french-1864-1901-may-belfort-lithograph-in-colours-1895-on-wove-paper-backed-with-linen-laid-onto-board-the-fourth-state-with-the-artists-monogram-in-the-stone-with-the-publishers-address-kleinmann-8-rue-de-la-victoire-framedsheet-790-x-610mm-31-18-x-24in/",
+  "wikidata": null
+ },
+ "lautrec-may-milton-1895": {
+  "amount": 14950.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 14,950",
+    "url": "https://www.christies.com/en/lot/lot-1589094"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1589094",
+  "wikidata": null
+ },
+ "lautrec-moulin-rouge-la-goulue-1891": {
+  "amount": 314500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "they are also coveted by collectors. in 2014, lautrec’s moulin rouge — la goulue fetched £314,500 at christie’s in london, the highest price yet paid for a l",
+    "url": "https://www.christies.com/en/stories/collecting-guide-the-posters-of-henri-de-toulouse-lautrec-c6bb45e59ca34abdb61072eea4d6b695"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "arisian cabaret and its star performer louise weber, better known as la goulue, sold for £314,500 ($529,618), beating its £180,000 high estimate by 74.7% on ",
+    "url": "https://www.paulfrasercollectibles.com/blogs/art-photography/toulouse-lautrec-moulin-rouge-poster-makes-529-500"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/stories/collecting-guide-the-posters-of-henri-de-toulouse-lautrec-c6bb45e59ca34abdb61072eea4d6b695",
+  "wikidata": null
+ },
+ "lautrec-troupe-mademoiselle-eglantine-1895": {
+  "amount": 12800.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ademoiselle églantine prints & multiples 26 march 2024, 10:00 pdt los angeles sold for us$12,800 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/29353/lot/106/henri-de-toulouse-lautrec-1864-1901-la-troupe-de-mademoiselle-eglantine/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/29353/lot/106/henri-de-toulouse-lautrec-1864-1901-la-troupe-de-mademoiselle-eglantine/",
+  "wikidata": null
+ },
  "lavery-paisley-lawn-tennis": {
   "amount": 537700.0,
   "currency": "GBP",
@@ -732,6 +3208,165 @@
     "https://www.lyonandturnbull.com/auctions/selected-works-from-paisley-art-institute-collection-823/lot/64"
    ],
    "statement_id": "Q119748516$5b738510-4c27-ab2e-0080-19a96523439b"
+  }
+ },
+ "lawrence-the-red-boy": {
+  "amount": 9300000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " national gallery to buy thomas lawrence’s ‘red boy’ for £9.3m | national gallery | the guardian skip to main content skip",
+    "url": "https://www.theguardian.com/artanddesign/2021/jul/22/national-gallery-to-buy-thomas-lawrences-red-boy-for-93m"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "d from a private collection by private treaty sale via christie’s, at a special price of £9.3 million. the funding is made up of a generous commitment from the a",
+    "url": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases/acquisition-of-lawrence-s-red-boy"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.theguardian.com/artanddesign/2021/jul/22/national-gallery-to-buy-thomas-lawrences-red-boy-for-93m",
+  "wikidata": {
+   "amount": 9300000.0,
+   "date": "2021-07-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q22330065",
+   "refs": [
+    "https://www.theguardian.com/artanddesign/2021/jul/22/national-gallery-to-buy-thomas-lawrences-red-boy-for-93m",
+    "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases/acquisition-of-lawrence-s-red-boy"
+   ],
+   "statement_id": "Q22330065$ff2852e8-430f-840e-ec7a-cbb24ae0af4e"
+  }
+ },
+ "le-gray-breaking-wave-sete-1857": {
+  "amount": 137000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 137,000",
+    "url": "https://www.christies.com/en/lot/lot-5972075"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5972075",
+  "wikidata": null
+ },
+ "le-gray-brig-1856": {
+  "amount": 221000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 221,000",
+    "url": "https://www.christies.com/en/lot/lot-5972106"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5972106",
+  "wikidata": null
+ },
+ "le-gray-cavalry-maneuvers-1857": {
+  "amount": 106250.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "3 29 gustave le gray cavalry maneuvres, camp de châlons estimate $70,000–90,000 sold for $106,250 favorite lot details 1857 albumen silver print. 10 1/8 x 13",
+    "url": "https://www.phillips.com/detail/gustave-le-gray/NY040017/29"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/gustave-le-gray/NY040017/29",
+  "wikidata": null
+ },
+ "le-gray-great-wave-sete": {
+  "amount": 507500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " collection of andré and marie-thérèse jammes sold at sotheby’s london for a then-record £507,500. 1 that its maximum appeal coincided with a period of eleva",
+    "url": "https://nonsite.org/photography-and-the-philosophy-of-time/"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": " by specialist dealers, including robert koch gallery, san francisco.\" by the numbers gbp 507,500 auction high the great wave, sete, sotheby's london, 14 oct",
+    "url": "https://www.masterworks.com/academy/artists/gustave-le-gray"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://nonsite.org/photography-and-the-philosophy-of-time/",
+  "wikidata": null
+ },
+ "le-gray-haloed-sun-1856": {
+  "amount": 28100.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 28,100",
+    "url": "https://www.christies.com/en/lot/lot-4983490"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-4983490",
+  "wikidata": null
+ },
+ "leger-contraste-de-formes": {
+  "amount": 70062500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 70,062,500",
+    "url": "https://www.christies.com/en/lot/lot-6108728"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "tesy of christie's span]:underline\"> fernand leger , contraste de formes (1913) sold for $70.06m at christie's in new york on november 13, 2017. the oil on ",
+    "url": "https://heni.com/news/article/fernand-leger-contraste-de-formes-2017-11-13"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6108728",
+  "wikidata": null
+ },
+ "leistikow-evening-on-the-havel": {
+  "amount": 50000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ng sale - moderne und zeitgenössische kunst künstler walter leistikow lot 13 schätzpreis: 50.000 € - 70.000 € ergebnis: 50.000 € (inkl. aufgeld) gebotsfrist",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1187-1/13-walter-leistikow.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1187-1/13-walter-leistikow.html",
+  "wikidata": {
+   "amount": 50000.0,
+   "date": "2021-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134007363",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1187-1/13-walter-leistikow.html"
+   ],
+   "statement_id": "Q134007363$57EE11EF-AAC3-465F-AAE0-135721257422"
   }
  },
  "leonardo-ginevra-de-benci": {
@@ -845,6 +3480,31 @@
    "statement_id": "Q138757362$c3bfa737-4e29-f838-9788-2d15b2b06dac"
   }
  },
+ "liebermann-churning-butter": {
+  "amount": 47500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "che kunst künstler max liebermann lot 54 schätzpreis: 35.000 € - 40.000 € ergebnis: u. v. 47.500 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1187-1/54-max-liebermann.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1187-1/54-max-liebermann.html",
+  "wikidata": {
+   "amount": 47500.0,
+   "date": "2021-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134005455",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1187-1/54-max-liebermann.html"
+   ],
+   "statement_id": "Q134005455$44BD7CE4-593B-4358-AB69-C6A7A8A893A5"
+  }
+ },
  "liebermann-dunes-farmer-goats": {
   "amount": 62500.0,
   "currency": "EUR",
@@ -895,6 +3555,31 @@
    "statement_id": "Q138881666$4AA1D292-29CC-4366-A628-2CBF8880BE4A"
   }
  },
+ "lievens-a-young-girl": {
+  "amount": 1125600.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "15 in.) old master paintings 6 december 2006, 14:00 gmt london, new bond street sold for £1,125,600 inc. premium follow share own a similar item? submit your i",
+    "url": "http://www.bonhams.com/auctions/14314/lot/85/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.bonhams.com/auctions/14314/lot/85/",
+  "wikidata": {
+   "amount": 1125600.0,
+   "date": "2006-12-06",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q42890896",
+   "refs": [
+    "http://www.bonhams.com/auctions/14314/lot/85/"
+   ],
+   "statement_id": "Q42890896$9a7eb102-4c70-cadd-67df-0b79136f3f36"
+  }
+ },
  "liotard-dutch-girl-breakfast": {
   "amount": 4405000.0,
   "currency": "GBP",
@@ -923,6 +3608,71 @@
    "statement_id": "Q26713350$15cbf932-4b12-cc11-ecdd-065aa24815e9"
   }
  },
+ "lucas-van-leyden-dance-of-the-magdalen": {
+  "amount": 11875.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 11,875",
+    "url": "https://www.christies.com/en/lot/lot-5460579"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5460579",
+  "wikidata": null
+ },
+ "macke-sunny-garden": {
+  "amount": 425000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "enössische kunst künstler august macke lot 8 schätzpreis: 300.000 € - 400.000 € ergebnis: 425.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1187-1/8-august-macke.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1187-1/8-august-macke.html",
+  "wikidata": {
+   "amount": 425000.0,
+   "date": "2021-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134006172",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1187-1/8-august-macke.html"
+   ],
+   "statement_id": "Q134006172$0D2CDEEE-F5C9-46FB-9DE1-26CCDDEF35EF"
+  }
+ },
+ "macrino-d-alba-portrait-of-philip-ii-duke-of": {
+  "amount": 563250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 563,250",
+    "url": "https://www.christies.com/en/lot/lot-6238416"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238416",
+  "wikidata": {
+   "amount": 563250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134988668",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238416"
+   ],
+   "statement_id": "Q134988668$525AE8A5-6CCD-428A-92AA-4909E40DEAB4"
+  }
+ },
  "malevich-suprematist-composition": {
   "amount": 85812500.0,
   "currency": "USD",
@@ -944,6 +3694,21 @@
   "verified_by": "https://web.archive.org/web/2020/https://www.artsy.net/news/artsy-editorial-malevich-suprematist-composition-sold-858-million-christies-breaking-record-work-russian-art",
   "wikidata": null
  },
+ "manet-polichinelle": {
+  "amount": 3125.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 3,125",
+    "url": "https://www.christies.com/en/lot/lot-5868230"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5868230",
+  "wikidata": null
+ },
  "mantegna-adoration-magi": {
   "amount": 10500000.0,
   "currency": "USD",
@@ -962,6 +3727,121 @@
   ],
   "verified": true,
   "verified_by": "https://en.wikipedia.org/w/index.php?title=List_of_most_expensive_paintings&oldid=1379186488",
+  "wikidata": null
+ },
+ "marc-riders-and-female-nude": {
+  "amount": 45000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "itgenössische kunst künstler franz marc lot 50 schätzpreis: 35.000 € - 40.000 € ergebnis: 45.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1187-1/50-franz-marc.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1187-1/50-franz-marc.html",
+  "wikidata": {
+   "amount": 45000.0,
+   "date": "2021-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134005731",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1187-1/50-franz-marc.html"
+   ],
+   "statement_id": "Q134005731$5F282FB9-F853-4320-A8EC-AB5F62E5AE9C"
+  }
+ },
+ "marc-the-green-horse": {
+  "amount": 2468000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "umbeispiel --> 8 franz marc grünes pferd , 1912. tempera schätzung: € 600.000 ergebnis: € 2.468.000 (inklusive aufgeld) 8 franz marc grünes pferd , 1912. tempe",
+    "url": "https://www.kettererkunst.de/result.php?limit_von_details=0&objsei=1&shw=1&auswahl=vk&sortieren=preisab&motiv=19&nurfoto=1&obma=100"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.kettererkunst.de/result.php?limit_von_details=0&objsei=1&shw=1&auswahl=vk&sortieren=preisab&motiv=19&nurfoto=1&obma=100",
+  "wikidata": {
+   "amount": 2468000.0,
+   "date": "2023-06-09",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q52087001",
+   "refs": [
+    "https://www.kettererkunst.de/result.php?limit_von_details=0&objsei=1&shw=1&auswahl=vk&sortieren=preisab&motiv=19&nurfoto=1&obma=100"
+   ],
+   "statement_id": "Q52087001$4291d00a-40a8-783b-620c-948dc19e9fcc"
+  }
+ },
+ "marieschi-the-campo-santi-giovanni-e-paolo-v": {
+  "amount": 118750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 118,750",
+    "url": "https://www.christies.com/en/lot/lot-6238440"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238440",
+  "wikidata": {
+   "amount": 118750.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q135116225",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238440"
+   ],
+   "statement_id": "Q135116225$B6F482AE-55D5-4FC2-BC88-EA201BAC79BD"
+  }
+ },
+ "mashkov-bathers": {
+  "amount": 4114500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 4,114,500",
+    "url": "https://www.christies.com/lot/lot-ilya-mashkov-the-bathers-5742204/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-ilya-mashkov-the-bathers-5742204/",
+  "wikidata": {
+   "amount": 4114500.0,
+   "date": "2013-11-25",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q107255859",
+   "refs": [
+    "https://www.christies.com/lot/lot-ilya-mashkov-the-bathers-5742204/"
+   ],
+   "statement_id": "Q107255859$2cb289dd-4e18-d402-ecb9-b61a895022c7"
+  }
+ },
+ "master-death-st-nicholas-calvary": {
+  "amount": 3522500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 3,522,500",
+    "url": "https://www.christies.com/en/lot/lot-1710611"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1710611",
   "wikidata": null
  },
  "merritt-eve": {
@@ -986,6 +3866,96 @@
     "https://www.christies.com/lot/lot-5701811"
    ],
    "statement_id": "Q112181506$BFF88A49-BE4C-46D3-BF05-CAE7063286C7"
+  }
+ },
+ "meryon-the-vampire": {
+  "amount": 2500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 2,500",
+    "url": "https://www.christies.com/en/lot/lot-5775564"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5775564",
+  "wikidata": null
+ },
+ "mignon-flowers-in-a-glass-vase-with-snails": {
+  "amount": 563250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 563,250",
+    "url": "https://www.christies.com/lot/lot-6238435/?intObjectID=6238435&lid=1"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6238435/?intObjectID=6238435&lid=1",
+  "wikidata": {
+   "amount": 563250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q124151631",
+   "refs": [
+    "https://www.christies.com/lot/lot-6238435/?intObjectID=6238435&lid=1"
+   ],
+   "statement_id": "Q124151631$F349FAD8-4529-4F84-846B-73E19D4DAA2C"
+  }
+ },
+ "modersohn-autumn-on-the-moor-canal": {
+  "amount": 55000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " - evening sale künstler otto modersohn lot 23 schätzpreis: 40.000 € - 60.000 € ergebnis: 55.000 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/23-otto-modersohn.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/23-otto-modersohn.html",
+  "wikidata": {
+   "amount": 55000.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138829479",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/23-otto-modersohn.html"
+   ],
+   "statement_id": "Q138829479$0C2A0490-78B3-490A-9578-5D334B4AA9D7"
+  }
+ },
+ "modersohn-becker-children-among-birch-trunks": {
+  "amount": 337500.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " sale künstler paula modersohn-becker lot 22 schätzpreis: 180.000 € - 220.000 € ergebnis: 337.500 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1155-1/22-paula-modersohn-becker.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1155-1/22-paula-modersohn-becker.html",
+  "wikidata": {
+   "amount": 337500.0,
+   "date": "2020-06-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138819294",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1155-1/22-paula-modersohn-becker.html"
+   ],
+   "statement_id": "Q138819294$E46A7503-E902-444E-86EE-311384EBA2C5"
   }
  },
  "modersohn-becker-self-portrait": {
@@ -1081,6 +4051,46 @@
   "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/2019/05/14/arts/monet-auction-110-million.html",
   "wikidata": null
  },
+ "monet-water-lilies-in-bloom": {
+  "amount": 84687500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 84,687,500",
+    "url": "https://www.christies.com/lot/lot-6134208"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6134208",
+  "wikidata": {
+   "amount": 84687500.0,
+   "date": "2018-05-08",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q115801348",
+   "refs": [
+    "https://www.christies.com/lot/lot-6134208"
+   ],
+   "statement_id": "Q115801348$c9916644-473f-0381-36a1-63993004a024"
+  }
+ },
+ "monet-waterloo-bridge-soleil-voile": {
+  "amount": 64510000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 64,510,000",
+    "url": "https://www.christies.com/en/lot/lot-6397132"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6397132",
+  "wikidata": null
+ },
  "morse-marquis-de-lafayette": {
   "amount": 1360000.0,
   "currency": "USD",
@@ -1103,6 +4113,136 @@
     "http://www.sothebys.com/en/auctions/ecatalogue/2005/american-paintings-drawings-sculpture-including-property-from-the-new-york-public-library-astor-lenox-and-tilden-foundations-n08134/lot.1.html"
    ],
    "statement_id": "Q32312033$e51e6e18-45ad-bde9-b043-91c12535bd40"
+  }
+ },
+ "mucha-dame-aux-camelias-1896": {
+  "amount": 3500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 3,500",
+    "url": "https://www.christies.com/en/lot/lot-5695096"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5695096",
+  "wikidata": null
+ },
+ "mucha-gismonda-1894": {
+  "amount": 11162.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 11,162",
+    "url": "https://www.christies.com/en/lot/lot-1789888"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1789888",
+  "wikidata": null
+ },
+ "mucha-hiver-1896": {
+  "amount": 3750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 3,750",
+    "url": "https://www.christies.com/en/lot/lot-5791466"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5791466",
+  "wikidata": null
+ },
+ "mucha-job-1898": {
+  "amount": 2048.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "e posters 30 january – 6 february 2025, 12:00 gmt online, london, knightsbridge sold for £2,048 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/30503/lot/75/alphonse-mucha-1860-1939-job"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/30503/lot/75/alphonse-mucha-1860-1939-job",
+  "wikidata": null
+ },
+ "mucha-les-saisons-1897": {
+  "amount": 8750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 8,750",
+    "url": "https://www.christies.com/en/lot/lot-5791472"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5791472",
+  "wikidata": null
+ },
+ "mucha-medee-1898": {
+  "amount": 3750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " 1898 decorative arts from 1860 17 june 2015, 13:00 bst london, new bond street sold for £3,750 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/22582/lot/26/alphonse-mucha-czechoslovakian-1860-1939-medee-a-lithographic-poster-1898"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/22582/lot/26/alphonse-mucha-czechoslovakian-1860-1939-medee-a-lithographic-poster-1898",
+  "wikidata": null
+ },
+ "mucha-monaco-monte-carlo-1897": {
+  "amount": 6462.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 6,462",
+    "url": "https://www.christies.com/en/lot/lot-1789896"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1789896",
+  "wikidata": null
+ },
+ "munch-horse-and-cart-on-a-country-road": {
+  "amount": 250000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "apir, oppklebet på plate 19x15 signert nede t.v.: e. munch fra 1880 woll 9. vurdering nok 250 000–350 000 auksjonert onsdag 4. juni 2014 kl 20:30 tilslag nok",
+    "url": "https://gwpa.no/nb/lots/9530"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/9530",
+  "wikidata": {
+   "amount": 250000.0,
+   "date": "2014-06-04",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q18890118",
+   "refs": [
+    "https://gwpa.no/nb/lots/9530"
+   ],
+   "statement_id": "Q18890118$ab4083c7-45e4-c87a-b0a1-70d5cb10bf46"
   }
  },
  "munch-scream-pastel": {
@@ -1135,6 +4275,177 @@
    "statement_id": "Q18891157$1eca93f8-46d0-3225-c7e5-9031920c30d3"
   }
  },
+ "munch-separation-ii": {
+  "amount": 49600.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " - moderne kunst künstler edvard munch lot 251 schätzpreis: 40.000 € - 60.000 € ergebnis: 49.600 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1134-1/251-edvard-munch.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1134-1/251-edvard-munch.html",
+  "wikidata": {
+   "amount": 49600.0,
+   "date": "2019-05-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138866589",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1134-1/251-edvard-munch.html"
+   ],
+   "statement_id": "Q138866589$4513FF87-AB12-4D4E-9682-840CC61633C9"
+  }
+ },
+ "munch-sick-child-drypoint": {
+  "amount": 151000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 151,000",
+    "url": "https://www.christies.com/en/lot/lot-5063023"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5063023",
+  "wikidata": null
+ },
+ "munch-womans-head-against-the-shore": {
+  "amount": 146500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 146,500",
+    "url": "https://www.christies.com/en/lot/lot-5775575"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5775575",
+  "wikidata": null
+ },
+ "munch-young-woman-on-the-beach": {
+  "amount": 2133875.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rint by munch at christie’s edvard munch (1863–1944), young woman on the beach, sold for £2,133,875 at christie’s in london. there was a new world record for a",
+    "url": "https://antiquesandartireland.com/2013/03/auction-munch-record/"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "was sold at christie’s auction house on king street in london, uk, on 20 march 2013, for £2.1 m ($3 m), making it the most expensive original print ever so",
+    "url": "https://www.guinnessworldrecords.com/world-records/most-expensive-print-sold-at-auction"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://antiquesandartireland.com/2013/03/auction-munch-record/",
+  "wikidata": null
+ },
+ "netscher-portrait-of-a-lady": {
+  "amount": 611250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 611,250",
+    "url": "https://www.christies.com/lot/lot-6238433/?intObjectID=6238433&lid=1"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6238433/?intObjectID=6238433&lid=1",
+  "wikidata": {
+   "amount": 611250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q118397485",
+   "refs": [
+    "https://www.christies.com/lot/lot-6238433/?intObjectID=6238433&lid=1"
+   ],
+   "statement_id": "Q118397485$927ECFD5-3521-4FE6-A43A-CDD587515112"
+  }
+ },
+ "netscher-woman-feeding-parrot": {
+  "amount": 5093000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 5,093,000",
+    "url": "https://www.christies.com/en/lot/lot-5800658"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5800658",
+  "wikidata": null
+ },
+ "pechstein-the-blue-dress-portrait-of-frau-dr": {
+  "amount": 173600.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "kunst künstler hermann max pechstein lot 267 schätzpreis: 150.000 € - 200.000 € ergebnis: 173.600 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1134-1/267-hermann-max-pechstein.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1134-1/267-hermann-max-pechstein.html",
+  "wikidata": {
+   "amount": 173600.0,
+   "date": "2019-05-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q138931149",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1134-1/267-hermann-max-pechstein.html"
+   ],
+   "statement_id": "Q138931149$91D01A7B-75AD-41CB-9FC9-86B7BF35E907"
+  }
+ },
+ "penfield-victory-girls-1918": {
+  "amount": 1187.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 1,187",
+    "url": "https://www.christies.com/en/lot/lot-6005112"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6005112",
+  "wikidata": null
+ },
+ "piranesi-staircase-with-trophies": {
+  "amount": 10080.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 10,080",
+    "url": "https://www.christies.com/en/lot/lot-6381439"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6381439",
+  "wikidata": null
+ },
  "pontormo-portrait-halberdier": {
   "amount": 35200000.0,
   "currency": "USD",
@@ -1153,6 +4464,21 @@
   ],
   "verified": true,
   "verified_by": "https://www.masterworks.com/academy/artists/jacopo-da-pontormo",
+  "wikidata": null
+ },
+ "qian-du-retirement": {
+  "amount": 50000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 50,000",
+    "url": "https://www.christies.com/en/lot/lot-5347709"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5347709",
   "wikidata": null
  },
  "raphael-ansidei-madonna": {
@@ -1202,6 +4528,101 @@
   "verified_by": "https://web.archive.org/web/2020/https://www.nytimes.com/1961/11/16/archives/museum-gets-rembrandt-for-23-million-record-price-is-paid-by-the.html",
   "wikidata": null
  },
+ "rembrandt-beggars-receiving-alms": {
+  "amount": 4375.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 4,375",
+    "url": "https://www.christies.com/en/lot/lot-5460599"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5460599",
+  "wikidata": null
+ },
+ "rembrandt-jan-asselijn": {
+  "amount": 4750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 4,750",
+    "url": "https://www.christies.com/en/lot/lot-6128640"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6128640",
+  "wikidata": null
+ },
+ "rembrandt-jan-lutma": {
+  "amount": 122500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 122,500",
+    "url": "https://www.christies.com/en/lot/lot-5775555"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5775555",
+  "wikidata": null
+ },
+ "rembrandt-portrait-of-a-62-year-old-woman": {
+  "amount": 19803750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 19,803,750",
+    "url": "http://www.christies.com/lotfinder/Lot/rembrandt-harmensz-van-rijn-1606-69-portrait-1960656-details.aspx"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.christies.com/lotfinder/Lot/rembrandt-harmensz-van-rijn-1606-69-portrait-1960656-details.aspx",
+  "wikidata": {
+   "amount": 19803750.0,
+   "date": "2000-12-13",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q21501685",
+   "refs": [
+    "http://www.christies.com/lotfinder/Lot/rembrandt-harmensz-van-rijn-1606-69-portrait-1960656-details.aspx"
+   ],
+   "statement_id": "Q21501685$e7be320d-424b-f668-1859-78d6ec03eb6b"
+  }
+ },
+ "rembrandt-portrait-of-petronella-buys": {
+  "amount": 3368750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 3,368,750",
+    "url": "http://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6117507"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6117507",
+  "wikidata": {
+   "amount": 3368750.0,
+   "date": "2017-12-07",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q21470328",
+   "refs": [
+    "http://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6117507"
+   ],
+   "statement_id": "Q21470328$11c19aea-4b82-b859-5488-07724c4aa6bd"
+  }
+ },
  "rembrandt-standard-bearer": {
   "amount": 175000000.0,
   "currency": "EUR",
@@ -1227,6 +4648,51 @@
   "verified_by": "https://web.archive.org/web/2024/https://news.artnet.com/art-world/netherlands-rembrandt-standard-bearer-2046187",
   "wikidata": null
  },
+ "rembrandt-star-of-the-kings": {
+  "amount": 25000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 25,000",
+    "url": "https://www.christies.com/en/lot/lot-5460606"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5460606",
+  "wikidata": null
+ },
+ "rembrandt-the-omval": {
+  "amount": 7500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 7,500",
+    "url": "https://www.christies.com/en/lot/lot-5460609"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5460609",
+  "wikidata": null
+ },
+ "rembrandt-three-trees": {
+  "amount": 324500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 324,500",
+    "url": "https://www.christies.com/en/lot/lot-6185641"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6185641",
+  "wikidata": null
+ },
  "renoir-bal-du-moulin-small": {
   "amount": 78100000.0,
   "currency": "USD",
@@ -1245,6 +4711,21 @@
   ],
   "verified": true,
   "verified_by": "https://www.guinnessworldrecords.com/world-records/769008-most-expensive-painting-by-renoir-sold-at-auction",
+  "wikidata": null
+ },
+ "reynolds-the-archers": {
+  "amount": 1653750.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 1,653,750",
+    "url": "https://www.christies.com/en/lot/lot-1820611"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1820611",
   "wikidata": null
  },
  "romero-de-torres-two-paths": {
@@ -1297,6 +4778,151 @@
   "verified_by": "https://news.bbc.co.uk/2/hi/entertainment/2119451.stm",
   "wikidata": null
  },
+ "ruisdael-landscape-with-a-waterfall-and-a-ca": {
+  "amount": 299250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 299,250",
+    "url": "https://www.christies.com/en/lot/lot-6238434"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238434",
+  "wikidata": {
+   "amount": 299250.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q56064905",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238434"
+   ],
+   "statement_id": "Q56064905$138220C9-175C-4960-A3E1-D9F4740A5AEB"
+  }
+ },
+ "salentin-the-storytelling-shepherd": {
+  "amount": 31457.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "mitpreis: € 15.000 erzieltes ergebnis: € 31.949 (inkl. aufgeld) --> erzieltes ergebnis: € 31.457 (inkl. aufgeld) zustandsbericht anfordern seite teilen seit",
+    "url": "https://wettmann.com/los/hubert-salentin-1822-zuelpich-1910-duesseldorf/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://wettmann.com/los/hubert-salentin-1822-zuelpich-1910-duesseldorf/",
+  "wikidata": {
+   "amount": 31457.0,
+   "date": "2023-05-27",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134778625",
+   "refs": [
+    "https://wettmann.com/los/hubert-salentin-1822-zuelpich-1910-duesseldorf/"
+   ],
+   "statement_id": "Q134778625$39bba89d-4b56-fb5d-56e6-2ae4495e5e20"
+  }
+ },
+ "savery-vase-of-flowers-in-a-stone-niche": {
+  "amount": 6500000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "agnificent still life, vase of flowers in a stone niche, at the tefaf fine arts fair for €6.5 million. now the three works hang, as part of roelant savery’s oeuv",
+    "url": "https://www.the-low-countries.com/article/savery"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.the-low-countries.com/article/savery",
+  "wikidata": {
+   "amount": 6500000.0,
+   "date": "2016-03-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q28113680",
+   "refs": [
+    "https://www.the-low-countries.com/article/savery"
+   ],
+   "statement_id": "Q28113680$358ff911-40db-cf83-8345-b1713d4490c8"
+  }
+ },
+ "schiele-secession-49-ausstellung-1918": {
+  "amount": 13750.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "schiele secession 49. ausstellung , 1918. farblithografie schätzung: € 12.000 ergebnis: € 13.750 (inkl. käuferaufgeld) 73 egon schiele secession 49. ausstel",
+    "url": "https://kettererkunst.de/kunst/kd/details.php?anummer=457&ebene=2&ext=&obnr=117002544"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://kettererkunst.de/kunst/kd/details.php?anummer=457&ebene=2&ext=&obnr=117002544",
+  "wikidata": null
+ },
+ "schongauer-virgin-child-grassy-bench": {
+  "amount": 145250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 145,250",
+    "url": "https://www.christies.com/en/lot/lot-5460614"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5460614",
+  "wikidata": null
+ },
+ "schwabe-salon-rose-croix": {
+  "amount": 940.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 940",
+    "url": "https://www.christies.com/en/lot/lot-1789911"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1789911",
+  "wikidata": null
+ },
+ "seghers-roses-tulips-and-narcissi-in-a-glass": {
+  "amount": 636500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 636,500",
+    "url": "https://www.christies.com/lot/lot-6104615/?intObjectID=6104615&lid=1"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6104615/?intObjectID=6104615&lid=1",
+  "wikidata": {
+   "amount": 636500.0,
+   "date": "2017-10-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q114678936",
+   "refs": [
+    "https://www.christies.com/lot/lot-6104615/?intObjectID=6104615&lid=1"
+   ],
+   "statement_id": "Q114678936$98a6f135-4835-9e87-2f5d-72a88aa02ea2"
+  }
+ },
  "seurat-les-poseuses-small": {
   "amount": 149240000.0,
   "currency": "USD",
@@ -1332,6 +4958,36 @@
    "statement_id": "Q112114362$ca1ae909-4cfc-a972-52ae-c494e2703f87"
   }
  },
+ "sharaku-matsumoto-koshiro-gorobei": {
+  "amount": 40000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 40,000",
+    "url": "https://www.christies.com/en/lot/lot-6335471"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6335471",
+  "wikidata": null
+ },
+ "sharaku-sakata-hangoro-mizuemon": {
+  "amount": 62500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 62,500",
+    "url": "https://www.christies.com/en/lot/lot-5951564"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-5951564",
+  "wikidata": null
+ },
  "shishkin-pine-forest": {
   "amount": 1031250.0,
   "currency": "GBP",
@@ -1355,6 +5011,42 @@
    ],
    "statement_id": "Q47147358$f2e72501-4a0c-07a1-e716-8c02beb8c2d1"
   }
+ },
+ "shunsho-ebizo-shibaraku": {
+  "amount": 5292.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 5,292",
+    "url": "https://www.christies.com/en/lot/lot-6442115"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6442115",
+  "wikidata": null
+ },
+ "signac-concarneau-calme-du-matin": {
+  "amount": 39320000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 39,320,000",
+    "url": "https://www.christies.com/lot/lot-6397097"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ne\"> paul signac 's concarneau, calme du matin (opus no. 219, larghetto) (1891) sold for $39.32m at christie's in new york on november 9, 2022. the oil on c",
+    "url": "https://heni.com/news/article/paul-signac-concarneau-calme-du-matin-opus-no-219-larghetto-2022-11-09"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6397097",
+  "wikidata": null
  },
  "slevogt-red-carnations": {
   "amount": 49600.0,
@@ -1381,6 +5073,81 @@
    "statement_id": "Q138882565$D4D66D65-ECE1-456A-8945-650475F96118"
   }
  },
+ "slevogt-titania-and-bottom": {
+  "amount": 18900.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "- the berlin sale künstler max slevogt lot 229 schätzpreis: 18.000 € - 22.000 € ergebnis: 18.900 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1272-1/229-max-slevogt.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1272-1/229-max-slevogt.html",
+  "wikidata": {
+   "amount": 18900.0,
+   "date": "2025-06-21",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139717524",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1272-1/229-max-slevogt.html"
+   ],
+   "statement_id": "Q139717524$BCBF6740-A025-4861-A12F-97170BBAC6C8"
+  }
+ },
+ "sohlberg-the-mermaid": {
+  "amount": 2000000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "den, tyskland 2019. \"mellom to verdener\", blaafarveværket 2022, kat.nr. 72. vurdering nok 2 000 000–3 000 000 auksjonert tirsdag 29. november 2022 kl 18:00 til",
+    "url": "https://gwpa.no/nb/lots/15541"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/15541",
+  "wikidata": {
+   "amount": 2000000.0,
+   "date": "2022-11-29",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q123019562",
+   "refs": [
+    "https://gwpa.no/nb/lots/15541"
+   ],
+   "statement_id": "Q123019562$cd76cea9-4704-f1e8-7f0c-0e1bf3a3680f"
+  }
+ },
+ "sorgh-harbour-market": {
+  "amount": 60000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "rke der sammlung bischoff künstler hendrick martensz sorgh lot 19 schätzpreis: 40.000 € - 60.000 € ergebnis: 60.000 € (inkl. aufgeld) gebotsfrist endet in: ",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1168-1/19-hendrick-martensz-sorgh.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1168-1/19-hendrick-martensz-sorgh.html",
+  "wikidata": {
+   "amount": 60000.0,
+   "date": "2020-12-08",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134716290",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1168-1/19-hendrick-martensz-sorgh.html"
+   ],
+   "statement_id": "Q134716290$39374E9D-6717-4031-AB2F-D5FFE49125D3"
+  }
+ },
  "sorolla-las-tres-velas": {
   "amount": 4521000.0,
   "currency": "USD",
@@ -1396,6 +5163,211 @@
    "refs": [],
    "statement_id": "Q19266867$f7bebd86-4076-c90d-54d1-f798de4b8db6"
   }
+ },
+ "steenwijk-cathedral-interior": {
+  "amount": 175000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 175,000",
+    "url": "https://www.christies.com/en/lot/lot-6238419"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238419",
+  "wikidata": {
+   "amount": 175000.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q135000431",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238419"
+   ],
+   "statement_id": "Q135000431$198CDC50-9581-4682-9329-3C0178DDBA7D"
+  }
+ },
+ "steinlen-tournee-du-chat-noir-1896": {
+  "amount": 30000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "96 large-format poster was purchased after a neck-and-neck race by two phone bidders for $30,000*, a record for the work. art nouveau pieces performed well ",
+    "url": "https://www.finebooksmagazine.com/news/steinlens-cat-tops-vintage-posters-sale-swann-galleries"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.finebooksmagazine.com/news/steinlens-cat-tops-vintage-posters-sale-swann-galleries",
+  "wikidata": null
+ },
+ "stieglitz-steerage-1907": {
+  "amount": 25000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 25,000",
+    "url": "https://www.christies.com/en/lot/lot-6225012"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6225012",
+  "wikidata": null
+ },
+ "streeton-sydney-harbour": {
+  "amount": 2074000.0,
+  "currency": "AUD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "07, narrowly missed out, achieving the second highest price at auction for the artist at $2,074,000. the $2.52 record set at auction in 2012 by streeton’s 1888",
+    "url": "https://www.theguardian.com/artanddesign/2016/sep/01/arthur-streetons-sydney-harbour-sold-at-auction-for-2m"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.theguardian.com/artanddesign/2016/sep/01/arthur-streetons-sydney-harbour-sold-at-auction-for-2m",
+  "wikidata": {
+   "amount": 2074000.0,
+   "date": "2016-08-31",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q26735903",
+   "refs": [
+    "https://www.theguardian.com/artanddesign/2016/sep/01/arthur-streetons-sydney-harbour-sold-at-auction-for-2m"
+   ],
+   "statement_id": "Q26735903$56b2629a-4a82-77aa-ca78-dc4dd08ea59f"
+  }
+ },
+ "stuck-susanna-bathing": {
+  "amount": 127000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " 355 franz von stuck susanna im bade , 1896. öl auf holz schätzung: € 100.000 ergebnis: € 127.000 (inklusive aufgeld) 355 franz von stuck susanna im bade , 1",
+    "url": "https://www.kettererkunst.de/result.php?limit_von_details=42&objsei=1&shw=1&anr=546&sortieren=katnr"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.kettererkunst.de/result.php?limit_von_details=42&objsei=1&shw=1&anr=546&sortieren=katnr",
+  "wikidata": {
+   "amount": 127000.0,
+   "date": "2023-12-09",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139718082",
+   "refs": [
+    "https://www.kettererkunst.de/result.php?limit_von_details=42&objsei=1&shw=1&anr=546&sortieren=katnr"
+   ],
+   "statement_id": "Q139718082$db03e30a-49d4-3789-180a-465c70570ca5"
+  }
+ },
+ "su-shi-wood-and-rock": {
+  "amount": 463600000.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 463,600,000",
+    "url": "https://www.christies.com/en/lot/lot-6181139"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6181139",
+  "wikidata": null
+ },
+ "sweerts-the-artist-s-studio-with-a-seamstres": {
+  "amount": 12615000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 12,615,000",
+    "url": "https://www.christies.com/lot/lot-6436456"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6436456",
+  "wikidata": {
+   "amount": 12615000.0,
+   "date": "2023-07-06",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q119942180",
+   "refs": [
+    "https://www.christies.com/lot/lot-6436456"
+   ],
+   "statement_id": "Q119942180$21dd4d59-4425-721c-73bf-5430be16b9c8"
+  }
+ },
+ "talbot-articles-of-china-1844": {
+  "amount": 18750.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 18,750",
+    "url": "https://www.christies.com/en/lot/lot-6098090"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6098090",
+  "wikidata": null
+ },
+ "talbot-fruit-sellers": {
+  "amount": 43750.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "y fox talbot or calvert richard jones the fruit sellers estimate $20,000–30,000 sold for $43,750 favorite lot details circa 1845 salt print. 7 3/4 x 8 1/4 i",
+    "url": "https://www.phillips.com/detail/william-henry-fox-talbot/NY040217/89"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/william-henry-fox-talbot/NY040217/89",
+  "wikidata": null
+ },
+ "talbot-gate-of-christchurch": {
+  "amount": 9375.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " william henry fox talbot gates of christchurch, oxford estimate $12,000–18,000 sold for $9,375 favorite lot details circa 1844 salt print. 6 3/4 x 7 5/8 i",
+    "url": "https://www.phillips.com/detail/william-henry-fox-talbot/NY040217/106"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/william-henry-fox-talbot/NY040217/106",
+  "wikidata": null
+ },
+ "talbot-oxford-high-street": {
+  "amount": 56250.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "41 42 43 14 william henry fox talbot oxford high street estimate $50,000–70,000 sold for $56,250 favorite lot details 1843 salt print. 7 3/8 x 6 3/4 in. (18",
+    "url": "https://www.phillips.com/detail/william-henry-fox-talbot/NY040017/14"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/william-henry-fox-talbot/NY040017/14",
+  "wikidata": null
  },
  "teniers-allegory-of-autumn": {
   "amount": 55800.0,
@@ -1447,6 +5419,229 @@
    "statement_id": "Q139498198$4190836a-4a68-5fe3-f4d4-f84047f0ce61"
   }
  },
+ "teniers-nursing-madonna-with-the-infant-sain": {
+  "amount": 10240.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "99 (97; als \"copied from palma giovane\") schätzpreis: € 8.000 - 15.000 erzielter preis: € 10.240 (inkl. gebühren und österreichischer mwst.) meistbot: € 8.0",
+    "url": "https://imkinsky.com/ergebnisse/140/741/5/95351"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://imkinsky.com/ergebnisse/140/741/5/95351",
+  "wikidata": {
+   "amount": 10240.0,
+   "date": "2022-11-08",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139558248",
+   "refs": [
+    "https://imkinsky.com/ergebnisse/140/741/5/95351"
+   ],
+   "statement_id": "Q139558248$BCE69EBA-30A1-49F6-9F7F-9DABC3EBAA88"
+  }
+ },
+ "thornam-venus-de-milo-study-in-the-louvre": {
+  "amount": 170000.0,
+  "currency": "DKK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ategory paintings estimate 60,000–80,000 dkk sold 1 march, 2022 at 5:27 pm price realised 170,000 dkk ← previous next → sign up for an account it's easy and ",
+    "url": "https://bruun-rasmussen.dk/m/lots/FD4394045190"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://bruun-rasmussen.dk/m/lots/FD4394045190",
+  "wikidata": {
+   "amount": 170000.0,
+   "date": "2022-03-01",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q115157768",
+   "refs": [
+    "https://bruun-rasmussen.dk/m/lots/FD4394045190"
+   ],
+   "statement_id": "Q115157768$742b240a-45f9-bba8-0c11-7eaee9e1f3a3"
+  }
+ },
+ "tidemand-grandmother-reading-the-bible": {
+  "amount": 270000.0,
+  "currency": "NOK",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "df vurdering nok 300 000–400 000 auksjonert mandag 24. november 2008 kl 18:00 tilslag nok 270 000 kontakt oss grev wedels plass auksjoner as bankplassen 1a 0",
+    "url": "https://gwpa.no/nb/lots/7454"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://gwpa.no/nb/lots/7454",
+  "wikidata": {
+   "amount": 270000.0,
+   "date": "2008-11-24",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q141541301",
+   "refs": [
+    "https://gwpa.no/nb/lots/7454"
+   ],
+   "statement_id": "Q141541301$c8b396e3-478e-1a7b-e97b-82810db6d50b"
+  }
+ },
+ "tiepolo-rinaldo-farewell-armida": {
+  "amount": 1047500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 1,047,500",
+    "url": "https://www.christies.com/en/lot/lot-1710646"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-1710646",
+  "wikidata": null
+ },
+ "tintoretto-portrait-of-nicolo-doria": {
+  "amount": 362500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 362,500",
+    "url": "https://www.christies.com/lot/lot-5649712"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-5649712",
+  "wikidata": {
+   "amount": 362500.0,
+   "date": "2013-01-30",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q137571265",
+   "refs": [
+    "https://www.christies.com/lot/lot-5649712",
+    "https://www.sothebys.com/en/auctions/ecatalogue/2016/robert-de-balkany-rue-de-varenne-paris-pf1660/lot.46.html"
+   ],
+   "statement_id": "Q137571265$6fe99031-4b79-808b-b815-f4b58650d263"
+  }
+ },
+ "titian-portrait-of-alfonso-d-avalos": {
+  "amount": 70000000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "cs and placed on loan with the louvre. acquired by the getty museum in november 2003 for $70 million (the second highest price paid for an old master painting).",
+    "url": "https://www.cavallinitoveronese.co.uk/titian/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.cavallinitoveronese.co.uk/titian/",
+  "wikidata": {
+   "amount": 70000000.0,
+   "date": "2003-11-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q20088065",
+   "refs": [
+    "https://www.cavallinitoveronese.co.uk/titian/",
+    "https://www.getty.edu/art/collection/object/1096PT?tab=provenance",
+    "https://www.telegraph.co.uk/culture/art/3612751/The-70-million-soldier.html"
+   ],
+   "statement_id": "Q20088065$8d9f14e5-477e-e503-0577-bea461e2fbfc"
+  }
+ },
+ "titian-the-rest-on-the-flight-into-egypt": {
+  "amount": 17560000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "o egypt (detail) . oil on canvas, laid on panel. 18¼ x 24¾ in (46.2 x 62.9 cm). sold for £17,560,000 on 2 july 2024 at christie’s in london tiziano vecellio (‘t",
+    "url": "https://www.christies.com/en/stories/titian-rest-on-the-flight-into-egypt-3cabe9063aa4498a8a6bd9ee8ea502fc"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/stories/titian-rest-on-the-flight-into-egypt-3cabe9063aa4498a8a6bd9ee8ea502fc",
+  "wikidata": {
+   "amount": 17560000.0,
+   "date": "2024-07-02",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q3936368",
+   "refs": [
+    "https://www.christies.com/en/stories/titian-rest-on-the-flight-into-egypt-3cabe9063aa4498a8a6bd9ee8ea502fc"
+   ],
+   "statement_id": "Q3936368$4b01e022-4a59-b7a5-be5b-ead42fa29846"
+  }
+ },
+ "tosini-portrait-of-a-lady": {
+  "amount": 504000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 504,000",
+    "url": "https://www.christies.com/lot/lot-4892873/?intObjectID=4892873"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-4892873/?intObjectID=4892873",
+  "wikidata": {
+   "amount": 504000.0,
+   "date": "2007-04-19",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q28071065",
+   "refs": [
+    "https://www.christies.com/lot/lot-4892873/?intObjectID=4892873"
+   ],
+   "statement_id": "Q28071065$51794c86-482a-1dfa-1ab1-48c565cec584"
+  }
+ },
+ "toulouse-lautrec-marcelle-lender-bust": {
+  "amount": 8187.5,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ste unframed prints & multiples 13 june 2019, 14:00 bst london, new bond street sold for £8,187.50 inc. premium follow share own a similar item? submit your i",
+    "url": "https://bonhams.com/auction/25438/lot/35/henri-de-toulouse-lautrec-french-1864-1901-mademoiselle-marcelle-lender-en-buste-lithograph-in-colours-1895-on-wove-paper-the-fourth-final-state-from-the-regular-pan-edition-of-1100-printed-by-ancourt-paris-published-by-pan-berlin-the-full-sheet-the-colours-fresh-and-bright-in-good-conditionimage-329-x-242mm-13-x-9-12in-sheet-368-x-276mm-14-12-x-10-78in-unframed"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://bonhams.com/auction/25438/lot/35/henri-de-toulouse-lautrec-french-1864-1901-mademoiselle-marcelle-lender-en-buste-lithograph-in-colours-1895-on-wove-paper-the-fourth-final-state-from-the-regular-pan-edition-of-1100-printed-by-ancourt-paris-published-by-pan-berlin-the-full-sheet-the-colours-fresh-and-bright-in-good-conditionimage-329-x-242mm-13-x-9-12in-sheet-368-x-276mm-14-12-x-10-78in-unframed",
+  "wikidata": null
+ },
+ "toyokuni-ii-evening-bell-kamakura": {
+  "amount": 3024.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 3,024",
+    "url": "https://www.christies.com/en/lot/lot-6495982"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6495982",
+  "wikidata": null
+ },
  "turner-seascape-folkestone": {
   "amount": 7370000.0,
   "currency": "GBP",
@@ -1466,6 +5661,252 @@
   "verified": true,
   "verified_by": "https://www.csmonitor.com/1984/0706/070634.html",
   "wikidata": null
+ },
+ "utamaro-hour-of-the-ox": {
+  "amount": 60000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 60,000",
+    "url": "https://www.christies.com/en/lot/lot-6277249"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6277249",
+  "wikidata": null
+ },
+ "utamaro-kisegawa-matsubaya": {
+  "amount": 9450.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 9,450",
+    "url": "https://www.christies.com/en/lot/lot-6472594"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6472594",
+  "wikidata": null
+ },
+ "vallotton-laziness": {
+  "amount": 50400.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 50,400",
+    "url": "https://www.christies.com/en/lot/lot-6497612"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6497612",
+  "wikidata": null
+ },
+ "van-de-velde-a-dune-landscape-with-peasants": {
+  "amount": 15120.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 15,120",
+    "url": "https://www.christies.com/en/lot/lot-6436837"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6436837",
+  "wikidata": {
+   "amount": 15120.0,
+   "date": "2023-07-07",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134876571",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6436837"
+   ],
+   "statement_id": "Q134876571$11dd7476-456f-5c04-aef7-11f3ca2370d9"
+  }
+ },
+ "van-de-velde-dutch-ships-in-a-calm": {
+  "amount": 5921250.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 5,921,250",
+    "url": "http://www.christies.com/lotfinder/paintings/willem-van-de-velde-ii-dutch-men-o-war-5520515-details.aspx"
+   }
+  ],
+  "verified": true,
+  "verified_by": "http://www.christies.com/lotfinder/paintings/willem-van-de-velde-ii-dutch-men-o-war-5520515-details.aspx",
+  "wikidata": {
+   "amount": 5921250.0,
+   "date": "2011-12-06",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q17347662",
+   "refs": [
+    "http://www.christies.com/lotfinder/paintings/willem-van-de-velde-ii-dutch-men-o-war-5520515-details.aspx"
+   ],
+   "statement_id": "Q17347662$901c5875-47d2-4112-cdd5-fcbe9d6edcce"
+  }
+ },
+ "van-der-neer-young-lady-playing-the-mandolin": {
+  "amount": 45000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "terwerke der sammlung bischoff künstler eglon van der neer lot 20 schätzpreis: 35.000 € - 45.000 € ergebnis: 45.000 € (inkl. aufgeld) gebotsfrist endet in: ",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1168-1/20-eglon-van-der-neer.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1168-1/20-eglon-van-der-neer.html",
+  "wikidata": {
+   "amount": 45000.0,
+   "date": "2020-12-08",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134716232",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1168-1/20-eglon-van-der-neer.html"
+   ],
+   "statement_id": "Q134716232$02C2665F-68CD-4357-8D20-4326DAF689C1"
+  }
+ },
+ "van-der-venne-the-temptation-of-saint-anthon": {
+  "amount": 24000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " 30.000 erzielter preis: € 30.720 (inkl. gebühren und österreichischer mwst.) meistbot: € 24.000 auktion ist beendet. 0003 girolamo marchesi, gen. girolamo ",
+    "url": "https://imkinsky.com/ergebnisse/98/398/5"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://imkinsky.com/ergebnisse/98/398/5",
+  "wikidata": {
+   "amount": 24000.0,
+   "date": "2013-11-28",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q116453206",
+   "refs": [
+    "https://imkinsky.com/ergebnisse/98/398/5"
+   ],
+   "statement_id": "Q116453206$79a2e4aa-46b1-7045-8c02-3f1098bf4932"
+  }
+ },
+ "van-goyen-a-river-landscape-with-fishermen": {
+  "amount": 60000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 60,000",
+    "url": "https://www.christies.com/lot/lot-jan-van-goyen-a-river-landscape-with-6237823/?"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-jan-van-goyen-a-river-landscape-with-6237823/?",
+  "wikidata": {
+   "amount": 60000.0,
+   "date": "2019-12-04",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q118399265",
+   "refs": [
+    "https://www.christies.com/lot/lot-jan-van-goyen-a-river-landscape-with-6237823/?",
+    "https://www.christies.com/lot/lot-6237823"
+   ],
+   "statement_id": "Q118399265$25edb58a-4cb3-7052-9a87-0f5f3c30c53f"
+  }
+ },
+ "van-goyen-a-wooded-river-landscape-with-sail": {
+  "amount": 187500.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 187,500",
+    "url": "https://www.christies.com/en/lot/lot-6238430"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238430",
+  "wikidata": {
+   "amount": 187500.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q122746538",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238430"
+   ],
+   "statement_id": "Q122746538$A6CF463D-EE48-4EA3-BF88-AD915410035C"
+  }
+ },
+ "van-mieris-perseus-and-andromeda": {
+  "amount": 100000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 100,000",
+    "url": "https://www.christies.com/en/lot/lot-6238429"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238429",
+  "wikidata": {
+   "amount": 100000.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q134986763",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238429"
+   ],
+   "statement_id": "Q134986763$96C3F124-CFE0-4F26-A4CC-0A2BBC581D5F"
+  }
+ },
+ "vangogh-enclosed-field-with-ploughman": {
+  "amount": 81312500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 81,312,500",
+    "url": "https://www.christies.com/lotfinder/paintings/vincent-van-gogh-laboureur-dans-un-champ-6108742-details.aspx"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lotfinder/paintings/vincent-van-gogh-laboureur-dans-un-champ-6108742-details.aspx",
+  "wikidata": {
+   "amount": 81312500.0,
+   "date": "2017-00-00",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q26221172",
+   "refs": [
+    "https://www.christies.com/lotfinder/paintings/vincent-van-gogh-laboureur-dans-un-champ-6108742-details.aspx"
+   ],
+   "statement_id": "Q26221172$5983c4ef-4fb2-32c6-b112-f0899c027cca"
+  }
  },
  "vangogh-portrait-dr-gachet": {
   "amount": 82500000.0,
@@ -1494,6 +5935,54 @@
   "verified_by": "https://theartnewspaper.com/blog/where-is-van-gogh-s-portrait-of-dr-gachet",
   "wikidata": null
  },
+ "vangogh-street-scene-in-montmartre": {
+  "amount": 13091250.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " de la très rare série de tableaux représentant le mythique moulin de la galette, atteint 13,1m€ (est. 5-8m€) #sothebysimpmod @mirabaudmercier\" / x post lo",
+    "url": "https://twitter.com/SothebysFr/status/1375129755150848000"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://twitter.com/SothebysFr/status/1375129755150848000",
+  "wikidata": {
+   "amount": 13091250.0,
+   "date": "2021-03-25",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q28146933",
+   "refs": [
+    "https://www.artnews.com/art-news/market/vincent-van-gogh-sothebys-paris-1234584499/",
+    "https://twitter.com/SothebysFr/status/1375129755150848000",
+    "https://m.facebook.com/story.php?story_fbid=3987387977983984&id=695540517168763"
+   ],
+   "statement_id": "Q28146933$E34056C2-7D15-4F76-B1D8-5BD9AE9ABE9B"
+  }
+ },
+ "vangogh-verger-avec-cypres": {
+  "amount": 117180000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "y of christie's span]:underline\"> vincent van gogh 's verger avec cyprès (1888) sold for $117.2m at christie's in new york on november 9, 2022. the oil on c",
+    "url": "https://heni.com/news/article/vincent-van-gogh-verger-avec-cypres-2022-11-09"
+   },
+   {
+    "fetched": true,
+    "found": true,
+    "match": "sapp pinterest linkedin reddit contact an account manager who orchard with cypresses what 117,180,000 us dollar(s) where united states (new york city) when 09 no",
+    "url": "https://www.guinnessworldrecords.com/world-records/381775-most-expensive-painting-by-van-gogh-sold-at-auction"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://heni.com/news/article/vincent-van-gogh-verger-avec-cypres-2022-11-09",
+  "wikidata": null
+ },
  "vangogh-wheat-field-cypresses": {
   "amount": 57000000.0,
   "currency": "USD",
@@ -1514,6 +6003,56 @@
   "verified_by": "https://www.deseret.com/1993/5/26/19048601/pricey-van-gogh-gift-leaves-museum-agog/",
   "wikidata": null
  },
+ "vangogh-wooden-sheds": {
+  "amount": 71350000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 71,350,000",
+    "url": "https://www.christies.com/lot/lot-6341120?ldp_breadcrumb=back&intObjectID=6341120&from=salessummary&lid=1"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6341120?ldp_breadcrumb=back&intObjectID=6341120&from=salessummary&lid=1",
+  "wikidata": {
+   "amount": 71350000.0,
+   "date": "2021-11-11",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q26221170",
+   "refs": [
+    "https://www.christies.com/lot/lot-6341120?ldp_breadcrumb=back&intObjectID=6341120&from=salessummary&lid=1"
+   ],
+   "statement_id": "Q26221170$a8993ff7-4b77-be79-ee0b-ee7c357435cb"
+  }
+ },
+ "vangogh-young-man-with-cornflower": {
+  "amount": 46735500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 46,732,500",
+    "url": "https://www.christies.com/lot/lot-6341136?ldp_breadcrumb=back&intObjectID=6341136&from=salessummary&lid=1"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/lot/lot-6341136?ldp_breadcrumb=back&intObjectID=6341136&from=salessummary&lid=1",
+  "wikidata": {
+   "amount": 46735500.0,
+   "date": "2021-11-11",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q26221231",
+   "refs": [
+    "https://www.christies.com/lot/lot-6341136?ldp_breadcrumb=back&intObjectID=6341136&from=salessummary&lid=1"
+   ],
+   "statement_id": "Q26221231$fb5a2df5-4101-0d08-4629-35818adcd0e9"
+  }
+ },
  "velazquez-juan-de-pareja": {
   "amount": 2310000.0,
   "currency": "GBP",
@@ -1532,6 +6071,61 @@
   ],
   "verified": true,
   "verified_by": "https://www.theguardian.com/news/2013/dec/01/archive-velazquez-scarred-price-tag",
+  "wikidata": null
+ },
+ "vrancx-summer": {
+  "amount": 125000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised GBP 125,000",
+    "url": "https://www.christies.com/en/lot/lot-6238427"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6238427",
+  "wikidata": {
+   "amount": 125000.0,
+   "date": "2019-12-03",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q135023815",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6238427"
+   ],
+   "statement_id": "Q135023815$7DDA0ACA-D498-4679-B173-B2415380445D"
+  }
+ },
+ "watkins-cape-horn-columbia-river-1867": {
+  "amount": 156250.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " 41 42 43 30 carleton watkins cape horn, columbia river estimate $70,000–90,000 sold for $156,250 favorite lot details 1867 mammoth-plate albumen print. 20 3",
+    "url": "https://www.phillips.com/detail/carleton-watkins/103753"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/carleton-watkins/103753",
+  "wikidata": null
+ },
+ "watkins-multnomah-falls-cascade-1867": {
+  "amount": 106250.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "arleton watkins multnomah falls cascade, columbia river estimate $40,000–60,000 sold for $106,250 favorite lot details 1867 mammoth-plate albumen print, moun",
+    "url": "https://www.phillips.com/detail/carleton-watkins/NY040217/124"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.phillips.com/detail/carleton-watkins/NY040217/124",
   "wikidata": null
  },
  "wautier-study-young-woman": {
@@ -1557,5 +6151,275 @@
    ],
    "statement_id": "Q55238821$7FFFFBA3-5BC6-4187-833D-5B55161287D4"
   }
+ },
+ "werner-ovid": {
+  "amount": 945.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "he berlin sale künstler anton von werner lot 169 schätzpreis: 1.000 € - 1.500 € ergebnis: 945 € (inkl. aufgeld) gebotsfrist endet in: tag , tagen , h m s",
+    "url": "https://www.lempertz.com/de/kataloge/lot/1272-1/169-anton-von-werner.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/de/kataloge/lot/1272-1/169-anton-von-werner.html",
+  "wikidata": {
+   "amount": 945.0,
+   "date": "2025-06-21",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139717536",
+   "refs": [
+    "https://www.lempertz.com/de/kataloge/lot/1272-1/169-anton-von-werner.html"
+   ],
+   "statement_id": "Q139717536$1E324004-5F7B-4307-9EA0-D82862BEC395"
+  }
+ },
+ "whistler-nocturne-venice": {
+  "amount": 23000.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 23,000",
+    "url": "https://www.christies.com/en/lot/lot-170921"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-170921",
+  "wikidata": null
+ },
+ "whistler-rotherhithe": {
+  "amount": 3840.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "i van auken collection 31 march – 9 april 2025, 12:00 pdt online, los angeles sold for us$3,840 inc. premium follow share own a similar item? submit your i",
+    "url": "https://bonhams.com/auction/31486/lot/20/james-abbott-mcneill-whistler-1834-1903-rotherhithe-from-the-thames-set"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://bonhams.com/auction/31486/lot/20/james-abbott-mcneill-whistler-1834-1903-rotherhithe-from-the-thames-set",
+  "wikidata": null
+ },
+ "witkiewicz-portrait-of-ada-propper": {
+  "amount": 12500.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 12,500",
+    "url": "https://www.christies.com/en/lot/lot-6081633"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6081633",
+  "wikidata": {
+   "amount": 12500.0,
+   "date": "2017-06-13",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q106388118",
+   "refs": [
+    "https://www.christies.com/en/lot/lot-6081633",
+    "https://www.artsy.net/auction-result/396228"
+   ],
+   "statement_id": "Q106388118$0F56C86F-A815-46CA-BC14-951DE7A66A5B"
+  }
+ },
+ "witkiewicz-portrait-of-maria-zotnicka-jarosz": {
+  "amount": 30000.0,
+  "currency": "GBP",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": " british impressionist art 26 september 2018, 14:00 bst london, new bond street sold for £30,000 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/24742/lot/70/stanislaw-ignacy-witkiewicz-polish-1885-1939-portrait-of-maria-zlotnicka-jaroszynska/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/24742/lot/70/stanislaw-ignacy-witkiewicz-polish-1885-1939-portrait-of-maria-zlotnicka-jaroszynska/",
+  "wikidata": {
+   "amount": 30000.0,
+   "date": "2018-09-26",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q107291733",
+   "refs": [
+    "https://www.bonhams.com/auction/24742/lot/70/stanislaw-ignacy-witkiewicz-polish-1885-1939-portrait-of-maria-zlotnicka-jaroszynska/",
+    "https://www.artsy.net/auction-result/1619619"
+   ],
+   "statement_id": "Q107291733$ADE51FCB-F028-488A-8B99-B353FBD9D291"
+  }
+ },
+ "witkiewicz-portrait-of-zdzisaw-czermanski": {
+  "amount": 52000.0,
+  "currency": "PLN",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "cy witkiewicz cena wywoławcza: 45 000 zł estymacja: 50 000 - 70 000 zł cena wylicytowana: 52 000 zł pobierz katalog pdf pobierz katalog pdf regulamin aukcji",
+    "url": "https://www.polswissart.pl/pl/aukcje/archiwalne/214-aukcja-dziel-sztuki/9563-portret-zdzislawa-czermanskiego"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.polswissart.pl/pl/aukcje/archiwalne/214-aukcja-dziel-sztuki/9563-portret-zdzislawa-czermanskiego",
+  "wikidata": {
+   "amount": 52000.0,
+   "date": "2017-12-12",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q107291781",
+   "refs": [
+    "https://www.polswissart.pl/pl/aukcje/archiwalne/214-aukcja-dziel-sztuki/9563-portret-zdzislawa-czermanskiego",
+    "https://onebid.pl/pl/malarstwo-dawne-stanislaw-ignacy-witkiewicz-witkacy-portret-zdzislawa-czermanskiego-1926/210212",
+    "https://artinfo.pl/dzielo/portret-zdzislawa-czermanskiego-1926"
+   ],
+   "statement_id": "Q107291781$F4FF34FA-131D-4AB3-9DE0-742FDB89BD4E"
+  }
+ },
+ "wouwerman-a-small-horse-stable": {
+  "amount": 55000.0,
+  "currency": "EUR",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "e 14th - 19th c. artists philips wouwerman lot 1549 estimate: 20.000 € - 25.000 € result: 55.000 € (incl. premium) bid closes in: day , days , h m s auction",
+    "url": "https://www.lempertz.com/en/catalogues/lot/1185-1/1549-philips-wouwerman.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.lempertz.com/en/catalogues/lot/1185-1/1549-philips-wouwerman.html",
+  "wikidata": {
+   "amount": 55000.0,
+   "date": "2021-11-20",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q141695609",
+   "refs": [
+    "https://www.lempertz.com/en/catalogues/lot/1185-1/1549-philips-wouwerman.html"
+   ],
+   "statement_id": "Q141695609$6e82f6b8-4ccf-3364-6e48-7c05af945529"
+  }
+ },
+ "wu-bin-lingbi-rock": {
+  "amount": 512900000.0,
+  "currency": "CNY",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "nasty (1368-1644) painter wu bin's long scroll ten views of a fantastic rock was sold for 512.9 million yuan ($76.6 million) at the 15th anniversary celebration of",
+    "url": "https://global.chinadaily.com.cn/a/202010/19/WS5f8d3bcfa31024ad0ba7f966.html"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://global.chinadaily.com.cn/a/202010/19/WS5f8d3bcfa31024ad0ba7f966.html",
+  "wikidata": null
+ },
+ "wyspianski-girl": {
+  "amount": 35000.0,
+  "currency": "PLN",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "miary: 20.8 cm x 13.6 cm zobacz wyniki aukcyjne cena wywoławcza: 25 000 zł cena uzyskana: 35 000 zł zapytaj o obiekt informacje o dziele: sygn. p. g.: sw | ",
+    "url": "https://sztuka.agraart.pl/auction/415/aukcja-sztuki-dawnej-09-12-2018/25319/wyspianski-stanislaw-dziewczynka-1890"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://sztuka.agraart.pl/auction/415/aukcja-sztuki-dawnej-09-12-2018/25319/wyspianski-stanislaw-dziewczynka-1890",
+  "wikidata": {
+   "amount": 35000.0,
+   "date": "2018-12-09",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139594726",
+   "refs": [
+    "https://sztuka.agraart.pl/auction/415/aukcja-sztuki-dawnej-09-12-2018/25319/wyspianski-stanislaw-dziewczynka-1890"
+   ],
+   "statement_id": "Q139594726$4A3F4CB0-C9D0-46ED-8B6D-FB3A85FB2417"
+  }
+ },
+ "wyspianski-portrait-of-a-boy": {
+  "amount": 600000.0,
+  "currency": "PLN",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ada ekspertyzę mgr marty romanowskiej) estymacja: 500 000 - 800 000 zł cena wylicytowana: 600 000 zł download catalog download catalog auction sale regulatio",
+    "url": "https://www.polswissart.pl/en/aukcja/237-aukcja-dziel-sztuki/12824-portret-chlopca-1902/"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.polswissart.pl/en/aukcja/237-aukcja-dziel-sztuki/12824-portret-chlopca-1902/",
+  "wikidata": {
+   "amount": 600000.0,
+   "date": "2021-03-09",
+   "estimate_flag": false,
+   "has_reference": true,
+   "qid": "Q139665971",
+   "refs": [
+    "https://www.polswissart.pl/en/aukcja/237-aukcja-dziel-sztuki/12824-portret-chlopca-1902/",
+    "https://artinfo.pl/dzielo/portret-chlopca-1902"
+   ],
+   "statement_id": "Q139665971$9D468175-BE3B-4389-AD94-3D112E091015"
+  }
+ },
+ "yoshitoshi-yasumasa-flute": {
+  "amount": 27575.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "ection of the late bertram and ruth malenka 20 march 2019, 10:00 edt new york sold for us$27,575 inc. premium follow share own a similar item? submit your i",
+    "url": "https://www.bonhams.com/auction/25644/lot/107/tsukioka-yoshitoshi-1839-1892-meiji-era-1868-1912-1883"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.bonhams.com/auction/25644/lot/107/tsukioka-yoshitoshi-1839-1892-meiji-era-1868-1912-1883",
+  "wikidata": null
+ },
+ "yun-bing-rock-peonies": {
+  "amount": 400000.0,
+  "currency": "HKD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised HKD 400,000",
+    "url": "https://www.christies.com/en/lot/lot-6345998"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-6345998",
+  "wikidata": null
+ },
+ "zorn-omnibus": {
+  "amount": 5760.0,
+  "currency": "USD",
+  "urls": [
+   {
+    "fetched": true,
+    "found": true,
+    "match": "lot data: price_realised USD 5,760",
+    "url": "https://www.christies.com/en/lot/lot-4596760"
+   }
+  ],
+  "verified": true,
+  "verified_by": "https://www.christies.com/en/lot/lot-4596760",
+  "wikidata": null
  }
 }

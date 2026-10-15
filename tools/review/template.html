@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>GTP of Art · dataset review</title>
+<style>
+/* Layout: one artwork at a time on a dark salon wall, verdict buttons in the thumb zone, a grid overview behind a toggle.
+   Palette = the app's Salon Noir tokens (Design/Tokens.json). */
+:root{
+  --bg:#0E0D0C; --surface:#1A1816; --elevated:#24211E; --fg:#F4EFE6; --muted:#B8B0A3;
+  --gilt:#C9A55C; --on-gilt:#0E0D0C; --hit:#7FCB9B; --miss:#E8846A; --line:rgba(244,239,230,.12);
+  --display:"Fraunces","New York",Georgia,"Times New Roman",serif; --ui:-apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:light){ :root:not([data-theme="dark"]){
+  --bg:#F6F2EA; --surface:#FFFFFF; --elevated:#EFE9DE; --fg:#1A1714; --muted:#5C554C;
+  --gilt:#7A5C14; --on-gilt:#FFFFFF; --hit:#2B734A; --miss:#B04429; --line:rgba(26,23,20,.10); color-scheme:light; } }
+:root[data-theme="light"]{
+  --bg:#F6F2EA; --surface:#FFFFFF; --elevated:#EFE9DE; --fg:#1A1714; --muted:#5C554C;
+  --gilt:#7A5C14; --on-gilt:#FFFFFF; --hit:#2B734A; --miss:#B04429; --line:rgba(26,23,20,.10); color-scheme:light; }
+html,body{height:100%}
+[hidden]{display:none!important}
+img{max-width:100%}
+body{background:var(--bg);color:var(--fg);font:15px/1.45 var(--ui);margin:0}
+*{box-sizing:border-box}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;touch-action:manipulation}
+button:focus-visible,a:focus-visible{outline:2px solid var(--gilt);outline-offset:2px}
+a{color:var(--gilt)}
+.wrap{max-width:720px;min-width:0;overflow-x:clip;margin:0 auto;padding-block:0 24px;padding-inline:16px;min-height:100%;display:flex;flex-direction:column}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:3;padding-block:12px 8px;display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line)}
+header h1{font:500 22px/1.1 var(--display);margin:0;letter-spacing:-.01em;text-wrap:balance}
+header .sub{color:var(--muted);font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin-top:3px;font-variant-numeric:tabular-nums}
+.spacer{flex:1}
+.ghost{border:1px solid var(--line);border-radius:999px;padding:8px 14px;color:var(--fg);font-size:13px;min-height:40px}
+.ghost[aria-pressed="true"]{background:var(--elevated)}
+.ghost.save{background:var(--gilt);color:var(--on-gilt);border-color:var(--gilt);font-weight:600}
+.ghost.save.clean{background:none;color:var(--muted);border-color:var(--line);font-weight:400}
+.tools{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;font-size:13px;color:var(--muted);margin-top:10px}
+.tools label,.tools button{color:var(--gilt);cursor:pointer;text-decoration:underline;padding:0;min-height:0}
+.tools input{display:none}
+.progress{height:3px;background:var(--line);border-radius:2px;overflow:hidden;margin-block:8px 0}
+.progress i{display:block;height:100%;background:var(--gilt);width:0;transition:width .35s ease-out}
+.progress .r{background:var(--miss)}
+.progress b{display:flex;height:100%}
+.progress b i{transition:width .35s ease-out}
+main{flex:1;display:flex;flex-direction:column;min-width:0}
+.card>*{min-width:0}
+.card{display:flex;flex-direction:column;gap:14px;padding-top:16px}
+.frame{background:var(--surface);padding:6px;border-radius:4px;box-shadow:0 12px 32px rgba(0,0,0,.45);align-self:center;max-width:100%;min-width:0;cursor:zoom-in;border:0}
+.frame img{display:block;max-width:min(100%,calc(100vw - 44px),676px);max-height:min(52vh,520px);width:auto;height:auto;background:var(--elevated)}
+.meta{text-align:center}
+.meta h2{font:italic 500 24px/1.15 var(--display);margin:0 0 4px;text-wrap:balance}
+.meta .artist{color:var(--muted);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.meta .cat{color:var(--muted);font-size:13px;margin-top:6px}
+.price{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:grid;gap:4px}
+.price .big{font-weight:600;font-size:17px;font-variant-numeric:tabular-nums}
+.price .big span{color:var(--gilt)}
+.price small{color:var(--muted);font-size:12.5px;display:block}
+.price .links{display:flex;flex-wrap:wrap;gap:12px;font-size:13px;margin-top:2px}
+.scope{display:inline-block;border:1px solid var(--gilt);color:var(--gilt);border-radius:999px;padding:1px 8px;font-size:11px;letter-spacing:.04em;text-transform:uppercase;margin-left:6px;vertical-align:middle}
+.verdict{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px}
+.verdict button{min-height:56px;border-radius:14px;font-weight:600;font-size:17px;border:1px solid var(--line);background:var(--surface);display:flex;align-items:center;justify-content:center;gap:8px;transition:transform .15s ease-out}
+.verdict button:active{transform:scale(.97)}
+.verdict .ok{border-color:var(--hit);color:var(--hit)}
+.verdict .ok[aria-pressed="true"]{background:var(--hit);color:var(--bg)}
+.verdict .no{border-color:var(--miss);color:var(--miss)}
+.verdict .no[aria-pressed="true"]{background:var(--miss);color:var(--bg)}
+.reasons{background:var(--elevated);border-radius:14px;padding:12px;display:grid;gap:10px}
+.reasons h3{margin:0;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips button{border:1px solid var(--line);border-radius:999px;padding:8px 12px;min-height:40px;font-size:14px;background:var(--surface)}
+.chips button[aria-pressed="true"]{background:var(--miss);color:var(--bg);border-color:var(--miss)}
+.reasons input{width:100%;min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);padding:8px 12px;font:inherit}
+.nav{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:6px;color:var(--muted);font-size:13px}
+.nav button{min-height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line);color:var(--fg)}
+.status{font-size:13px;color:var(--muted);min-height:20px;text-align:center}
+.status.err{color:var(--miss)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;padding-top:16px}
+.tile{position:relative;border-radius:10px;overflow:hidden;background:var(--surface);border:1px solid var(--line);padding:0;text-align:left;display:flex;flex-direction:column}
+.tile img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--elevated)}
+.tile .t{padding:8px;font-size:12px;line-height:1.3}
+.tile .t b{display:block;font:italic 500 13px/1.25 var(--display)}
+.tile .t span{color:var(--muted)}
+.tile .badge{position:absolute;top:6px;left:6px;border-radius:999px;padding:2px 8px;font-size:11px;font-weight:600;background:var(--surface);border:1px solid var(--line)}
+.tile.approved .badge{background:var(--hit);color:var(--bg);border-color:var(--hit)}
+.tile.rejected .badge{background:var(--miss);color:var(--bg);border-color:var(--miss)}
+.tile.current{outline:2px solid var(--gilt)}
+.done{text-align:center;padding:40px 12px;display:grid;gap:10px}
+.done h2{font:500 32px/1.1 var(--display);margin:0}
+.done p{color:var(--muted);margin:0}
+.lightbox{position:fixed;inset:0;background:rgba(14,13,12,.96);z-index:10;display:flex;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+.lightbox img{max-width:100%;max-height:100%;object-fit:contain}
+.lightbox p{position:absolute;bottom:calc(12px + env(safe-area-inset-bottom,0px));left:16px;right:16px;text-align:center;color:#B8B0A3;font-size:12px;margin:0}
+.kbd{display:none;color:var(--muted);font-size:12px;text-align:center;margin-top:10px}
+@media (pointer:fine){.kbd{display:block}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Dataset review</h1>
+      <div class="sub" id="counter">__COUNT__ works</div>
+    </div>
+    <div class="spacer"></div>
+    <button class="ghost" id="toggleGrid" aria-pressed="false">All works</button>
+    <button class="ghost save" id="save" hidden>Save decisions</button>
+  </header>
+  <div class="progress"><b><i id="pOk"></i><i class="r" id="pNo"></i></b></div>
+  <main id="main"></main>
+  <div class="status" id="status">Loading saved verdicts…</div>
+  <div class="tools" id="tools" hidden><label>Resume from a saved reviews.json <input type="file" id="importFile" accept="application/json,.json"></label><button id="pickFile" hidden>Save straight to a file on this computer</button></div>
+  <div class="kbd">Keys: <b>A</b> approve · <b>R</b> reject · <b>←</b> <b>→</b> move · <b>Z</b> zoom</div>
+</div>
+
+<script>
+const MODE = '__MODE__'; // 'server' (make review) or 'static' (file opened from disk)
+const WORKS = __DATA__;
+const REASONS = ["Wrong artwork","Wrong version or impression","Cropped, framed or wall visible","Too small or blurry","Watermark or text","Price looks wrong","Other"];
+const byId = Object.fromEntries(WORKS.map(w => [w.id, w]));
+let reviews = {};          // id -> {status, reason, note, sha}
+let gridMode = false, idx = 0, pendingReject = null, lightbox = null, dirty = 0, fileHandle = null;
+const $ = s => document.querySelector(s);
+const main = $('#main'), status = $('#status');
+
+try { const p = parseInt(localStorage.getItem('review.idx')); if (!isNaN(p) && p >= 0 && p < WORKS.length) idx = p; } catch (e) {}
+
+function esc(s){ return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function counts(){ let ok=0,no=0; for (const w of WORKS){ const r=reviews[w.id]; if(!r||r.sha!==w.sha) continue; if(r.status==='approved') ok++; else if(r.status==='rejected') no++; } return {ok,no}; }
+function verdict(w){ const r=reviews[w.id]; return (r && r.sha===w.sha) ? r : null; }
+function nextPending(from){ for (let k=0;k<WORKS.length;k++){ const i=(from+k)%WORKS.length; if(!verdict(WORKS[i])) return i; } return -1; }
+
+function setStatus(msg, err){ status.textContent = msg; status.className = 'status' + (err ? ' err' : ''); }
+
+function render(){
+  const {ok,no} = counts();
+  $('#counter').textContent = `${ok} approved · ${no} rejected · ${WORKS.length-ok-no} to go`;
+  $('#pOk').style.width = (100*ok/WORKS.length)+'%';
+  $('#pNo').style.width = (100*no/WORKS.length)+'%';
+  $('#toggleGrid').setAttribute('aria-pressed', String(gridMode));
+  $('#toggleGrid').textContent = gridMode ? 'Review' : 'All works';
+  try { localStorage.setItem('review.idx', String(idx)); } catch (e) {}
+  if (gridMode) return renderGrid();
+  if (ok+no === WORKS.length && nextPending(idx) === -1) return renderDone(ok,no);
+  renderCard(WORKS[idx]);
+}
+
+function renderCard(w){
+  const r = verdict(w), p = w.price;
+  const scope = w.depicts === 'same_edition_other_impression' ? '<span class="scope">other impression</span>' : '';
+  const rejecting = pendingReject === w.id || (r && r.status === 'rejected');
+  const chosen = pendingReject === w.id ? (pendingReason||'') : (r ? r.reason : '');
+  const note = pendingReject === w.id ? (pendingNote||'') : (r ? (r.note||'') : '');
+  main.innerHTML = `
+  <section class="card" aria-live="polite">
+    <button class="frame" id="zoom" aria-label="Open full size image"><img src="${w.sm}" alt="${esc(w.alt)}"></button>
+    <div class="meta">
+      <h2>${esc(w.title)}</h2>
+      <div class="artist">${esc(w.artist)} · ${esc(w.date)}</div>
+      <div class="cat">${esc(w.medium)} · ${esc(w.category)} · ${esc(w.department)}${scope}</div>
+    </div>
+    <div class="price">
+      ${p ? `<div class="big"><span>${esc(p.line)}</span></div><small>${esc(p.detail)}</small>` : `<div class="big">No sale price <small style="display:inline">(used only in swipe and category modes)</small></div>`}
+      <small>Image: ${esc(w.licence)} · ${esc(w.attribution)}</small>
+      <div class="links">${p && p.src ? `<a href="${esc(p.src)}" target="_blank" rel="noopener">Price source ↗</a>` : ''}${w.landing ? `<a href="${esc(w.landing)}" target="_blank" rel="noopener">Image page ↗</a>` : ''}</div>
+    </div>
+    <div class="verdict">
+      <button class="ok" id="btnOk" aria-pressed="${r && r.status==='approved'}">✓ Approve</button>
+      <button class="no" id="btnNo" aria-pressed="${!!(r && r.status==='rejected') || pendingReject===w.id}">✕ Reject</button>
+    </div>
+    <div class="reasons" id="reasons" ${rejecting ? '' : 'hidden'}>
+      <h3>What is wrong?</h3>
+      <div class="chips">${REASONS.map(x => `<button data-reason="${esc(x)}" aria-pressed="${chosen===x}">${esc(x)}</button>`).join('')}</div>
+      <input id="note" placeholder="Optional note (e.g. the other version is the one that sold)" value="${esc(note)}" maxlength="300">
+    </div>
+    <div class="nav">
+      <button id="prev">← Previous</button>
+      <span>${idx+1} of ${WORKS.length} · <code>${esc(w.id)}</code></span>
+      <button id="next">Next →</button>
+    </div>
+  </section>`;
+  $('#zoom').onclick = () => openLightbox(w);
+  $('#btnOk').onclick = () => decide(w, 'approved');
+  $('#btnNo').onclick = () => { pendingReject = w.id; pendingReason = chosen; pendingNote = note; render(); };
+  for (const b of main.querySelectorAll('[data-reason]')) b.onclick = () => { pendingReject = w.id; pendingReason = b.dataset.reason; pendingNote = $('#note').value; decide(w, 'rejected'); };
+  $('#note').oninput = e => { pendingNote = e.target.value; };
+  $('#note').onchange = e => { if (r && r.status==='rejected' && e.target.value !== (r.note||'')) decide(w, 'rejected', r.reason, e.target.value); };
+  $('#prev').onclick = () => go(idx-1);
+  $('#next').onclick = () => go(idx+1);
+}
+let pendingReason = '', pendingNote = '';
+
+function renderGrid(){
+  main.innerHTML = `<div class="grid">${WORKS.map((w,i) => { const r = verdict(w); const cls = r ? r.status : ''; const label = r ? (r.status==='approved' ? 'Approved' : 'Rejected') : 'Pending';
+    return `<button class="tile ${cls} ${i===idx?'current':''}" data-i="${i}"><span class="badge">${label}</span><img src="${w.sm}" alt="" loading="lazy"><span class="t"><b>${esc(w.title)}</b><span>${esc(w.artist)}</span>${r && r.reason ? `<span> · ${esc(r.reason)}</span>` : ''}</span></button>`; }).join('')}</div>`;
+  for (const t of main.querySelectorAll('.tile')) t.onclick = () => { idx = +t.dataset.i; gridMode = false; render(); window.scrollTo(0,0); };
+}
+
+function renderDone(ok,no){
+  const rejected = WORKS.filter(w => verdict(w)?.status === 'rejected');
+  main.innerHTML = `<div class="done"><h2>All ${WORKS.length} reviewed</h2><p>${ok} approved · ${no} rejected. Press Save decisions, then send reviews.json to Claude.</p>
+  ${rejected.length ? `<p>Rejected: ${rejected.map(w => `<code>${esc(w.id)}</code>`).join(', ')}</p>` : ''}
+  <p><button class="ghost" id="again">Look through the grid</button></p></div>`;
+  $('#again').onclick = () => { gridMode = true; render(); };
+}
+
+function go(i){ pendingReject = null; idx = (i + WORKS.length) % WORKS.length; render(); window.scrollTo(0,0); }
+
+function exportJSON(){ return JSON.stringify(Object.fromEntries(Object.entries(reviews).sort()), null, 2) + '\n'; }
+function persistLocal(){ try { localStorage.setItem('review.verdicts', exportJSON()); } catch (e) {} }
+function updateSaveButton(){
+  const b = $('#save'); b.hidden = MODE === 'server';
+  b.textContent = dirty ? `Save decisions (${dirty} unsaved)` : 'Decisions saved';
+  b.classList.toggle('clean', !dirty);
+}
+async function writeFile(){
+  const json = exportJSON();
+  if (fileHandle) {
+    const w = await fileHandle.createWritable(); await w.write(json); await w.close();
+    dirty = 0; updateSaveButton(); setStatus(`Saved to ${fileHandle.name}`); return;
+  }
+  const blob = new Blob([json], {type: 'application/json'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'reviews.json';
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  dirty = 0; updateSaveButton(); setStatus('reviews.json downloaded. Send that file back (or drop it into tools/curation/).');
+}
+async function decide(w, st, reason, note){
+  const body = { status: st, sha: w.sha, title: w.title, at: new Date().toISOString() };
+  if (st === 'rejected') { body.reason = reason ?? pendingReason ?? ''; body.note = note ?? pendingNote ?? ''; if (!body.reason) { pendingReject = w.id; render(); return; } }
+  const prev = reviews[w.id];
+  reviews[w.id] = body; pendingReject = null; pendingReason=''; pendingNote='';
+  persistLocal(); dirty++;
+  try {
+    if (MODE === 'server') {
+      const res = await fetch('/api/reviews/' + encodeURIComponent(w.id), { method: 'PUT', headers: {'content-type': 'application/json'}, body: JSON.stringify(body) });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      dirty = 0;
+    } else if (fileHandle) {
+      await writeFile();
+    }
+    setStatus(st === 'approved' ? `Approved ${w.title}` : `Rejected ${w.title}: ${body.reason}`);
+    const n = nextPending(idx+1);
+    if (n !== -1 && n !== idx) go(n); else render();
+  } catch (e) {
+    if (MODE === 'server') { reviews[w.id] = prev; persistLocal(); render(); setStatus('Could not save (' + e.message + '). Is the review server still running?', true); }
+    else { render(); setStatus('Kept in this browser; could not write the file (' + e.message + '). Use Save decisions.', true); }
+  }
+  updateSaveButton();
+}
+
+function openLightbox(w){
+  lightbox = document.createElement('div'); lightbox.className = 'lightbox';
+  lightbox.innerHTML = `<img src="${w.lg}" alt="${esc(w.alt)}"><p>${esc(w.title)} · ${w.w}×${w.h}px master · tap to close</p>`;
+  lightbox.onclick = closeLightbox; document.body.appendChild(lightbox);
+}
+function closeLightbox(){ if (lightbox) { lightbox.remove(); lightbox = null; } }
+
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT') return;
+  if (lightbox && (e.key === 'Escape' || e.key === 'z')) return closeLightbox();
+  if (gridMode) return;
+  const w = WORKS[idx];
+  if (e.key === 'a' || e.key === 'A') decide(w, 'approved');
+  else if (e.key === 'r' || e.key === 'R') { pendingReject = w.id; render(); }
+  else if (e.key === 'ArrowLeft') go(idx-1);
+  else if (e.key === 'ArrowRight') go(idx+1);
+  else if (e.key === 'z' || e.key === 'Z') openLightbox(w);
+});
+$('#toggleGrid').onclick = () => { gridMode = !gridMode; render(); window.scrollTo(0,0); };
+
+render();
+
+(async () => {
+  updateSaveButton();
+  if (MODE === 'server') {
+    try {
+      const res = await fetch('/api/reviews'); if (!res.ok) throw new Error('HTTP ' + res.status);
+      reviews = await res.json();
+    } catch (e) { setStatus('Could not load saved verdicts (' + e.message + ').', true); }
+  } else {
+    try { reviews = JSON.parse(localStorage.getItem('review.verdicts') || '{}'); } catch (e) { reviews = {}; }
+    $('#tools').hidden = false;
+    if (window.showSaveFilePicker) $('#pickFile').hidden = false;
+  }
+  if (verdict(WORKS[idx])) { const n = nextPending(idx); if (n !== -1) idx = n; }
+  render();
+  const {ok,no} = counts();
+  if (MODE === 'server') setStatus(ok+no ? `${ok+no} verdicts on file · saved to tools/curation/reviews.json` : 'Tap Approve or Reject on each work. Verdicts are saved to tools/curation/reviews.json.');
+  else setStatus(ok+no ? `${ok+no} verdicts remembered in this browser. Press Save decisions when you stop.` : 'Tap Approve or Reject on each work. Your taps are remembered in this browser; press Save decisions when you stop.');
+})();
+$('#save').onclick = () => writeFile().catch(e => setStatus('Could not save: ' + e.message, true));
+$('#pickFile').onclick = async () => {
+  try { fileHandle = await window.showSaveFilePicker({ suggestedName: 'reviews.json', types: [{ description: 'JSON', accept: {'application/json': ['.json']} }] }); await writeFile(); $('#pickFile').textContent = `Saving to ${fileHandle.name} after every tap`; }
+  catch (e) { if (e.name !== 'AbortError') setStatus('Could not open the file: ' + e.message, true); }
+};
+$('#importFile').onchange = async e => {
+  const f = e.target.files[0]; if (!f) return;
+  try {
+    const data = JSON.parse(await f.text()); let n = 0;
+    for (const [id, r] of Object.entries(data)) if (byId[id] && r && (r.status === 'approved' || r.status === 'rejected')) { reviews[id] = r; n++; }
+    persistLocal(); render(); setStatus(`Loaded ${n} verdicts from ${f.name}`);
+  } catch (err) { setStatus('That file is not a reviews.json: ' + err.message, true); }
+  e.target.value = '';
+};
+</script>
+</body></html>

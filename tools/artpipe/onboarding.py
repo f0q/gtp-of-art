@@ -48,10 +48,20 @@ CHOICES = [
         ("hiroshige-sudden-shower-shin-ohashi", "Rain slanting across a bridge in Edo."),
         ("xia-chang-windblown-bamboo", "Bamboo bending in ink, never breaking."),
     ]),
-    ("prints_photographs", 2, "Prints & Photographs", ("departments", {"prints_photographs"}), [
+    ("prints_multiples", 2, "Prints & Multiples", ("departments", {"prints_multiples"}), [
         ("durer-rhinoceros", "Dürer's armoured rhinoceros, cut in wood."),
+        ("rembrandt-three-trees", "Rembrandt's three trees under a storm of etched lines."),
+        ("cassatt-the-bath", "Cassatt's mother and child in soft colour."),
+    ]),
+    ("photographs", 2, "Photographs", ("departments", {"photographs"}), [
         ("le-gray-great-wave-sete", "An early photograph of a wave and a stormy sky."),
         ("cameron-julia-jackson", "A soft-focus face emerging from shadow."),
+        ("atget-joueur-dorgue", "A Paris street organ-grinder, caught by Atget."),
+    ]),
+    ("posters", 2, "Vintage Posters", ("departments", {"posters"}), [
+        ("lautrec-moulin-rouge-la-goulue-1891", "Lautrec's Moulin Rouge: La Goulue mid-kick."),
+        ("mucha-job-1898", "Mucha's swirling hair and smoke for Job papers."),
+        ("steinlen-tournee-du-chat-noir-1896", "Steinlen's black cat with a halo."),
     ]),
     ("subject:landscape", 3, "Landscapes", ("subjects", {"landscape"}), [
         ("cezanne-montagne-sainte-victoire", "Cézanne's mountain built from colour patches."),

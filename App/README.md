@@ -28,7 +28,7 @@ AppRoot ─ RootView ─ NavigationStack(HomeView)
 * Scene phase: background → `ProfileModel.flush()` (drains queued writes, then `store.flush()`);
   active and `.NSCalendarDayChanged` → `DayModel.refresh()`.
 * DEBUG builds run `DatasetValidator.validate(bundle: .main)` in a background task at launch
-  (skipped with `-uiTesting`) and log a three-line summary under `com.artprice.app / dataset`.
+  (skipped with `-uiTesting`) and log a three-line summary under `pro.aijam.gtpofart / dataset`.
 
 ## Launch arguments
 

@@ -166,29 +166,33 @@ struct PriorTests {
             }
         }
         #expect(Department.typicalEraBuckets[.asianArt] == [])
-        #expect(Department.typicalEraBuckets[.printsPhotographs] == [])
-        for d in Fixtures.mini.departments where d.id != .asianArt && d.id != .printsPhotographs {
+        for d in [DepartmentID.printsMultiples, .photographs, .posters] {
+            #expect(Department.typicalEraBuckets[d] == [], "\(d) is era-neutral")
+        }
+        #expect(Department.typicalEraBuckets["prints_photographs"] == nil, "split into prints_multiples + photographs")
+        let eraNeutral: Set<DepartmentID> = [.asianArt, .printsMultiples, .photographs, .posters]
+        for d in Fixtures.mini.departments where !eraNeutral.contains(d.id) {
             #expect((Department.typicalEraBuckets[d.id] ?? []).count >= 1, "\(d.id)")
         }
     }
 
     @Test("Departments resolve via category, explicit id, or department listing")
     func departments() throws {
-        #expect(pool.departments.map(\.id) == [.asianArt, .impressionistModern, .nineteenthCentury, .oldMasters, .printsPhotographs])
+        #expect(pool.departments.map(\.id) == [.asianArt, .impressionistModern, .nineteenthCentury, .oldMasters, .printsMultiples])
         #expect(pool.artworkIDs(in: .oldMasters).count == 11)
         #expect(pool.artworkIDs(in: .impressionistModern).count == 13)
         let total = pool.departments.map { pool.artworkIDs(in: $0.id).count }.reduce(0, +)
         #expect(total == 30)
         var hokusai = try #require(pool.artwork("hokusai-under-the-wave"))
         #expect(pool.department(of: hokusai) == .asianArt)
-        hokusai.departmentID = .printsPhotographs
+        hokusai.departmentID = .printsMultiples
         let categoriesWithoutIDs = Fixtures.mini.taxonomy.map { c -> ArtCore.Category in
             var c = c
             c.departmentID = nil
             return c
         }
         let p2 = GamePool(artworks: [hokusai], categories: categoriesWithoutIDs, departments: Fixtures.mini.departments)
-        #expect(p2.department(of: hokusai) == .printsPhotographs, "explicit artwork department wins")
+        #expect(p2.department(of: hokusai) == .printsMultiples, "explicit artwork department wins")
         let p3 = GamePool(artworks: Fixtures.mini.artworks, categories: categoriesWithoutIDs, departments: Fixtures.mini.departments)
         #expect(p3.department(of: "monet-meules") == .impressionistModern, "falls back to the department listing")
 

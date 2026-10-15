@@ -159,7 +159,9 @@ struct PriorSessionTests {
     }
 
     /// Over 40 seeds, swipe and pick-the-price sessions with a modern prior show clearly more
-    /// impressionist & modern works than without one.
+    /// impressionist & modern works than without one. A department-only prior weighs a preferred
+    /// work 5 vs 3 (spec §17A.3), so the expected lift is relative (~1.4× at most), not a fixed
+    /// number of points; with seven departments in v1 the absolute lift for pick-the-price is ~+0.05.
     @Test(arguments: [GameMode.swipe, .pickPrice])
     func priorFavoursThePreferredDepartment(mode: GameMode) throws {
         func share(_ prior: TastePrior?) throws -> Double {
@@ -177,7 +179,7 @@ struct PriorSessionTests {
         let base = try share(nil)
         let biased = try share(modernPrior)
         print("\(mode.rawValue): impressionist_modern share \(base) → \(biased) with prior")
-        #expect(biased > base + 0.05)
+        #expect(biased > base * 1.15)
     }
 
     @Test func priorPrefersSameDepartmentPairs() throws {

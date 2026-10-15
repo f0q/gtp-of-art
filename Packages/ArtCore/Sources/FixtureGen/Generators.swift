@@ -346,7 +346,7 @@ enum Generators {
             ("skipped everything, swipe", A(), .swipe, nil, 1),
             ("classic era only, swipe", A(era: .classic), .swipe, nil, 2),
             ("modern + landscapes + serene, swipe", A(era: .modern, subjects: [.landscape], mood: .serene, intent: .play), .swipe, nil, 3),
-            ("asian + prints, people, dramatic, pick price", A(era: .classic, departments: [.asianArt, .printsPhotographs], subjects: [.people], mood: .dramatic, intent: .testMyEye), .pickPrice, nil, 4),
+            ("asian + prints, people, dramatic, pick price", A(era: .classic, departments: [.asianArt, .printsMultiples], subjects: [.people], mood: .dramatic, intent: .testMyEye), .pickPrice, nil, 4),
             ("old masters, learn, category", A(era: .classic, departments: [.oldMasters], intent: .learn), .category, nil, 5),
             ("impressionist, higher-lower chained", A(era: .modern, departments: [.impressionistModern], intent: .play), .higherLower, nil, 6),
             ("old masters, higher-lower fixed hard", A(departments: [.oldMasters]), .higherLower, [RoundSpec(.higherLower, .hard)], 7),

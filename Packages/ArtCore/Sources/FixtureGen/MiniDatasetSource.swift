@@ -124,7 +124,7 @@ enum MiniDatasetSource {
         ("nineteenth_century", "19th Century", ["romanticism"]),
         ("impressionist_modern", "Impressionist & Modern", ["impressionism", "post_impressionism", "pointillism", "symbolism", "expressionism"]),
         ("asian_art", "Asian Art", ["ukiyo_e"]),
-        ("prints_photographs", "Prints & Photographs", ["print"]),
+        ("prints_multiples", "Prints & Multiples", ["print"]),
     ]
 
     static let departments: [Department] = departmentRows.map {

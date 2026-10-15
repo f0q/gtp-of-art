@@ -18,7 +18,9 @@ public struct DepartmentID: RawRepresentable, Codable, CodingKeyRepresentable, S
     public static let nineteenthCentury: DepartmentID = "nineteenth_century"
     public static let impressionistModern: DepartmentID = "impressionist_modern"
     public static let asianArt: DepartmentID = "asian_art"
-    public static let printsPhotographs: DepartmentID = "prints_photographs"
+    public static let printsMultiples: DepartmentID = "prints_multiples"
+    public static let photographs: DepartmentID = "photographs"
+    public static let posters: DepartmentID = "posters"
 }
 
 private struct DepartmentKey: CodingKey {
@@ -42,13 +44,17 @@ public struct Department: Codable, Sendable, Equatable, Identifiable {
         self.categories = categories
     }
 
-    /// Typical era buckets of the five standard departments, used to seed the taste profile from
-    /// onboarding answers. Era-neutral departments (Asian art, prints & photographs) have none.
+    /// Typical era buckets of the standard departments, used to seed the taste profile from
+    /// onboarding answers. Era-neutral departments (Asian art, prints & multiples, photographs,
+    /// posters) have none; a department missing from this table (added by data alone) behaves
+    /// like an era-neutral one.
     public static let typicalEraBuckets: [DepartmentID: [String]] = [
         .oldMasters: ["pre1500", "1500_1600", "1600_1700", "1700_1800"],
         .nineteenthCentury: ["1800_1850", "1850_1900"],
         .impressionistModern: ["1850_1900", "1900_1930"],
         .asianArt: [],
-        .printsPhotographs: [],
+        .printsMultiples: [],
+        .photographs: [],
+        .posters: [],
     ]
 }

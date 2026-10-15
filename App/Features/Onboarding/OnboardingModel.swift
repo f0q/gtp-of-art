@@ -45,16 +45,20 @@ final class OnboardingModel: Identifiable {
         }
     }
 
+    /// Step-2 tiles per era (plan I2/J3, up to 4 per branch), in display order. Ids are
+    /// `onboarding.json` step-2 choice ids; ids missing from the catalog are skipped.
+    static func departmentChoiceIDs(for era: OnboardingAnswers.Era) -> [String] {
+        switch era {
+        case .classic: ["old_masters", "nineteenth_century", "asian_art", "prints_multiples"]
+        case .modern: ["impressionist_modern:impressionist", "impressionist_modern:avant_garde", "posters", "photographs"]
+        }
+    }
+
     /// Choices for the current step. Step 2 depends on the era picked in step 1 (plan I2).
     var choices: [OnboardingChoice] {
         let all = catalog.choices(step: step)
         guard step == 2, let era = answers.era else { return all }
-        let wanted: [String] = switch era {
-        case .classic: ["old_masters", "nineteenth_century", "asian_art"]
-        case .modern:
-            ["impressionist_modern:impressionist", "impressionist_modern:avant_garde", "asian_art", "prints_photographs"]
-        }
-        let picked = wanted.compactMap { id in all.first { $0.id == id } }
+        let picked = Self.departmentChoiceIDs(for: era).compactMap { id in all.first { $0.id == id } }
         return picked.isEmpty ? all : picked
     }
 

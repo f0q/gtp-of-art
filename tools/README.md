@@ -24,14 +24,17 @@ Useful flags for `build_dataset.py`:
 | `--offline` | never touch the network; a cache miss is an error |
 | `--strict` | coverage targets (≥ `min_quiz_items` works per active category, ≥ 10 priced works per decade $10K–$100M) become errors |
 | `--reverify` | re-check every price source |
+| `--skip-failed` | drop (and list) rows whose metadata/image cannot be fetched instead of aborting |
 
 Exit code 0 = no validator errors. Warnings (missing sign-off, coverage, small source images) do not fail.
 
 Everything fetched is cached under `tools/cache/<host>/<sha256(url)>` (gitignored), and per-image
 processing under `tools/out/work_cache/`, so a fully cached rerun takes a few seconds. Delete a
 cache file to force a refetch. Rate limits: Met ≤ 3 req/s, AIC 1 req/s with `AIC-User-Agent`
-(contact from env `AIC_CONTACT`, placeholder `TODO_OWNER_EMAIL`), Wikidata SPARQL 1 req/s; 5xx,
-429 and timeouts back off exponentially.
+(contact from env `AIC_CONTACT`, placeholder `TODO_OWNER_EMAIL`), Wikidata SPARQL 1 req/s,
+Commons API 1 req/s, upload.wikimedia.org one file per 2.5 s (originals are throttled with HTTP 429);
+5xx, 429 and timeouts back off exponentially and honour `Retry-After` (up to 300 s). AIC IIIF is
+requested at min(source width, 1686) px: AIC answers 403 for widths above the source.
 
 ## Stages (Part E9)
 
@@ -50,7 +53,8 @@ cache file to force a refetch. Rate limits: Met ≤ 3 req/s, AIC 1 req/s with `A
 7. **validate** — `artpipe/validate.py`: `spec/dataset.schema.json` + the E9 checklist
 8. **emit** — `artpipe/emit.py`
 
-Price verification (`verify_prices.py`, run automatically for new/changed prices): fetches every
+Price verification (`verify_prices.py`, run automatically for new/changed prices): Christie's lot pages are
+checked against the lot's own embedded data (`price_realised`, exact amount and currency); otherwise it fetches every
 `source_url_*` (cached; `https://web.archive.org/web/2024/<url>` works for paywalled or JS pages)
 and looks for the amount (e.g. `450,312,500`, `450.3 million`, `$450m`, `183,8 Millionen`) within
 700 characters of the artist's or title's name. A `wikidata_price` QID counts when a matching
@@ -99,6 +103,11 @@ price is demoted to `confidence: low, game_eligible: false`** — never invent o
 
 4. `make dataset`, open `tools/out/report.html`, check the image and numbers, then record approval
    in `curation/signoff.json` as `{"<id>": "<image sha256>"}` (shown on the sheet).
+   Easiest: `make review` opens a local click-to-approve page (http://localhost:8765, also reachable from an
+   iPhone on the same Wi-Fi); verdicts land in `curation/reviews.json`, then `make signoff` writes `signoff.json`.
+   Manual alternative: `python3 tools/signoff.py --approve-all --reject <ids>`.
+   To review only what is new: `python3 tools/export_review.py --only-unsigned --dest tools/out/review-v1 --zip-name GTP-review-v1`
+   (works missing from `signoff.json`, or whose image sha256 changed).
 5. `make assets`, then `gen_baseline.py`.
 
 PD rule (Part E2): author died ≤ 1955 and work dated ≤ 1930; Picasso, Pollock, Rothko, Bacon,
@@ -106,9 +115,11 @@ Warhol, Basquiat, Hopper, Magritte, Qi Baishi and Kahlo are excluded.
 
 ## Taxonomy, departments and onboarding
 
-`artpipe/taxonomy.py` holds the categories (original teaching copy), the five departments of plan
-Part I1 and `MIN_QUIZ_V0 = 4`. **`min_quiz_items` is 4 as a v0 setting** for the 91-work dataset
-(Part I4); the v1 target is 8 (`MIN_QUIZ_V1_TARGET`) — raise `MIN_QUIZ` when the dataset grows.
+`artpipe/taxonomy.py` holds the categories (original teaching copy), the **seven departments of plan
+Part J2** (old_masters, nineteenth_century, impressionist_modern, asian_art, prints_multiples,
+photographs, posters) and the quiz threshold: `MIN_QUIZ = 8` (v1), with per-category exceptions in
+`MIN_QUIZ_LOW` (empty in v1: every active category has ≥ 8 works). v1 added the medium categories
+`modern_print` (1850–1930), `poster` and `watercolour_drawing` (19th-century works on paper).
 Every artwork carries `department_id` derived from its primary category. The validator checks that
 the departments cover every active category exactly once.
 
@@ -128,7 +139,7 @@ the October 2025 CPI release) are flagged and surface as validator warnings on a
 | file | what it is |
 |---|---|
 | `Resources/dataset.json` | all artworks; priced pool = works with `game_price_id`, unpriced pool = `game_price_id: null` |
-| `Resources/taxonomy.json` | `departments` (5, Part I1) + 26 active categories (20 movements, 6 media, each with `department_id`) + inactive sculpture (`department_id: null`) |
+| `Resources/taxonomy.json` | `departments` (7, Part J2) + 29 active categories (20 movements, 9 media, each with `department_id`) + inactive sculpture (`department_id: null`) |
 | `Resources/onboarding.json` | questionnaire exemplars: 2–3 artwork ids + caption per choice (Part I2; schema `spec/onboarding.schema.json`) |
 | `Resources/credits.json`, `CREDITS.md` | image licences/attributions, price sources, data sources, disclaimer |
 | `tools/out/report.html` | contact sheet + validator report for curator sign-off (not shipped) |

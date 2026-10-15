@@ -11,7 +11,8 @@ from urllib.parse import quote
 
 from . import http
 
-AIC_IIIF = "https://www.artic.edu/iiif/2/{id}/full/1686,/0/default.jpg"
+AIC_IIIF = "https://www.artic.edu/iiif/2/{id}/full/{w},/0/default.jpg"
+AIC_MAX_W = 1686  # AIC serves at most 1686 px wide and refuses (403) widths above the source
 _TAG = re.compile(r"<[^>]+>")
 
 
@@ -43,8 +44,9 @@ def aic(object_id: str) -> dict:
     if not d.get("image_id"):
         raise ValueError(f"AIC {object_id} has no image")
     th = d.get("thumbnail") or {}
+    w = min(AIC_MAX_W, int(th.get("width") or AIC_MAX_W))
     return {
-        "source": "aic", "source_url": AIC_IIIF.format(id=d["image_id"]),
+        "source": "aic", "source_url": AIC_IIIF.format(id=d["image_id"], w=w),
         "landing_url": f"https://www.artic.edu/artworks/{object_id}",
         "licence": "CC0", "credit": "Art Institute of Chicago, " + (d.get("credit_line") or "CC0"),
         "width": th.get("width"), "height": th.get("height"), "raw": d,

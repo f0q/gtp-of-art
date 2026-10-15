@@ -26,7 +26,7 @@ from artpipe import csvload, derive, emit, http, images, onboarding, sources, ta
 PIPELINE_VERSION = 3
 WORK_CACHE = TOOLS / "out" / "work_cache"
 CHECKS = TOOLS / "curation" / "price_checks.json"
-DATASET_ID_PREFIX = "artprice-v0"
+DATASET_ID_PREFIX = "artprice-v1"
 T0 = time.monotonic()
 
 
@@ -307,6 +307,8 @@ def main() -> int:
     ap.add_argument("--offline", action="store_true", help="fail on any cache miss instead of fetching")
     ap.add_argument("--strict", action="store_true", help="treat v1 coverage targets as errors")
     ap.add_argument("--reverify", action="store_true", help="re-run price verification for all rows")
+    ap.add_argument("--skip-failed", action="store_true",
+                    help="drop a row whose metadata/image cannot be fetched (listed at the end) instead of aborting")
     a = ap.parse_args()
     http.OFFLINE = a.offline
     out = Path(a.out)
@@ -335,6 +337,7 @@ def main() -> int:
     money = derive.Money()
     warns: list[str] = []
     works, cache = [], {}
+    dropped: list[tuple[str, str]] = []
     log("resolve_metadata / download / process_images / palette_features / derive")
     for i, r in enumerate(rows, 1):
         try:
@@ -342,6 +345,10 @@ def main() -> int:
         except http.OfflineMiss as e:
             print(f"OFFLINE cache miss for {r['work_key']}: {e}"); return 3
         except Exception as e:
+            if a.skip_failed:
+                dropped.append((r["work_key"], str(e)[:200]))
+                log(f"  DROPPED {r['work_key']}: {str(e)[:200]}")
+                continue
             print(f"ERROR {r['work_key']}: {e}"); return 4
         works.append(w); cache[w["id"]] = ic
         log(f"  [{i}/{len(rows)}] {w['id']}: {w['images']['primary']['licence']} "
@@ -391,7 +398,8 @@ def main() -> int:
         old = out / "dataset.json"
         if old.exists():
             prev = json.loads(old.read_text())
-            if {**prev, "generated_at": "", "dataset_id": ""} == {**doc, "generated_at": "", "dataset_id": ""}:
+            if prev.get("dataset_id", "").startswith(DATASET_ID_PREFIX + "-") and \
+                    {**prev, "generated_at": "", "dataset_id": ""} == {**doc, "generated_at": "", "dataset_id": ""}:
                 doc["generated_at"], doc["dataset_id"] = prev["generated_at"], prev["dataset_id"]
                 cred["generated_at"] = prev["generated_at"]
         emit.write_json(out / "dataset.json", doc)
@@ -408,6 +416,8 @@ def main() -> int:
         report_dir = TOOLS / "out"; report_dir.mkdir(parents=True, exist_ok=True)
         if not (report_dir / "report.html").exists() or (report_dir / "report.html").read_text() != rh:
             (report_dir / "report.html").write_text(rh)
+    for k, e in dropped:
+        log(f"  DROPPED (fetch failed): {k}: {e}")
     log(f"done: {len(works)} works ({len(priced)} priced), {len(rep.errors)} errors, {len(rep.warnings)} warnings")
     log("stats " + json.dumps(stats))
     return 1 if rep.errors else 0

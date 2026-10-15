@@ -17,7 +17,8 @@ ONBOARDING_SCHEMA = ROOT / "spec" / "onboarding.schema.json"
 ARTWORKS_DIR = ROOT / "Resources" / "Artworks"
 LIMITS = {"full": 450_000, "card": 250_000, "thumb": 80_000}   # bytes per HEIC file (warn above)
 BUNDLE_LIMIT = 100_000_000
-MEDIUM_CATS = {"ukiyo_e": {"print"}, "print": {"print"}, "early_photography": {"photograph"},
+MEDIUM_CATS = {"ukiyo_e": {"print"}, "print": {"print"}, "modern_print": {"print"}, "poster": {"print"},
+               "early_photography": {"photograph"}, "watercolour_drawing": {"drawing", "works_on_paper"},
                "chinese_ink": {"ink_painting"}, "old_master_drawing": {"drawing", "works_on_paper"}}
 
 

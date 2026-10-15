@@ -29,3 +29,6 @@ tools/out/
 
 # Secrets
 *.env
+
+# local API keys, never committed
+tools/.secrets/

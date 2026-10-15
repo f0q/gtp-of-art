@@ -2763,8 +2763,8 @@
       "categories" : [
         "print"
       ],
-      "id" : "prints_photographs",
-      "label" : "Prints & Photographs"
+      "id" : "prints_multiples",
+      "label" : "Prints & Multiples"
     }
   ],
   "description" : "Frozen 30-work synthetic dataset for ArtCore fixtures. Real public-domain titles with approximate, unverified prices; not for shipping.",
@@ -3309,7 +3309,7 @@
       "confusers" : [
         "renaissance_north"
       ],
-      "department_id" : "prints_photographs",
+      "department_id" : "prints_multiples",
       "era" : {
         "end" : 1930,
         "start" : 1450

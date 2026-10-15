@@ -39,7 +39,7 @@ final class AppServices {
         guard !env.launch.uiTesting else { return }
         Task.detached(priority: .background) {
             let report = DatasetValidator.validate(bundle: .main)
-            let log = Logger(subsystem: "com.artprice.app", category: "dataset")
+            let log = Logger(subsystem: "pro.aijam.gtpofart", category: "dataset")
             let head = report.summary.split(separator: "\n").prefix(3).joined(separator: " | ")
             log.notice("DatasetValidator: \(head, privacy: .public)")
         }

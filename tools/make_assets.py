@@ -32,15 +32,22 @@ def sips_dims(p: Path) -> tuple[int, int]:
     return int(re.search(r"pixelWidth: (\d+)", o).group(1)), int(re.search(r"pixelHeight: (\d+)", o).group(1))
 
 
-def convert(src: Path, dst: Path, edge: int, quality: int, force: bool) -> None:
-    if dst.exists() and not force and dst.stat().st_mtime >= src.stat().st_mtime:
+def convert(src: Path, dst: Path, edge: int, quality: int, force: bool, limit: int | None = None) -> None:
+    """HEIC at `quality`; if the result exceeds `limit` bytes (busy images), step quality down to 40."""
+    fresh = dst.exists() and not force and dst.stat().st_mtime >= src.stat().st_mtime
+    if fresh and (limit is None or dst.stat().st_size <= limit):
         return
     w, h = sips_dims(src)
     tmp = dst.with_suffix(".tmp.heic")
-    cmd = ["sips", "-s", "format", "heic", "-s", "formatOptions", str(quality)]
-    if max(w, h) > edge:
-        cmd += ["-Z", str(edge)]
-    subprocess.run(cmd + [str(src), "--out", str(tmp)], check=True, capture_output=True)
+    q = quality
+    while True:
+        cmd = ["sips", "-s", "format", "heic", "-s", "formatOptions", str(q)]
+        if max(w, h) > edge:
+            cmd += ["-Z", str(edge)]
+        subprocess.run(cmd + [str(src), "--out", str(tmp)], check=True, capture_output=True)
+        if limit is None or tmp.stat().st_size <= limit or q <= 40:
+            break
+        q -= 5
     # strip metadata sips may carry over (none expected: masters have no EXIF); keep sRGB profile
     tmp.replace(dst)
 
@@ -68,7 +75,7 @@ def main() -> int:
             if not m.exists():
                 print(f"missing master {m} (run make dataset)"); return 2
             out = dst / rend["file"]
-            convert(m, out, edge, a.quality, a.force)
+            convert(m, out, edge, a.quality, a.force, validate.LIMITS[kind])
             rend["w"], rend["h"] = sips_dims(out)
             rend["bytes"] = out.stat().st_size
             totals[kind] += rend["bytes"]

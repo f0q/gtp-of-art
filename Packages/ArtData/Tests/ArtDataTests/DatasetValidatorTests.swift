@@ -13,9 +13,9 @@ struct DatasetValidatorTests {
             resourcesDirectory: TestSupport.resourcesDirectory,
             options: ValidationOptions(dailyStart: DayKey(year: 2026, month: 10, day: 12)))
         print("===== DatasetValidator summary =====\n" + report.summary + "\n====================================")
-        #expect(report.artworkCount == 91)
-        #expect(report.pricedCount == 62)
-        #expect(report.imageFilesChecked == 182)
+        #expect(report.artworkCount == 417)
+        #expect(report.pricedCount == 300)
+        #expect(report.imageFilesChecked == 834)
         #expect(report.daily?.daysChecked == 730)
         #expect(report.daily?.failures.isEmpty == true)
         #expect(report.roundProbes.count == RoundKind.allCases.count * Difficulty.allCases.count)
@@ -139,5 +139,80 @@ struct DepartmentValidationTests {
         #expect(codes.contains("artwork_without_department"))
         #expect(codes.contains("onboarding_artwork_unresolved"))
         #expect(codes.contains("onboarding_choice_unknown"))
+    }
+
+    /// A department added to taxonomy.json (with an onboarding choice) works without code changes:
+    /// it loads, becomes a content pack, validates, and survives onboarding sanitising.
+    @Test func newDepartmentByDataAlone() throws {
+        let dir = try TestSupport.makeTempDirectory()
+        defer { try? FileManager.default.removeItem(at: dir) }
+        let src = TestSupport.resourcesDirectory
+        for file in [DatasetFiles.tasteBaseline] {
+            try FileManager.default.copyItem(at: src.appendingPathComponent(file), to: dir.appendingPathComponent(file))
+        }
+        func load(_ file: String) throws -> [String: Any] {
+            try #require(
+                try JSONSerialization.jsonObject(with: Data(contentsOf: src.appendingPathComponent(file))) as? [String: Any])
+        }
+        func save(_ object: [String: Any], _ file: String) throws {
+            try JSONSerialization.data(withJSONObject: object).write(to: dir.appendingPathComponent(file))
+        }
+        let newID = "drawings_watercolours"
+        // Taxonomy: move one category (from the department with most categories) into a new department.
+        var taxonomy = try load(DatasetFiles.taxonomy)
+        var departments = try #require(taxonomy["departments"] as? [[String: Any]])
+        let donor = try #require(departments.indices.max {
+            ($0 == $1 ? 0 : (departments[$0]["categories"] as! [String]).count)
+                < (departments[$1]["categories"] as! [String]).count
+        })
+        var donorCategories = departments[donor]["categories"] as! [String]
+        let moved = donorCategories.removeLast()
+        departments[donor]["categories"] = donorCategories
+        departments.append(["id": newID, "label": "Drawings & Watercolours", "categories": [moved]])
+        taxonomy["departments"] = departments
+        var categories = try #require(taxonomy["categories"] as? [[String: Any]])
+        for i in categories.indices where categories[i]["id"] as? String == moved {
+            categories[i]["department_id"] = newID
+        }
+        taxonomy["categories"] = categories
+        try save(taxonomy, DatasetFiles.taxonomy)
+        // Dataset: works of the moved category follow it.
+        var dataset = try load(DatasetFiles.dataset)
+        var movedWorks: [String] = []
+        dataset["artworks"] = (dataset["artworks"] as! [[String: Any]]).map { work in
+            var w = work
+            if w["category_id"] as? String == moved {
+                w["department_id"] = newID
+                if let id = w["id"] as? String { movedWorks.append(id) }
+            }
+            return w
+        }
+        try save(dataset, DatasetFiles.dataset)
+        // Onboarding: a step-2 choice for the new department, reusing an existing choice's exemplars.
+        var onboarding = try load(DatasetFiles.onboarding)
+        var choices = try #require(onboarding["choices"] as? [[String: Any]])
+        let template = try #require(choices.first { ($0["step"] as? Int) == 2 })
+        choices.append(["id": newID, "step": 2, "label": "Drawings & Watercolours", "exemplars": template["exemplars"] ?? []])
+        onboarding["choices"] = choices
+        try save(onboarding, DatasetFiles.onboarding)
+
+        let data = try BundledDataset(resourcesDirectory: dir, imagesDirectory: DatasetFiles.artworksDirectory(in: src))
+        let id = DepartmentID(newID)
+        #expect(data.departments.contains { $0.id == id && $0.label == "Drawings & Watercolours" })
+        let pack = try #require(data.contentPacks.first { $0.id == id })
+        #expect(pack.artworkCount == movedWorks.filter { data.artwork(ArtworkID($0)) != nil }.count)
+        #expect(data.onboarding.choice(newID)?.department == id)
+        #expect(OnboardingService.sanitized(OnboardingAnswers(departments: [id]), dataset: data).departments == [id])
+        #expect(TastePrior.from(answers: OnboardingAnswers(departments: [id])).seedBuckets.allSatisfy { !$0.hasPrefix("era:") },
+            "a department without typical era buckets is era-neutral")
+
+        let report = DatasetValidator.validate(
+            resourcesDirectory: dir, imagesDirectory: DatasetFiles.artworksDirectory(in: src),
+            options: ValidationOptions(runGenerationProbes: false))
+        let departmentCodes: Set<String> = [
+            "departments_missing", "duplicate_department_id", "unknown_department_category", "unknown_department",
+            "department_mismatch", "category_department_count", "artwork_without_department", "onboarding_choice_unknown",
+        ]
+        #expect(report.errors.filter { departmentCodes.contains($0.code) }.isEmpty, "\(report.errors.map(\.message))")
     }
 }

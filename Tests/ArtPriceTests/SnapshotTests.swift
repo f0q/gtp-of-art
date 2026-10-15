@@ -86,6 +86,23 @@ struct SnapshotTests {
         assertScreen(OnboardingView(model: model).appServices(services), variant)
     }
 
+    @Test("Onboarding step 2, classic branch", arguments: [Variant.light, .axXL])
+    func onboardingClassicDepartments(_ variant: Variant) throws {
+        try assertDepartmentStep(era: "classic", variant)
+    }
+
+    @Test("Onboarding step 2, modern branch", arguments: [Variant.light, .axXL])
+    func onboardingModernDepartments(_ variant: Variant) throws {
+        try assertDepartmentStep(era: "modern", variant)
+    }
+
+    private func assertDepartmentStep(era: String, _ variant: Variant, testName: String = #function) throws {
+        let services = services()
+        let model = OnboardingModel(dataset: services.env.dataset, profile: services.profile)
+        model.choose(try #require(model.choices.first { $0.id == era }))
+        assertScreen(OnboardingView(model: model).appServices(services), variant, testName: testName)
+    }
+
     @Test("Category reveal", arguments: Variant.allCases)
     func categoryReveal(_ variant: Variant) throws {
         let services = services()

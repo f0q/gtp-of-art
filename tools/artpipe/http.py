@@ -32,8 +32,8 @@ _MIN_GAP = {
     "openaccess-api.clevelandart.org": 0.25,
     "query.wikidata.org": 1.0,
     "www.wikidata.org": 0.3,
-    "commons.wikimedia.org": 0.3,
-    "upload.wikimedia.org": 0.5,
+    "commons.wikimedia.org": 1.0,
+    "upload.wikimedia.org": 2.5,   # originals are throttled hard (HTTP 429); be gentle
     "en.wikipedia.org": 0.3,
     "web.archive.org": 1.5,
     "archive.org": 1.5,
@@ -141,7 +141,7 @@ def get_bytes(url: str, params: dict | None = None, *, retries: int = 6, timeout
                 last_err = RuntimeError(f"HTTP {r.status_code} {url}")
                 ra = r.headers.get("retry-after")
                 if ra and ra.isdigit():
-                    delay = min(max(delay, float(ra)), 60.0)
+                    delay = min(max(delay, float(ra)), 300.0)
             else:
                 raise RuntimeError(f"HTTP {r.status_code} {url}: {r.text[:200]}")
         time.sleep(delay + random.random())

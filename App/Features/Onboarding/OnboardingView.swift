@@ -96,14 +96,16 @@ struct OnboardingView: View {
                 }
             }
         default:
+            // Up to 4 tiles: a 2×2 grid at standard sizes; one column with shorter images at AX sizes.
             let columns = typeSize.isAccessibilitySize ? 1 : 2
+            let fraction = columns == 1 ? Tokens.Layout.onboardingTileFractionStacked : Tokens.Layout.onboardingTileFraction
             let rows = stride(from: 0, to: model.choices.count, by: columns).map {
                 Array(model.choices[$0..<min($0 + columns, model.choices.count)])
             }
             VStack(spacing: Tokens.Space.m) {
                 ForEach(rows, id: \.first?.id) { row in
                     HStack(alignment: .top, spacing: Tokens.Space.m) {
-                        ForEach(row) { tile($0, heightFraction: Tokens.Layout.onboardingTileFraction) }
+                        ForEach(row) { tile($0, heightFraction: fraction) }
                         if row.count < columns { Color.clear.frame(maxWidth: .infinity) }
                     }
                 }

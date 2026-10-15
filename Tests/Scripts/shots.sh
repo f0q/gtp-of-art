@@ -3,7 +3,7 @@
 # Usage: Tests/Scripts/shots.sh <simulator> <path/to/ArtPrice.app> <output dir> [light|dark]
 set -euo pipefail
 SIM=${1:-ArtCI-26}; APP=$2; OUT=${3:-.build/shots}; APPEARANCE=${4:-light}
-BUNDLE=com.artprice.app
+BUNDLE=pro.aijam.gtpofart
 BASE=(-uiTesting -fixedDay 2026-10-12)
 mkdir -p "$OUT"
 xcrun simctl boot "$SIM" 2>/dev/null || true

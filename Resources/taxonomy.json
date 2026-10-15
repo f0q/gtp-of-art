@@ -22,7 +22,8 @@
     "romanticism",
     "realism",
     "academic",
-    "pre_raphaelite"
+    "pre_raphaelite",
+    "watercolour_drawing"
    ]
   },
   {
@@ -50,11 +51,25 @@
    ]
   },
   {
-   "id": "prints_photographs",
-   "label": "Prints & Photographs",
+   "id": "prints_multiples",
+   "label": "Prints & Multiples",
    "categories": [
     "print",
+    "modern_print"
+   ]
+  },
+  {
+   "id": "photographs",
+   "label": "Photographs",
+   "categories": [
     "early_photography"
+   ]
+  },
+  {
+   "id": "posters",
+   "label": "Vintage Posters",
+   "categories": [
+    "poster"
    ]
   }
  ],
@@ -83,7 +98,7 @@
     "rococo",
     "renaissance_it"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "nineteenth_century"
   },
@@ -110,7 +125,7 @@
     "byzantine_gothic",
     "pre_raphaelite"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
   },
@@ -137,7 +152,7 @@
     "romanticism",
     "academic"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "old_masters"
   },
@@ -163,7 +178,7 @@
     "symbolism",
     "art_nouveau"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "old_masters"
   },
@@ -173,7 +188,7 @@
    "axis": "medium",
    "era": {
     "start": 900,
-    "end": 1900
+    "end": 1930
    },
    "teach": "Brush and ink on silk or paper, where empty space and the stroke itself carry meaning.",
    "tells": [
@@ -189,7 +204,7 @@
     "print",
     "early_photography"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "asian_art"
   },
@@ -215,7 +230,7 @@
     "post_impressionism",
     "expressionism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
   },
@@ -242,7 +257,7 @@
     "realism",
     "romanticism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "parent": "baroque",
    "department_id": "old_masters"
@@ -269,7 +284,7 @@
     "pointillism",
     "fauvism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
   },
@@ -279,25 +294,26 @@
    "axis": "medium",
    "era": {
     "start": 1839,
-    "end": 1910
+    "end": 1930
    },
-   "teach": "The first decades of the camera, when long exposures and hand-made prints shaped the look.",
+   "teach": "From the first cameras to the 1920s, when long exposures and hand-made prints shaped the look.",
    "tells": [
-    "Sepia or albumen tones",
+    "Sepia, albumen or platinum tones",
     "Long-exposure stillness",
     "Soft edges and focus"
    ],
    "neighbours": [
     "print",
+    "modern_print",
     "old_master_drawing"
    ],
    "confusers": [
     "realism",
     "symbolism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
-   "department_id": "prints_photographs"
+   "department_id": "photographs"
   },
   {
    "id": "expressionism",
@@ -323,7 +339,7 @@
     "symbolism",
     "romanticism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
   },
@@ -349,7 +365,7 @@
     "impressionism",
     "pointillism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
   },
@@ -376,9 +392,36 @@
     "fauvism",
     "expressionism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
+  },
+  {
+   "id": "modern_print",
+   "label": "Modern print",
+   "axis": "medium",
+   "era": {
+    "start": 1850,
+    "end": 1930
+   },
+   "teach": "Painters took up etching, lithography and the woodcut again and made prints as personal as their canvases.",
+   "tells": [
+    "Free, sketchy etched line or gouged wood",
+    "Signed in pencil in the margin",
+    "Limited colours or stark black and white"
+   ],
+   "neighbours": [
+    "print",
+    "poster",
+    "ukiyo_e"
+   ],
+   "confusers": [
+    "watercolour_drawing",
+    "early_photography"
+   ],
+   "min_quiz_items": 8,
+   "active": true,
+   "department_id": "prints_multiples"
   },
   {
    "id": "neoclassicism",
@@ -403,7 +446,7 @@
     "renaissance_it",
     "pre_raphaelite"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "nineteenth_century"
   },
@@ -423,13 +466,14 @@
    ],
    "neighbours": [
     "print",
+    "watercolour_drawing",
     "chinese_ink"
    ],
    "confusers": [
     "renaissance_it",
     "renaissance_north"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "old_masters"
   },
@@ -455,7 +499,7 @@
     "fauvism",
     "early_abstraction"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "parent": "post_impressionism",
    "department_id": "impressionist_modern"
@@ -484,9 +528,35 @@
     "expressionism",
     "cubism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
+  },
+  {
+   "id": "poster",
+   "label": "Vintage poster",
+   "axis": "medium",
+   "era": {
+    "start": 1880,
+    "end": 1930
+   },
+   "teach": "Colour lithography put art on the street: bold lettering, flat colour and something to sell.",
+   "tells": [
+    "Lettering built into the picture",
+    "Flat, bright areas of colour",
+    "Large sheets made for walls and kiosks"
+   ],
+   "neighbours": [
+    "modern_print",
+    "ukiyo_e"
+   ],
+   "confusers": [
+    "print",
+    "watercolour_drawing"
+   ],
+   "min_quiz_items": 8,
+   "active": true,
+   "department_id": "posters"
   },
   {
    "id": "pre_raphaelite",
@@ -511,7 +581,7 @@
     "renaissance_north",
     "art_nouveau"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "nineteenth_century"
   },
@@ -521,7 +591,7 @@
    "axis": "medium",
    "era": {
     "start": 1450,
-    "end": 1900
+    "end": 1850
    },
    "teach": "Engravings, etchings and woodcuts: images cut into plates or blocks and printed in multiples.",
    "tells": [
@@ -531,15 +601,16 @@
    ],
    "neighbours": [
     "old_master_drawing",
+    "modern_print",
     "ukiyo_e"
    ],
    "confusers": [
     "early_photography",
     "chinese_ink"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
-   "department_id": "prints_photographs"
+   "department_id": "prints_multiples"
   },
   {
    "id": "realism",
@@ -564,7 +635,7 @@
     "dutch_golden_age",
     "post_impressionism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "nineteenth_century"
   },
@@ -591,7 +662,7 @@
     "neoclassicism",
     "academic"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "old_masters"
   },
@@ -618,7 +689,7 @@
     "pre_raphaelite",
     "old_master_drawing"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "old_masters"
   },
@@ -645,7 +716,7 @@
     "academic",
     "impressionism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "old_masters"
   },
@@ -673,7 +744,7 @@
     "symbolism",
     "expressionism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "nineteenth_century"
   },
@@ -700,7 +771,7 @@
     "post_impressionism",
     "art_nouveau"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
   },
@@ -720,7 +791,7 @@
    ],
    "neighbours": [],
    "confusers": [],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": false,
    "department_id": null
   },
@@ -747,7 +818,7 @@
     "romanticism",
     "expressionism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "impressionist_modern"
   },
@@ -757,7 +828,7 @@
    "axis": "medium",
    "era": {
     "start": 1650,
-    "end": 1900
+    "end": 1930
    },
    "teach": "Japanese woodblock prints of the 'floating world': actors, beauties and famous views.",
    "tells": [
@@ -773,9 +844,35 @@
     "art_nouveau",
     "post_impressionism"
    ],
-   "min_quiz_items": 4,
+   "min_quiz_items": 8,
    "active": true,
    "department_id": "asian_art"
+  },
+  {
+   "id": "watercolour_drawing",
+   "label": "19th-century watercolour & drawing",
+   "axis": "medium",
+   "era": {
+    "start": 1780,
+    "end": 1910
+   },
+   "teach": "Works on paper from the 1800s: transparent washes, pencil and chalk, often made outdoors or as studies.",
+   "tells": [
+    "Washes with the paper glowing through",
+    "Visible pencil underdrawing",
+    "Small, intimate scale"
+   ],
+   "neighbours": [
+    "old_master_drawing",
+    "modern_print"
+   ],
+   "confusers": [
+    "print",
+    "early_photography"
+   ],
+   "min_quiz_items": 8,
+   "active": true,
+   "department_id": "nineteenth_century"
   }
  ]
 }

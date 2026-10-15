@@ -62,6 +62,15 @@ test-packages: test-core test-data test-design
 dataset:
 	$(PY) tools/build_dataset.py --csv tools/curation/works.csv --out Resources
 
+review:                    ## click-to-approve contact sheet at http://localhost:8765 (writes tools/curation/reviews.json)
+	python3 tools/review_server.py --open
+
+review-export:             ## portable contact sheet: tools/out/review/ (+ zip) to open from any disk or computer
+	python3 tools/export_review.py
+
+signoff:                   ## turn reviews.json approvals into tools/curation/signoff.json
+	python3 tools/signoff.py --from-reviews
+
 assets:
 	$(PY) tools/make_assets.py --src tools/out/images --dst Resources/Artworks
 
@@ -98,7 +107,7 @@ run: build
 	xcrun simctl boot $(SIM) 2>/dev/null || true
 	xcrun simctl bootstatus $(SIM) -b
 	xcrun simctl install $(SIM) $(DD)/Build/Products/Debug-iphonesimulator/ArtPrice.app
-	xcrun simctl launch $(SIM) com.artprice.app $(ARGS)
+	xcrun simctl launch $(SIM) pro.aijam.gtpofart $(ARGS)
 
 # Screenshots of Home, Pick the price (question + reveal), Bid and Pricier via DEBUG launch args.
 shots: build
@@ -123,8 +132,8 @@ shots-swipe: build
 	@for spec in "swipe:8:-startMode swipe" "taste-reveal:9:-startMode swipe -autoAnswer" \
 	  "taste-profile:5:-debugSwipes -openRoute taste" "collection:9:-debugSwipes -openRoute collection"; do \
 	  name=$${spec%%:*}; rest=$${spec#*:}; wait=$${rest%%:*}; args=$${rest#*:}; \
-	  xcrun simctl terminate $(SIM) com.artprice.app 2>/dev/null || true; \
-	  xcrun simctl launch $(SIM) com.artprice.app -uiTesting -onboarded -fixedDay 2026-10-12 $$args >/dev/null; \
+	  xcrun simctl terminate $(SIM) pro.aijam.gtpofart 2>/dev/null || true; \
+	  xcrun simctl launch $(SIM) pro.aijam.gtpofart -uiTesting -onboarded -fixedDay 2026-10-12 $$args >/dev/null; \
 	  sleep $$wait; xcrun simctl io $(SIM) screenshot $(SHOTS)/$$name.png >/dev/null 2>&1; echo $(SHOTS)/$$name.png; \
 	done
-	xcrun simctl terminate $(SIM) com.artprice.app 2>/dev/null || true
+	xcrun simctl terminate $(SIM) pro.aijam.gtpofart 2>/dev/null || true

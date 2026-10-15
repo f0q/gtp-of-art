@@ -15,16 +15,34 @@ from . import http
 _TAG = re.compile(r"<script.*?</script>|<style.*?</style>|<[^>]+>", re.S | re.I)
 
 
-def page_text(url: str) -> str | None:
+def page_raw(url: str) -> str | None:
     try:
         b = http.get_bytes(url, retries=2, timeout=30, allow_404=True)
     except http.OfflineMiss:
         raise
     except Exception:
         return None
-    if b is None:
+    return None if b is None else b.decode("utf-8", "replace")
+
+
+# Christie's lot pages render the price client-side; the page's own lot (not the "related lots")
+# is the first price_realised written as a float, e.g. "price_realised":1808750.0,"price_realised_txt":"GBP 1,808,750"
+_CHRISTIES_LOT = re.compile(r'"price_realised":([0-9]+\.[0-9]+),"price_realised_txt":"([A-Z]{3}) ([0-9,]+)"')
+
+
+def structured_price(url: str, raw: str) -> tuple[float, str] | None:
+    """(amount, currency) of the page's own lot where the auction house publishes it as data."""
+    if "christies.com" in url:
+        m = _CHRISTIES_LOT.search(raw)
+        if m:
+            return float(m.group(1)), m.group(2)
+    return None
+
+
+def page_text(url: str) -> str | None:
+    t = page_raw(url)
+    if t is None:
         return None
-    t = b.decode("utf-8", "replace")
     t = html.unescape(_TAG.sub(" ", t)).replace("\xa0", " ").replace(" ", " ")
     return re.sub(r"\s+", " ", t).lower()
 
@@ -42,6 +60,9 @@ def amount_patterns(amount: float) -> list[re.Pattern]:
     pats = []
     a = round(amount)
     sep_forms = {f"{a:,}", f"{a:,}".replace(",", "."), f"{a:,}".replace(",", " ")}
+    if amount != int(amount):  # e.g. GBP 8,187.50: also match the exact figure with pence
+        c = f"{amount:,.2f}"
+        sep_forms |= {c, c.replace(",", "_").replace(".", ",").replace("_", "."), c.replace(",", " ").replace(".", ",")}
     for s in sep_forms:
         pats.append(re.compile(r"(?<![\d.,])" + re.escape(s) + r"(?![\d])"))
     for unit, words in ((1e6, r"(millionen|millions?|millones|miljoen|milioni|mio|mln|mn|m)\b"),
@@ -66,10 +87,15 @@ def context_terms(artist: str, title: str) -> list[str]:
     return words
 
 
-def check_url(url: str, amount: float, terms: list[str] | None = None, window: int = 700) -> dict:
-    t = page_text(url)
-    if t is None:
+def check_url(url: str, amount: float, terms: list[str] | None = None, window: int = 700,
+              currency: str | None = None) -> dict:
+    raw = page_raw(url)
+    if raw is None:
         return {"url": url, "fetched": False, "found": False}
+    sp = structured_price(url, raw)
+    if sp and abs(sp[0] - amount) <= max(1.0, 0.0005 * amount) and (currency is None or currency == sp[1]):
+        return {"url": url, "fetched": True, "found": True, "match": f"lot data: price_realised {sp[1]} {sp[0]:,.0f}"}
+    t = page_text(url)
     ft = _fold(t)
     near_miss = None
     for p in amount_patterns(amount):
@@ -108,7 +134,7 @@ def verify_row(row: dict) -> dict:
     amount = float(row["price_amount"])
     urls = [row[k] for k in ("source_url_1", "source_url_2", "source_url_3") if row.get(k)]
     terms = context_terms(row.get("artist", ""), row.get("title", ""))
-    checks = [check_url(u, amount, terms) for u in urls]
+    checks = [check_url(u, amount, terms, currency=row["price_currency"]) for u in urls]
     wd = check_wikidata(row["wikidata_price"], amount, row["price_currency"]) if row.get("wikidata_price") else None
     verified_url = next((c["url"] for c in checks if c["found"]), None)
     wd_ok = bool(wd and wd.get("has_reference"))

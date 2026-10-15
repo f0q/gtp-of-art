@@ -10,7 +10,7 @@ struct OnboardingTests {
         try #require(model.choices.first { $0.id == id })
     }
 
-    @Test("Classic branch offers Old Masters, 19th Century and Asian Art; answers become a prior")
+    @Test("Classic branch offers Old Masters, 19th Century, Asian Art and Prints & Multiples; answers become a prior")
     func flow() async throws {
         let (profile, store) = TestSupport.profile()
         await profile.load()
@@ -18,9 +18,10 @@ struct OnboardingTests {
         #expect(model.step == 1)
         model.choose(try choice(model, "classic"))
         #expect(model.step == 2)
-        #expect(model.choices.map(\.id) == ["old_masters", "nineteenth_century", "asian_art"])
+        #expect(model.choices.map(\.id) == ["old_masters", "nineteenth_century", "asian_art", "prints_multiples"])
         #expect(!model.canContinue)
         model.choose(try choice(model, "asian_art"))
+        model.choose(try choice(model, "prints_multiples"))
         model.continueFromDepartments()
         #expect(model.step == 3)
         model.choose(try choice(model, "subject:landscape"))
@@ -33,23 +34,43 @@ struct OnboardingTests {
         #expect(profile.profile.hasOnboarded)
         #expect(prior.highlightedMode == .category)
         #expect(prior.defaultDifficulty == .easy)
-        #expect(prior.departmentWeights[.asianArt] == TastePrior.preferredWeight)
+        #expect(prior.departmentWeights == [.asianArt: TastePrior.preferredWeight, .printsMultiples: TastePrior.preferredWeight])
+        #expect(!prior.seedBuckets.contains { $0.hasPrefix("era:") }, "both picks are era-neutral")
         await profile.drain()
         #expect(await store.profile().prior == prior)
         #expect(await store.profile().hasOnboarded)
     }
 
-    @Test("Modern branch splits Impressionist and Avant-garde and adds Prints & Photographs")
+    @Test("Modern branch splits Impressionist and Avant-garde and adds Vintage Posters and Photographs")
     func modernBranch() throws {
         let (profile, _) = TestSupport.profile()
         let model = OnboardingModel(dataset: TestSupport.dataset, profile: profile)
         model.choose(try choice(model, "modern"))
         #expect(model.choices.map(\.id) == [
-            "impressionist_modern:impressionist", "impressionist_modern:avant_garde", "asian_art", "prints_photographs",
+            "impressionist_modern:impressionist", "impressionist_modern:avant_garde", "posters", "photographs",
         ])
         model.choose(try choice(model, "impressionist_modern:impressionist"))
         model.choose(try choice(model, "impressionist_modern:avant_garde"))
         #expect(model.answers.departments == [.impressionistModern])
+        model.choose(try choice(model, "posters"))
+        model.choose(try choice(model, "photographs"))
+        #expect(model.answers.departments == [.impressionistModern, .posters, .photographs])
+        model.choose(try choice(model, "posters"))
+        #expect(model.answers.departments == [.impressionistModern, .photographs], "tapping again deselects")
+    }
+
+    @Test("Every step-2 tile id is a department in the taxonomy; at most 4 tiles per branch")
+    func departmentTiles() {
+        let known = Set(TestSupport.dataset.departments.map(\.id))
+        for era in OnboardingAnswers.Era.allCases {
+            let ids = OnboardingModel.departmentChoiceIDs(for: era)
+            #expect(ids.count <= 4)
+            for id in ids {
+                let choice = TestSupport.dataset.onboarding.choice(id)
+                #expect(choice?.step == 2, "\(id) missing from onboarding.json")
+                #expect(choice?.department.map(known.contains) == true, "\(id) is not a taxonomy department")
+            }
+        }
     }
 
     @Test("Skip finishes with no prior; redo clears the flag")

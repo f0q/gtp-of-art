@@ -167,8 +167,10 @@ otherwise the artwork has no game price (it is "unpriced").
 Era gap between categories A and B: `max(0, max(A.start, B.start) − min(A.end, B.end))`.
 
 ### 8.4 Departments
-`taxonomy.json` → `departments[]`: `{id, label, categories[]}` (plan Part I1: `old_masters`,
-`nineteenth_century`, `impressionist_modern`, `asian_art`, `prints_photographs`). An artwork's
+`taxonomy.json` → `departments[]`: `{id, label, categories[]}` (plan Part J2: `old_masters`,
+`nineteenth_century`, `impressionist_modern`, `asian_art`, `prints_multiples`, `photographs`,
+`posters`). The list is data: a department may be added to `taxonomy.json` without code changes
+(it is era-neutral in §17A until it gets typical era buckets). An artwork's
 department = its own optional `department_id`, else its primary category's `department_id`, else the
 first department (id order) whose `categories` lists the primary category; otherwise none.
 
@@ -426,14 +428,16 @@ JSON: sets are arrays (sorted when written).
   (medium, pick_price); test_my_eye → (hard, bid).
 - `seed_buckets` (sorted, §6): `era:<b>` for the typical era buckets of each preferred department
   (old_masters `pre1500, 1500_1600, 1600_1700, 1700_1800`; nineteenth_century `1800_1850, 1850_1900`;
-  impressionist_modern `1850_1900, 1900_1930`; asian_art and prints_photographs none), plus
+  impressionist_modern `1850_1900, 1900_1930`; asian_art, prints_multiples, photographs, posters and
+  any department not in this table: none), plus
   `subject:<s>` for every weighted subject and `mood:<m>` for every weighted mood.
 - Stored weights ≤ 0 are read as 1.
 
 ### 17A.3 Artwork weight and weighted pick
 `weight(artwork) = department_weight(dept(artwork)) + subject_weight(taste.subject) +
 mood_weight(taste.mood)` — an integer in 3…9 (**additive**: a full match is 3× a non-match).
-Departments without a typical era (asian_art, prints_photographs) contribute no era seeds; every
+Departments without a typical era (asian_art, prints_multiples, photographs, posters) contribute no
+era seeds; every
 other standard department has at least one (unit-tested).
 `WeightedPicker.pick(weights)`: `total = Σ max(w, 0)`; if `total == 0` return none **without drawing**;
 else `r = nextInt(total)` and return the first index `i` with `w_i > 0` and
@@ -512,7 +516,8 @@ no_quiz_category, not_enough_distractors, invalid_anchor`.
 
 `daily`, `pairs`, `category`, `taste`, `rarity` and `prior` run against `mini_dataset.json`:
 `{schema_version, dataset_id, description, artworks[30], taxonomy[14], departments[5], taste_baseline}`
-(every category except the inactive sculpture carries `department_id`; rococo has `min_quiz_items` 3
+(every category except the inactive sculpture carries `department_id`; the five departments are
+old_masters, nineteenth_century, impressionist_modern, asian_art, prints_multiples; rococo has `min_quiz_items` 3
 with 2 works, so it is active but not quiz-eligible) — a frozen,
 synthetic dataset (real public-domain titles, approximate prices, fake image files) in the same field
 names as the shipping files. Its `dataset_id` (`mini-2026.10`) is the daily `datasetVersion`.

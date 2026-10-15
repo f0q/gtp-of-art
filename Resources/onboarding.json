@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "dataset_id": "artprice-v0-20261012",
+ "dataset_id": "artprice-v1-20261013",
  "choices": [
   {
    "id": "classic",
@@ -136,14 +136,29 @@
    ]
   },
   {
-   "id": "prints_photographs",
+   "id": "prints_multiples",
    "step": 2,
-   "label": "Prints & Photographs",
+   "label": "Prints & Multiples",
    "exemplars": [
     {
      "artwork_id": "durer-rhinoceros",
      "caption": "Dürer's armoured rhinoceros, cut in wood."
     },
+    {
+     "artwork_id": "rembrandt-three-trees",
+     "caption": "Rembrandt's three trees under a storm of etched lines."
+    },
+    {
+     "artwork_id": "cassatt-the-bath",
+     "caption": "Cassatt's mother and child in soft colour."
+    }
+   ]
+  },
+  {
+   "id": "photographs",
+   "step": 2,
+   "label": "Photographs",
+   "exemplars": [
     {
      "artwork_id": "le-gray-great-wave-sete",
      "caption": "An early photograph of a wave and a stormy sky."
@@ -151,6 +166,29 @@
     {
      "artwork_id": "cameron-julia-jackson",
      "caption": "A soft-focus face emerging from shadow."
+    },
+    {
+     "artwork_id": "atget-joueur-dorgue",
+     "caption": "A Paris street organ-grinder, caught by Atget."
+    }
+   ]
+  },
+  {
+   "id": "posters",
+   "step": 2,
+   "label": "Vintage Posters",
+   "exemplars": [
+    {
+     "artwork_id": "lautrec-moulin-rouge-la-goulue-1891",
+     "caption": "Lautrec's Moulin Rouge: La Goulue mid-kick."
+    },
+    {
+     "artwork_id": "mucha-job-1898",
+     "caption": "Mucha's swirling hair and smoke for Job papers."
+    },
+    {
+     "artwork_id": "steinlen-tournee-du-chat-noir-1896",
+     "caption": "Steinlen's black cat with a halo."
     }
    ]
   },
