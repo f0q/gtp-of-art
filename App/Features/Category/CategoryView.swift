@@ -177,19 +177,28 @@ struct CategoryAnswers: View {
                     .foregroundStyle(Tokens.Color.textSecondary)
                     .accessibilityIdentifier("category.teach")
             }
-            HStack(spacing: Tokens.Space.s) {
+            // Side by side normally; stacked at accessibility sizes so neither truncates.
+            let row = typeSize.isAccessibilitySize
+                ? AnyLayout(VStackLayout(spacing: Tokens.Space.s)) : AnyLayout(HStackLayout(spacing: Tokens.Space.s))
+            row {
                 if let price = artwork.gamePrice {
-                    Text(PriceCopy.provenance(price, showVenue: settings.settings.showAuctionHouses))
+                    let line = PriceCopy.provenance(price, showVenue: settings.settings.showAuctionHouses)
+                    Text(line)
                         .artTextStyle(Tokens.Typography.provenance)
                         .foregroundStyle(Tokens.Color.textSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .accessibilityLabel(SpokenPrice.text(line))
                 }
-                Spacer(minLength: 0)
-                Button(showsClue ? "Whole work" : "See the clue") {
+                if !typeSize.isAccessibilitySize { Spacer(minLength: 0) }
+                Button {
                     withArtAnimation(ArtMotion.reveal, reduceMotion: reduceMotion) { showsClue.toggle() }
+                } label: {
+                    Text(showsClue ? "Whole work" : "See the clue")
+                        .frame(minWidth: Tokens.Size.minTarget, minHeight: Tokens.Size.minTarget)
+                        .contentShape(Rectangle())
                 }
                 .artTextStyle(Tokens.Typography.label)
                 .foregroundStyle(Tokens.Color.textPrimary)
-                .frame(minHeight: Tokens.Size.minTarget)
                 .accessibilityIdentifier("category.clue")
             }
         }
@@ -226,7 +235,7 @@ struct CategoryChip: View {
                     .strokeBorder(Tokens.Color.accentGilt, lineWidth: Tokens.Space.xxs)
             }
         }
-        .accessibilityLabel(accessibilityText)
+        .accessibilityLabel(Self.accessibilityText(label, state))
         .accessibilityIdentifier("category.option.\(index)")
     }
 
@@ -247,7 +256,8 @@ struct CategoryChip: View {
         }
     }
 
-    private var accessibilityText: String {
+    /// The chip's label plus its reveal state in words (never colour alone).
+    static func accessibilityText(_ label: String, _ state: State) -> String {
         switch state {
         case .correct: "\(label), correct answer"
         case .accepted: "\(label), also accepted"

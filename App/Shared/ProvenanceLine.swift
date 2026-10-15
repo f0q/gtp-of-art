@@ -14,11 +14,13 @@ struct ProvenanceLine: View {
     @State private var showingInfo = false
 
     var body: some View {
+        let line = text ?? PriceCopy.provenance(record, showVenue: settings.settings.showAuctionHouses)
         HStack(alignment: .firstTextBaseline, spacing: Tokens.Space.s) {
-            Text(text ?? PriceCopy.provenance(record, showVenue: settings.settings.showAuctionHouses))
+            Text(line)
                 .artTextStyle(Tokens.Typography.provenance)
                 .foregroundStyle(Tokens.Color.textSecondary)
                 .fixedSize(horizontal: false, vertical: true)
+                .accessibilityLabel(SpokenPrice.text(line))
             Button { showingInfo = true } label: {
                 Image(systemName: "info.circle")
                     .font(.body.weight(.medium))
@@ -47,13 +49,13 @@ struct PriceInfoSheet: View {
         NavigationStack {
             List {
                 Section("The price") {
-                    Text(PriceCopy.provenance(record, showVenue: settings.settings.showAuctionHouses))
+                    let line = PriceCopy.provenance(record, showVenue: settings.settings.showAuctionHouses)
+                    Text(line)
+                        .accessibilityLabel(SpokenPrice.text(line))
                     Text(PriceCopy.basisExplanation(record))
                     LabeledContent("Original figure", value: PriceCopy.original(record))
-                    LabeledContent("In US dollars then", value: "approx. \(PriceCopy.amount(record.usdNominal))")
-                    LabeledContent(
-                        "In \(record.adjustRefYear) dollars",
-                        value: PriceFormatter.format(record, basis: .adjusted))
+                    spokenRow("In US dollars then", "approx. \(PriceCopy.amount(record.usdNominal))")
+                    spokenRow("In \(record.adjustRefYear) dollars", PriceFormatter.format(record, basis: .adjusted))
                     Text("Inflation-adjusted values use the US consumer price index and are estimates.")
                         .foregroundStyle(Tokens.Color.textSecondary)
                 }
@@ -88,5 +90,13 @@ struct PriceInfoSheet: View {
             }
         }
         .presentationDetents([.medium, .large])
+    }
+
+    /// A label/value row whose compact price is read out in words.
+    private func spokenRow(_ title: String, _ value: String) -> some View {
+        LabeledContent(title, value: value)
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(title)
+            .accessibilityValue(SpokenPrice.text(value))
     }
 }

@@ -247,7 +247,7 @@ public struct RevealPrice: View {
             }
         }
         .monospacedDigit()
-        .accessibilityLabel(Text(phase >= .settle ? landed : start))
+        .accessibilityLabel(Text(SpokenPrice.text(phase >= .settle ? landed : start)))
     }
 
     private var landed: String { finalText ?? LogPriceScale.format(actual) }

@@ -91,10 +91,40 @@ struct PricierPair: View {
     let onTap: (PricierSide) -> Void
 
     @Namespace private var frames
+    @Environment(\.artReduceMotion) private var reduceMotion
+    @Environment(\.dynamicTypeSize) private var typeSize
 
     var body: some View {
         VStack(spacing: Tokens.Space.s) {
-            Group {
+            if typeSize.isAccessibilitySize {
+                accessibleLayout
+            } else {
+                header
+                fixedPair
+            }
+        }
+        .padding(.horizontal, Tokens.Space.l)
+    }
+
+    /// Accessibility sizes: one scrolling column; each image keeps `artMinHeightRatio` of the
+    /// screen and titles, artists and prices wrap instead of truncating.
+    private var accessibleLayout: some View {
+        GeometryReader { geo in
+            let artHeight = geo.size.height * Tokens.Size.artMinHeightRatio
+            ScrollView {
+                VStack(spacing: Tokens.Space.m) {
+                    header
+                    slot(top, .top, artworkHeight: artHeight)
+                    VersusMedallion()
+                    slot(bottom, .bottom, artworkHeight: artHeight)
+                }
+            }
+            .scrollBounceBehavior(.basedOnSize)
+        }
+    }
+
+    private var header: some View {
+        Group {
                 if isRevealing {
                     ResultBadge(isHit: outcome?.isCorrect == true, hitText: "Correct · the chain goes on",
                                 missText: "Not this time · the run ends")
@@ -105,26 +135,44 @@ struct PricierPair: View {
                         .accessibilityIdentifier("pricier.prompt")
                 }
             }
-            .multilineTextAlignment(.center)
-            GeometryReader { geo in
-                let slotHeight = geo.size.height * Tokens.Layout.pricierFrameFraction
-                VStack(spacing: 0) {
-                    slot(top, .top).frame(height: slotHeight)
-                    Spacer(minLength: 0)
-                    slot(bottom, .bottom).frame(height: slotHeight)
-                }
-                .overlay { VersusMedallion() }
-            }
-        }
-        .padding(.horizontal, Tokens.Space.l)
+        .multilineTextAlignment(.center)
     }
 
-    private func slot(_ artwork: Artwork, _ side: PricierSide) -> some View {
+    private var fixedPair: some View {
+        GeometryReader { geo in
+            let slotHeight = geo.size.height * Tokens.Layout.pricierFrameFraction
+            VStack(spacing: 0) {
+                slot(top, .top).frame(height: slotHeight)
+                Spacer(minLength: 0)
+                slot(bottom, .bottom).frame(height: slotHeight)
+            }
+            .overlay { VersusMedallion() }
+        }
+    }
+
+    private func slot(_ artwork: Artwork, _ side: PricierSide, artworkHeight: CGFloat? = nil) -> some View {
         PricierSlot(
-            artwork: artwork, side: side, isWinner: round.pricierSide == side, phase: phase, isRevealing: isRevealing
+            artwork: artwork, side: side, isWinner: round.pricierSide == side, phase: phase, isRevealing: isRevealing,
+            artworkHeight: artworkHeight
         ) { onTap(side) }
-        .matchedGeometryEffect(id: artwork.id, in: frames)
+        // The chain slide (bottom work moves up) is movement: Reduce Motion keeps only the crossfade.
+        .modifier(ChainSlide(id: artwork.id, namespace: frames, isEnabled: !reduceMotion))
         .transition(.opacity)
+    }
+}
+
+/// `matchedGeometryEffect` for the chain slide, off under Reduce Motion (crossfade only).
+private struct ChainSlide: ViewModifier {
+    let id: ArtworkID
+    let namespace: Namespace.ID
+    let isEnabled: Bool
+
+    func body(content: Content) -> some View {
+        if isEnabled {
+            content.matchedGeometryEffect(id: id, in: namespace)
+        } else {
+            content
+        }
     }
 }
 
@@ -136,6 +184,8 @@ struct PricierSlot: View {
     let isWinner: Bool
     let phase: RevealPhase
     let isRevealing: Bool
+    /// Exact image height in the accessibility layout; nil fills the slot.
+    var artworkHeight: CGFloat? = nil
     let action: () -> Void
 
     @Environment(\.artReduceMotion) private var reduceMotion
@@ -153,10 +203,11 @@ struct PricierSlot: View {
                     }
                     .scaleEffect(settled && isWinner && !reduceMotion ? Tokens.Layout.winnerLift : 1)
                     .opacity(settled && !isWinner ? Tokens.Layout.disabledTileOpacity : 1)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .frame(maxWidth: .infinity, minHeight: artworkHeight, maxHeight: artworkHeight ?? .infinity)
                     .zIndex(1)
                 ArtworkCaption(artwork: artwork)
-                    .lineLimit(2)
+                    .lineLimit(artworkHeight == nil ? 2 : nil)
+                    .fixedSize(horizontal: false, vertical: artworkHeight != nil)
                 if let price = artwork.gamePrice {
                     VStack(spacing: Tokens.Space.xxs) {
                         RevealPrice(guess: nil, actual: Double(price.usdAdjusted),
@@ -170,6 +221,7 @@ struct PricierSlot: View {
                     }
                     .opacity(isRevealing ? 1 : 0)
                     .accessibilityHidden(!isRevealing)
+                    .fixedSize(horizontal: false, vertical: artworkHeight != nil)
                 }
             }
             .frame(maxWidth: .infinity)
@@ -178,16 +230,17 @@ struct PricierSlot: View {
         .buttonStyle(.plain)
         .animation(ArtMotion.resolved(ArtMotion.settle, reduceMotion: reduceMotion), value: phase)
         .accessibilityElement(children: .combine)
-        .accessibilityLabel(accessibilityText)
+        .accessibilityLabel(Self.accessibilityText(artwork: artwork, side: side, isRevealing: isRevealing))
         .accessibilityHint(isRevealing ? "Shows the next pair" : "Choose as the pricier work")
         .accessibilityIdentifier(side == .top ? "pricier.top" : "pricier.bottom")
     }
 
-    private var accessibilityText: String {
+    /// "Top: title, artist. alt text" plus, after the reveal, the spoken adjusted price.
+    static func accessibilityText(artwork: Artwork, side: PricierSide, isRevealing: Bool) -> String {
         let position = side == .top ? "Top" : "Bottom"
         var text = "\(position): \(artwork.title), \(artwork.artist.displayName). \(artwork.image.altText)"
         if isRevealing, let price = artwork.gamePrice {
-            text += " \(PriceCopy.adjusted(price))."
+            text += " \(SpokenPrice.text(PriceCopy.adjusted(price)))."
         }
         return text
     }
@@ -202,6 +255,8 @@ struct VersusMedallion: View {
             .frame(width: Tokens.Size.minTarget, height: Tokens.Size.minTarget)
             .background(Tokens.Color.bgSurface, in: Circle())
             .overlay(Circle().strokeBorder(Tokens.Color.lineHairline, lineWidth: Tokens.Size.hairline))
+            // Decorative and inside a fixed 44pt circle: stop growing at the largest non-AX size.
+            .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
             .accessibilityHidden(true)
     }
 }

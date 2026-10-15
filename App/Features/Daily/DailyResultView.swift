@@ -12,6 +12,7 @@ struct DailyResultView: View {
 
     @Environment(\.app) private var app
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.dynamicTypeSize) private var typeSize
     @State private var shareImage: ShareCardImage?
     @State private var sharePreview: Image?
 
@@ -63,7 +64,10 @@ struct DailyResultView: View {
     }
 
     private var buttons: some View {
-        HStack(spacing: Tokens.Space.m) {
+        // Three buttons side by side; stacked at accessibility sizes so no title truncates.
+        let row = typeSize.isAccessibilitySize
+            ? AnyLayout(VStackLayout(spacing: Tokens.Space.s)) : AnyLayout(HStackLayout(spacing: Tokens.Space.m))
+        return row {
             Button(action: actions.close) {
                 Label("Home", systemImage: "house").frame(maxWidth: .infinity)
             }
@@ -83,7 +87,8 @@ struct DailyResultView: View {
             }
         }
         .padding(.horizontal, Tokens.Space.l)
-        .padding(.bottom, Tokens.Space.s)
+        .padding(.vertical, Tokens.Space.s)
+        .background(Tokens.Color.bgCanvas.ignoresSafeArea(edges: .bottom))
     }
 
     private func renderShareCard() async {

@@ -25,6 +25,7 @@ struct TasteRevealView: View {
     @State private var hung: Int
     @State private var fills: [Double]
     @State private var shares: [TasteShareFormat: (image: ShareCardImage, preview: Image)] = [:]
+    @State private var announced = false
 
     init(reading: TasteReading, actions: SessionActions, startsComplete: Bool = false) {
         self.reading = reading
@@ -70,6 +71,11 @@ struct TasteRevealView: View {
                     }
                     .transition(.opacity)
                 }
+                if typeSize.isAccessibilitySize {
+                    // At accessibility sizes the pinned bar keeps only the primary action; Home and
+                    // Share scroll with the content so the reading keeps most of the screen.
+                    secondaryButtons
+                }
             }
             .padding(.horizontal, Tokens.Space.l)
             .padding(.vertical, Tokens.Space.xl)
@@ -93,21 +99,26 @@ struct TasteRevealView: View {
                     .artButtonStyle(.secondary)
                     .accessibilityIdentifier("taste.skip")
             }
-            let row = typeSize.isAccessibilitySize
-                ? AnyLayout(VStackLayout(spacing: Tokens.Space.m)) : AnyLayout(HStackLayout(spacing: Tokens.Space.m))
-            row {
-                Button(action: actions.close) {
-                    Label("Home", systemImage: "house").frame(maxWidth: .infinity)
-                }
-                .artButtonStyle(.secondary)
-                .accessibilityIdentifier("taste.home")
-                shareLink(.feed, title: "Share", symbol: "square.and.arrow.up", id: "taste.share")
-                shareLink(.story, title: "Story", symbol: "rectangle.portrait", id: "taste.shareStory")
-            }
+            if !typeSize.isAccessibilitySize { secondaryButtons }
         }
         .padding(.horizontal, Tokens.Space.l)
         .padding(.vertical, Tokens.Space.s)
         .background(Tokens.Color.bgCanvas.ignoresSafeArea(edges: .bottom))
+    }
+
+    /// Home, Share and Story: one row, or a column at accessibility sizes.
+    private var secondaryButtons: some View {
+        let row = typeSize.isAccessibilitySize
+            ? AnyLayout(VStackLayout(spacing: Tokens.Space.m)) : AnyLayout(HStackLayout(spacing: Tokens.Space.m))
+        return row {
+            Button(action: actions.close) {
+                Label("Home", systemImage: "house").frame(maxWidth: .infinity)
+            }
+            .artButtonStyle(.secondary)
+            .accessibilityIdentifier("taste.home")
+            shareLink(.feed, title: "Share", symbol: "square.and.arrow.up", id: "taste.share")
+            shareLink(.story, title: "Story", symbol: "rectangle.portrait", id: "taste.shareStory")
+        }
     }
 
     @ViewBuilder
@@ -126,23 +137,31 @@ struct TasteRevealView: View {
     private func run() async {
         guard !isComplete else { return }
         if reduceMotion {
-            withAnimation(.easeInOut(duration: Tokens.Motion.Duration.base)) { complete() }
+            // No salon-wall fly-in: the works are hung without animation, the rest crossfades in.
+            hangWithoutMotion()
+            withAnimation(ArtMotion.crossfade) { complete() }
             announce()
             return
         }
+        // Each step stops once "Skip" has completed the reveal (it must not un-hang works).
         for i in wall.indices {
+            guard !isComplete else { return }
             withAnimation(Tokens.Motion.Spring.chain) { hung = i + 1 }
             try? await Task.sleep(for: .seconds(Tokens.Motion.Stagger.tight))
         }
         await pause(Tokens.Motion.Duration.profile - Tokens.Motion.Stagger.tight * Double(wall.count))
+        guard !isComplete else { return }
         withAnimation(ArtMotion.entrance) { stage = .archetype }
         await pause(Tokens.Motion.Duration.settle)
+        guard !isComplete else { return }
         withAnimation(ArtMotion.fast) { stage = .bars }
         for i in fills.indices {
+            guard !isComplete else { return }
             withAnimation(Tokens.Motion.Easing.standard(duration: Tokens.Motion.Duration.base)) { fills[i] = 1 }
             await pause(Tokens.Motion.Stagger.loose)
         }
         await pause(Tokens.Motion.Duration.reveal)
+        guard !isComplete else { return }
         withAnimation(ArtMotion.entrance) { stage = .rarity }
         announce()
     }
@@ -159,11 +178,22 @@ struct TasteRevealView: View {
     }
 
     private func skip() {
+        if reduceMotion { hangWithoutMotion() }
         withArtAnimation(ArtMotion.fast, reduceMotion: reduceMotion) { complete() }
         announce()
     }
 
+    /// Puts every liked work on the wall in one frame (Reduce Motion: no matched-geometry flight).
+    private func hangWithoutMotion() {
+        var instant = Transaction()
+        instant.disablesAnimations = true
+        withTransaction(instant) { hung = wall.count }
+    }
+
+    /// Posts the taste summary once, whether the choreography finished or the player skipped.
     private func announce() {
+        guard !announced else { return }
+        announced = true
         let text = "Your taste: \(reading.archetype.name). \(reading.archetype.line) \(reading.rarityLine)"
         AccessibilityNotification.Announcement(text).post()
     }

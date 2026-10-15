@@ -25,9 +25,12 @@ struct SessionTopBar: View {
                 Button { confirmingQuit = true } label: {
                     Image(systemName: "xmark")
                         .font(.body.weight(.medium))
+                        // Glyph in a fixed 44pt circle: stop growing at the largest non-AX size.
+                        .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
                         .foregroundStyle(Tokens.Color.textPrimary)
                         .frame(width: Tokens.Size.minTarget, height: Tokens.Size.minTarget)
                         .artGlass(Circle(), interactive: true)
+                        .contentShape(Circle())
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel("Quit session")

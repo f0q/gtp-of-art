@@ -61,7 +61,7 @@ struct PickPriceView: View {
         let verdict = outcome.isCorrect == true ? "Correct." : "Not quite."
         model.reveal.start(
             isHit: outcome.isCorrect == true, reduceMotion: reduceMotion,
-            announcement: "\(verdict) \(PriceCopy.provenance(price, showVenue: true)).")
+            announcement: SpokenPrice.text("\(verdict) \(PriceCopy.provenance(price, showVenue: true))."))
     }
 
     private func tapArtwork() {
@@ -180,7 +180,17 @@ struct PriceOptionButton: View {
             }
         }
         .accessibilityIdentifier("pick.option.\(index)")
-        .accessibilityLabel(state == .correct ? "\(label), sale price" : label)
+        .accessibilityLabel(Self.accessibilityText(label, state))
+    }
+
+    /// Spoken option: "2.8 million dollars", plus ", sale price" / ", your pick" after the reveal.
+    static func accessibilityText(_ label: String, _ state: State) -> String {
+        let spoken = SpokenPrice.text(label)
+        switch state {
+        case .idle: return spoken
+        case .correct: return "\(spoken), sale price"
+        case .chosenWrong: return "\(spoken), your pick"
+        }
     }
 }
 

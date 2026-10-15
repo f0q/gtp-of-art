@@ -100,6 +100,7 @@ struct WallCostLine: View {
                 Text("Your wall would have cost \(text) approx.")
                     .artTextStyle(Tokens.Typography.label)
                     .foregroundStyle(Tokens.Color.accentGilt)
+                    .accessibilityLabel(SpokenPrice.text("Your wall would have cost \(text) approx."))
                     .accessibilityIdentifier("taste.wallCost")
                 Button { showingInfo = true } label: {
                     Image(systemName: "info.circle")

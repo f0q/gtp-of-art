@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "dataset_id": "artprice-v1-20261013",
- "generated_at": "2026-10-12T23:30:09+00:00",
+ "dataset_id": "artprice-v1-20261016",
+ "generated_at": "2026-10-15T22:05:15+00:00",
  "ref_year": 2025,
  "disclaimer": "Prices are approximate public figures for historical sales, gathered from published reports, and are for entertainment and education only. Auction prices usually include the buyer's premium; private-sale prices are as reported and may be unconfirmed. Inflation-adjusted values are estimates. Nothing here is an appraisal, valuation, or investment advice, and past sale prices do not indicate what any work would fetch today.",
  "artworks": [
@@ -114,7 +114,7 @@
    },
    "copy": {
     "teaser": "Jankel Adler, a Polish-Jewish painter in Düsseldorf, was branded 'degenerate' by the Nazis a few years later.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jankel_Adler_Halbakt_1927.jpg",
@@ -244,7 +244,7 @@
    },
    "copy": {
     "teaser": "A quiet working river in East Prussia, a landscape that vanished from German maps after 1945.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Eduard_Anderson_Ferry_in_East_Prussia_1909.jpg",
@@ -374,7 +374,7 @@
    },
    "copy": {
     "teaser": "Arkhipov's laughing peasant women in red became his trademark in the years after the Revolution.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Abram_Arkhipov,_Peasant_Woman,_before_1922.jpg",
@@ -505,7 +505,7 @@
    },
    "copy": {
     "teaser": "Atget sold his Paris street pictures to artists as raw material, never imagining one print would set an auction record over a century later.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/55394",
@@ -608,7 +608,7 @@
    },
    "copy": {
     "teaser": "Atget's series of Paris street trades recorded jobs like bread delivery that were already disappearing as the city modernised.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/55402",
@@ -739,7 +739,7 @@
    },
    "copy": {
     "teaser": "Avercamp was nicknamed the Mute of Kampen; his winters are packed with tiny figures.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Hendrick_Avercamp,_Kolfspelers_op_het_ijs,_Circa_1625.jpg",
@@ -869,7 +869,7 @@
    },
    "copy": {
     "teaser": "A Norwegian Romantic's harsh winter crossing, painted when mountain travel was still a real ordeal.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Knud_Baade_-_Winter_-_NMK.2022.0384_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
@@ -1000,7 +1000,7 @@
    },
    "copy": {
     "teaser": "Harriet Backer was famous for church interiors; here she steps outside into the Norwegian valley light.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Harriet_Backer_-_Uvdal_kirke_og_kirkeg%C3%A5rd.jpg",
@@ -1129,7 +1129,7 @@
    },
    "copy": {
     "teaser": "A few wet strokes make the whole picture; nothing is wasted.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:%E5%85%AB%E5%A4%A7%E5%B1%B1%E4%BA%BA_%E9%B3%A5%E7%9F%B3%E5%9C%96.jpg",
@@ -1258,7 +1258,7 @@
    },
    "copy": {
     "teaser": "His birds often glare or sulk, read as quiet protest against the new Qing rulers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:%E5%85%AB%E5%A4%A7%E5%B1%B1%E4%BA%BA_%E8%91%A1%E8%90%84%E9%B3%A5%E7%9F%B3.jpg",
@@ -1364,7 +1364,7 @@
    },
    "copy": {
     "teaser": "Upside-down rocks and wide-eyed fish: odd viewpoints were Bada's signature.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/41491",
@@ -1492,7 +1492,7 @@
    },
    "copy": {
     "teaser": "Bada Shanren was a Ming prince who turned painter-monk after the dynasty fell.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:%E5%85%AB%E5%A4%A7%E5%B1%B1%E4%BA%BA_%E6%9D%BE%E9%B9%BF%E5%9C%96.jpg",
@@ -1623,7 +1623,7 @@
    },
    "copy": {
     "teaser": "A Swiss woman in the Paris avant-garde, Bailly gave Cubism a dancing, decorative rhythm.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Alice_Bailly_Jeux-dete_1920.jpg",
@@ -1754,7 +1754,7 @@
    },
    "copy": {
     "teaser": "Paul Baum was one of the few Germans to adopt Seurat's dot technique, and kept to it for life.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Paul_Baum_Stra%C3%9Fe_zu_toskanischem_Gutshof.jpg",
@@ -1885,7 +1885,7 @@
    },
    "copy": {
     "teaser": "Sugar was a costly luxury; Beert's sweets were a show of wealth as much as a treat for the eye.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ossas_Beert_-_Still_Life_of_Sweets_on_a_Pewter_Plate_and_a_Fa%C3%A7on_de_Venise_Wineglass_on_a_Wooden_Ledge.jpg",
@@ -1991,7 +1991,7 @@
    },
    "copy": {
     "teaser": "Painted around 1230, this icon-like panel shows how close early Italian art stayed to Byzantium.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/435658",
@@ -2121,7 +2121,7 @@
    },
    "copy": {
     "teaser": "A crowd-pleasing anecdote of the kind Victorian collectors loved: music, sunshine and a dozen cheeky faces.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:A_captive_audience_(c.1890),_by_Arcangiolo_Birelli.jpg",
@@ -2222,7 +2222,7 @@
    },
    "copy": {
     "teaser": "Blanchard was one of the few women at the core of Paris cubism.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/2026.37",
@@ -2327,7 +2327,7 @@
    },
    "copy": {
     "teaser": "Böcklin painted five versions; prints of it hung in countless homes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/435683",
@@ -2456,7 +2456,7 @@
    },
    "copy": {
     "teaser": "Boeckhorst worked in Rubens's studio, and this whirl of bodies and light shows the master's influence.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Boeckhorst_Phoebus.jpg",
@@ -2588,7 +2588,7 @@
    },
    "copy": {
     "teaser": "Boel painted animals for the Gobelins tapestry works in Paris after training in Antwerp.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Pieter_Boel_-_Still_Life_with_Game,_a_Parrot,_a_Dog,_a_Monkey_and_Fruit.jpg",
@@ -2689,7 +2689,7 @@
    },
    "copy": {
     "teaser": "This was Bonnard's first paid commission, and its success helped convince him to give up law for art.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/116238",
@@ -2819,7 +2819,7 @@
    },
    "copy": {
     "teaser": "The window-niche scene was a Leiden speciality, lingering well into the eighteenth century.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Arnold_Boonen_circle_-_A_lady_feeding_a_parrot_at_a_window_casement,_2008_CKS_07633_0138_045449_(cropped).jpg",
@@ -2949,7 +2949,7 @@
    },
    "copy": {
     "teaser": "Flowers from different seasons in one vase: a bouquet that could never exist.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ambrosius_bosschaert_the_elder_flowers_in_a_wan-li_gilt-mounted_vase.jpg",
@@ -3082,7 +3082,7 @@
    },
    "copy": {
     "teaser": "Both spent years in Rome and brought home a warm Italian evening light that Dutch collectors who never crossed the Alps prized above local scenery.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:An_Italianate_Evening_Landscape_A15583.jpg",
@@ -3211,7 +3211,7 @@
    },
    "copy": {
     "teaser": "A composition close to Botticelli's famous Uffizi tondo, sold from Paul Allen's collection in 2022.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Alessandro_filipepi_called_sandro_botticelli_madonna_of_the_magnificat_(100016).jpg",
@@ -3341,7 +3341,7 @@
    },
    "copy": {
     "teaser": "Bought for about $1.3M in 1982 and resold for seventy times more.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Botticelli_-_Portrait_of_a_Young_Man_Holding_a_Roundel.jpg",
@@ -3447,7 +3447,7 @@
    },
    "copy": {
     "teaser": "Painted for Madame de Pompadour's private bathing pavilion.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/435739",
@@ -3577,7 +3577,7 @@
    },
    "copy": {
     "teaser": "Bouguereau's sweet children were the bestsellers of the Salon; even his studies fetched high prices.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:William_Bouguereau_-_Study_for_La_tasse_de_lait.jpg",
@@ -3707,7 +3707,7 @@
    },
    "copy": {
     "teaser": "Polished academic finish: no brushstroke left in sight.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:William-Adolphe_Bouguereau_(1825-1905)_-_The_Bohemian_(1890).jpg",
@@ -3838,7 +3838,7 @@
    },
    "copy": {
     "teaser": "The Ommegang was Antwerp's great civic parade, complete with the giant Druon Antigoon and floating sea monsters.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Alexander_van_Bredael_-_The_Ommegang_at_the_Meir,_Antwerp.jpg",
@@ -3944,7 +3944,7 @@
    },
    "copy": {
     "teaser": "One of a series of the seasons painted for an Antwerp merchant.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/435809",
@@ -4073,7 +4073,7 @@
    },
    "copy": {
     "teaser": "Brueghel the Younger copied his father's famous Vienna picture, keeping the dozens of tiny stories alive.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Younger_-_the_Fight_Between_Carnival_and_Lent_-_copy_sold_by_Christie%27s,_December_6th,_2011.jpg",
@@ -4203,7 +4203,7 @@
    },
    "copy": {
     "teaser": "The Brueghel workshop made dozens of versions of this satire on lawyers and the taxes they collected.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Pieter_brueghel_the_younger_the_payment_of_the_tithes.jpg",
@@ -4309,7 +4309,7 @@
    },
    "copy": {
     "teaser": "Burne-Jones took the title from an old French song: 'Alas, I know a love song, sad or happy, each in turn.'",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/435826",
@@ -4414,7 +4414,7 @@
    },
    "copy": {
     "teaser": "A smaller replica of the Salon sensation bought by Napoleon III.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/435831",
@@ -4545,7 +4545,7 @@
    },
    "copy": {
     "teaser": "Bought by the Getty after a record sale for the artist.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Jeune_homme_%C3%A0_sa_fen%C3%AAtre_(B_32).jpg",
@@ -4653,7 +4653,7 @@
    },
    "copy": {
     "teaser": "Callot packed hundreds of tiny figures into a plate barely the size of a postcard to show soldiers punished for looting.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/420819",
@@ -4753,7 +4753,7 @@
    },
    "copy": {
     "teaser": "Cameron's deliberate soft focus scandalised the photographers of her day.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/29230",
@@ -4885,7 +4885,7 @@
    },
    "copy": {
     "teaser": "Cameron's maid Mary Hillier modelled for so many of her pictures that she became one of the most photographed women of the 1860s.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/268696",
@@ -5016,7 +5016,7 @@
    },
    "copy": {
     "teaser": "Canaletto's crisp views of Venice were the souvenirs of the Grand Tour.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Giovanni_Antonio_Canal,_il_Canaletto_-_Venice_-_The_Grand_Canal,_Looking_North-East_from_Palazzo_Balbi_to_the_Rialto_Bridge_-_WGA03851.jpg",
@@ -5150,7 +5150,7 @@
    },
    "copy": {
     "teaser": "Canaletto made only about thirty etchings, mixing real views around Venice with invented capriccios like this one.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/335285",
@@ -5281,7 +5281,7 @@
    },
    "copy": {
     "teaser": "Canaletto's crisp views were the ultimate Grand Tour souvenir for British aristocrats.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Canaletto_-_The_Grand_Canal_looking_north-west_from_Ca%27_Corner_to_Ca%27_Contarini_degli_Scrigni,_with_the_campanile_of_Santa_Maria_della_Carit%C3%A0.jpg",
@@ -5412,7 +5412,7 @@
    },
    "copy": {
     "teaser": "Each Ascension Day the Doge sailed out to 'marry' the sea, Venice's grandest festival.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Canaletto_-_Venice,_Bacino_di_San_Marco_on_Ascension_Day.JPG",
@@ -5542,7 +5542,7 @@
    },
    "copy": {
     "teaser": "Cappiello paired a red horse with a chocolate brand on purpose: the image had to grab passers-by first and explain itself later.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Chocolat_Klaus,_d%C3%A9lectable_supr%C3%AAme_du_genre_chocolat_suisse_affiche,_Leonetto_Cappiello.jpg",
@@ -5672,7 +5672,7 @@
    },
    "copy": {
     "teaser": "The author of Alice in Wonderland was also a dedicated amateur photographer who made thousands of portraits of children and friends.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/69816",
@@ -5805,7 +5805,7 @@
    },
    "copy": {
     "teaser": "A rare glimpse of modern Paris in Cassatt's prints: a nanny, a mother and a baby on public transport crossing the Seine.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/13534",
@@ -5938,7 +5938,7 @@
    },
    "copy": {
     "teaser": "Cassatt reworked this plate through seventeen states before she was satisfied with the colours.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/13527",
@@ -6071,7 +6071,7 @@
    },
    "copy": {
     "teaser": "Inspired by a Japanese print show in Paris, Cassatt inked and printed these colour plates herself with a single assistant.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/13506",
@@ -6202,7 +6202,7 @@
    },
    "copy": {
     "teaser": "Cézanne painted this mountain dozens of times, building it from patches of colour.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Montagne_Sainte-Victoire,_par_Paul_C%C3%A9zanne_114.jpg",
@@ -6333,7 +6333,7 @@
    },
    "copy": {
     "teaser": "Cézanne returned again and again to L'Estaque, building the bay out of blocks of colour.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:L%27Estaque_aux_toits_rouges,_par_Paul_C%C3%A9zanne.jpg",
@@ -6464,7 +6464,7 @@
    },
    "copy": {
     "teaser": "Saved for the Louvre after a record sale and a public fundraising drive.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jean_Sim%C3%A9on_Chardin_-_Le_Panier_de_fraises_des_bois_(1761).jpg",
@@ -6594,7 +6594,7 @@
    },
    "copy": {
     "teaser": "Sagot was one of the first dealers to sell posters to collectors, so this is essentially a poster advertising poster collecting.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/1976.1072",
@@ -6695,7 +6695,7 @@
    },
    "copy": {
     "teaser": "The indoor ice rink on the Champs-Élysées was a fashionable winter haunt, and Chéret advertised it again and again.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/218856",
@@ -6795,7 +6795,7 @@
    },
    "copy": {
     "teaser": "Chéret drew this paraffin ad in several colour schemes, and his breezy lamp-lighting girl became a familiar sight on Paris walls.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/218855",
@@ -6900,7 +6900,7 @@
    },
    "copy": {
     "teaser": "The painted fly on the frame is a trick: Christus shows off his skill by fooling the viewer's eye.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/435896",
@@ -7029,7 +7029,7 @@
    },
    "copy": {
     "teaser": "Coorte's tiny still lifes were rediscovered only in the 20th century.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Adriaen_Coorte_-_Still_life_of_fraises-de-bois_in_a_Wan-Li_bowl_upon_a_stone_ledge.jpg",
@@ -7161,7 +7161,7 @@
    },
    "copy": {
     "teaser": "Corinth's brushwork grew wilder over his career, bridging impressionism and expressionism.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Lovis_Corinth_-_Halbakt_einer_jungen_Frau,_den_Kopf_mit_der_linken_Hand_gest%C3%BCtzt_(ca._1907).jpg",
@@ -7292,7 +7292,7 @@
    },
    "copy": {
     "teaser": "Corinth loved dressing up for self-portraits; the swaggering Landsknecht was one of his favourite roles.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Lovis_Corinth_Selbstportr%C3%A4t_als_N%C3%BCrnberger_Landsknecht.jpg",
@@ -7426,7 +7426,7 @@
    },
    "copy": {
     "teaser": "Painted in the hard winter after the First World War.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:1919_Lovis_Corinth_Eisbahn.jpg",
@@ -7558,7 +7558,7 @@
    },
    "copy": {
     "teaser": "Late Corinth: the subject is calm, the paint is not.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Lovis_Corinth_Stillleben_mit_Fischen_1917.jpg",
@@ -7689,7 +7689,7 @@
    },
    "copy": {
     "teaser": "Corinth painted his daughter Wilhelmine with the family cat in a single spirited sitting.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Lovis_Corinth_Tochter_Wilhelmine_mit_Katze_Mizelonde_1912.jpg",
@@ -7795,7 +7795,7 @@
    },
    "copy": {
     "teaser": "Courbet's answer to the polished nudes of the Salon.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436002",
@@ -7925,7 +7925,7 @@
    },
    "copy": {
     "teaser": "A provincial painter's idyll of the Ardennes countryside, painted in the calm years after Napoleon.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Sc%C3%A8ne_champ%C3%AAtre_%C3%A0_Belval,_Couvelet_Jean-Baptiste,_Mus%C3%A9e_de_l%27Ardenne-9092_(without_border).jpg",
@@ -8055,7 +8055,7 @@
    },
    "copy": {
     "teaser": "Cranach painted this sleeping nymph many times for German princely collectors.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Ruhende_Quellnymphe_(Christie%E2%80%99s_2022).jpg",
@@ -8186,7 +8186,7 @@
    },
    "copy": {
     "teaser": "Cranach's workshop turned out its distinctive long-eyed Madonnas for Protestant and Catholic patrons alike.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d._J._-_Madonna_und_Kind_mit_dem_Johannesknaben_und_Engeln_(nach_1537).jpg",
@@ -8293,7 +8293,7 @@
    },
    "copy": {
     "teaser": "Cross moved to the Mediterranean coast for his health and turned Seurat's dots into bigger, freer mosaic strokes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/459095",
@@ -8398,7 +8398,7 @@
    },
    "copy": {
     "teaser": "In his last years Cross's dots grew into bold blocks of pure colour, inspiring the young Matisse.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/459094",
@@ -8498,7 +8498,7 @@
    },
    "copy": {
     "teaser": "Curtis spent three decades on a twenty-volume record of Native American life, though he often staged scenes and costumes for the camera.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/49951",
@@ -8628,7 +8628,7 @@
    },
    "copy": {
     "teaser": "Dahl, the father of Norwegian landscape painting, depicted Frogner when it was still a country estate outside Christiania.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Frogner_Manor_by_I._C._Dahl_for_Benjamin_Wegner.jpg",
@@ -8734,7 +8734,7 @@
    },
    "copy": {
     "teaser": "A frieze of figures arranged like an ancient relief.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436105",
@@ -8839,7 +8839,7 @@
    },
    "copy": {
     "teaser": "Marie-Anne Lavoisier was her husband's scientific partner and had studied drawing with David himself.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436106",
@@ -8969,7 +8969,7 @@
    },
    "copy": {
     "teaser": "Painting on smooth copper let de Keyser render every crinkle of the lace ruff, a fashion young Amsterdam men favoured in the 1620s.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Portrait_of_a_Gentleman_Wearing_a_Fancy_Ruff_D12830.jpg",
@@ -9100,7 +9100,7 @@
    },
    "copy": {
     "teaser": "De La Tour was forgotten for centuries; his candlelit scenes were rediscovered only in the twentieth century.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_-_A_Girl_Blowing_on_a_Brazier_(La_Fillette_au_braisier),_1168-11.jpg",
@@ -9232,7 +9232,7 @@
    },
    "copy": {
     "teaser": "De László was the society portraitist of Edwardian Europe, painting kings, presidents and debutantes alike.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Philip_Alexius_de_L%C3%A1szl%C3%B3_(1869%E2%80%931937)_-_Portrait_of_Lorna_Marsali_Woodroffe-Lang_(1893%E2%80%931975),_born_Forbes-Leith_-_2021.531_-_National_Trust_for_Scotland.jpg",
@@ -9338,7 +9338,7 @@
    },
    "copy": {
     "teaser": "Delacroix took the scene from Walter Scott's Ivanhoe, a favourite source of Romantic drama.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/438814",
@@ -9468,7 +9468,7 @@
    },
    "copy": {
     "teaser": "After the wild colour of Fauvism, Derain turned in the 1920s to a calm, classical style.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Andr%C3%A9_Derain_Arlequin_tenant_une_guitare_um_1930.jpg",
@@ -9569,7 +9569,7 @@
    },
    "copy": {
     "teaser": "In the summer of 1905 Derain and Matisse painted at Collioure and invented Fauvism together.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Montagnes_%C3%A0_Collioure,_par_Andr%C3%A9_Derain.jpg",
@@ -9671,7 +9671,7 @@
    },
    "copy": {
     "teaser": "Derain's biggest Fauve landscape, painted in the south of France in 1906.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:The_Turning_Road,_L%C2%B4Estaque.jpg",
@@ -9801,7 +9801,7 @@
    },
    "copy": {
     "teaser": "Louis XV's most powerful companion, painted near the end of her life.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jeanne-Antoinette_Poisson,_Marquise_de_Pompadour_(1721-1764),_by_Fran%C3%A7ois-Hubert_Drouais.jpg",
@@ -9936,7 +9936,7 @@
    },
    "copy": {
     "teaser": "The Met's costliest purchase at the time, and still argued over by scholars.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/438754",
@@ -10036,7 +10036,7 @@
    },
    "copy": {
     "teaser": "Dufy grew up in Le Havre, and its regattas and flags became a lifelong motif.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:F%C3%AAte_Nautique_-_Raoul_Dufy_-_Google_Arts_%26_Culture.jpg",
@@ -10167,7 +10167,7 @@
    },
    "copy": {
     "teaser": "In 1909 Dufy visited Munich with Friesz; the bold blocks of colour show him moving from Fauvism toward Cézanne.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Raoul_Dufy_Le_Jardin_%C3%A0_Munich.jpg",
@@ -10298,7 +10298,7 @@
    },
    "copy": {
     "teaser": "Dujardin trained in Italy and brought its grand classical style back to Amsterdam.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Karel_Dujardin_-_Paulus_geneest_de_kreupele_te_Lystra_-_Google_Art_Project.jpg",
@@ -10436,7 +10436,7 @@
    },
    "copy": {
     "teaser": "Dürer built the figures from ideal proportions he had studied for years, and proudly signed his full name on a tablet hanging from a branch.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/336222",
@@ -10541,7 +10541,7 @@
    },
    "copy": {
     "teaser": "Dürer studied wings feather by feather; such studies later served for angels in his paintings.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/334818",
@@ -10677,7 +10677,7 @@
    },
    "copy": {
     "teaser": "This impression was famously rescued from a rubbish dump by a boy decades before it sold; the knight rides on, ignoring the figures meant to terrify him.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/336223",
@@ -10812,7 +10812,7 @@
    },
    "copy": {
     "teaser": "Engraved puzzle-picture of genius at a standstill; scholars still argue about its meaning.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/360018",
@@ -10917,7 +10917,7 @@
    },
    "copy": {
     "teaser": "A study for a Madonna surrounded by angel musicians, drawn during Dürer's journey to the Netherlands.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/334816",
@@ -11052,7 +11052,7 @@
    },
    "copy": {
     "teaser": "Dürer never saw the animal; he worked from a sketch and a letter.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/356497",
@@ -11188,7 +11188,7 @@
    },
    "copy": {
     "teaser": "Sunlight through the round window panes was engraved line by line; collectors pay far more for early impressions where that light still glows.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/336229",
@@ -11318,7 +11318,7 @@
    },
    "copy": {
     "teaser": "Eckersberg trained with David in Paris and went on to found the Danish Golden Age of painting.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Self_portrait,_by_Christoffer_Wilhelm_Eckersberg.jpg",
@@ -11449,7 +11449,7 @@
    },
    "copy": {
     "teaser": "Eisen is better known for beauties; this rain scene shows his landscape side.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/18251",
@@ -11580,7 +11580,7 @@
    },
    "copy": {
     "teaser": "Eisen began the Kisokaidō series; Hiroshige finished it after him.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/36494",
@@ -11710,7 +11710,7 @@
    },
    "copy": {
     "teaser": "An early El Greco, painted in Venice or Rome before he settled in Toledo.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:El_Greco_-_Entombment_of_Christ_2023_CKS_20683_0021_d6436471063245.jpg",
@@ -11814,7 +11814,7 @@
    },
    "copy": {
     "teaser": "Look closely at the crowd: Ensor filled it with soldiers, masks and grotesque faces swarming at the church's feet.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/2003.46",
@@ -11946,7 +11946,7 @@
    },
    "copy": {
     "teaser": "Ensor illustrates Edgar Allan Poe's tale of a jester who takes revenge on a cruel king and his courtiers during a masked ball.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/1970.38",
@@ -12077,7 +12077,7 @@
    },
    "copy": {
     "teaser": "An oil sketch from the Norwegian painter's Italian journey, made outdoors in the bright southern light.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Thomas_Fearnley_-_Fra_Procida_og_Ischia_med_fjellet_Epomeo_(1833).jpg",
@@ -12207,7 +12207,7 @@
    },
    "copy": {
     "teaser": "Historians still argue over whether Fenton moved the cannonballs onto the road himself, making this one of the first disputed war photographs.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/146114",
@@ -12339,7 +12339,7 @@
    },
    "copy": {
     "teaser": "Filla was the leading Czech Cubist, faithful to Picasso's lessons long after Paris had moved on.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Emil_Filla_-_%C4%8Cten%C3%A1%C5%99ka.jpg",
@@ -12469,7 +12469,7 @@
    },
    "copy": {
     "teaser": "A collaboration between Fragonard and his sister-in-law and pupil.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Fragonard_et_G%C3%A9rard_-_L%27%C3%A9l%C3%A8ve_int%C3%A9ressante.jpg",
@@ -12574,7 +12574,7 @@
    },
    "copy": {
     "teaser": "Fragonard drew the overgrown gardens of Roman villas during his years as a prize student in Italy.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337090",
@@ -12703,7 +12703,7 @@
    },
    "copy": {
     "teaser": "A painted sermon: Death fiddles for the miser who thought his gold could buy more time.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Frans_Francken_II_-_Death_and_the_Miser,_2023_NYR_19995_0201_011037.jpg",
@@ -12809,7 +12809,7 @@
    },
    "copy": {
     "teaser": "Samuel Beckett said this painting gave him the idea for Waiting for Godot.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/438417",
@@ -12939,7 +12939,7 @@
    },
    "copy": {
     "teaser": "A 'smoker's still life': tobacco was a fashionable, faintly sinful luxury in seventeenth-century Holland.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jan_Fris_-_Still_life_with_roemer,_clay_pipe_and_a_lit_taper_on_a_ledge_2019_CKS_17196_0162_050650.jpg",
@@ -13068,7 +13068,7 @@
    },
    "copy": {
     "teaser": "Painted the year Gao returned from Japan, where he studied modern painting.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Gao_Jianfu,_Autumn_Pleasures_(1915).jpg",
@@ -13197,7 +13197,7 @@
    },
    "copy": {
     "teaser": "A tiny figure under huge trees: Gao liked to dwarf people in nature.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Gao_Jianfu,_Moonlight_(1928).jpg",
@@ -13326,7 +13326,7 @@
    },
    "copy": {
     "teaser": "Gao co-founded the Lingnan School, mixing Chinese brushwork with Japanese and Western ideas.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Gao_Jianfu,_Pinecones_(1928).jpg",
@@ -13463,7 +13463,7 @@
    },
    "copy": {
     "teaser": "Gauguin printed this suite on bright canary paper and showed it at a café beside the 1889 World's Fair, where almost no one bought it.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337823",
@@ -13593,7 +13593,7 @@
    },
    "copy": {
     "teaser": "Painted the year Gauguin's own Tahitian son was born; it became his most expensive work at auction.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Paul_gauguin_maternit233_ii100257).jpg",
@@ -13723,7 +13723,7 @@
    },
    "copy": {
     "teaser": "Long rumoured at $300M; a lawsuit later showed the price was $210M.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Paul_Gauguin,_Nafea_Faa_Ipoipo%3F_(When_Will_You_Marry%3F)_1892,_oil_on_canvas,_101_x_77_cm.jpg",
@@ -13856,7 +13856,7 @@
    },
    "copy": {
     "teaser": "Back in Paris, Gauguin gouged these blocks by hand to illustrate his Tahiti memoir, deliberately making them look rough and ancient.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/159103",
@@ -13987,7 +13987,7 @@
    },
    "copy": {
     "teaser": "Painted on Gauguin's first Tahitian stay, it records a landscape he would soon turn into myth.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Te_Fare_(La_maison)_Paul_Gauguin_1892.jpg",
@@ -14118,7 +14118,7 @@
    },
    "copy": {
     "teaser": "Gaulli, called Baciccio, painted seven popes and the dazzling ceiling of the Gesù in Rome.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Gaulli_(Il_Baciccio)_-_Pope_Clement_X_(1590%E2%80%931676)_-_2017.422_-_Metropolitan_Museum_of_Art.jpg",
@@ -14248,7 +14248,7 @@
    },
    "copy": {
     "teaser": "A myth of Zeus in disguise, painted for a Genoese patron.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Orazio_Gentileschi_-_Dana%C3%AB_and_the_Shower_of_Gold_-_2016.6_-_J._Paul_Getty_Museum.jpg",
@@ -14354,7 +14354,7 @@
    },
    "copy": {
     "teaser": "Gérôme was a sculptor too, and painted this in his own studio.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436483",
@@ -14459,7 +14459,7 @@
    },
    "copy": {
     "teaser": "Giotto gave sacred figures real weight and feeling, the first step away from Byzantine flatness.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436504",
@@ -14588,7 +14588,7 @@
    },
    "copy": {
     "teaser": "A predella panel from Siena, where gold grounds lasted into the 15th century.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Giovanni_di_paolo_saint_clare_rescuing_the_shipwrecked.jpg",
@@ -14719,7 +14719,7 @@
    },
    "copy": {
     "teaser": "A small panel from an altarpiece telling Saint Clare's story, sold at the same sale as its sister scene of a shipwreck.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Giovanni_di_paolo_the_investiture_of_saint_clare_the_saint_receiving.jpg",
@@ -14852,7 +14852,7 @@
    },
    "copy": {
     "teaser": "Celebrated first as an engraver, Goltzius only turned to oil painting around forty, and this late Eden is one of his largest canvases.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Hendrick_Goltzius,_The_Fall_of_Man,_1616,_NGA_95659.jpg",
@@ -14982,7 +14982,7 @@
    },
    "copy": {
     "teaser": "Gower became Serjeant Painter to Elizabeth I; his sitters wanted every stripe and pearl recorded.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:George_Gower_Sir_Edward_Monins_of_Waldershare.jpg",
@@ -15119,7 +15119,7 @@
    },
    "copy": {
     "teaser": "Goya's caption mocks the woman who could not defend herself, a bitter joke about abduction and blame in 1790s Madrid.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/378021",
@@ -15256,7 +15256,7 @@
    },
    "copy": {
     "teaser": "Goya opened his biting satire of Spanish society with his own sceptical profile, top hat and all.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/377808",
@@ -15386,7 +15386,7 @@
    },
    "copy": {
     "teaser": "Stolen from the National Gallery weeks after it arrived and returned four years later.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Francisco_Goya_-_Portrait_of_the_Duke_of_Wellington.jpg",
@@ -15494,7 +15494,7 @@
    },
    "copy": {
     "teaser": "Goya first planned this sleeping-artist image as the frontispiece of the whole series before moving it to plate 43.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/338473",
@@ -15624,7 +15624,7 @@
    },
    "copy": {
     "teaser": "Gris's late 'synthetic' Cubism builds objects from flat shapes, like a precise architectural drawing.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Raisins,_carafe_et_livre.JPG",
@@ -15724,7 +15724,7 @@
    },
    "copy": {
     "teaser": "Gris paid tribute to the inventor of Cubism with a portrait built on a precise mathematical grid.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Juan_Gris_-_Portrait_of_Pablo_Picasso_-_Google_Art_Project.jpg",
@@ -15854,7 +15854,7 @@
    },
    "copy": {
     "teaser": "Better known for fjords and mountains, Gude painted his wife Betsy with quiet intimacy.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Hans_Gude_-_Portrett_av_Betsy_Gude.jpg",
@@ -15960,7 +15960,7 @@
    },
    "copy": {
     "teaser": "Northern Song landscape: depth built from mist rather than perspective lines.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/39668",
@@ -16090,7 +16090,7 @@
    },
    "copy": {
     "teaser": "Almost everything here is black, yet a few quick, loaded strokes on the gloves and collar are enough to make the sitter seem about to speak.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_een_man.jpg",
@@ -16219,7 +16219,7 @@
    },
    "copy": {
     "teaser": "The Qianlong emperor's catalogue credited it to Han Gan, the Tang court's great horse painter.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Painting_of_horse_by_Han_Gan_as_catalogued_in_Shiqu_Baoji.jpg",
@@ -16325,7 +16325,7 @@
    },
    "copy": {
     "teaser": "The emperor's favourite horse, and the dozens of seals record every owner who prized it.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/39901",
@@ -16454,7 +16454,7 @@
    },
    "copy": {
     "teaser": "The scene quotes a Chinese verse about warming wine with fallen autumn leaves, moved by Harunobu into a rainy Edo room.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/20979",
@@ -16584,7 +16584,7 @@
    },
    "copy": {
     "teaser": "Harunobu pioneered full-colour 'brocade' prints in the 1760s.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/21059",
@@ -16719,7 +16719,7 @@
    },
    "copy": {
     "teaser": "Beating cloth on a stone was a stock autumn image in classical poetry, and Harunobu restages the old poem as a quiet chore shared by two fashionable girls.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/56419",
@@ -16849,7 +16849,7 @@
    },
    "copy": {
     "teaser": "Hayez painted several versions of The Kiss; the image became a symbol of Italian unification and romance.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Il_Bacio,_by_Francesco_Hayez.jpg",
@@ -16979,7 +16979,7 @@
    },
    "copy": {
     "teaser": "A 'monochrome banquet': grey and silver tones, every reflection observed.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Willem_Claesz_Heda_-_Still_Life_with_a_Fruit_Pie,_1644.jpg",
@@ -17110,7 +17110,7 @@
    },
    "copy": {
     "teaser": "A blunt Renaissance reminder of mortality, disguised as a sweet sleeping child.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:JAN_SANDERS_VAN_HEMESSEN_-_A_Vanitas_As_we_are_born,_we_die,_lot-6411000.jpg",
@@ -17241,7 +17241,7 @@
    },
    "copy": {
     "teaser": "Heyerdahl's flaxen-haired girl became an icon of the Norwegian Nordic summer.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Hans_Heyerdahl_(1857-1913)_The_Girl_with_Linen_Hair.jpg",
@@ -17343,7 +17343,7 @@
    },
    "copy": {
     "teaser": "Hill and Adamson posed children outdoors for long seconds of stillness, producing some of the first relaxed, natural-looking photographs of childhood.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/268477",
@@ -17472,7 +17472,7 @@
    },
    "copy": {
     "teaser": "Hine's pictures of child workers were made as evidence for reformers, and helped push America toward its first child labour laws.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/11344",
@@ -17609,7 +17609,7 @@
    },
    "copy": {
     "teaser": "Kanbara rarely sees snow; Hiroshige invented the storm for mood.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/56915",
@@ -17741,7 +17741,7 @@
    },
    "copy": {
     "teaser": "We look out from inside the Thunder Gate, the giant lantern cropped like a theatre curtain.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/56689",
@@ -17872,7 +17872,7 @@
    },
    "copy": {
     "teaser": "Hiroshige never visited the strait; he worked from a guidebook illustration.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/21625",
@@ -18003,7 +18003,7 @@
    },
    "copy": {
     "teaser": "Van Gogh copied this design in oil in 1887, branch and all.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/26577",
@@ -18109,7 +18109,7 @@
    },
    "copy": {
     "teaser": "The rain is printed as fine diagonal lines in two tones of grey.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/36521",
@@ -18242,7 +18242,7 @@
    },
    "copy": {
     "teaser": "Van Gogh copied this print in oil.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/55433",
@@ -18377,7 +18377,7 @@
    },
    "copy": {
     "teaser": "The circular pool at the top echoes the halo of the Buddha Amida, which gave the falls their name.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/55022",
@@ -18512,7 +18512,7 @@
    },
    "copy": {
     "teaser": "Fuji is drawn with a single line here; the real subject is the wind.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/36493",
@@ -18618,7 +18618,7 @@
    },
    "copy": {
     "teaser": "Almost everything is printed in shades of Prussian blue, a pigment newly fashionable in Japan.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/56727",
@@ -18752,7 +18752,7 @@
    },
    "copy": {
     "teaser": "Look closely: the mountain's reflection is snow-capped and misplaced, a deliberate impossibility.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/54868",
@@ -18887,7 +18887,7 @@
    },
    "copy": {
     "teaser": "Hokusai reduced Japan's sacred mountain to three bands of colour: sky, slope and trees.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/36490",
@@ -19023,7 +19023,7 @@
    },
    "copy": {
     "teaser": "Part of a trio on the classic poetic themes of snow, moon and flowers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/44981",
@@ -19158,7 +19158,7 @@
    },
    "copy": {
     "teaser": "The companion to Red Fuji: same mountain, but this time a thunderstorm breaks around its base.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/36492",
@@ -19292,7 +19292,7 @@
    },
    "copy": {
     "teaser": "Thousands of impressions were printed; a fine early one is now a trophy.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/39799",
@@ -19427,7 +19427,7 @@
    },
    "copy": {
     "teaser": "The zigzag 'eight bridges' was a famous literary spot long before Hokusai drew it.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/45026",
@@ -19558,7 +19558,7 @@
    },
    "copy": {
     "teaser": "The shop sign advertises a teahouse with a view of Fuji, and the women are getting their money's worth.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/55283",
@@ -19664,7 +19664,7 @@
    },
    "copy": {
     "teaser": "A keen fisherman, Homer painted fish as if seen underwater, decades before underwater photography.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/11114",
@@ -19769,7 +19769,7 @@
    },
    "copy": {
     "teaser": "Homer wintered in Florida and the Caribbean, where his watercolours became looser and more brilliant.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/11120",
@@ -19868,7 +19868,7 @@
    },
    "copy": {
     "teaser": "The writer John Ruskin called this picture 'exquisite in every way'; William Morris bought it.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Arthur_Hughes_-_April_Love_-_Google_Art_Project.jpg",
@@ -19974,7 +19974,7 @@
    },
    "copy": {
     "teaser": "Huizong was a gifted artist and a disastrous ruler who lost north China to invaders.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/39936",
@@ -20105,7 +20105,7 @@
    },
    "copy": {
     "teaser": "The mother is Marie d'Agoult, novelist and lover of Franz Liszt; Ingres drew her with her daughter in the year the girl married.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/244917",
@@ -20211,7 +20211,7 @@
    },
    "copy": {
     "teaser": "Ingres painted Madame Leblanc in Florence, giving her the porcelain smoothness of his ideal figures.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436703",
@@ -20342,7 +20342,7 @@
    },
    "copy": {
     "teaser": "He painted the view from one window again and again, abstracting a little more each time.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Alexej_von_Jawlensky_Variation_1916_N._4.jpg",
@@ -20445,7 +20445,7 @@
    },
    "copy": {
     "teaser": "Kandinsky said the cannons came from war talk he heard while painting.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/8991",
@@ -20546,7 +20546,7 @@
    },
    "copy": {
     "teaser": "Kandinsky believed colours could sound like music; by 1913 he had dropped recognisable subjects altogether.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/8987",
@@ -20647,7 +20647,7 @@
    },
    "copy": {
     "teaser": "Käsebier sold a print of this soft-focus nativity for a hundred dollars, then a record price for a single photograph.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/43908",
@@ -20753,7 +20753,7 @@
    },
    "copy": {
     "teaser": "Angelica Kauffmann, a founder of the Royal Academy, was one of the most successful painters of her century.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436810",
@@ -20883,7 +20883,7 @@
    },
    "copy": {
     "teaser": "Kielland made the bleak Jæren moors her subject, turning an empty landscape into a national motif.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Kielland-Torvmyr.jpg",
@@ -21015,7 +21015,7 @@
    },
    "copy": {
     "teaser": "Restituted from a Berlin museum to the heirs of its Jewish former owners.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Kirchner_Berlin_Street_Scene_1913.jpg",
@@ -21145,7 +21145,7 @@
    },
    "copy": {
     "teaser": "Painted at the Moritzburg lakes, where the Brücke artists worked outdoors.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ernst_Ludwig_Kirchner_Das_blaue_M%C3%A4dchen_in_der_Sonne_1910.jpg",
@@ -21275,7 +21275,7 @@
    },
    "copy": {
     "teaser": "Kirchner sketched cabaret and variety shows night after night; this scene later became a major oil painting.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ernst_Ludwig_Kirchner_Pantomime_Reimann_I.jpg",
@@ -21405,7 +21405,7 @@
    },
    "copy": {
     "teaser": "Kirchner painted this scene from a Berlin cabaret pantomime in 1912; it set a new record when sold in 2021.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Kirchner_-_Pantomime_Reimann_Die_Rache_der_T%C3%A4nzerin,_1912,_6328611.jpg",
@@ -21535,7 +21535,7 @@
    },
    "copy": {
     "teaser": "Painted on the back of another canvas, this nude shows the raw Brücke style of Dresden in 1910.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Kirchner_-_Sitzender_schwarzhaariger_M%C3%A4dchenakt_(1910).jpg",
@@ -21665,7 +21665,7 @@
    },
    "copy": {
     "teaser": "Kittelsen's snow-laden spruce became one of Norway's most beloved Christmas images.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Theodor_Kittelsen_-_Juletreet.jpeg",
@@ -21795,7 +21795,7 @@
    },
    "copy": {
     "teaser": "An illustration for the Norwegian fairy tale of a prince cursed to live as a bear.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Theodor_Kittelsen_-_Kvitebj%C3%B8rn_kong_Valemon_-_White_Bear_King_Valemon_-_NMK.LAAN.2025.0150_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
@@ -21897,7 +21897,7 @@
    },
    "copy": {
     "teaser": "Kiyonaga's long-limbed beauties set the fashion for a decade of ukiyo-e.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/21613",
@@ -22027,7 +22027,7 @@
    },
    "copy": {
     "teaser": "Klee painted this playful watercolour in 1918 while still serving as a soldier in the German air force.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Paul_Klee_Geister_als_Akrobaten_1918.jpg",
@@ -22127,7 +22127,7 @@
    },
    "copy": {
     "teaser": "Seized by the Nazis and returned to the sitter's niece in 2006, the 'Golden Adele' inspired the film Woman in Gold.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Portr%C3%A4t_der_Adele_Bloch-Bauer_I_(1907).jpg",
@@ -22257,7 +22257,7 @@
    },
    "copy": {
     "teaser": "Restituted to the Bloch-Bauer heirs in 2006, this forest sold for more than double Klimt's previous record in 2022.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Gustav_Klimt,_Birch_Forest,_1903_-_Paul_G._Allen_Collection.jpg",
@@ -22388,7 +22388,7 @@
    },
    "copy": {
     "teaser": "The most expensive modern artwork sold at auction (2025).",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Gustav_Klimt_Bildnis_der_Elisabeth_Lederer.jpg",
@@ -22494,7 +22494,7 @@
    },
    "copy": {
     "teaser": "Klimt's portraits turn backgrounds into wallpaper of pure ornament.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436819",
@@ -22594,7 +22594,7 @@
    },
    "copy": {
     "teaser": "Klimt's golden icon was bought by the Austrian state before it was even finished.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
@@ -22726,7 +22726,7 @@
    },
    "copy": {
     "teaser": "At the heart of the Bouvier affair, one of the art world's biggest disputes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Klimt_-_Wasserschlangen_II_(Freundinnen)_-_1904.jpeg",
@@ -22857,7 +22857,7 @@
    },
    "copy": {
     "teaser": "A fresh outdoor sketch from Skagen, the northern tip of Denmark where Krøyer and his friends chased the light.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Skagens_Hede_ved_Brovandene.jpg",
@@ -22989,7 +22989,7 @@
    },
    "copy": {
     "teaser": "Kubišta died at 34 in the 1918 flu epidemic; his few paintings are now Czech national treasures.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Bohumil_Kubi%C5%A1t%C4%9B_-_Staropra%C5%BEsk%C3%BD_motiv.jpg",
@@ -23123,7 +23123,7 @@
    },
    "copy": {
     "teaser": "Issued months after Hiroshige died in the 1858 cholera epidemic, this tribute by his colleague Kunisada carries the landscape master's farewell poem.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/53719",
@@ -23257,7 +23257,7 @@
    },
    "copy": {
     "teaser": "The drowned Taira clan returns as spirits to take revenge on the general who defeated them.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/893318",
@@ -23388,7 +23388,7 @@
    },
    "copy": {
     "teaser": "Kasumigaseki, now the seat of Japan's ministries, was then a slope of feudal lords' mansions, and Kuniyoshi uses Western-style perspective to tip the street toward the sky.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/9861",
@@ -23519,7 +23519,7 @@
    },
    "copy": {
     "teaser": "Crowds gathered on the Susaki shore before dawn to greet the year's first sunrise, and Kuniyoshi turns its rays into ruled lines racing across the water.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/9848",
@@ -23650,7 +23650,7 @@
    },
    "copy": {
     "teaser": "Lanfranco helped spread the dramatic Baroque of Rome to Naples, where this kind of night scene thrived.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Giovanni_lanfranco_execution_of_saint_john_the_baptist.jpg",
@@ -23780,7 +23780,7 @@
    },
    "copy": {
     "teaser": "The café owner disliked the design so much that Bruant threatened not to perform unless it was posted all over Paris.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/63620",
@@ -23910,7 +23910,7 @@
    },
    "copy": {
     "teaser": "Lautrec boiled the singer down to a cape, a hat and a scarf, and still everyone in Montmartre knew exactly who it was.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/23671",
@@ -24044,7 +24044,7 @@
    },
    "copy": {
     "teaser": "A London paper-goods maker commissioned it to sell confetti, which had only recently become a carnival craze.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/334252",
@@ -24178,7 +24178,7 @@
    },
    "copy": {
     "teaser": "The singer on stage is Yvette Guilbert, recognisable only by her long black gloves because Lautrec cut her head off at the top edge.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/334197",
@@ -24307,7 +24307,7 @@
    },
    "copy": {
     "teaser": "Lautrec's last poster for his friend Avril is also his rarest, since it seems hardly any copies ever went up on the walls of Paris.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/67181",
@@ -24442,7 +24442,7 @@
    },
    "copy": {
     "teaser": "Avril paid for the poster herself, and Lautrec framed her with the hand and instrument of a bass player rising from the pit.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/333993",
@@ -24572,7 +24572,7 @@
    },
    "copy": {
     "teaser": "The model was Misia Natanson, wife of one of the magazine's founders and a muse to much of avant-garde Paris.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/13606",
@@ -24702,7 +24702,7 @@
    },
    "copy": {
     "teaser": "Belfort sang a childlike music-hall song while cradling a black kitten, and Lautrec made the cat part of her stage portrait.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/67177",
@@ -24832,7 +24832,7 @@
    },
    "copy": {
     "teaser": "Lautrec made it for the dancer's planned American tour, yet in France most people saw it only as a magazine reproduction.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/1952.10",
@@ -24967,7 +24967,7 @@
    },
    "copy": {
     "teaser": "Lautrec's very first poster was so large it had to be printed on three sheets, and it made the young artist famous across Paris almost overnight.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/333990",
@@ -25072,7 +25072,7 @@
    },
    "copy": {
     "teaser": "The poster promoted a satirical novel by Victor Joze about a kept woman and the rich men who keep her.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/333991",
@@ -25206,7 +25206,7 @@
    },
    "copy": {
     "teaser": "Jane Avril arranged the commission for a dance troupe heading to London, and she is one of the four high-kickers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/333988",
@@ -25336,7 +25336,7 @@
    },
    "copy": {
     "teaser": "Lavery's tennis scenes caught a new fashionable sport in loose, bright strokes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:John_Lavery_-_Paisley_Lawn_Tennis_Club.jpg",
@@ -25467,7 +25467,7 @@
    },
    "copy": {
     "teaser": "The Red Boy, Charles Lambton, was one of the most reproduced images in Victorian Britain.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Sir_Thomas_Lawrence_-_The_Red_Boy_-_National_Gallery,_London_-_Google_Arts_%26_Culture.jpg",
@@ -25598,7 +25598,7 @@
    },
    "copy": {
     "teaser": "To freeze the spray of a breaking wave, Le Gray needed an exposure of a fraction of a second, astonishingly fast for 1857.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/126478",
@@ -25731,7 +25731,7 @@
    },
    "copy": {
     "teaser": "Le Gray caught sea, ship and sky on a single plate here, a feat early photographers thought nearly impossible because skies always burned out white.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/261937",
@@ -25862,7 +25862,7 @@
    },
    "copy": {
     "teaser": "Sent to record Napoleon III's new military camp, Le Gray made the army almost vanish into an empty plain and an enormous sky.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/283125",
@@ -25993,7 +25993,7 @@
    },
    "copy": {
     "teaser": "Le Gray combined two negatives, one for sea and one for sky, to beat the camera's limits.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/261941",
@@ -26124,7 +26124,7 @@
    },
    "copy": {
     "teaser": "Le Gray aimed his lens straight at the sun, turning a technical risk into one of the most luminous seascapes of the 1850s.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/126484",
@@ -26256,7 +26256,7 @@
    },
    "copy": {
     "teaser": "Léger's 'contrasts of forms' pushed Cubism toward pure abstraction on the eve of the First World War.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Contraste_de_formes,_1913_-_Fernand_L%C3%A9ger.jpg",
@@ -26387,7 +26387,7 @@
    },
    "copy": {
     "teaser": "A co-founder of the Berlin Secession, Leistikow made the lakes and pine woods of Brandenburg a symbol of Berlin's modern art scene.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Walter_Leistikow_Abend_an_der_Havel_um_1900.jpg",
@@ -26519,7 +26519,7 @@
    },
    "copy": {
     "teaser": "The only Leonardo painting in the Americas.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ginevra_de%27_Benci_-_National_Gallery_of_Art.jpg",
@@ -26627,7 +26627,7 @@
    },
    "copy": {
     "teaser": "A study connected to Leonardo's Virgin and Child with Saint Anne.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337496",
@@ -26757,7 +26757,7 @@
    },
    "copy": {
     "teaser": "Bought for £45 in 1958 as a copy; the attribution is still disputed.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci,_Salvator_Mundi,_c.1500,_oil_on_walnut,_45.4_%C3%97_65.6_cm.jpg",
@@ -26887,7 +26887,7 @@
    },
    "copy": {
     "teaser": "Leyster was one of the few women admitted to Haarlem's painters' guild.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Judith_Leyster_Merry_Trio.jpg",
@@ -27018,7 +27018,7 @@
    },
    "copy": {
     "teaser": "A study for one of Liebermann's open-air pictures of Dutch village life.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Max_Liebermann_Kind_unter_B%C3%A4umen_1882.jpg",
@@ -27149,7 +27149,7 @@
    },
    "copy": {
     "teaser": "Liebermann found his subjects in Dutch villages, where he admired the dignity of everyday work.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Max_Liebermann_Beim_Buttern_um_1885.jpg",
@@ -27282,7 +27282,7 @@
    },
    "copy": {
     "teaser": "Liebermann spent summers painting the Dutch coast and its farmers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Max_Liebermann_D%C3%BCnen_mit_Bauer_und_grasenden_Ziegen_1895.jpg",
@@ -27412,7 +27412,7 @@
    },
    "copy": {
     "teaser": "Germany's leading impressionist returned again and again to Amsterdam's market streets.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Max_Liebermann_Judengasse_in_Amsterdam_1909.jpg",
@@ -27543,7 +27543,7 @@
    },
    "copy": {
     "teaser": "Lievens shared a studio with the young Rembrandt in Leiden; this girl was once thought to be by Rembrandt himself.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:A_young_girl,_by_Jan_Lievens.jpg",
@@ -27675,7 +27675,7 @@
    },
    "copy": {
     "teaser": "A rare oil by a master of pastel, bought back to Amsterdam after 240 years in one family.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "rijks:https://www.rijksmuseum.nl/en/collection/SK-A-5039",
@@ -27781,7 +27781,7 @@
    },
    "copy": {
     "teaser": "Lorenzo Monaco was a Camaldolese monk whose glowing colours bridge Gothic and Renaissance Florence.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436911",
@@ -27916,7 +27916,7 @@
    },
    "copy": {
     "teaser": "It shows Mary Magdalen before her conversion, enjoying a worldly dance party, with a tiny vision of her later life in the hills above.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/364698",
@@ -28047,7 +28047,7 @@
    },
    "copy": {
     "teaser": "An early Macke from Bonn, painted while he was still absorbing French Impressionism.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:August_Macke_Sonniger_Garten_1908.jpg",
@@ -28178,7 +28178,7 @@
    },
    "copy": {
     "teaser": "The profile medallion format revived the portraits on ancient Roman coins.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Macrino_dalba_portrait_of_philip_ii_duke_of_savoy_bust-length_in_armour.jpg",
@@ -28278,7 +28278,7 @@
    },
    "copy": {
     "teaser": "Brown painted it as he himself considered emigrating to India, using his own family as models.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ford_Madox_Brown_-_The_Last_of_England_-_Google_Art_Project.jpg",
@@ -28378,7 +28378,7 @@
    },
    "copy": {
     "teaser": "First shown in 1915 hung in the corner of the room, the place of an icon in a Russian home.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg",
@@ -28507,7 +28507,7 @@
    },
    "copy": {
     "teaser": "Restituted to Malevich's heirs in 2008 and sold twice since.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Kazimir_malevich_suprematist_composition.jpg",
@@ -28644,7 +28644,7 @@
    },
    "copy": {
     "teaser": "Police seized the first printing because the swaggering puppet was read as a mockery of France's president, Marshal MacMahon.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/336390",
@@ -28773,7 +28773,7 @@
    },
    "copy": {
     "teaser": "A 1985 auction record for any painting; now at the Getty.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Andrea_Mantegna_-_Adoration_of_the_Magi_-_85.PA.417_-_J._Paul_Getty_Museum.jpg",
@@ -28906,7 +28906,7 @@
    },
    "copy": {
     "teaser": "For Marc, animals in unnatural colours expressed a purer spiritual world than humans could.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Franz_marc,_cavallo_verde,_1912_(no_frame).jpg",
@@ -29007,7 +29007,7 @@
    },
    "copy": {
     "teaser": "Marcoussis turned café tables into stacked, faceted shapes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/2006.139",
@@ -29138,7 +29138,7 @@
    },
    "copy": {
     "teaser": "Marieschi was Canaletto's rival in selling Venetian views to Grand Tour visitors.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Michele_marieschi_the_campo_di_santi_giovanni_e_paolo_and_the_scuola.jpg",
@@ -29270,7 +29270,7 @@
    },
    "copy": {
     "teaser": "Mashkov co-founded the Moscow 'Jack of Diamonds' group, the Russian answer to Fauvism and Cézanne.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ilya_Mashkov,_THE_MODELS,_1911.jpg",
@@ -29402,7 +29402,7 @@
    },
    "copy": {
     "teaser": "After the war this panel spent nearly fifty years in the Louvre as unclaimed looted art before it was returned to the family of its last owner in 1999.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Master_of_the_Death_of_Saint_Nicholas_of_M%C3%BCnster,_Calvary,_c._1470-1480,_NGA_119049.jpg",
@@ -29503,7 +29503,7 @@
    },
    "copy": {
     "teaser": "Shown at the 1905 Salon d'Automne, the show that earned Matisse and friends the name 'wild beasts'.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Matisse-Open-Window.jpg",
@@ -29604,7 +29604,7 @@
    },
    "copy": {
     "teaser": "Fauvism: colour chosen for feeling rather than for accuracy.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/87045",
@@ -29705,7 +29705,7 @@
    },
    "copy": {
     "teaser": "The portrait of Amélie Matisse caused a scandal in 1905; Gertrude and Leo Stein bought it anyway.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Matisse-Woman-with-a-Hat.jpg",
@@ -29837,7 +29837,7 @@
    },
    "copy": {
     "teaser": "Merritt was the first woman to have a painting bought for the Tate's national collection.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Merritt_Anna_Lea_Eve_1885_Oil_On_Canvas-large.jpg",
@@ -29972,7 +29972,7 @@
    },
    "copy": {
     "teaser": "The brooding gargoyle was actually a recent addition by restorers, but Meryon made it the soul of old Paris.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/360188",
@@ -30080,7 +30080,7 @@
    },
    "copy": {
     "teaser": "Working drawings for a figure on the Sistine Chapel ceiling, drawn from a male model.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337497",
@@ -30210,7 +30210,7 @@
    },
    "copy": {
     "teaser": "Mignon packed his bouquets with tiny creatures, each a symbol of life's fragility.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Abraham_mignon_flowers_in_a_glass_vase_with_snails_and_insects_in_a_ni.jpg",
@@ -30310,7 +30310,7 @@
    },
    "copy": {
     "teaser": "Elizabeth Siddal posed for hours in a bath of water kept warm by lamps, and fell ill when they went out.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
@@ -30416,7 +30416,7 @@
    },
    "copy": {
     "teaser": "The actress Kate Dolan posed as Shakespeare's Portia, disguised as a lawyer in The Merchant of Venice.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437092",
@@ -30546,7 +30546,7 @@
    },
    "copy": {
     "teaser": "Otto Modersohn co-founded the Worpswede artists' colony on the peat moors near Bremen.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Otto_Modersohn_Herbst_am_Moorkanal.jpg",
@@ -30677,7 +30677,7 @@
    },
    "copy": {
     "teaser": "Modersohn-Becker painted village children with a weighty simplicity that anticipated Expressionism.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Paula_Modersohn-Becker_Kinder_zwischen_Birkenst%C3%A4mmen.jpg",
@@ -30807,7 +30807,7 @@
    },
    "copy": {
     "teaser": "She painted dozens of frank self-portraits before dying at 31.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Paula_Modersohn_Becker_Selbstbildnis_nach_halblinks.jpg",
@@ -30908,7 +30908,7 @@
    },
    "copy": {
     "teaser": "Lipchitz commissioned this wedding portrait partly to help his penniless friend Modigliani.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/27987",
@@ -31014,7 +31014,7 @@
    },
    "copy": {
     "teaser": "Modigliani's partner, painted many times in his last year.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/488903",
@@ -31114,7 +31114,7 @@
    },
    "copy": {
     "teaser": "The ironic title mocks the sitter, the English writer Beatrice Hastings, Modigliani's lover at the time.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/27281",
@@ -31245,7 +31245,7 @@
    },
    "copy": {
     "teaser": "Bought at auction by a former taxi driver turned collector in Shanghai.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Modigliani_-_Nu_couch%C3%A9.jpg",
@@ -31346,7 +31346,7 @@
    },
    "copy": {
     "teaser": "Modigliani's sitters share the same mask-like face, inspired by African and ancient sculpture.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/1951.358",
@@ -31446,7 +31446,7 @@
    },
    "copy": {
     "teaser": "By 1923 Mondrian had reduced painting to straight lines and primary colours, a style he called Neo-Plasticism.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Composition_A_by_Piet_Mondrian_Galleria_Nazionale_d%27Arte_Moderna_e_Contemporanea.jpg",
@@ -31576,7 +31576,7 @@
    },
    "copy": {
     "teaser": "Before the grids: young Mondrian painted Dutch farms in the Hague School manner.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Piet_Mondrian_Farm_building_near_irrigation_ditch.jpg",
@@ -31677,7 +31677,7 @@
    },
    "copy": {
     "teaser": "Turned 45 degrees, the grid seems to run beyond the edges.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/109819",
@@ -31805,7 +31805,7 @@
    },
    "copy": {
     "teaser": "One of Monet's grainstack series, all painted near his home at Giverny.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Meules_(W_1273).jpg",
@@ -31907,7 +31907,7 @@
    },
    "copy": {
     "teaser": "Monet's garden pond at Giverny filled the last thirty years of his work.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/16568",
@@ -32038,7 +32038,7 @@
    },
    "copy": {
     "teaser": "From Monet's late Giverny series, painted as his eyesight failed and his colour grew ever freer.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Nympheas_en_fleur.jpg",
@@ -32168,7 +32168,7 @@
    },
    "copy": {
     "teaser": "Monet painted more than forty versions of Waterloo Bridge from his room at the Savoy Hotel.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Claude_monet_waterloo_bridge_soleil_voil233101946).jpg",
@@ -32274,7 +32274,7 @@
    },
    "copy": {
     "teaser": "Moreau's Salon breakthrough of 1864 set the tone for decades of Symbolist femmes fatales.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437153",
@@ -32406,7 +32406,7 @@
    },
    "copy": {
     "teaser": "Painted by the man who later invented the telegraph code.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Portrait_of_Lafayette.jpg",
@@ -32536,7 +32536,7 @@
    },
    "copy": {
     "teaser": "Mucha drew it for Bernhardt's 1896 revival of the Dumas play, in which she was still playing the young heroine in her fifties.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:LA._DAME._AUX._CAMELIAS_SARAH_BERNHARDT,_AFF1136(2).jpg",
@@ -32666,7 +32666,7 @@
    },
    "copy": {
     "teaser": "Mucha landed the job only because the printer's regular artists were away for Christmas, and the poster launched his career overnight.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:24._Alfons_Mucha,_Plak%C3%A1t_Gismonda._Sarah_Bernhardt,_1894,_Um%C4%9Bleckopr%C5%AFmyslov%C3%A9_muzeum_v_Praze.jpg",
@@ -32797,7 +32797,7 @@
    },
    "copy": {
     "teaser": "Winter was one panel of Mucha's first Seasons set, made to decorate homes rather than to sell a product.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Mucha_-_Les_Saisons_(1896)_-_hiver.jpg",
@@ -32927,7 +32927,7 @@
    },
    "copy": {
     "teaser": "Job made cigarette rolling papers, and Mucha worked the brand name into the mosaic pattern behind his model as well as the title.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:JOB,_cigarette_paper_advertisement_by_Alfons_Mucha,_1898.jpg",
@@ -33058,7 +33058,7 @@
    },
    "copy": {
     "teaser": "Mucha's decorative panels advertised nothing at all; they were made to hang at home, and the Seasons were among his best sellers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/97439",
@@ -33188,7 +33188,7 @@
    },
    "copy": {
     "teaser": "Bernhardt loved the snake bracelet Mucha drew on her arm here so much that she had it made as real jewellery.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:M%C3%A9d%C3%A9e._Th%C3%A9%C3%A2tre_de_La_Renaissance._Sarah_Bernhardt_-_affiche_-_Mucha_-_btv1b9016288g.jpg",
@@ -33318,7 +33318,7 @@
    },
    "copy": {
     "teaser": "The circles swirling around her are often read as train wheels, a nod to the railway company that paid for the poster.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Monaco,_Monte-Carlo._Chemins_de_Fer_P.L.M._affiche,_Mucha_1897.jpg",
@@ -33420,7 +33420,7 @@
    },
    "copy": {
     "teaser": "It began as an in-house calendar for Mucha's printer before the magazine La Plume bought the rights and handed it out to readers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/111986",
@@ -33550,7 +33550,7 @@
    },
    "copy": {
     "teaser": "A 17-year-old Munch, still painting the quiet Norwegian countryside a decade before The Scream.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Horse_and_Cart_on_a_Country_Road.jpg",
@@ -33683,7 +33683,7 @@
    },
    "copy": {
     "teaser": "The only version of The Scream still in private hands.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:The_Scream_Pastel.jpg",
@@ -33813,7 +33813,7 @@
    },
    "copy": {
     "teaser": "Munch's long-haired woman reappears across his prints; here her hair still clings to the man she leaves.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Edvard_Munch_Losloesung_II.jpg",
@@ -33945,7 +33945,7 @@
    },
    "copy": {
     "teaser": "Munch returned to the death of his sister Sophie again and again; this was one of his very first prints of the subject.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/17343",
@@ -34049,7 +34049,7 @@
    },
    "copy": {
     "teaser": "The lithograph let Munch spread his most famous image widely; the German caption on some sheets reads 'I felt the great scream through nature'.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/17229",
@@ -34180,7 +34180,7 @@
    },
    "copy": {
     "teaser": "Munch sawed his woodblocks into pieces like a jigsaw, inked each part a different colour, and reassembled them for printing.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/88396",
@@ -34312,7 +34312,7 @@
    },
    "copy": {
     "teaser": "Munch inked each impression of this plate by hand in different colours, so no two look alike; this one set a world record for a print.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/31613",
@@ -34413,7 +34413,7 @@
    },
    "copy": {
     "teaser": "Muybridge's banks of cameras sliced everyday movements into instants the human eye had never been able to see.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/268623",
@@ -34513,7 +34513,7 @@
    },
    "copy": {
     "teaser": "Nadar photographed his friend the illustrator Doré against a plain backdrop, a radical simplicity for studio portraits of the 1850s.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/50176",
@@ -34644,7 +34644,7 @@
    },
    "copy": {
     "teaser": "Netscher trained under Ter Borch and became The Hague's favourite painter of elegant small portraits.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:002_caspar_netscher_portrait_of_a_Lady_three-quarter-length_in_black.jpg",
@@ -34775,7 +34775,7 @@
    },
    "copy": {
     "teaser": "Taken from a Jewish family during the war and later kept by a German museum, the panel was restituted to the heirs shortly before this sale.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Young_woman_in_a_window_feeding_a_parrot,_by_Caspar_Netscher.jpg",
@@ -34881,7 +34881,7 @@
    },
    "copy": {
     "teaser": "Ni Zan's empty, peopleless landscapes became the model of scholarly restraint.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/45636",
@@ -35011,7 +35011,7 @@
    },
    "copy": {
     "teaser": "A founder of the Brücke group, Pechstein turned to calmer, more decorative portraits in the 1920s.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Max-Pechstein_Das_blaue_Kleid_Bildnis_Frau_Dr._Plietzsch.jpg",
@@ -35141,7 +35141,7 @@
    },
    "copy": {
     "teaser": "The poster urged American girls to raise money for soldiers' welfare in 1918, with rowing standing in for everyone pulling together.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Every_girl_pulling_for_victory,_WWI_poster,_1918.jpg",
@@ -35276,7 +35276,7 @@
    },
    "copy": {
     "teaser": "Piranesi's Imaginary Prisons are architectural fever dreams whose impossible stairways later fascinated writers and filmmakers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/362676",
@@ -35382,7 +35382,7 @@
    },
    "copy": {
     "teaser": "Piranesi was barely thirty when he etched these imaginary dungeons, which grow more vertiginous the longer you look.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337060",
@@ -35511,7 +35511,7 @@
    },
    "copy": {
     "teaser": "Set an old-master auction record in 1989; the sitter's identity is still debated.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Pontormo_(Jacopo_Carucci)_(Italian,_Florentine)_-_Portrait_of_a_Halberdier_(Francesco_Guardi%3F)_-_Google_Art_Project.jpg",
@@ -35611,7 +35611,7 @@
    },
    "copy": {
     "teaser": "Popova was among the boldest Russian women of the avant-garde; she died of scarlet fever at 35.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Painterly_Architectonic_-_1918.jpg",
@@ -35717,7 +35717,7 @@
    },
    "copy": {
     "teaser": "Puvis's chalky, muted murals deeply influenced Gauguin, Seurat and the young Picasso.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437344",
@@ -35845,7 +35845,7 @@
    },
    "copy": {
     "teaser": "A gift picture: Qian Du painted it for a friend leaving office, and eleven friends added poems.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Qian-du-1763-1844-china-retirement.jpg",
@@ -35951,7 +35951,7 @@
    },
    "copy": {
     "teaser": "The great calligrapher was said to learn brush movement from the necks of geese.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/40081",
@@ -36081,7 +36081,7 @@
    },
    "copy": {
     "teaser": "In 1885 it cost the nation more than any picture before it.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_Madonna_and_Child_(The_Ansidei_Altarpiece)_-_WGA18663.jpg",
@@ -36187,7 +36187,7 @@
    },
    "copy": {
     "teaser": "Raphael based the pose on a newly excavated ancient statue he saw in Rome.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337075",
@@ -36292,7 +36292,7 @@
    },
    "copy": {
     "teaser": "In his last years Redon left his black charcoal 'noirs' behind for explosions of colour and flowers.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437383",
@@ -36429,7 +36429,7 @@
    },
    "copy": {
     "teaser": "The 1961 auction that turned old masters into headline news.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437394",
@@ -36565,7 +36565,7 @@
    },
    "copy": {
     "teaser": "Rembrandt sketched Amsterdam's street people with sympathy rather than mockery, giving this poor family real dignity.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/391887",
@@ -36671,7 +36671,7 @@
    },
    "copy": {
     "teaser": "Rembrandt sketched the countryside around Amsterdam on walks, in quick and confident pen strokes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337491",
@@ -36777,7 +36777,7 @@
    },
    "copy": {
     "teaser": "Nicknamed for the huge sum one impression was said to fetch in Rembrandt's lifetime.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/371732",
@@ -36912,7 +36912,7 @@
    },
    "copy": {
     "teaser": "Asselijn's nickname 'Krabbetje', little crab, came from a deformed hand; Rembrandt tactfully tucked it into the cloak.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/391778",
@@ -37048,7 +37048,7 @@
    },
    "copy": {
     "teaser": "Lutma was a celebrated Amsterdam silversmith; Rembrandt shows him at about 72, with the tools of his trade within reach.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/392051",
@@ -37179,7 +37179,7 @@
    },
    "copy": {
     "teaser": "Painted in 1632, just after Rembrandt moved to Amsterdam and became its most fashionable portraitist.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Aeltje_Uylenburgh,_by_Rembrandt.jpg",
@@ -37309,7 +37309,7 @@
    },
    "copy": {
     "teaser": "Painted in Rembrandt's busiest portrait years, it was one of the last in private hands when it sold in 2017.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Portrait_of_Petronella_Buys,_Rembrandt,_1635,_The_Leiden_Collection.jpg",
@@ -37442,7 +37442,7 @@
    },
    "copy": {
     "teaser": "Rembrandt as a swaggering young soldier; bought jointly by the Dutch state.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "rijks:https://www.rijksmuseum.nl/en/collection/SK-A-5092",
@@ -37575,7 +37575,7 @@
    },
    "copy": {
     "teaser": "Dutch children went door to door at Epiphany carrying a star lantern on a stick; Rembrandt etched the custom almost entirely in darkness.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/391949",
@@ -37711,7 +37711,7 @@
    },
    "copy": {
     "teaser": "Hidden in the shadows of the big willow, Rembrandt etched a pair of lovers that most viewers never notice.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/359969",
@@ -37847,7 +37847,7 @@
    },
    "copy": {
     "teaser": "Rembrandt's largest landscape etching turns a passing storm into a drama, with diagonal lines of rain sweeping in from the left.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/354633",
@@ -37953,7 +37953,7 @@
    },
    "copy": {
     "teaser": "Zhong Kui's picture was hung at New Year and the Dragon Boat Festival to scare off evil.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/37393",
@@ -38082,7 +38082,7 @@
    },
    "copy": {
     "teaser": "The smaller of two versions; the larger hangs in the Musée d'Orsay.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_(ex_Whitney_collection).jpg",
@@ -38214,7 +38214,7 @@
    },
    "copy": {
     "teaser": "The sitters fell out and each refused to pay or take it home, so the double portrait stayed unpaid for a decade.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Sir_Joshua_Reynolds_-_Colonel_Acland_and_Lord_Sydney-_The_Archers_-_Google_Art_Project.jpg",
@@ -38344,7 +38344,7 @@
    },
    "copy": {
     "teaser": "Córdoba's painter of mysterious women, part allegory and part portrait.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Las_dos_Sendas_-_Julio_Romero_de_Torres.jpg",
@@ -38450,7 +38450,7 @@
    },
    "copy": {
     "teaser": "A watercolour replica of his famous oil of Adam's first wife.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337500",
@@ -38549,7 +38549,7 @@
    },
    "copy": {
     "teaser": "Jane Morris posed as the queen of the underworld, trapped after eating a few pomegranate seeds.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Dante_Gabriel_Rossetti_-_Proserpine_-_Google_Art_Project.jpg",
@@ -38680,7 +38680,7 @@
    },
    "copy": {
     "teaser": "Long given to a pupil, it was recognised as Rubens just before its record sale.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Rubens,_Peter_Paul_-_Massacre_of_the_Innocents_-_Art_Gallery_of_Ontario.jpg",
@@ -38811,7 +38811,7 @@
    },
    "copy": {
     "teaser": "Ruisdael never visited Scandinavia, but borrowed its torrents from a fellow painter's sketches.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jacob_van_Ruisdael_-_Landscape_with_waterfall_and_castle_on_a_mountaintop.jpg",
@@ -38942,7 +38942,7 @@
    },
    "copy": {
     "teaser": "Düsseldorf genre painting at its most cosy: rural storytelling, rosy cheeks and a sunlit meadow.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Der_erz%C3%A4hlende_Sch%C3%A4fer,_Hubert_Salentin_(WVZ_173).jpg",
@@ -39048,7 +39048,7 @@
    },
    "copy": {
     "teaser": "Sargent painted watercolours on his travels purely for pleasure, after he had given up portrait commissions.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/12031",
@@ -39153,7 +39153,7 @@
    },
    "copy": {
     "teaser": "A young Sargent sketched the Alhambra in 1879, the year before he became the sensation of the Paris Salon.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/12033",
@@ -39258,7 +39258,7 @@
    },
    "copy": {
     "teaser": "This little panel was once part of a larger Adoration whose other piece is now in Siena.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437611",
@@ -39387,7 +39387,7 @@
    },
    "copy": {
     "teaser": "Savery's impossible bouquets combine flowers that never bloom at the same time.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:%27Vase_of_Flowers_in_a_Stone_Niche%27_by_Roelant_Savery,_Mauritshuis.jpg",
@@ -39517,7 +39517,7 @@
    },
    "copy": {
     "teaser": "Schiele seated himself at the head of the table and left a chair empty for Klimt, who died weeks before the show opened.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Schiele_-_Plakat_f%C3%BCr_die_49._Ausstellung_der_Secession,_129035,_1918.jpg",
@@ -39653,7 +39653,7 @@
    },
    "copy": {
     "teaser": "Schongauer was the first great engraver known by name north of the Alps, and young Dürer travelled to Colmar hoping to meet him.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/367003",
@@ -39785,7 +39785,7 @@
    },
    "copy": {
     "teaser": "Designed for the first salon of the mystic Rose+Croix circle in 1892, it pictures a soul leaving the mire of the world to climb toward the ideal.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Salon_Rose_Croix_du_10_mars_au_10_avril._Galerie_Durand-Ruel._affiche,_Carlos_Schwabe_Verdoux,_Ducourtioux_%26_Huillard_sc..jpg",
@@ -39916,7 +39916,7 @@
    },
    "copy": {
     "teaser": "Seghers was a Jesuit lay brother whose flower garlands were given as gifts to princes and popes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Daniel_Seghers_-_Roses,_tulips,_and_narcissi_in_a_glass_vase,_with_a_butterfly,_on_a_ledge_2017_NYR_14277_0017_111707.jpg",
@@ -40022,7 +40022,7 @@
    },
    "copy": {
     "teaser": "Seurat's first night scene: a free preview show staged to lure paying customers into the circus.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437654",
@@ -40153,7 +40153,7 @@
    },
    "copy": {
     "teaser": "Seurat's dot technique applied to his own studio; the smaller of two versions.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Georges_seurat_les_poseuses_ensemble100119).jpg",
@@ -40254,7 +40254,7 @@
    },
    "copy": {
     "teaser": "Seurat spent two years on it, repainting with dots after the first version.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/27992",
@@ -40383,7 +40383,7 @@
    },
    "copy": {
     "teaser": "Sharaku's unflattering actor portraits shocked fans who expected idealised stars.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/18887",
@@ -40512,7 +40512,7 @@
    },
    "copy": {
     "teaser": "Sharaku made all his prints in about ten months, then vanished from the record.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/18756",
@@ -40642,7 +40642,7 @@
    },
    "copy": {
     "teaser": "Shishkin painted Russian forests with an almost botanical precision.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Pine_Forest_02_(Ivan_Shishkin).jpg",
@@ -40748,7 +40748,7 @@
    },
    "copy": {
     "teaser": "Shitao painted Mount Huang from memory decades after climbing it.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/49181",
@@ -40881,7 +40881,7 @@
    },
    "copy": {
     "teaser": "In Shibaraku a hero stops a villain with a single shout of 'Wait a moment!', and Shunsho was among the first to give such actors recognisable faces.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/36872",
@@ -41012,7 +41012,7 @@
    },
    "copy": {
     "teaser": "Signac numbered his Concarneau seascapes like musical works; this is Opus 219, 'Larghetto'.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Paul_signac_concarneau_calme_du_matin100017).jpg",
@@ -41113,7 +41113,7 @@
    },
    "copy": {
     "teaser": "Painted in 1886, the summer Signac adopted Seurat's new dot technique.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/122130",
@@ -41219,7 +41219,7 @@
    },
    "copy": {
     "teaser": "Simone Martini's elegant line made Siena the rival of Florence in the 1300s.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437675",
@@ -41348,7 +41348,7 @@
    },
    "copy": {
     "teaser": "Slevogt was one of the trio that brought impressionism to Berlin.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Max_Slevogt_Rote_Nelken.jpg",
@@ -41479,7 +41479,7 @@
    },
    "copy": {
     "teaser": "Slevogt's late illustration for A Midsummer Night's Dream, drawn with the speed of a stage designer.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Max_Slevogt_Titania_und_Zettel_1929.jpg",
@@ -41609,7 +41609,7 @@
    },
    "copy": {
     "teaser": "Sohlberg is best known for mountain nights; this mysterious figure shows his Symbolist side.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Harald_Sohlberg_-_The_Mermaid,_1897.jpg",
@@ -41740,7 +41740,7 @@
    },
    "copy": {
     "teaser": "Sorgh was the son of a Rotterdam boatman and painted the harbour trade he grew up with.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Hendrick_Martensz_Sorgh_Markt_am_Hafen_1655.jpg",
@@ -41868,7 +41868,7 @@
    },
    "copy": {
     "teaser": "Sorolla's beaches are all sunlight and moving water.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Joaquin_Sorolla_-_Las_tres_velas.jpg",
@@ -41969,7 +41969,7 @@
    },
    "copy": {
     "teaser": "Soutine's distorted, tender portraits of servants and cooks made him a hero of later Expressionists.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/1988.94",
@@ -42070,7 +42070,7 @@
    },
    "copy": {
     "teaser": "Soutine admired Chardin's famous ray and repainted it as something raw and unsettling.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/1951.357",
@@ -42201,7 +42201,7 @@
    },
    "copy": {
     "teaser": "Steenwijk specialised in architecture so precise that other painters often added his figures for him.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Hendrick_van_steenwijck_the_younger_cathedral_interior.jpg",
@@ -42302,7 +42302,7 @@
    },
    "copy": {
     "teaser": "Steinlen made it for a stage version of Zola's novel about drink wrecking the life of a Paris laundress.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/51757",
@@ -42430,7 +42430,7 @@
    },
    "copy": {
     "teaser": "It advertised a road tour of Montmartre's Chat Noir shadow-theatre cabaret, and the cat became one of the most copied images in poster history.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "rijks:https://www.rijksmuseum.nl/en/collection/RP-P-1969-78",
@@ -42531,7 +42531,7 @@
    },
    "copy": {
     "teaser": "Stieglitz photographed O'Keeffe's hands obsessively, treating them as a portrait of her as revealing as any face.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/66434",
@@ -42661,7 +42661,7 @@
    },
    "copy": {
     "teaser": "Stieglitz said he saw this scene as a pattern of shapes first, and rushed back to his cabin for his camera before it dissolved.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/66739",
@@ -42792,7 +42792,7 @@
    },
    "copy": {
     "teaser": "Streeton, a leader of Australian Impressionism, made Sydney's blue harbour his signature subject.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Sydney_Harbour_(1907)_Streeton.jpg",
@@ -42923,7 +42923,7 @@
    },
    "copy": {
     "teaser": "Stuck, the 'prince of painters' of Munich, gave Bible stories a heavy, sensual Symbolist mood.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Franz_von_Stuck_Susanna_im_Bade_1896.jpg",
@@ -43053,7 +43053,7 @@
    },
    "copy": {
     "teaser": "Su Shi was a poet-statesman; this is one of very few paintings credited to him.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:%E8%98%87%E8%BB%BE_%E6%9C%A8%E7%9F%B3%E5%9C%96.jpg",
@@ -43184,7 +43184,7 @@
    },
    "copy": {
     "teaser": "Sweerts ran a drawing academy in Rome; this rare studio scene sold for a record price in 2023.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Michael_Sweerts_-_The_Artist%E2%80%99s_Studio_with_a_Seamstress_2023_CKS_20683_0006_d6436456062948.jpg",
@@ -43314,7 +43314,7 @@
    },
    "copy": {
     "teaser": "Talbot argued that a photograph like this could serve as an insurance inventory, since a thief could not dispute a picture of the stolen goods.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/227552",
@@ -43445,7 +43445,7 @@
    },
    "copy": {
     "teaser": "This little staged market scene is one of the earliest attempts to use a camera to tell a story with posed actors.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/283067",
@@ -43575,7 +43575,7 @@
    },
    "copy": {
     "teaser": "Talbot used Oxford's quiet colleges as a perfect test subject: grand architecture that never moved during his minutes-long exposures.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/289185",
@@ -43705,7 +43705,7 @@
    },
    "copy": {
     "teaser": "Long exposures meant moving people simply vanished, so Talbot's busy Oxford street looks eerily deserted.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/285742",
@@ -43835,7 +43835,7 @@
    },
    "copy": {
     "teaser": "Teniers turned the seasons into tavern characters for Flemish collectors.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:David-Teniers-the-Younger-Allegory-of-Autumn_Lempertz.jpg",
@@ -43965,7 +43965,7 @@
    },
    "copy": {
     "teaser": "Teniers made little copies of Italian pictures in the archduke's gallery in Brussels.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:David_Teniers_after_Palma_il_Giovane_-_The_Madonna_and_Child_with_the_Infant_Saint_John_the_Baptist.webp",
@@ -44096,7 +44096,7 @@
    },
    "copy": {
     "teaser": "Teniers made small copies of Venetian masterpieces in the Archduke's gallery, a kind of painted catalogue.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:David_Teniers_-_Madonna_und_Kind_mit_Johannes_dem_T%C3%A4ufer_und_der_Hl._Katharina,_wohl_nach_Palma_il_Vecchio,_1650207817_l.jpeg",
@@ -44227,7 +44227,7 @@
    },
    "copy": {
     "teaser": "A Danish woman painter at work in the Louvre at a time when most art academies were still closed to women.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Ludovica_Thornam_-_Venus_from_Milo._From_Louvre_-_NMK.2022.0046_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
@@ -44358,7 +44358,7 @@
    },
    "copy": {
     "teaser": "Tidemand made Norwegian peasant life the heart of national Romanticism, painting it from Düsseldorf.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Adolph_Tidemand_-_Bestemor_leser_i_Bibelen_(cropped).jpg",
@@ -44489,7 +44489,7 @@
    },
    "copy": {
     "teaser": "A quick oil sketch from Tasso's crusader epic: the sorceress Armida collapses as her lover Rinaldo is dragged back to the war.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Tiepolo_(5.3.1696_-_27.3.1770)_-_Rinaldo%27s_Farewell_to_Armida_-_2000.1_-_Gem%C3%A4ldegalerie.jpg",
@@ -44619,7 +44619,7 @@
    },
    "copy": {
     "teaser": "Tintoretto's portraits of Venetian and Genoese patricians are sober counterparts to his fiery altarpieces.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Tintoretto_-_Portrait_en_pied_de_Nicola_Doria,_lot.46.jpg",
@@ -44750,7 +44750,7 @@
    },
    "copy": {
     "teaser": "The Getty bought this commander's portrait in 2003 after a long stay on loan at the Louvre.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Titian_(Tiziano_Vecellio)_(Italian)_-_Portrait_of_Alfonso_d%27Avalos,_Marquis_of_Vasto,_in_Armor_with_a_Page_-_Google_Art_Project.jpg",
@@ -44881,7 +44881,7 @@
    },
    "copy": {
     "teaser": "An early Titian once stolen from an English stately home and found at a bus stop in a plastic bag.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:The_Rest_on_the_Flight_into_Egypt_(by_Titian)_%E2%80%93_National_Gallery.jpg",
@@ -45011,7 +45011,7 @@
    },
    "copy": {
     "teaser": "Tosini worked in Ghirlandaio's circle, painting the fashion-conscious elite of Medici Florence.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Michele_Tosini,_called_Michele_di_Ridolfo_del_Ghirlandaio_-_Portrait_of_a_Florentine_Noblewoman,_n11706-bs7hc-t1-04.jpg",
@@ -45148,7 +45148,7 @@
    },
    "copy": {
     "teaser": "Lautrec was obsessed with Marcelle Lender's performance in the operetta Chilpéric and reportedly went to see it about twenty times.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/334125",
@@ -45279,7 +45279,7 @@
    },
    "copy": {
     "teaser": "Toyokuni II, better known for actors, tried his hand at famous-view landscapes just as Hiroshige and Hokusai made travel prints the fashion.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/47472",
@@ -45384,7 +45384,7 @@
    },
    "copy": {
     "teaser": "Turner crossed the Alps many times, filling sketchbooks that he later worked up into finished watercolours.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/343384",
@@ -45489,7 +45489,7 @@
    },
    "copy": {
     "teaser": "One of the late Swiss watercolours Turner offered to collectors as samples for commissions.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/337499",
@@ -45593,7 +45593,7 @@
    },
    "copy": {
     "teaser": "An early panorama of London as the world's busiest port, drawn for an engraved series of English views.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/356768",
@@ -45722,7 +45722,7 @@
    },
    "copy": {
     "teaser": "Sold by Kenneth Clark's son to pay death duties; a Turner record at the time.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:J._M._W._Turner_-_Seascape,_Folkestone_(c._1845).jpg",
@@ -45828,7 +45828,7 @@
    },
    "copy": {
     "teaser": "Turner painted four whaling scenes in his seventies, inspired by a whaling captain's published journals.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437854",
@@ -45958,7 +45958,7 @@
    },
    "copy": {
     "teaser": "Part of a series showing what women of the pleasure quarters did at each two-hour 'hour' of the day.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/36328",
@@ -46089,7 +46089,7 @@
    },
    "copy": {
     "teaser": "Utamaro crops his sitter so tightly that her hairpins almost run off the sheet, a close-up that was daring for a print sold as a portrait of a celebrity.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/77436",
@@ -46220,7 +46220,7 @@
    },
    "copy": {
     "teaser": "Vallotton reduced everything to flat black and white, a radical woodcut style that made him a star of 1890s Paris.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/60694",
@@ -46322,7 +46322,7 @@
    },
    "copy": {
     "teaser": "The title hints that one of these tender lovers is not being honest; the whole Intimacies series dissects bourgeois romance.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/62158",
@@ -46452,7 +46452,7 @@
    },
    "copy": {
     "teaser": "Adriaen van de Velde died at 35, yet his airy dunes became models for generations of landscape painters.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Adriaen_van_de_Velde_-_A_dune_landscape_with_peasants,_2023_CKS_20684_0139_012106.jpg",
@@ -46582,7 +46582,7 @@
    },
    "copy": {
     "teaser": "Van de Velde sketched real fleets from a small boat, sometimes in the middle of battle.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Willem_van_de_Velde_II_-_Dutch_men-o%27-war_and_other_shipping_in_a_calm.jpg",
@@ -46713,7 +46713,7 @@
    },
    "copy": {
     "teaser": "Eglon van der Neer specialised in silks: the shine of the satin was the real subject.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Eglon_van_der_Neer_Laute_spielende_junge_Frau_um_1677.jpg",
@@ -46844,7 +46844,7 @@
    },
    "copy": {
     "teaser": "Flemish painters loved Saint Anthony's temptations as an excuse to invent ever stranger monsters.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jan_van_der_Venne_-_The_Temptation_of_St_Anthony.jpg",
@@ -46950,7 +46950,7 @@
    },
    "copy": {
     "teaser": "Painted in jewel-like oil glazes, these wings show the microscopic detail that made Van Eyck famous.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436282",
@@ -47080,7 +47080,7 @@
    },
    "copy": {
     "teaser": "Van Goyen worked in a near-monochrome palette of browns and greys, painting quickly for the open market.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jan_van_goyen_a_river_landscape_with_fishermen_in_a_boat_before.jpg",
@@ -47211,7 +47211,7 @@
    },
    "copy": {
     "teaser": "Van Goyen painted more than a thousand river views, often in just a day or two each.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Jan_van_goyen_a_wooded_river_landscape_with_sailing_barges_and_rowing.jpg",
@@ -47341,7 +47341,7 @@
    },
    "copy": {
     "teaser": "The Van Mieris family of Leiden polished every surface to porcelain smoothness, even in a mythological storm.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Willem_van_mieris_perseus_and_andromeda.jpg",
@@ -47471,7 +47471,7 @@
    },
    "copy": {
     "teaser": "Van Gogh watched this field from his asylum window and painted it in every season.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Acker_mit_pfl%C3%BCgenden_Bauern.jpeg",
@@ -47602,7 +47602,7 @@
    },
    "copy": {
     "teaser": "The 1990 auction record that stood for years; its owner has not shown it since.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Bildnis_Doktor_Gachet.jpeg",
@@ -47732,7 +47732,7 @@
    },
    "copy": {
     "teaser": "Painted in Paris in 1887, it shows Montmartre when it was still a village of windmills and allotments.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Sc%C3%A8ne_de_rue_%C3%A0_Montmartre_(1887).jpg",
@@ -47833,7 +47833,7 @@
    },
    "copy": {
     "teaser": "Van Gogh painted his room in Arles three times.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/28560",
@@ -47963,7 +47963,7 @@
    },
    "copy": {
     "teaser": "One of fourteen blossoming orchards painted in his first Arles spring; it set Van Gogh's auction record.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Vincent_van_gogh_verger_avec_cypr232s095958).jpg",
@@ -48098,7 +48098,7 @@
    },
    "copy": {
     "teaser": "Painted in the asylum at Saint-Rémy, where cypresses became his favourite motif.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/436535",
@@ -48228,7 +48228,7 @@
    },
    "copy": {
     "teaser": "Painted at the asylum in Saint-Rémy in the most productive year of Van Gogh's life.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Cabanes_de_bois_parmi_les_oliviers_et_cypr%C3%A9s_(F_623).jpg",
@@ -48358,7 +48358,7 @@
    },
    "copy": {
     "teaser": "One of the last portraits Van Gogh painted, in Auvers in June 1890, weeks before his death.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Bildnis_eines_jungen_Mannes_mit_Kornblume.jpeg",
@@ -48493,7 +48493,7 @@
    },
    "copy": {
     "teaser": "Velázquez painted his assistant in Rome; the first painting to sell for over a million pounds.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437869",
@@ -48599,7 +48599,7 @@
    },
    "copy": {
     "teaser": "One of Vermeer's tronies: a study of a face rather than a portrait of a sitter.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437879",
@@ -48704,7 +48704,7 @@
    },
    "copy": {
     "teaser": "Painted in 1789, months before the Revolution drove Vigée Le Brun, Marie Antoinette's painter, into exile.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/437900",
@@ -48833,7 +48833,7 @@
    },
    "copy": {
     "teaser": "One of a set of the Four Seasons, a favourite way for Flemish painters to show the whole cycle of rural life.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Sebastiaan_Vrancx_-_Summer.jpg",
@@ -48933,7 +48933,7 @@
    },
    "copy": {
     "teaser": "Waterhouse illustrated Tennyson's poem of a cursed lady who dies drifting down to Camelot.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_The_Lady_of_Shalott.jpg",
@@ -49063,7 +49063,7 @@
    },
    "copy": {
     "teaser": "Watkins hauled glass plates the size of a newspaper page into the wilderness to make prints like this one, with no enlargers to help.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/286513",
@@ -49194,7 +49194,7 @@
    },
    "copy": {
     "teaser": "Watkins's mammoth-plate views of Oregon helped persuade investors that the Pacific Northwest was worth building a railroad to.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/283221",
@@ -49299,7 +49299,7 @@
    },
    "copy": {
     "teaser": "Watteau filled notebooks with such figures and reused them in his painted fêtes galantes.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/339838",
@@ -49428,7 +49428,7 @@
    },
    "copy": {
     "teaser": "Wautier's work was long credited to men; she is now being rediscovered.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Wautier-studie_jonge_vrouw.jpg",
@@ -49534,7 +49534,7 @@
    },
    "copy": {
     "teaser": "The Suzhou garden it records still exists and is now a UNESCO World Heritage site.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/39654",
@@ -49663,7 +49663,7 @@
    },
    "copy": {
     "teaser": "A preparatory study by the painter who later recorded Bismarck's Germany in vast official canvases.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Anton_von_Werner_-_Ovid_1877.jpg",
@@ -49798,7 +49798,7 @@
    },
    "copy": {
     "teaser": "Whistler left ink films on the plate and wiped each one by hand, so every impression of this night view has its own atmosphere.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/372754",
@@ -49933,7 +49933,7 @@
    },
    "copy": {
     "teaser": "Young Whistler lived among the docks of East London, drawing sailors and wharves with the precision of a reporter.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/348563",
@@ -50034,7 +50034,7 @@
    },
    "copy": {
     "teaser": "White, a bookkeeper in small-town Ohio, taught himself photography and made his luminous pictures before and after his day job.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/66758",
@@ -50164,7 +50164,7 @@
    },
    "copy": {
     "teaser": "Witkacy ran a one-man 'portrait firm' with a price list of types, from flattering to wildly distorted.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Witkacy_-_Portrait_of_Ada_Propper_(1929-03).jpg",
@@ -50295,7 +50295,7 @@
    },
    "copy": {
     "teaser": "Witkacy's commercial portraits ranged from polite likenesses to hallucinatory 'type C' fantasies.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Witkacy_-_Portret_Marii_Z%C5%82otnickiej_Jaroszynskiej_-_1928-05.jpg",
@@ -50425,7 +50425,7 @@
    },
    "copy": {
     "teaser": "Czermański was himself a caricaturist; Witkacy signed his portraits with codes for the drugs or drinks taken while drawing.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Witkacy_-_PORTRET_ZDZIS%C5%81AWA_CZERMA%C5%83SKIEGO,_1926.jpg",
@@ -50556,7 +50556,7 @@
    },
    "copy": {
     "teaser": "Wouwerman painted horses so often that collectors joked no picture was complete without his white horse.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Philips_Wouwerman_-_Small_horse_stable,_1185-1549.jpg",
@@ -50685,7 +50685,7 @@
    },
    "copy": {
     "teaser": "A collector commissioned ten views of a single stone, as if portraying a person.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:%E5%8D%81%E9%9D%A2%E7%81%B5%E7%92%A7%E5%9B%BE%E5%8D%B7_%E5%89%8D%E6%AD%A3%E9%9D%A2%E5%B1%80%E9%83%A8.jpg",
@@ -50816,7 +50816,7 @@
    },
    "copy": {
     "teaser": "Wyspiański drew children constantly; these quick, tender sketches are among his most loved works.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Wyspia%C5%84ski_-_Dziewczynka_-_1890_-_AgraArt.jpg",
@@ -50947,7 +50947,7 @@
    },
    "copy": {
     "teaser": "Wyspiański's pastel children, often his own, are treasured in Poland as icons of the Young Poland movement.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:Wyspia%C5%84ski_-_Portret_ch%C5%82opca_-_1902.jpg",
@@ -51053,7 +51053,7 @@
    },
    "copy": {
     "teaser": "Bamboo bends but does not break: a favourite emblem of the scholar's integrity.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/44590",
@@ -51158,7 +51158,7 @@
    },
    "copy": {
     "teaser": "Edo's fire brigades were local heroes, and their standard-bearers stood closest to the blaze.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "met:https://www.metmuseum.org/art/collection/search/73623",
@@ -51287,7 +51287,7 @@
    },
    "copy": {
     "teaser": "The robber meant to attack but was so moved by the music that he could not strike.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "aic:https://www.artic.edu/artworks/102619",
@@ -51416,7 +51416,7 @@
    },
    "copy": {
     "teaser": "Yun Bing was one of the few women painters of her day to win imperial attention.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "commons:https://commons.wikimedia.org/wiki/File:%E6%83%B2%E5%86%B0_%E5%9C%8B%E9%A6%99%E6%98%A5%E9%9C%BD.jpg",
@@ -51548,7 +51548,7 @@
    },
    "copy": {
     "teaser": "Zorn translated his own painting of a packed Paris omnibus into etching, letting fast diagonal strokes stand in for the jolting light and motion.",
-    "copy_licence": "original (ArtPrice project)"
+    "copy_licence": "original (GTP of Art project)"
    },
    "provenance": {
     "image": "cma:https://clevelandart.org/art/1953.603",

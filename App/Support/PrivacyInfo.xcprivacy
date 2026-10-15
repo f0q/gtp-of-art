@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  GTP of Art privacy manifest. No accounts, analytics, ads or networking: nothing is collected
+  and nothing tracks. Required-reason APIs (audited 16 Oct 2026, see docs/release/CHECKLIST.md):
+  - UserDefaults: ArtData UserDefaultsSettingsStore keeps the app's own settings (CA92.1).
+  - File timestamp/metadata: ArtData DatasetValidator reads the size of bundled image files via
+    FileManager.attributesOfItem (called in DEBUG only, but the symbol ships in ArtData) (C617.1).
+  Not used: system boot time, disk space, active keyboards.
+-->
+<plist version="1.0">
+<dict>
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>CA92.1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>C617.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

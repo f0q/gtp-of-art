@@ -134,6 +134,14 @@ struct DailyIntroCard: View {
     let model: DailyModel
 
     var body: some View {
+        // Centred when it fits; scrolls at large Dynamic Type sizes instead of truncating.
+        ViewThatFits(in: .vertical) {
+            card
+            ScrollView { card }
+        }
+    }
+
+    private var card: some View {
         VStack(spacing: Tokens.Space.l) {
             Spacer(minLength: 0)
             Text("Daily Challenge · Day \(model.dayNumber)\(model.isPractice ? " · practice" : "")")
@@ -149,6 +157,7 @@ struct DailyIntroCard: View {
                     .artTextStyle(Tokens.Typography.body)
                     .foregroundStyle(Tokens.Color.textSecondary)
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
             }
             DailyMarksRow(marks: model.marks, total: model.totalRounds)
             Spacer(minLength: 0)

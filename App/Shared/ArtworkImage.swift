@@ -31,12 +31,16 @@ struct ArtworkImage: View {
         ArtworkFrame(
             image: loadedID == artwork.id ? image : nil, pixelSize: size,
             placeholder: Color(datasetHex: placeholder.dominantHex) ?? Tokens.Color.bgElevated,
-            accessibilityLabel: decorative ? nil : Text(accessibilityText(placeholder.altText)))
+            accessibilityLabel: decorative ? nil : Text(Self.accessibilityText(artwork, altText: placeholder.altText)))
             .task(id: artwork.id) { await load() }
     }
 
-    private func accessibilityText(_ alt: String) -> String {
-        "\(alt) \(artwork.title), \(artwork.artist.displayName), \(artwork.date.display)."
+    /// The dataset alt text, then title, artist and date: "A woman in a straw hat… Title, Artist, 1874."
+    static func accessibilityText(_ artwork: Artwork, altText alt: String) -> String {
+        let trimmed = alt.trimmingCharacters(in: .whitespaces)
+        let sentence = trimmed.isEmpty || trimmed.hasSuffix(".") ? trimmed : trimmed + "."
+        let head = sentence.isEmpty ? "" : sentence + " "
+        return "\(head)\(artwork.title), \(artwork.artist.displayName), \(artwork.date.display)."
     }
 
     private func load() async {

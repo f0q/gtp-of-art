@@ -232,10 +232,13 @@ public struct CardStack<Item: Identifiable, Card: View>: View {
                 .opacity(fadingOut ? 0 : 1)
                 .gesture(dragGesture(item: item, size: size))
                 .accessibilityElement(children: .combine)
-                .accessibilityAction(named: Text("Like")) { commit(.like, item: item, size: size) }
+                .accessibilityAction(named: Text("Keep")) { commit(.like, item: item, size: size) }
                 .accessibilityAction(named: Text("Pass")) { commit(.pass, item: item, size: size) }
-                .modifier(DetailsAction(enabled: onDetails != nil) { onDetails?(item) })
-                .accessibilityHint(Text("Swipe right to keep, left to pass, or use the actions."))
+                .modifier(NamedAction(name: "Undo", enabled: onUndo != nil && controller.canUndo) {
+                    restore(size: size)
+                })
+                .modifier(NamedAction(name: "Details", enabled: onDetails != nil) { onDetails?(item) })
+                .accessibilityHint(Text("Use the actions to keep, pass, undo or see details."))
         } else {
             base
         }
@@ -352,14 +355,15 @@ public struct CardStack<Item: Identifiable, Card: View>: View {
     }
 }
 
-/// Adds the VoiceOver "Details" action when enabled.
-private struct DetailsAction: ViewModifier {
+/// Adds a named VoiceOver action ("Undo", "Details") when enabled.
+private struct NamedAction: ViewModifier {
+    let name: String
     let enabled: Bool
     let action: () -> Void
 
     func body(content: Content) -> some View {
         if enabled {
-            content.accessibilityAction(named: Text("Details"), action)
+            content.accessibilityAction(named: Text(name), action)
         } else {
             content
         }
@@ -380,7 +384,7 @@ struct SwipeStamp: View {
             .foregroundStyle(color)
             .padding(.horizontal, Tokens.Space.m)
             .padding(.vertical, Tokens.Space.xs)
-            .background(Tokens.Color.bgCanvas.opacity(0.85),
+            .background(Tokens.Color.bgCanvas,
                         in: RoundedRectangle(cornerRadius: Tokens.Radius.control / 2, style: .continuous))
             .overlay(RoundedRectangle(cornerRadius: Tokens.Radius.control / 2, style: .continuous)
                 .stroke(color, lineWidth: Tokens.Space.xxs))
@@ -388,47 +392,73 @@ struct SwipeStamp: View {
     }
 }
 
-/// The required visible alternative to swiping: 64pt pass / like buttons and an optional undo.
+/// The required visible alternative to swiping: 64pt pass / keep buttons, an optional undo and an
+/// optional details button (the alternative to swiping up).
 public struct CardStackButtons: View {
     private let controller: CardStackController
     private let showsUndo: Bool
+    private let onDetails: (() -> Void)?
 
     /// Creates the button row.
-    public init(controller: CardStackController, showsUndo: Bool = true) {
+    /// - Parameters:
+    ///   - controller: The stack's controller.
+    ///   - showsUndo: Show the one-level undo button.
+    ///   - onDetails: Shows a details button when set (the button alternative to swiping up).
+    public init(controller: CardStackController, showsUndo: Bool = true, onDetails: (() -> Void)? = nil) {
         self.controller = controller
         self.showsUndo = showsUndo
+        self.onDetails = onDetails
     }
 
     public var body: some View {
         HStack(spacing: Tokens.Space.xl) {
-            roundButton("xmark", label: "Pass", color: Tokens.Color.textPrimary) { controller.swipe(.pass) }
-            if showsUndo {
-                Button { controller.undo() } label: {
-                    Image(systemName: "arrow.uturn.backward")
-                        .font(ArtFont.label)
-                        .frame(width: Tokens.Size.minTarget, height: Tokens.Size.minTarget)
-                }
-                .buttonStyle(.plain)
-                .foregroundStyle(Tokens.Color.textSecondary)
-                .artGlass(Circle(), interactive: true)
-                .disabled(!controller.canUndo)
-                .opacity(controller.canUndo ? 1 : 0.4)
-                .accessibilityLabel(Text("Undo"))
+            roundButton("xmark", label: "Pass", id: "swipe.pass", color: Tokens.Color.textPrimary) {
+                controller.swipe(.pass)
             }
-            roundButton("heart.fill", label: "Like", color: Tokens.Color.feedbackHit) { controller.swipe(.like) }
+            if showsUndo {
+                smallButton("arrow.uturn.backward", label: "Undo", id: "swipe.undo") { controller.undo() }
+                    .disabled(!controller.canUndo)
+                    .opacity(controller.canUndo ? 1 : Tokens.Layout.disabledTileOpacity)
+            }
+            if let onDetails {
+                smallButton("info", label: "Details", id: "swipe.details", action: onDetails)
+            }
+            roundButton("heart.fill", label: "Keep", id: "swipe.keep", color: Tokens.Color.feedbackHit) {
+                controller.swipe(.like)
+            }
         }
+        // Glyphs sit in fixed 44/64pt circles: stop growing at the largest non-AX size.
+        .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
     }
 
-    private func roundButton(_ symbol: String, label: String, color: Color,
+    private func smallButton(_ symbol: String, label: String, id: String,
+                             action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Image(systemName: symbol)
+                .font(ArtFont.label)
+                .frame(width: Tokens.Size.minTarget, height: Tokens.Size.minTarget)
+                // A plain button only hit-tests drawn pixels: make the whole circle the target.
+                .contentShape(Circle())
+        }
+        .buttonStyle(.plain)
+        .foregroundStyle(Tokens.Color.textSecondary)
+        .artGlass(Circle(), interactive: true)
+        .accessibilityLabel(Text(label))
+        .accessibilityIdentifier(id)
+    }
+
+    private func roundButton(_ symbol: String, label: String, id: String, color: Color,
                              action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Image(systemName: symbol)
                 .font(.title2.weight(.medium))
                 .frame(width: Tokens.Size.swipeButton, height: Tokens.Size.swipeButton)
+                .contentShape(Circle())
         }
         .buttonStyle(.plain)
         .foregroundStyle(color)
         .artGlass(Circle(), interactive: true)
         .accessibilityLabel(Text(label))
+        .accessibilityIdentifier(id)
     }
 }

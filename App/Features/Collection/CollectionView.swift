@@ -83,6 +83,8 @@ struct CollectionCell: View {
     let artwork: Artwork
     let liked: Bool?
 
+    @Environment(\.dynamicTypeSize) private var typeSize
+
     var body: some View {
         VStack(spacing: Tokens.Space.xs) {
             ArtworkImage(artwork: artwork, rendition: .small, decorative: true)
@@ -93,7 +95,9 @@ struct CollectionCell: View {
                         .foregroundStyle(liked ? Tokens.Color.feedbackHit : Tokens.Color.textSecondary)
                 }
                 Text(artwork.title)
-                    .lineLimit(1)
+                    // One line in the 3-column grid (VoiceOver reads the full title); the single
+                    // accessibility-size column shows it whole.
+                    .lineLimit(typeSize.isAccessibilitySize ? nil : 1)
                     .foregroundStyle(Tokens.Color.textSecondary)
             }
             .artTextStyle(Tokens.Typography.provenance)

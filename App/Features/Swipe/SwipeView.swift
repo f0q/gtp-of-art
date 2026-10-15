@@ -37,7 +37,7 @@ struct SwipeView: View {
                 SwipeCard(artwork: item.artwork, maxArtworkHeight: screenHeight * Tokens.Layout.artworkHeightFraction)
             }
             .accessibilityIdentifier("swipe.stack")
-            CardStackButtons(controller: model.stack)
+            CardStackButtons(controller: model.stack) { details = model.topArtwork }
                 .padding(.bottom, Tokens.Space.s)
         }
         .background(Tokens.Color.bgCanvas.ignoresSafeArea())
@@ -77,9 +77,12 @@ struct SwipeTopBar: View {
                 Button { confirmingQuit = true } label: {
                     Image(systemName: "xmark")
                         .font(.body.weight(.medium))
+                        // Glyph in a fixed 44pt circle: stop growing at the largest non-AX size.
+                        .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
                         .foregroundStyle(Tokens.Color.textPrimary)
                         .frame(width: Tokens.Size.minTarget, height: Tokens.Size.minTarget)
                         .artGlass(Circle(), interactive: true)
+                        .contentShape(Circle())
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel("Quit session")

@@ -94,6 +94,18 @@ nonisolated public enum LogPriceScale {
         return result
     }
 
+    /// Decade labels to draw at accessibility sizes: every other one, always keeping the first and
+    /// the last (so the end labels can be pinned inside the track edges).
+    public static func thinnedDecades(_ decades: [Int]) -> [Int] {
+        guard decades.count > 2 else { return decades }
+        var picked = stride(from: 0, to: decades.count, by: 2).map { decades[$0] }
+        if picked.last != decades.last {
+            if picked.count > 1, picked.last == decades[decades.count - 2] { picked.removeLast() }
+            picked.append(decades[decades.count - 1])
+        }
+        return picked
+    }
+
     /// Number of decade ticks at or below `position` minus one; changes exactly at decade crossings.
     public static func decadeIndex(_ position: Int) -> Int { clamp(position) / positionsPerDecade }
 
@@ -211,10 +223,12 @@ struct LogSliderTrack: View {
                 .contentShape(Rectangle())
                 .gesture(dragGesture(geometry))
         }
-        .frame(minHeight: LogSliderGeometry.height)
+        // Exact height: a GeometryReader is greedy, and in a scrolling or flexible container it
+        // would grow and push the −/+ steppers (centred in the row) away from the track.
+        .frame(height: LogSliderGeometry.height)
         .accessibilityElement()
         .accessibilityLabel(accessibilityLabel)
-        .accessibilityValue(Text(LogPriceScale.label(forPosition: position)))
+        .accessibilityValue(Text(SpokenPrice.text(LogPriceScale.label(forPosition: position))))
         .accessibilityAdjustableAction(adjust)
     }
 
@@ -351,9 +365,7 @@ struct LogSliderLabels: View {
 
     var body: some View {
         let decades: [Int] = LogPriceScale.decadePositions.filter(geometry.bounds.contains)
-        let shown: [Int] = dynamicTypeSize >= .accessibility1
-            ? decades.enumerated().filter { $0.offset.isMultiple(of: 2) }.map(\.element)
-            : decades
+        let shown: [Int] = dynamicTypeSize >= .accessibility1 ? LogPriceScale.thinnedDecades(decades) : decades
         let y: CGFloat = LogSliderGeometry.trackY + Tokens.Space.l + Tokens.Space.xs
         ZStack(alignment: .topLeading) {
             ForEach(shown, id: \.self) { p in
@@ -362,6 +374,9 @@ struct LogSliderLabels: View {
                                geometry: geometry)
             }
         }
+        // Tick labels share a ~300pt track; past AX1 they would collide. The live bid above the
+        // slider and the VoiceOver value carry the price at full size.
+        .dynamicTypeSize(...DynamicTypeSize.accessibility1)
         .offset(y: y)
         .accessibilityHidden(true)
     }
@@ -441,7 +456,10 @@ struct LogSliderStepper: View {
         Button(action: step) {
             Image(systemName: direction < 0 ? "minus" : "plus")
                 .font(ArtFont.label)
+                .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
                 .frame(width: Tokens.Size.minTarget, height: Tokens.Size.minTarget)
+                // A plain button only hit-tests drawn pixels: make the whole circle the target.
+                .contentShape(Circle())
         }
         .buttonStyle(.plain)
         .foregroundStyle(Tokens.Color.textPrimary)

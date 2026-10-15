@@ -42,7 +42,8 @@ struct OnboardingView: View {
                 }
                 .disabled(!model.canContinue)
                 .padding(.horizontal, Tokens.Space.l)
-                .padding(.bottom, Tokens.Space.s)
+                .padding(.vertical, Tokens.Space.s)
+                .background(Tokens.Color.bgCanvas.ignoresSafeArea(edges: .bottom))
             }
         }
         .background(Tokens.Color.bgCanvas.ignoresSafeArea())
@@ -60,13 +61,18 @@ struct OnboardingView: View {
             .accessibilityElement()
             .accessibilityLabel("Question \(model.step) of \(OnboardingModel.stepCount)")
             Spacer()
-            Button("Skip") { model.skip() }
-                .artTextStyle(Tokens.Typography.label)
-                .foregroundStyle(Tokens.Color.textPrimary)
-                .padding(.horizontal, Tokens.Space.l)
-                .frame(minHeight: Tokens.Size.minTarget)
-                .artGlass(interactive: true)
-                .accessibilityIdentifier("onboarding.skip")
+            Button { model.skip() } label: {
+                // The whole capsule is the target (≥44pt), not just the word.
+                Text("Skip")
+                    .padding(.horizontal, Tokens.Space.l)
+                    .frame(minWidth: Tokens.Size.minTarget, minHeight: Tokens.Size.minTarget)
+                    .contentShape(Capsule())
+            }
+            .buttonStyle(.plain)
+            .artTextStyle(Tokens.Typography.label)
+            .foregroundStyle(Tokens.Color.textPrimary)
+            .artGlass(interactive: true)
+            .accessibilityIdentifier("onboarding.skip")
         }
         .padding(.horizontal, Tokens.Space.l)
         .padding(.top, Tokens.Space.s)

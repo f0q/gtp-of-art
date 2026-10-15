@@ -56,6 +56,14 @@ struct ProfileSheet: View {
                 Section {
                     NavigationLink("Credits and sources", value: Route.credits)
                         .accessibilityIdentifier("profile.credits")
+                    Link(destination: AppInfo.privacyPolicyURL) {
+                        Label("Privacy policy", systemImage: "hand.raised")
+                    }
+                    .accessibilityIdentifier("profile.privacy")
+                    Link(destination: AppInfo.supportURL) {
+                        Label("Support", systemImage: "questionmark.circle")
+                    }
+                    .accessibilityIdentifier("profile.support")
                 } footer: {
                     Text("Prices are approximate public figures, for entertainment and education only.")
                 }

@@ -55,9 +55,12 @@ struct HomeView: View {
             Button { router.showProfile() } label: {
                 Image(systemName: "person.crop.circle")
                     .font(.title3.weight(.medium))
+                    // Glyph in a fixed 44pt circle: stop growing at the largest non-AX size.
+                    .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
                     .foregroundStyle(Tokens.Color.textPrimary)
                     .frame(width: Tokens.Size.minTarget, height: Tokens.Size.minTarget)
                     .artGlass(Circle(), interactive: true)
+                    .contentShape(Circle())
             }
             .buttonStyle(.plain)
             .accessibilityLabel("Profile and settings")

@@ -12,6 +12,7 @@ struct SessionStage<Art: View, Answers: View>: View {
     @ViewBuilder let art: Art
     @ViewBuilder let answers: Answers
     @State private var answersHeight: CGFloat = 0
+    @Environment(\.dynamicTypeSize) private var typeSize
 
     var body: some View {
         GeometryReader { geo in
@@ -19,7 +20,9 @@ struct SessionStage<Art: View, Answers: View>: View {
             let artMin = h * Tokens.Size.artMinHeightRatio
             let artMax = h * Tokens.Layout.artworkHeightFraction
             let available = h - answersHeight - Tokens.Space.l
-            if available >= artMin {
+            // At accessibility sizes the caption alone can outgrow the zone, so the stage always
+            // scrolls there with the image pinned at `artMinHeightRatio` and the caption below it.
+            if available >= artMin && !typeSize.isAccessibilitySize {
                 VStack(spacing: 0) {
                     art.frame(height: min(artMax, available))
                     Spacer(minLength: Tokens.Space.l)
@@ -28,7 +31,7 @@ struct SessionStage<Art: View, Answers: View>: View {
             } else {
                 ScrollView {
                     VStack(spacing: Tokens.Space.l) {
-                        art.frame(height: artMin)
+                        art.environment(\.stageArtworkHeight, artMin)
                         measuredAnswers
                     }
                 }
@@ -46,15 +49,22 @@ struct SessionStage<Art: View, Answers: View>: View {
     }
 }
 
-/// Artwork + caption filling the zone it is given (the aspect-fit image shrinks first).
+extension EnvironmentValues {
+    /// Exact artwork image height inside a scrolling `SessionStage` (nil: fill the zone).
+    @Entry var stageArtworkHeight: CGFloat? = nil
+}
+
+/// Artwork + caption filling the zone it is given (the aspect-fit image shrinks first). In a
+/// scrolling stage the image keeps `stageArtworkHeight` and the caption grows below it.
 struct ArtworkZone: View {
     let artwork: Artwork
     var onTap: (() -> Void)? = nil
+    @Environment(\.stageArtworkHeight) private var fixedHeight
 
     var body: some View {
         VStack(spacing: Tokens.Space.s) {
             ArtworkImage(artwork: artwork)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .frame(maxWidth: .infinity, minHeight: fixedHeight, maxHeight: fixedHeight ?? .infinity)
                 .contentShape(Rectangle())
                 .onTapGesture { onTap?() }
                 .id(artwork.id)

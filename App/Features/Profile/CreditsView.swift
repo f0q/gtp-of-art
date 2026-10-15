@@ -4,10 +4,12 @@ import ArtDesign
 import Foundation
 import SwiftUI
 
-/// Credits: the dataset disclaimer, data sources and every image credit with its licence.
+/// Credits: the dataset disclaimer, data sources, every image credit with its licence (loaded from
+/// `credits.json`; `List` rows are lazy) and the notices for what the app ships (Fraunces, OFL 1.1).
 struct CreditsView: View {
     @State private var credits: CreditsDocument?
     @State private var notice: DatasetNotice?
+    @State private var fontLicence: String?
 
     var body: some View {
         List {
@@ -44,6 +46,23 @@ struct CreditsView: View {
                     Section("Writing") { Text(copy) }
                 }
             }
+            Section("Typeface") {
+                VStack(alignment: .leading, spacing: Tokens.Space.xxs) {
+                    Text("Fraunces, by the Fraunces Project Authors")
+                    Text("SIL Open Font License 1.1")
+                        .artTextStyle(Tokens.Typography.provenance)
+                        .foregroundStyle(Tokens.Color.textSecondary)
+                }
+                if let fontLicence {
+                    DisclosureGroup("Licence text") {
+                        Text(fontLicence)
+                            .artTextStyle(Tokens.Typography.provenance)
+                            .foregroundStyle(Tokens.Color.textSecondary)
+                            .textSelection(.enabled)
+                    }
+                    .accessibilityIdentifier("credits.fontLicence")
+                }
+            }
         }
         .scrollContentBackground(.hidden)
         .background(Tokens.Color.bgCanvas)
@@ -51,6 +70,7 @@ struct CreditsView: View {
         .task {
             credits = CreditsDocument.load()
             notice = DatasetNotice.load()
+            fontLicence = ArtFonts.url(forFile: "OFL.txt").flatMap { try? String(contentsOf: $0, encoding: .utf8) }
         }
     }
 

@@ -47,6 +47,10 @@ targets:
         excludes:
           - "**/*.md"
           - "Support/Info.plist"
+          - "Support/PrivacyInfo.xcprivacy"
+      # Privacy manifest (no tracking, no collection; required-reason APIs declared).
+      - path: App/Support/PrivacyInfo.xcprivacy
+        buildPhase: resources
       - path: Resources/dataset.json
         buildPhase: resources
       - path: Resources/taxonomy.json
@@ -69,6 +73,12 @@ targets:
       path: App/Support/Info.plist
       properties:
         CFBundleDisplayName: GTP of Art
+        CFBundleLocalizations:
+          - en
+        LSApplicationCategoryType: public.app-category.games
+        UIRequiresFullScreen: true
+        # ShareLink offers "Save Image" for PNG share cards; without this key that action crashes.
+        NSPhotoLibraryAddUsageDescription: Saves your GTP of Art share cards to your photo library.
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         LSRequiresIPhoneOS: true

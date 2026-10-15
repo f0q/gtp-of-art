@@ -43,7 +43,7 @@ final class SwipeSmokeTests: XCTestCase {
     func testTwentySwipesRevealTaste() {
         openMode("swipe")
         waitFor("swipe.stack")
-        let like = app.buttons["Like"]
+        let like = app.buttons["Keep"]
         let pass = app.buttons["Pass"]
         XCTAssertTrue(like.waitForExistence(timeout: 10))
         for n in 0..<20 {
@@ -67,6 +67,25 @@ final class SwipeSmokeTests: XCTestCase {
         XCTAssertTrue(waitFor("taste.archetype").exists)
         XCTAssertTrue(waitFor("taste.share", timeout: 15).exists)
         XCTAssertTrue(waitFor("taste.again").exists)
+    }
+
+    /// Every swipe gesture has a labelled button: Pass, Undo, Details (swipe up), Keep.
+    func testSwipeButtonAlternatives() {
+        openMode("swipe")
+        waitFor("swipe.stack")
+        let expected = ["swipe.pass": "Pass", "swipe.undo": "Undo", "swipe.details": "Details", "swipe.keep": "Keep"]
+        for (id, label) in expected {
+            let button = waitFor(id)
+            XCTAssertEqual(button.label, label, id)
+            XCTAssertGreaterThanOrEqual(button.frame.width, 44, id)
+            XCTAssertGreaterThanOrEqual(button.frame.height, 44, id)
+        }
+        let details = waitFor("swipe.details")
+        waitHittable(details)
+        details.tap()
+        XCTAssertTrue(app.navigationBars["About this work"].waitForExistence(timeout: 5))
+        app.navigationBars["About this work"].buttons["Done"].tap()
+        XCTAssertTrue(waitFor("swipe.keep").exists)
     }
 
     func testCollectionOpens() {

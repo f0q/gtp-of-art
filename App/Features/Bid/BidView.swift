@@ -61,7 +61,7 @@ struct BidView: View {
         let price = model.price.map { PriceCopy.provenance($0, showVenue: true) } ?? ""
         model.reveal.start(
             isHit: outcome.isCorrect == true, reduceMotion: reduceMotion,
-            announcement: "\(result.tier.title). \(PriceCopy.bidRatio(result)) \(price).")
+            announcement: SpokenPrice.text("\(result.tier.title). \(PriceCopy.bidRatio(result)) \(price)."))
     }
 
     private func tapArtwork() {
@@ -92,6 +92,8 @@ struct BidAnswers: View {
     let isRevealing: Bool
     let phase: RevealPhase
 
+    @Environment(\.dynamicTypeSize) private var typeSize
+
     var body: some View {
         PhaseLayers(isRevealing: isRevealing) { bidding } reveal: { reveal }
     }
@@ -110,7 +112,7 @@ struct BidAnswers: View {
                 .foregroundStyle(Tokens.Color.accentGilt)
                 .contentTransition(.numericText(value: Double(position)))
                 .animation(ArtMotion.fast, value: position)
-                .accessibilityLabel("Your bid \(bidLabel)")
+                .accessibilityLabel("Your bid \(SpokenPrice.text(bidLabel))")
                 .accessibilityIdentifier("bid.live")
             LogSlider(position: $position, bounds: bounds)
                 .accessibilityIdentifier("bid.slider")
@@ -127,7 +129,13 @@ struct BidAnswers: View {
                 .revealSettle(phase: phase)
                 .accessibilityIdentifier("reveal.price")
             BidRevealTrack(bounds: bounds, guessPosition: shown.position, actualMilli: round.actualMilli, phase: phase)
-            HStack(spacing: Tokens.Space.s) {
+                // A positional diagram across one track width: past AX1 its labels cannot fit. The
+                // price, tier and ratio around it scale fully and VoiceOver reads it as one sentence.
+                .dynamicTypeSize(...DynamicTypeSize.accessibility1)
+            // Tier and ratio side by side; stacked at accessibility sizes so neither truncates.
+            let row = typeSize.isAccessibilitySize
+                ? AnyLayout(VStackLayout(spacing: Tokens.Space.xs)) : AnyLayout(HStackLayout(spacing: Tokens.Space.s))
+            row {
                 Label(shown.tier.title, systemImage: shown.tier.symbolName)
                     .foregroundStyle(shown.tier == .offTheWall ? Tokens.Color.feedbackMiss : Tokens.Color.feedbackHit)
                     .accessibilityIdentifier("bid.tier")

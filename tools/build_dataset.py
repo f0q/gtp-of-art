@@ -284,7 +284,7 @@ def build_work(row: dict, money, checks, warns, offline) -> tuple[dict, str]:
     a["prices"] = [price] if price else []
     a["game_price_id"] = price["id"] if priced else None
     a["taste"] = taste
-    a["copy"] = {"teaser": row["teaser"], "copy_licence": "original (ArtPrice project)"}
+    a["copy"] = {"teaser": row["teaser"], "copy_licence": "original (GTP of Art project)"}
     prov = {"image": f"{img['source']}:{img['landing_url']}", "taste.subject": "curated (works.csv)",
             "taste.mood": "curated (works.csv)", "taste.abstraction": "curated (works.csv)",
             "taste.warmth": "image analysis", "taste.saturation": "image analysis",

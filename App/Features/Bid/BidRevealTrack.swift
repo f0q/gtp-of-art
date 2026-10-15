@@ -12,9 +12,12 @@ struct BidRevealTrack: View {
     let phase: RevealPhase
 
     @Environment(\.artReduceMotion) private var reduceMotion
+    @Environment(\.dynamicTypeSize) private var typeSize
     /// Pin room above the track, then the bracket, then `bracketLabelMaxRows` label rows below it.
     @ScaledMetric(relativeTo: .footnote) private var trackHeight: CGFloat = Tokens.Space.xxxl + Tokens.Space.xxl
     @ScaledMetric(relativeTo: .footnote) private var rowHeight: CGFloat = Tokens.Space.l
+    /// One line of decade labels (provenance style is footnote-relative).
+    @ScaledMetric(relativeTo: .footnote) private var decadeRowHeight: CGFloat = Tokens.Space.l
     @State private var labelWidths: [Int: CGFloat] = [:]
 
     /// Widest first; each is drawn 120ms after the previous.
@@ -63,22 +66,42 @@ struct BidRevealTrack: View {
             legend
         }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel(
-            "Your bid \(LogPriceScale.label(forPosition: guessPosition)) against the sale price "
-                + "\(LogPriceScale.format(LogPriceScale.price(forPosition: Int(actualPosition.rounded())))).")
+        .accessibilityLabel(Self.accessibilityText(guessPosition: guessPosition, actualMilli: actualMilli))
     }
 
+    /// "Your bid 450 thousand dollars against the sale price 1.2 million dollars."
+    static func accessibilityText(guessPosition: Int, actualMilli: Int) -> String {
+        let actual = Double(actualMilli - LogPriceScale.baseMilli) / Double(LogPriceScale.milliPerPosition)
+        let sale = LogPriceScale.format(LogPriceScale.price(forPosition: Int(actual.rounded())))
+        return SpokenPrice.text(
+            "Your bid \(LogPriceScale.label(forPosition: guessPosition)) against the sale price \(sale).")
+    }
+
+    /// Decade labels under the track. At accessibility sizes every other label is dropped so they
+    /// never collide, and the first and last are pinned inside the edges so they are never clipped.
     private var decadeLabels: some View {
-        GeometryReader { geo in
-            ForEach(decades, id: \.self) { p in
+        let shown = typeSize.isAccessibilitySize ? LogPriceScale.thinnedDecades(decades) : decades
+        return GeometryReader { geo in
+            ForEach(shown, id: \.self) { p in
                 Text(LogPriceScale.label(forPosition: p))
                     .artTextStyle(Tokens.Typography.provenance)
                     .foregroundStyle(Tokens.Color.textSecondary)
                     .fixedSize()
-                    .position(x: x(Double(p), geo.size.width), y: geo.size.height / 2)
+                    .frame(width: geo.size.width, alignment: alignment(for: p))
+                    .offset(x: alignment(for: p) == .center ? x(Double(p), geo.size.width) - geo.size.width / 2 : 0)
+                    .frame(height: geo.size.height)
             }
         }
-        .frame(height: Tokens.Space.l)
+        // Labels share the track width; past AX1 they would collide (the price above is full size).
+        .dynamicTypeSize(...DynamicTypeSize.accessibility1)
+        .frame(height: decadeRowHeight)
+        .accessibilityHidden(true)
+    }
+
+    private func alignment(for p: Int) -> Alignment {
+        if p == decades.first { return .leading }
+        if p == decades.last { return .trailing }
+        return .center
     }
 
     private var legend: some View {

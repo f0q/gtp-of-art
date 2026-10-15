@@ -48,6 +48,9 @@ final class SmokeTests: XCTestCase {
         XCTAssertTrue(element("home.daily").exists)
         XCTAssertTrue(element("mode.pick_price").exists)
         XCTAssertTrue(element("mode.higher_lower").exists)
+        let profile = element("home.profile")
+        XCTAssertGreaterThanOrEqual(profile.frame.width, 44)
+        XCTAssertGreaterThanOrEqual(profile.frame.height, 44)
     }
 
     func testPickThePriceOneRound() {
@@ -68,6 +71,23 @@ final class SmokeTests: XCTestCase {
         tapNext()
         XCTAssertEqual(waitFor("session.progressLabel").label.lowercased(), "lot 2 of 10")
         XCTAssertTrue(waitFor("bid.place").exists)
+    }
+
+    /// The bid slider is one adjustable element whose value is the spoken bid; the steppers change it.
+    func testBidSliderAccessibility() {
+        openMode("bid")
+        XCTAssertTrue(waitFor("bid.live").exists)
+        let slider = app.descendants(matching: .any).matching(NSPredicate(format: "label == 'Your bid'")).firstMatch
+        XCTAssertTrue(slider.waitForExistence(timeout: 5))
+        let before = slider.value as? String ?? ""
+        XCTAssertTrue(before.hasSuffix("dollars"), "slider value \(before)")
+        XCTAssertFalse(before.contains("$"), "slider value \(before)")
+        let raise = app.buttons["Raise bid"]
+        XCTAssertTrue(raise.waitForExistence(timeout: 5))
+        XCTAssertGreaterThanOrEqual(raise.frame.width, 44)
+        raise.tap()
+        XCTAssertNotEqual(slider.value as? String, before)
+        XCTAssertTrue(app.buttons["Lower bid"].exists)
     }
 
     func testQuitPricierRun() {
