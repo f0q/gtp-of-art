@@ -5,6 +5,6 @@ enum AppInfo {
     static let wordmark = "GTP of Art"
     static let tagline = "Guess the Price of Art"
     /// Hosted by the owner at the app's domain (required by App Review guideline 5.1.1).
-    static let privacyPolicyURL = URL(string: "https://gtpofart.aijam.pro/privacy")!
-    static let supportURL = URL(string: "https://gtpofart.aijam.pro/support")!
+    static let privacyPolicyURL = URL(string: "https://gtp-art.aijam.pro/privacy")!
+    static let supportURL = URL(string: "https://gtp-art.aijam.pro/support")!
 }

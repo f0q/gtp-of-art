@@ -107,7 +107,7 @@ run: build
 	xcrun simctl boot $(SIM) 2>/dev/null || true
 	xcrun simctl bootstatus $(SIM) -b
 	xcrun simctl install $(SIM) $(DD)/Build/Products/Debug-iphonesimulator/ArtPrice.app
-	xcrun simctl launch $(SIM) pro.aijam.gtpofart $(ARGS)
+	xcrun simctl launch $(SIM) pro.aijam.gtp-art $(ARGS)
 
 # Screenshots of Home, Pick the price (question + reveal), Bid and Pricier via DEBUG launch args.
 shots: build
@@ -132,8 +132,8 @@ shots-swipe: build
 	@for spec in "swipe:8:-startMode swipe" "taste-reveal:9:-startMode swipe -autoAnswer" \
 	  "taste-profile:5:-debugSwipes -openRoute taste" "collection:9:-debugSwipes -openRoute collection"; do \
 	  name=$${spec%%:*}; rest=$${spec#*:}; wait=$${rest%%:*}; args=$${rest#*:}; \
-	  xcrun simctl terminate $(SIM) pro.aijam.gtpofart 2>/dev/null || true; \
-	  xcrun simctl launch $(SIM) pro.aijam.gtpofart -uiTesting -onboarded -fixedDay 2026-10-12 $$args >/dev/null; \
+	  xcrun simctl terminate $(SIM) pro.aijam.gtp-art 2>/dev/null || true; \
+	  xcrun simctl launch $(SIM) pro.aijam.gtp-art -uiTesting -onboarded -fixedDay 2026-10-12 $$args >/dev/null; \
 	  sleep $$wait; xcrun simctl io $(SIM) screenshot $(SHOTS)/$$name.png >/dev/null 2>&1; echo $(SHOTS)/$$name.png; \
 	done
-	xcrun simctl terminate $(SIM) pro.aijam.gtpofart 2>/dev/null || true
+	xcrun simctl terminate $(SIM) pro.aijam.gtp-art 2>/dev/null || true

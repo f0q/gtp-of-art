@@ -5,7 +5,7 @@ build. Prepared 16 Oct 2026. Facts about the app come from the repo (`Resources/
 `credits.json`, `project.yml`, `App/Support/PrivacyInfo.xcprivacy`); Apple rules are cited inline and
 listed under Sources. Items that need an owner decision are marked **DECISION**.
 
-App: iPhone only (`TARGETED_DEVICE_FAMILY = 1`), iOS 18+, English, bundle id `pro.aijam.gtpofart`, free,
+App: iPhone only (`TARGETED_DEVICE_FAMILY = 1`), iOS 18+, English, bundle id `pro.aijam.gtp-art`, free,
 no in-app purchases, no ads, no accounts, no networking.
 
 ---
@@ -21,7 +21,7 @@ no in-app purchases, no ads, no accounts, no networking.
 | Secondary category | **Education** | Apple: "interactive learning experience on a specific skill or subject" [4] |
 | Content rights | "Yes, it contains third-party content, and I have the necessary rights" | Images are CC0 museum open access or public-domain PD-Art; prices are facts. Apple requires "all the necessary rights" [1] |
 | Age rating | **13+** (see section 4) | **DECISION** |
-| Privacy Policy URL | `https://gtpofart.aijam.pro/privacy` | Required for iOS apps [1][8]. Page text in `PRIVACY_POLICY.md`. `gtpofart.aijam.pro` currently resolves to parking IPs, so hosting must go live before submission |
+| Privacy Policy URL | `https://gtp-art.aijam.pro/privacy` | Required for iOS apps [1][8]. Page text in `PRIVACY_POLICY.md`. `gtp-art.aijam.pro` currently resolves to parking IPs, so hosting must go live before submission |
 | Made for Kids | No | Choosing it locks the app into Kids Category rules permanently [1] |
 
 ## 2. Version information (1.0)
@@ -96,8 +96,8 @@ after launch if App Store Connect analytics shows better terms.
 
 | Field | Value | Note |
 |---|---|---|
-| Support URL (required) | `https://gtpofart.aijam.pro/support` | Must be a full URL that "lead[s] to actual contact information" [2]. Minimum page: a contact email, a short FAQ ("Are prices exact? Where do images come from?") and a link to the privacy policy. **DECISION**: which support email to publish |
-| Marketing URL (optional) | `https://gtpofart.aijam.pro` or leave blank | |
+| Support URL (required) | `https://gtp-art.aijam.pro/support` | Must be a full URL that "lead[s] to actual contact information" [2]. Minimum page: a contact email, a short FAQ ("Are prices exact? Where do images come from?") and a link to the privacy policy. support email: info@aijam.pro |
+| Marketing URL (optional) | `https://gtp-art.aijam.pro` or leave blank | |
 | Copyright (required) | `2026 <owner's legal name>` | Format is year then owner; App Store Connect adds the © itself [2]. **DECISION**: an individual developer account shows the owner's legal name as the seller anyway |
 | Version | 1.0 | `project.yml` has 0.1.0; bump `MARKETING_VERSION` to 1.0 for the App Store version (TestFlight can stay 0.x) |
 
@@ -253,7 +253,7 @@ before sharing with external testers [18]. Internal testers (up to 100 team memb
 GTP of Art (Guess The Price of Art) is a free iPhone game about what real artworks sold for. Guess prices for 300 public-domain paintings, prints, posters and photographs with documented sales, in six modes: Pick the price, Which is pricier, Category quiz, Bid, the Daily challenge, and Swipe, which builds your art taste profile. Everything runs offline: no account, no ads, no purchases, no data collected. Prices are approximate public figures, shown with the sale year, venue and source.
 ```
 
-**Feedback email:** the support address (**DECISION**).
+**Feedback email:** info@aijam.pro.
 
 **What to Test (build 0.1.0 (1))**
 
@@ -272,13 +272,13 @@ Tell us about: prices that look wrong, images that look cropped or low quality, 
 
 ## 10. Before you press Submit
 
-- [ ] Privacy policy and support pages live at `gtpofart.aijam.pro` (draft: `PRIVACY_POLICY.md`)
+- [ ] Privacy policy and support pages live at `gtp-art.aijam.pro` (draft: `PRIVACY_POLICY.md`)
 - [ ] In-app privacy policy link added (guideline 5.1.1(i))
 - [ ] Age rating questionnaire answered as in section 4
 - [ ] App Privacy: "Data Not Collected"
 - [ ] 6.9" and 6.3" screenshot sets uploaded, no nudity, no alpha
 - [ ] `MARKETING_VERSION` 1.0; accessibility claims in the description verified
-- [ ] Trademark memo read (`TRADEMARK.md`); `gtpofart.com` registered; social handles claimed
+- [ ] Trademark memo read (`TRADEMARK.md`); `gtp-art.com` registered; social handles claimed (`gtp_art` where hyphens are not allowed)
 
 ## Sources
 

@@ -1,5 +1,5 @@
 <!--
-Draft for hosting at https://gtpofart.aijam.pro/privacy (required by App Store Connect and by App
+Draft for hosting at https://gtp-art.aijam.pro/privacy (required by App Store Connect and by App
 Review guideline 5.1.1(i), even when an app collects no data). Fill in the two placeholders, publish
 as a plain HTML page, and link it from the app (Profile) and from App Store Connect > App Privacy.
 Written 16 Oct 2026 to match build 0.1.0: no networking, no analytics, no SDKs, no accounts.
@@ -8,9 +8,9 @@ Re-check this text whenever the app gains any network feature.
 
 # GTP of Art: Privacy Policy
 
-**Effective date:** [DATE OF FIRST RELEASE]
+**Effective date:** 17 October 2026
 **Developer:** [OWNER'S LEGAL NAME], publisher of GTP of Art ("the app", "we")
-**Contact:** [SUPPORT EMAIL]
+**Contact:** info@aijam.pro
 
 ## The short version
 
@@ -77,4 +77,4 @@ information to match.
 
 ## Contact
 
-Questions about this policy: [SUPPORT EMAIL].
+Questions about this policy: info@aijam.pro.

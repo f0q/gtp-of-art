@@ -1,6 +1,6 @@
 # First TestFlight build: release checklist
 
-App: **GTP of Art** · bundle id `pro.aijam.gtpofart` · version 0.1.0 (build 1) · iPhone only, iOS 18+.
+App: **GTP of Art** · bundle id `pro.aijam.gtp-art` · version 0.1.0 (build 1) · iPhone only, iOS 18+.
 Plan of record: Part G milestone 8 in `~/.claude/plans/velvet-churning-wind.md`.
 Prepared 16 Oct 2026. Code signing is deliberately left to the owner (below).
 
@@ -38,13 +38,13 @@ Prepared 16 Oct 2026. Code signing is deliberately left to the owner (below).
 2. Xcode › Settings › Accounts › **+** › Apple ID: sign in with the developer account.
 3. Select the **ArtPrice** project › target **ArtPrice** › *Signing & Capabilities*:
    tick **Automatically manage signing**, choose your **Team**, confirm the bundle identifier reads
-   `pro.aijam.gtpofart`. (Signing set in the Xcode UI is overwritten by the next `make project`; to make
+   `pro.aijam.gtp-art`. (Signing set in the Xcode UI is overwritten by the next `make project`; to make
    it stick, add `DEVELOPMENT_TEAM: <TEAMID>` and `CODE_SIGN_STYLE: Automatic` under the ArtPrice target
    settings in `project.yml`.)
 4. In a browser, [App Store Connect](https://appstoreconnect.apple.com) › Apps › **+ New App**:
    platform iOS, name "GTP of Art" (or a fallback if taken), primary language English, bundle ID
-   `pro.aijam.gtpofart` (register it under Certificates, Identifiers & Profiles first if it is not in
-   the list; Xcode's automatic signing usually registers it), SKU e.g. `gtpofart`.
+   `pro.aijam.gtp-art` (register it under Certificates, Identifiers & Profiles first if it is not in
+   the list; Xcode's automatic signing usually registers it), SKU e.g. `gtp-art`.
    Categories: primary **Games** (subcategory Trivia or Word/Puzzle), secondary **Education**.
 5. Fill App Privacy in App Store Connect: **Data Not Collected**. Age rating questionnaire: no
    objectionable content (some artworks include classical nudes; answer "Infrequent/Mild" for

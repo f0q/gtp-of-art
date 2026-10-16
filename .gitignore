@@ -32,3 +32,5 @@ tools/out/
 
 # local API keys, never committed
 tools/.secrets/
+.claude/settings.local.json
+.claude/skills/impeccable/scripts/bin/

@@ -1,7 +1,7 @@
 # Name clearance memo: "GTP of Art"
 
 Prepared 16 Oct 2026 for the owner of **GTP of Art** (Guess The Price of Art), bundle id
-`pro.aijam.gtpofart`. Searches were run on 16 Oct 2026.
+`pro.aijam.gtp-art`. Searches were run on 16 Oct 2026.
 
 > **Not legal advice.** This is a desk search by a non-lawyer, made to decide whether to spend money
 > on a lawyer. It is not a clearance opinion. Registers lag (UK and EU decisions below are not yet
@@ -165,8 +165,8 @@ Quotes from the [App Review Guidelines](https://developer.apple.com/app-store/re
 4. Keywords target what players type: auction, painting, quiz, trivia, masterpiece, … (see
    `APP_STORE.md`).
 5. Never use "GTP" alone as a brand (already a code rule).
-6. Register `gtpofart.com` now (it was unregistered on 16 Oct 2026) so the web presence matches the
-   name, and point it at the `gtpofart.aijam.pro` pages.
+6. Register `gtp-art.com` now (it was unregistered on 17 Oct 2026) so the web presence matches the
+   name, and point it at the `gtp-art.aijam.pro` pages.
 
 ## 8. Fallback names, checked the same way
 
@@ -180,19 +180,21 @@ Quotes from the [App Review Guidelines](https://developer.apple.com/app-store/re
 | Domains | goingonce.com and goingonce.app **taken**; goingonceart.com and goingonceart.app free | soldapprox.com, soldapprox.app, soldapprox.art free | hammerandhue.com **taken** (since 2020); hammerandhue.app free |
 | Notes | Common auction phrase: weak as a mark, but easy to remember and search, and has no AI association | The honesty brand; punctuation is awkward in search and handles | Elegant; least descriptive of the game |
 
-## 9. Domains and handles for "gtpofart" (checked 16 Oct 2026)
+## 9. Domains and handles for "gtp-art" (checked 17 Oct 2026)
+
+Identifiers were changed from `gtpofart` to `gtp-art` on 17 Oct 2026 because "gtpofart" written
+without spaces contains "fart" (so does any concatenation of "of art"). The app name "GTP of Art" is
+unchanged. Where a site does not allow hyphens in handles (X, Instagram, YouTube, TikTok), use `gtp_art`.
 
 | Item | Status |
 |---|---|
-| gtpofart.com | Unregistered (Verisign WHOIS "No match") |
-| gtpofart.app | Appears unregistered (RDAP 404) |
-| gtpofart.art, .io, .co | Unregistered (registry WHOIS "not found") |
-| aijam.pro | Registered; parked on Hostinger DNS (presumably the owner's). `gtpofart.aijam.pro` resolves to parking IPs today, so the privacy and support pages need hosting set up |
-| X (x.com/gtpofart) | HTTP 404, looks free |
-| YouTube @gtpofart | HTTP 404, looks free |
-| GitHub gtpofart | 404, free |
-| Bluesky gtpofart.bsky.social | Handle does not resolve, free |
-| Instagram, TikTok, Threads, Reddit | **Inconclusive**: these sites need a logged-in browser. Check by hand and claim them the same day |
+| gtp-art.com, gtp-art.app, gtp-art.io, gtp-art.co | Unregistered (RDAP 404 at the registries) |
+| gtp.art | Unregistered (RDAP 404); the nicest short domain if the .art pricing is acceptable |
+| gtpart.com | **Registered** by someone else |
+| aijam.pro | Registered; parked on Hostinger DNS (presumably the owner's). `gtp-art.aijam.pro` must be set up for the privacy and support pages |
+| GitHub gtp-art | **Taken** (user exists); the repo stays under the owner's account anyway |
+| YouTube @gtp_art | HTTP 404, looks free |
+| X @gtp_art, Instagram gtp_art, TikTok, Threads, Reddit, Bluesky | **Inconclusive** from the command line (login walls). Check by hand and claim them the same day |
 
 ## Sources
 
