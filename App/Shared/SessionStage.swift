@@ -4,10 +4,13 @@ import SwiftUI
 
 /// Session layout: artwork zone on top, answer zone pinned to the thumb zone.
 ///
-/// The artwork zone has an exact height for a given answer-zone height, so it never jumps between
-/// question and reveal as long as the answer zone measures the same (overlay both phases in a
-/// `ZStack`). It is at most `Tokens.Layout.artworkHeightFraction` of the space and at least
+/// The artwork zone is offered an exact height for a given answer-zone height, so it never jumps
+/// between question and reveal as long as the answer zone measures the same (overlay both phases in
+/// a `ZStack`). It is offered at most `Tokens.Layout.artworkHeightFraction` of the space and at least
 /// `Tokens.Size.artMinHeightRatio`; when the answers need more (large Dynamic Type) the stage scrolls.
+/// The zone hugs its artwork and caption, and whatever height a landscape or square work leaves
+/// over is split evenly above and below it, so artwork, caption and question read as one centred
+/// column instead of leaving a void above the answers.
 struct SessionStage<Art: View, Answers: View>: View {
     @ViewBuilder let art: Art
     @ViewBuilder let answers: Answers
@@ -24,7 +27,10 @@ struct SessionStage<Art: View, Answers: View>: View {
             // scrolls there with the image pinned at `artMinHeightRatio` and the caption below it.
             if available >= artMin && !typeSize.isAccessibilitySize {
                 VStack(spacing: 0) {
-                    art.frame(height: min(artMax, available))
+                    Spacer(minLength: 0)
+                    art.frame(maxHeight: min(artMax, available))
+                        // Offered all of `available` (capped) before the spacers share the rest.
+                        .layoutPriority(1)
                     Spacer(minLength: Tokens.Space.l)
                     measuredAnswers
                 }
@@ -54,8 +60,9 @@ extension EnvironmentValues {
     @Entry var stageArtworkHeight: CGFloat? = nil
 }
 
-/// Artwork + caption filling the zone it is given (the aspect-fit image shrinks first). In a
-/// scrolling stage the image keeps `stageArtworkHeight` and the caption grows below it.
+/// Artwork + caption within the zone it is given (the aspect-fit image shrinks first), hugging
+/// the fitted image so the caption sits right under it. In a scrolling stage the image keeps
+/// `stageArtworkHeight` and the caption grows below it.
 struct ArtworkZone: View {
     let artwork: Artwork
     var onTap: (() -> Void)? = nil
@@ -64,7 +71,7 @@ struct ArtworkZone: View {
     var body: some View {
         VStack(spacing: Tokens.Space.s) {
             ArtworkImage(artwork: artwork)
-                .frame(maxWidth: .infinity, minHeight: fixedHeight, maxHeight: fixedHeight ?? .infinity)
+                .frame(maxWidth: .infinity, minHeight: fixedHeight, maxHeight: fixedHeight)
                 .contentShape(Rectangle())
                 .onTapGesture { onTap?() }
                 .id(artwork.id)

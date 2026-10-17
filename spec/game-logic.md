@@ -347,8 +347,10 @@ recipe (an empty or absent recipe = default); for `higher_lower`, round `i` uses
 `recipe[min(i, count − 1)].difficulty` instead of the ramp. A **prior** switches single-artwork
 picks to weighted sampling (§9) and pairs to department-preferring passes (§13). `daily` ignores both.
 **Endless (`higher_lower`)**: difficulty of round `i` = easy (`i < 5`), medium (`i < 15`), hard.
-Each batch generates up to 10 rounds; each pair is anchored on the previous round's **pricier**
-work (higher-or-lower chaining, independent of the player's answers). A failed round attempt does not
+Each batch generates up to 10 rounds; each pair is anchored on the previous round's **bottom**
+work (the challenger; higher-or-lower chaining, independent of the player's answers and of which
+work was pricier, so a run walks through the pool instead of climbing to the dearest work and
+staying there). A failed round attempt does not
 advance the RNG (the attempt runs on a copy) and ends the batch; if a batch adds nothing and no round is
 pending, the session ends. The client requests a batch when at most one unanswered round remains.
 One wrong answer ends a `higher_lower` run.

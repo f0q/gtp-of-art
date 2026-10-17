@@ -34,3 +34,6 @@ tools/out/
 tools/.secrets/
 .claude/settings.local.json
 .claude/skills/impeccable/scripts/bin/
+
+# Owner-supplied TestFlight feedback and device screenshots (local only)
+crash reports/

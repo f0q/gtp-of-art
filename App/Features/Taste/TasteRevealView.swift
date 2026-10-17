@@ -106,18 +106,17 @@ struct TasteRevealView: View {
         .background(Tokens.Color.bgCanvas.ignoresSafeArea(edges: .bottom))
     }
 
-    /// Home, Share and Story: one row, or a column at accessibility sizes.
+    /// Home, Share and Story: one row of equal slots (icon-only if the titles cannot fit), or a
+    /// column at accessibility sizes.
     private var secondaryButtons: some View {
-        let row = typeSize.isAccessibilitySize
-            ? AnyLayout(VStackLayout(spacing: Tokens.Space.m)) : AnyLayout(HStackLayout(spacing: Tokens.Space.m))
-        return row {
+        ActionRow {
             Button(action: actions.close) {
-                Label("Home", systemImage: "house").frame(maxWidth: .infinity)
+                Label("Home", systemImage: "house").actionRowItem()
             }
             .artButtonStyle(.secondary)
             .accessibilityIdentifier("taste.home")
             shareLink(.feed, title: "Share", symbol: "square.and.arrow.up", id: "taste.share")
-            shareLink(.story, title: "Story", symbol: "rectangle.portrait", id: "taste.shareStory")
+            shareLink(.story, title: "Story", symbol: "rectangle.portrait.and.arrow.forward", id: "taste.shareStory")
         }
     }
 
@@ -125,7 +124,7 @@ struct TasteRevealView: View {
     private func shareLink(_ format: TasteShareFormat, title: String, symbol: String, id: String) -> some View {
         if let share = shares[format] {
             ShareLink(item: share.image, preview: SharePreview(reading.archetype.name, image: share.preview)) {
-                Label(title, systemImage: symbol).frame(maxWidth: .infinity)
+                Label(title, systemImage: symbol).actionRowItem()
             }
             .artButtonStyle(.secondary)
             .accessibilityIdentifier(id)

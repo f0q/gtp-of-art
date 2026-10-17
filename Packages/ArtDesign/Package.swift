@@ -15,7 +15,13 @@ let swiftUIMacrosAvailable: Bool = {
     return !developerDir.contains("CommandLineTools")
 }()
 
-var designSettings: [SwiftSetting] = [.defaultIsolation(MainActor.self)]
+// SwiftUI calls ForEach content closures on its render thread during animations; with MainActor
+// default isolation Swift 6 would trap on the runtime executor check (see project.yml). Local package,
+// so unsafeFlags is allowed.
+var designSettings: [SwiftSetting] = [
+    .defaultIsolation(MainActor.self),
+    .unsafeFlags(["-disable-dynamic-actor-isolation"]),
+]
 if swiftUIMacrosAvailable {
     designSettings.append(.define("ART_SWIFTUI_MACROS"))
 }

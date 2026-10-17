@@ -130,8 +130,10 @@ public struct GameSession: Codable, Sendable, Equatable {
     }
 
     /// Generates up to `batchSize` more endless rounds. Each pair is anchored on the previous
-    /// round's pricier work. Generation stops at the first failure; if nothing could be added and
-    /// no round is pending, the session finishes (pool exhausted).
+    /// round's challenger (its bottom work), so the run walks through the pool like higher-or-lower
+    /// instead of climbing to the dearest work and staying there (anchoring on the winner made every
+    /// later round "is anything pricier than a $260M van Gogh?"). Generation stops at the first
+    /// failure; if nothing could be added and no round is pending, the session finishes (pool exhausted).
     public mutating func appendBatch(pool: GamePool) throws {
         guard isEndless, !isFinished else { return }
         var usedSet = Set(used)
@@ -141,7 +143,7 @@ public struct GameSession: Codable, Sendable, Equatable {
                 customRecipe.map { $0[min(rounds.count, $0.count - 1)].difficulty }
                 ?? Self.higherLowerDifficulty(roundIndex: rounds.count)
             var anchor: ArtworkID?
-            if case .higherLower(let last)? = rounds.last { anchor = last.pricier }
+            if case .higherLower(let last)? = rounds.last { anchor = last.bottom }
             var trialRng = rng
             guard
                 let round = try? RoundGenerator.makeRound(

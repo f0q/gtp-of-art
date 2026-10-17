@@ -34,7 +34,7 @@ struct SessionTests {
         var answered = 0
         while let round = session.currentRound {
             if case .higherLower(let r) = round, answered > 0, case .higherLower(let previous) = session.rounds[answered - 1] {
-                #expect(r.top == previous.pricier)
+                #expect(r.top == previous.bottom)  // the challenger carries over, not the winner
             }
             session.submit(Self.correctAnswer(for: round))
             answered += 1

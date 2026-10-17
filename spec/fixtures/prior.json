@@ -1044,13 +1044,13 @@
           {
             "kind" : "higher_lower",
             "payload" : {
-              "bottom" : "schiele-seated-woman",
-              "bottom_milli" : 6443,
+              "bottom" : "cezanne-card-players",
+              "bottom_milli" : 8553,
               "difficulty" : "easy",
-              "pricier_side" : "top",
+              "pricier_side" : "bottom",
               "relaxation" : 0,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
+              "top" : "morisot-garden-study",
+              "top_milli" : 4787
             }
           },
           {
@@ -1061,20 +1061,44 @@
               "difficulty" : "easy",
               "pricier_side" : "top",
               "relaxation" : 0,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
+              "top" : "cezanne-card-players",
+              "top_milli" : 8553
             }
           },
           {
             "kind" : "higher_lower",
             "payload" : {
-              "bottom" : "friedrich-moonrise-study",
-              "bottom_milli" : 5710,
+              "bottom" : "gauguin-nafea-faa-ipoipo",
+              "bottom_milli" : 8456,
               "difficulty" : "easy",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "redon-vase-of-flowers",
+              "top_milli" : 6288
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "schiele-seated-woman",
+              "bottom_milli" : 6443,
+              "difficulty" : "medium",
               "pricier_side" : "top",
-              "relaxation" : 1,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
+              "relaxation" : 0,
+              "top" : "gauguin-nafea-faa-ipoipo",
+              "top_milli" : 8456
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "renoir-bal-du-moulin-small",
+              "bottom_milli" : 8285,
+              "difficulty" : "medium",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "schiele-seated-woman",
+              "top_milli" : 6443
             }
           },
           {
@@ -1085,8 +1109,20 @@
               "difficulty" : "medium",
               "pricier_side" : "top",
               "relaxation" : 0,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
+              "top" : "renoir-bal-du-moulin-small",
+              "top_milli" : 8285
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "klimt-elisabeth-lederer",
+              "bottom_milli" : 8374,
+              "difficulty" : "medium",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "kirchner-berlin-street-scene",
+              "top_milli" : 7785
             }
           },
           {
@@ -1097,44 +1133,8 @@
               "difficulty" : "medium",
               "pricier_side" : "top",
               "relaxation" : 1,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
-            }
-          },
-          {
-            "kind" : "higher_lower",
-            "payload" : {
-              "bottom" : "turner-seascape-folkestone",
-              "bottom_milli" : 7491,
-              "difficulty" : "medium",
-              "pricier_side" : "top",
-              "relaxation" : 1,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
-            }
-          },
-          {
-            "kind" : "higher_lower",
-            "payload" : {
-              "bottom" : "hokusai-under-the-wave",
-              "bottom_milli" : 6466,
-              "difficulty" : "medium",
-              "pricier_side" : "top",
-              "relaxation" : 1,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
-            }
-          },
-          {
-            "kind" : "higher_lower",
-            "payload" : {
-              "bottom" : "rembrandt-aristotle",
-              "bottom_milli" : 7394,
-              "difficulty" : "medium",
-              "pricier_side" : "top",
-              "relaxation" : 3,
-              "top" : "vangogh-portrait-dr-gachet",
-              "top_milli" : 8309
+              "top" : "klimt-elisabeth-lederer",
+              "top_milli" : 8374
             }
           }
         ],
@@ -1220,49 +1220,49 @@
           {
             "kind" : "higher_lower",
             "payload" : {
-              "bottom" : "velazquez-juan-de-pareja",
-              "bottom_milli" : 7662,
-              "difficulty" : "hard",
-              "pricier_side" : "bottom",
-              "relaxation" : 4,
-              "top" : "cranach-nymph-of-the-spring",
-              "top_milli" : 7299
-            }
-          },
-          {
-            "kind" : "higher_lower",
-            "payload" : {
-              "bottom" : "rubens-massacre-innocents",
-              "bottom_milli" : 8138,
-              "difficulty" : "hard",
-              "pricier_side" : "bottom",
-              "relaxation" : 0,
-              "top" : "velazquez-juan-de-pareja",
-              "top_milli" : 7662
-            }
-          },
-          {
-            "kind" : "higher_lower",
-            "payload" : {
-              "bottom" : "rembrandt-aristotle",
-              "bottom_milli" : 7394,
+              "bottom" : "hiroshige-sudden-shower",
+              "bottom_milli" : 3823,
               "difficulty" : "hard",
               "pricier_side" : "top",
-              "relaxation" : 0,
-              "top" : "rubens-massacre-innocents",
-              "top_milli" : 8138
+              "relaxation" : 3,
+              "top" : "durer-rhinoceros",
+              "top_milli" : 5498
             }
           },
           {
             "kind" : "higher_lower",
             "payload" : {
-              "bottom" : "chardin-basket-wild-strawberries",
-              "bottom_milli" : 7470,
+              "bottom" : "hokusai-under-the-wave",
+              "bottom_milli" : 6466,
+              "difficulty" : "hard",
+              "pricier_side" : "bottom",
+              "relaxation" : 1,
+              "top" : "hiroshige-sudden-shower",
+              "top_milli" : 3823
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-hundred-guilder-print",
+              "bottom_milli" : 5704,
               "difficulty" : "hard",
               "pricier_side" : "top",
-              "relaxation" : 4,
-              "top" : "rubens-massacre-innocents",
-              "top_milli" : 8138
+              "relaxation" : 3,
+              "top" : "hokusai-under-the-wave",
+              "top_milli" : 6466
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "rembrandt-standard-bearer",
+              "bottom_milli" : 8306,
+              "difficulty" : "hard",
+              "pricier_side" : "bottom",
+              "relaxation" : 1,
+              "top" : "rembrandt-hundred-guilder-print",
+              "top_milli" : 5704
             }
           },
           {
@@ -1272,9 +1272,33 @@
               "bottom_milli" : 7346,
               "difficulty" : "hard",
               "pricier_side" : "top",
+              "relaxation" : 0,
+              "top" : "rembrandt-standard-bearer",
+              "top_milli" : 8306
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "liotard-dutch-girl-breakfast",
+              "bottom_milli" : 6933,
+              "difficulty" : "hard",
+              "pricier_side" : "top",
               "relaxation" : 4,
-              "top" : "rubens-massacre-innocents",
-              "top_milli" : 8138
+              "top" : "vermeer-study-young-woman",
+              "top_milli" : 7346
+            }
+          },
+          {
+            "kind" : "higher_lower",
+            "payload" : {
+              "bottom" : "chardin-basket-wild-strawberries",
+              "bottom_milli" : 7470,
+              "difficulty" : "hard",
+              "pricier_side" : "bottom",
+              "relaxation" : 0,
+              "top" : "liotard-dutch-girl-breakfast",
+              "top_milli" : 6933
             }
           },
           {
@@ -1285,32 +1309,8 @@
               "difficulty" : "hard",
               "pricier_side" : "bottom",
               "relaxation" : 4,
-              "top" : "rubens-massacre-innocents",
-              "top_milli" : 8138
-            }
-          },
-          {
-            "kind" : "higher_lower",
-            "payload" : {
-              "bottom" : "botticelli-young-man-roundel",
-              "bottom_milli" : 8040,
-              "difficulty" : "hard",
-              "pricier_side" : "top",
-              "relaxation" : 0,
-              "top" : "leonardo-salvator-mundi",
-              "top_milli" : 8771
-            }
-          },
-          {
-            "kind" : "higher_lower",
-            "payload" : {
-              "bottom" : "rembrandt-standard-bearer",
-              "bottom_milli" : 8306,
-              "difficulty" : "hard",
-              "pricier_side" : "top",
-              "relaxation" : 4,
-              "top" : "leonardo-salvator-mundi",
-              "top_milli" : 8771
+              "top" : "chardin-basket-wild-strawberries",
+              "top_milli" : 7470
             }
           }
         ],

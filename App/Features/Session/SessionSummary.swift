@@ -30,7 +30,6 @@ struct SessionSummaryView: View {
 
     @Environment(\.app) private var app
     @Environment(\.colorScheme) private var colorScheme
-    @Environment(\.dynamicTypeSize) private var typeSize
     @State private var shareImage: ShareCardImage?
     @State private var sharePreview: Image?
 
@@ -89,11 +88,9 @@ struct SessionSummaryView: View {
     private var buttons: some View {
         VStack(spacing: Tokens.Space.m) {
             SessionPrimaryButton(title: "Play again", identifier: "summary.playAgain", action: actions.playAgain)
-            let row = typeSize.isAccessibilitySize
-                ? AnyLayout(VStackLayout(spacing: Tokens.Space.s)) : AnyLayout(HStackLayout(spacing: Tokens.Space.m))
-            row {
+            ActionRow {
                 Button(action: actions.close) {
-                    Label("Home", systemImage: "house").frame(maxWidth: .infinity)
+                    Label("Home", systemImage: "house").actionRowItem()
                 }
                 .artButtonStyle(.secondary)
                 .accessibilityIdentifier("summary.home")
@@ -102,7 +99,7 @@ struct SessionSummaryView: View {
                         item: shareImage,
                         preview: SharePreview(summary.headline, image: sharePreview)
                     ) {
-                        Label("Share", systemImage: "square.and.arrow.up").frame(maxWidth: .infinity)
+                        Label("Share", systemImage: "square.and.arrow.up").actionRowItem()
                     }
                     .artButtonStyle(.secondary)
                     .accessibilityIdentifier("summary.share")

@@ -87,17 +87,19 @@ struct CategoryArtZone: View {
     let onTap: () -> Void
 
     var body: some View {
-        ZStack {
-            ArtworkZone(artwork: artwork, onTap: onTap)
-                .opacity(showsClue ? 0 : 1)
-            if showsClue {
-                ArtworkDetail(artwork: artwork, zoom: Tokens.Layout.clueZoom)
-                    .artTransition(.scale(scale: 1 / Tokens.Layout.clueZoom).combined(with: .opacity))
-                    .onTapGesture(perform: onTap)
-                    .accessibilityElement()
-                    .accessibilityLabel("Detail of \(artwork.title)")
+        // The detail overlays the zone (rather than sitting beside it in a ZStack) so it takes
+        // exactly the artwork zone's size and showing the clue never moves the stage.
+        ArtworkZone(artwork: artwork, onTap: onTap)
+            .opacity(showsClue ? 0 : 1)
+            .overlay {
+                if showsClue {
+                    ArtworkDetail(artwork: artwork, zoom: Tokens.Layout.clueZoom)
+                        .artTransition(.scale(scale: 1 / Tokens.Layout.clueZoom).combined(with: .opacity))
+                        .onTapGesture(perform: onTap)
+                        .accessibilityElement()
+                        .accessibilityLabel("Detail of \(artwork.title)")
+                }
             }
-        }
     }
 }
 

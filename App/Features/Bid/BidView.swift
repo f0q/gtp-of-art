@@ -100,12 +100,15 @@ struct BidAnswers: View {
 
     private var bidLabel: String { LogPriceScale.label(forPosition: position) }
 
+    // The zone is as tall as the reveal (`PhaseLayers`), which has more rows than the question.
+    // Spacers spread question, bid and slider over that height instead of leaving a void above.
     private var bidding: some View {
-        VStack(spacing: Tokens.Space.m) {
+        VStack(spacing: 0) {
             Text(PriceCopy.question(price))
                 .artTextStyle(Tokens.Typography.body)
                 .foregroundStyle(Tokens.Color.textPrimary)
                 .multilineTextAlignment(.center)
+            Spacer(minLength: Tokens.Space.m)
             Text(bidLabel)
                 .artTextStyle(Tokens.Typography.priceHero)
                 .monospacedDigit()
@@ -114,9 +117,11 @@ struct BidAnswers: View {
                 .animation(ArtMotion.fast, value: position)
                 .accessibilityLabel("Your bid \(SpokenPrice.text(bidLabel))")
                 .accessibilityIdentifier("bid.live")
+            Spacer(minLength: Tokens.Space.m)
             LogSlider(position: $position, bounds: bounds)
                 .accessibilityIdentifier("bid.slider")
         }
+        .frame(maxHeight: .infinity)
     }
 
     private var reveal: some View {

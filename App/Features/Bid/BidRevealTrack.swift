@@ -3,8 +3,12 @@ import ArtDesign
 import SwiftUI
 
 /// The reveal strip: the bid range with labelled decade ticks, nested tier brackets (≤2×, ≤5×,
-/// ≤10×, each labelled) around the sale price, the player's bid, the sale-price pin dropping in,
-/// and a legend for both markers.
+/// ≤10×) around the sale price, the player's bid, the sale-price pin dropping in, and a legend for
+/// the markers and the brackets.
+///
+/// Bracket labels live in a legend row (a nested-swatch per tier, innermost first) rather than on
+/// the track: on the track the three labels crowd one another whenever the brackets are narrow, and
+/// a legend never overlaps at any width.
 struct BidRevealTrack: View {
     let bounds: ClosedRange<Int>
     let guessPosition: Int
@@ -13,15 +17,15 @@ struct BidRevealTrack: View {
 
     @Environment(\.artReduceMotion) private var reduceMotion
     @Environment(\.dynamicTypeSize) private var typeSize
-    /// Pin room above the track, then the bracket, then `bracketLabelMaxRows` label rows below it.
-    @ScaledMetric(relativeTo: .footnote) private var trackHeight: CGFloat = Tokens.Space.xxxl + Tokens.Space.xxl
-    @ScaledMetric(relativeTo: .footnote) private var rowHeight: CGFloat = Tokens.Space.l
+    /// Pin room above the track (`midY`), then half a bracket and a small margin below it.
+    private let trackHeight: CGFloat = Tokens.Space.xxxl
     /// One line of decade labels (provenance style is footnote-relative).
     @ScaledMetric(relativeTo: .footnote) private var decadeRowHeight: CGFloat = Tokens.Space.l
-    @State private var labelWidths: [Int: CGFloat] = [:]
 
     /// Widest first; each is drawn 120ms after the previous.
-    private let brackets: [(tier: BidTier, label: String)] = [(.inTheRoom, "10×"), (.goodInstinct, "5×"), (.expertEye, "2×")]
+    private let brackets: [(tier: BidTier, label: String)] = [(.inTheRoom, "≤10×"), (.goodInstinct, "≤5×"), (.expertEye, "≤2×")]
+    /// Legend swatch widths, innermost (≤2×) first, growing like the nested brackets.
+    private let swatchWidths: [CGFloat] = [Tokens.Space.m, Tokens.Space.l, Tokens.Space.xl]
 
     var body: some View {
         VStack(spacing: Tokens.Space.xs) {
@@ -40,13 +44,6 @@ struct BidRevealTrack: View {
                                        : ArtMotion.fast.delay(Double(index) * Tokens.Motion.Stagger.loose),
                                        value: phase >= .settle)
                     }
-                    ForEach(labelPlacements(width: width), id: \.id) { placement in
-                        bracketLabel(brackets[placement.id].label)
-                            .position(x: placement.minX + (labelWidths[placement.id] ?? 0) / 2,
-                                      y: midY + Tokens.Space.s + rowHeight * (CGFloat(placement.row) + 0.5))
-                            .opacity(phase >= .settle ? 1 : 0)
-                            .animation(reduceMotion ? ArtMotion.crossfade : ArtMotion.fast, value: phase >= .settle)
-                    }
                     Circle()
                         .strokeBorder(Tokens.Color.textPrimary, lineWidth: Tokens.Space.xxs)
                         .frame(width: Tokens.Space.l, height: Tokens.Space.l)
@@ -61,9 +58,9 @@ struct BidRevealTrack: View {
                 }
             }
             .frame(height: trackHeight)
-            .background(alignment: .topLeading) { labelMeasurements }
             decadeLabels
             legend
+            bracketLegend
         }
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(Self.accessibilityText(guessPosition: guessPosition, actualMilli: actualMilli))
@@ -140,8 +137,7 @@ struct BidRevealTrack: View {
     private func bracketView(_ tier: BidTier, width: CGFloat, midY: CGFloat) -> some View {
         let (left, right) = edges(tier, width: width)
         return RoundedRectangle(cornerRadius: Tokens.Space.xs, style: .continuous)
-            .strokeBorder(Tokens.Color.accentGilt.opacity(tier == .expertEye ? 1 : Tokens.Motion.Reveal.dimOpacity),
-                          lineWidth: Tokens.Space.xxs)
+            .strokeBorder(bracketColor(tier), lineWidth: Tokens.Space.xxs)
             .frame(width: max(right - left, Tokens.Space.xs), height: Tokens.Space.l)
             .position(x: (left + right) / 2, y: midY)
     }
@@ -152,32 +148,28 @@ struct BidRevealTrack: View {
         return (x(actualPosition - reach, width), x(actualPosition + reach, width))
     }
 
-    /// Non-overlapping label positions from ArtDesign's `BracketLabelLayout` (rows stack downward).
-    private func labelPlacements(width: CGFloat) -> [BracketLabelLayout.Placement] {
-        let items = brackets.indices.compactMap { i -> BracketLabelLayout.Item? in
-            guard let w = labelWidths[i] else { return nil }
-            let (left, right) = edges(brackets[i].tier, width: width)
-            return BracketLabelLayout.Item(id: i, left: left, right: right, labelWidth: w)
-        }
-        return BracketLabelLayout.place(items, trackWidth: width)
-    }
-
-    private func bracketLabel(_ text: String) -> some View {
-        Text(text)
-            .artTextStyle(Tokens.Typography.provenance)
-            .foregroundStyle(Tokens.Color.textSecondary)
-            .fixedSize()
-    }
-
-    /// Invisible copies of the labels, measured for the layout.
-    private var labelMeasurements: some View {
-        ZStack(alignment: .topLeading) {
-            ForEach(brackets.indices, id: \.self) { i in
-                bracketLabel(brackets[i].label)
-                    .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { labelWidths[i] = $0 }
+    /// "▭ ≤2×  ▭ ≤5×  ▭ ≤10×": one swatch per bracket, innermost first, styled like its bracket
+    /// (the ≤2× bracket at full gilt, the wider two dimmed) and growing like the nesting. Fades in
+    /// with the brackets.
+    private var bracketLegend: some View {
+        HStack(spacing: Tokens.Space.l) {
+            ForEach(Array(brackets.reversed().enumerated()), id: \.offset) { index, bracket in
+                Label {
+                    Text(bracket.label)
+                } icon: {
+                    RoundedRectangle(cornerRadius: Tokens.Space.xxs, style: .continuous)
+                        .strokeBorder(bracketColor(bracket.tier), lineWidth: Tokens.Space.xxs)
+                        .frame(width: swatchWidths[index], height: Tokens.Space.m)
+                }
             }
         }
-        .hidden()
-        .accessibilityHidden(true)
+        .artTextStyle(Tokens.Typography.provenance)
+        .foregroundStyle(Tokens.Color.textSecondary)
+        .opacity(phase >= .settle ? 1 : 0)
+        .animation(reduceMotion ? ArtMotion.crossfade : ArtMotion.fast, value: phase >= .settle)
+    }
+
+    private func bracketColor(_ tier: BidTier) -> Color {
+        Tokens.Color.accentGilt.opacity(tier == .expertEye ? 1 : Tokens.Motion.Reveal.dimOpacity)
     }
 }

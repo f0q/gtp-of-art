@@ -12,13 +12,15 @@ struct DailyResultView: View {
 
     @Environment(\.app) private var app
     @Environment(\.colorScheme) private var colorScheme
-    @Environment(\.dynamicTypeSize) private var typeSize
     @State private var shareImage: ShareCardImage?
     @State private var sharePreview: Image?
 
     var body: some View {
+        // Centred between the top edge and the action bar when it fits; scrolls when it does not.
+        GeometryReader { geo in
         ScrollView {
             VStack(spacing: Tokens.Space.xl) {
+                Spacer(minLength: 0)
                 Text("Daily Challenge · Day \(model.dayNumber)")
                     .artTextStyle(Tokens.Typography.provenance)
                     .foregroundStyle(Tokens.Color.textSecondary)
@@ -46,10 +48,13 @@ struct DailyResultView: View {
                         .foregroundStyle(Tokens.Color.textSecondary)
                 }
                 .accessibilityIdentifier("daily.countdown")
+                Spacer(minLength: 0)
             }
             .padding(.horizontal, Tokens.Space.l)
             .padding(.vertical, Tokens.Space.xl)
-            .frame(maxWidth: .infinity)
+            .frame(maxWidth: .infinity, minHeight: geo.size.height)
+        }
+        .scrollBounceBehavior(.basedOnSize)
         }
         .safeAreaInset(edge: .bottom) { buttons }
         .background(Tokens.Color.bgCanvas.ignoresSafeArea())
@@ -64,25 +69,25 @@ struct DailyResultView: View {
     }
 
     private var buttons: some View {
-        // Three buttons side by side; stacked at accessibility sizes so no title truncates.
-        let row = typeSize.isAccessibilitySize
-            ? AnyLayout(VStackLayout(spacing: Tokens.Space.s)) : AnyLayout(HStackLayout(spacing: Tokens.Space.m))
-        return row {
+        // Equal slots, one-line titles; icon-only or stacked when the titles cannot fit.
+        ActionRow {
             Button(action: actions.close) {
-                Label("Home", systemImage: "house").frame(maxWidth: .infinity)
+                Label("Home", systemImage: "house").actionRowItem()
             }
             .artButtonStyle(.secondary)
             .accessibilityIdentifier("summary.home")
             ShareLink(item: model.shareText) {
-                Label("Share grid", systemImage: "text.alignleft").frame(maxWidth: .infinity)
+                Label("Grid", systemImage: "text.alignleft").actionRowItem()
             }
             .artButtonStyle(.secondary)
+            .accessibilityLabel("Share grid")
             .accessibilityIdentifier("daily.shareText")
             if let shareImage, let sharePreview {
                 ShareLink(item: shareImage, preview: SharePreview(model.shareText, image: sharePreview)) {
-                    Label("Card", systemImage: "square.and.arrow.up").frame(maxWidth: .infinity)
+                    Label("Card", systemImage: "square.and.arrow.up").actionRowItem()
                 }
                 .artButtonStyle(.secondary)
+                .accessibilityLabel("Share card")
                 .accessibilityIdentifier("summary.share")
             }
         }
@@ -127,13 +132,15 @@ struct DailyResultTiles: View {
                         .artTextStyle(Tokens.Typography.provenance)
                         .foregroundStyle(Tokens.Color.textSecondary)
                         .multilineTextAlignment(.center)
-                        .lineLimit(2)
+                        // Two lines reserved in a row so every tile's mark, title and score align.
+                        .lineLimit(2, reservesSpace: !typeSize.isAccessibilitySize)
+                    Spacer(minLength: 0)
                     Text("\(pair.1.points)")
                         .artTextStyle(Tokens.Typography.label)
                         .monospacedDigit()
                         .foregroundStyle(Tokens.Color.textPrimary)
                 }
-                .frame(maxWidth: .infinity)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding(.vertical, Tokens.Space.s)
                 .background(Tokens.Color.bgSurface,
                             in: RoundedRectangle(cornerRadius: Tokens.Radius.control, style: .continuous))
@@ -141,6 +148,8 @@ struct DailyResultTiles: View {
                 .accessibilityLabel("Round \(i + 1), \(DailyModel.kindTitle(pair.0)), \(mark.label), \(pair.1.points) points")
             }
         }
+        // Equal-height tiles: each takes the tallest tile's height.
+        .fixedSize(horizontal: false, vertical: true)
         .accessibilityIdentifier("daily.tiles")
     }
 }
