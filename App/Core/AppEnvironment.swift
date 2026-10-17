@@ -48,7 +48,8 @@ nonisolated struct AppEnvironment: Sendable {
         return AppEnvironment(
             dataset: dataset, profileStore: profileStore, dayProvider: launch.dayProvider,
             settingsStore: settingsStore, imageLoader: .shared,
-            haptics: HapticsPolicy(suppressed: false), seeds: launch.uiTesting ? .fixed : .random, launch: launch,
+            haptics: HapticsPolicy(suppressed: false),
+            seeds: launch.uiTesting ? (debug.seedSalt.map { .salted($0) } ?? .fixed) : .random, launch: launch,
             debug: debug,
             now: { Date() })
     }
@@ -87,11 +88,15 @@ nonisolated struct HapticsPolicy: Sendable, Equatable {
 nonisolated enum SeedPolicy: Sendable, Equatable {
     case random
     case fixed
+    /// Fixed seeds with a salt (`-seedSalt <n>`): a different reproducible run per salt, used to
+    /// pick screenshot-worthy rounds.
+    case salted(Int)
 
     func seed(for mode: GameMode, attempt: Int) -> UInt64 {
         switch self {
         case .random: SessionFactory.randomSeed()
         case .fixed: fnv1a64("artprice|fixed|\(mode.rawValue)|\(attempt)")
+        case .salted(let salt): fnv1a64("artprice|fixed|\(mode.rawValue)|\(attempt)|\(salt)")
         }
     }
 }

@@ -220,6 +220,13 @@ at 1206 x 2622** (iPhone 17 Pro simulator), portrait, the same 6 frames in each.
 ArtCI-26; add those two simulators. Flatten to RGB PNG (no alpha) before upload. Use light mode for
 the main set (art reads better), and use no nude works in any frame (guideline 2.3.8).
 
+**Captured 17 Oct 2026** with `Tests/Scripts/appstore_shots.sh <dest>` (simulators ArtCI-26-Max = iPhone 17
+Pro Max and ArtCI-26 = iPhone 17 Pro, light mode, status bar 9:41, RGB PNG without alpha) into
+`~/Desktop/GTP-AppStore-Screenshots-17Oct/`: 01 Pick the price question (Han Gan *Horse*), 02 Which is pricier
+(Boonen vs Velázquez, `-seedSalt 2` avoids nudes), 03 Bid reveal "Bullseye" (`-autoBest`), 04 Pick reveal with
+provenance, 05 Daily result, 06 Taste reveal, 07 Category quiz reveal (Teniers, Baroque), 08 Home. Plain
+screenshots, no caption bands; upload 01–07 in that order (08 optional).
+
 | # | Screen | Caption (short; on a band above the device frame) |
 |---|---|---|
 | 1 | Pick the price, four options on a famous work (e.g. Klimt *Adele Bloch-Bauer I*) | What did it sell for? |

@@ -15,6 +15,11 @@ nonisolated struct DebugLaunch: Sendable, Equatable {
     var seedSwipes = false
     /// `-openRoute taste|collection`: opens the profile sheet on that screen at launch.
     var openRoute: String?
+    /// `-seedSalt <n>` (with `-uiTesting`): salts the fixed session seeds, for choosing screenshot rounds.
+    var seedSalt: Int?
+    /// `-autoBest` (with `-autoAnswer`): the Bid auto-answer lands near the sale price instead of
+    /// leaving the slider at its default, so the reveal shows a good tier.
+    var autoBest = false
 
     init(arguments: [String]) {
         #if DEBUG
@@ -28,7 +33,11 @@ nonisolated struct DebugLaunch: Sendable, Equatable {
             startMode = nil
         }
         autoAnswer = arguments.contains("-autoAnswer")
+        autoBest = arguments.contains("-autoBest")
         onboarded = arguments.contains("-onboarded")
+        if let i = arguments.lastIndex(of: "-seedSalt"), i + 1 < arguments.count {
+            seedSalt = Int(arguments[i + 1])
+        }
         #else
         startMode = nil
         autoAnswer = false

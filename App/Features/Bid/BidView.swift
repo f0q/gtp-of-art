@@ -76,6 +76,11 @@ struct BidView: View {
     private func autoAnswerIfRequested() async {
         guard app.debug.autoAnswer, model.session.index == 0, !model.isRevealing else { return }
         try? await Task.sleep(for: .seconds(1.5))
+        if app.debug.autoBest, let round = model.round {
+            // Slider position p ↔ 2000 + 10p milli-decades; land ~1.2× over the sale price.
+            let best = (round.actualMilli - LogPriceScale.baseMilli) / LogPriceScale.milliPerPosition
+            model.position = min(max(best + 8, model.bounds.lowerBound), model.bounds.upperBound)
+        }
         placeBid()
     }
 }
