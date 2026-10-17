@@ -137,3 +137,15 @@ shots-swipe: build
 	  sleep $$wait; xcrun simctl io $(SIM) screenshot $(SHOTS)/$$name.png >/dev/null 2>&1; echo $(SHOTS)/$$name.png; \
 	done
 	xcrun simctl terminate $(SIM) pro.aijam.gtp-art 2>/dev/null || true
+
+# Release: archive unsigned (no registered device needed), then let Xcode sign with the cloud-managed
+# Apple Distribution certificate at export time and upload to App Store Connect (uses the Xcode account).
+ARCHIVE = $(HOME)/Library/Developer/ArtPrice/Archives/GTPofArt.xcarchive
+archive: project
+	set -o pipefail && xcodebuild archive -project $(PROJECT) -scheme $(SCHEME) -destination 'generic/platform=iOS' \
+	  -archivePath $(ARCHIVE) -derivedDataPath $(DD) CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO | $(XCBEAUTIFY)
+
+upload: archive
+	sed 's#<string>export</string>#<string>upload</string>#' Tests/Scripts/ExportOptions.plist > .build/UploadOptions.plist
+	xcodebuild -exportArchive -archivePath $(ARCHIVE) -exportOptionsPlist .build/UploadOptions.plist \
+	  -exportPath .build/upload -allowProvisioningUpdates
