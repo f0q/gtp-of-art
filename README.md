@@ -86,8 +86,9 @@ trademark notes.
 
 ## Status
 
-TestFlight (version 1.0). Phase 2 adds a contemporary pack from marketplace feeds and, later, a
-subscription that lets artists put their own work in front of the crowd.
+TestFlight (version 1.0), App Store submission in preparation. See [ROADMAP.md](ROADMAP.md) for
+what is done, what is next (a contemporary pack from marketplace feeds) and what comes later
+(artists' uploads, Android).
 
 ## Credits
 
