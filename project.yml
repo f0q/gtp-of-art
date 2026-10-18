@@ -18,7 +18,7 @@ settings:
     SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
     SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "3"
+    CURRENT_PROJECT_VERSION: "4"
     DEVELOPMENT_TEAM: 5CB787S84C
     CODE_SIGN_STYLE: Automatic
     ENABLE_USER_SCRIPT_SANDBOXING: YES
@@ -102,6 +102,9 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: pro.aijam.gtp-art
         PRODUCT_NAME: ArtPrice
+        # XcodeGen sets 1,2 at the target level for iOS apps, which overrides the project-level value
+        # and made builds 1–3 claim iPad support (App Store Connect then demands iPad screenshots).
+        TARGETED_DEVICE_FAMILY: "1"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         ENABLE_PREVIEWS: YES
